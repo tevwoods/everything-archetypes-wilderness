@@ -150,6 +150,9 @@ function extractDescription(entryName, labelType) {
   result = result.replace(/<\/span>/g, '');
   result = result.replace(/\s*class="[^"]*"/g, '');
   result = result.replace(/<div\s*>/g, '');
+  // Strip page references like (page {slug}) or (page 31)
+  result = result.replace(/\s*\(page\s*\{[^}]+\}\)/g, '');
+  result = result.replace(/\s*\(page\s*\d+\)/g, '');
 
   if (result && !result.startsWith('<p>') && !result.startsWith('<hr')) {
     result = `<p>${result}</p>`;
@@ -1141,17 +1144,17 @@ allEffects.push(effectDoc({ name: 'Effect: Distract (Off-Guard)', level: 4,
 {
   // Build name → @UUID map for all module items (spells, feats, equipment)
   const linkMap = [];
-  allSpells.forEach(s => linkMap.push({ name: s.name, uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-spells.${s._id}]{${s.name}}` }));
-  allFeats.forEach(f => linkMap.push({ name: f.name, uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-feats.${f._id}]{${f.name}}` }));
-  allEquipment.forEach(e => linkMap.push({ name: e.name, uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-equipment.${e._id}]{${e.name}}` }));
+  allSpells.forEach(s => linkMap.push({ name: s.name, pack: 'eaw-spells', uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-spells.${s._id}]{${s.name}}` }));
+  allFeats.forEach(f => linkMap.push({ name: f.name, pack: 'eaw-feats', uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-feats.${f._id}]{${f.name}}` }));
+  allEquipment.forEach(e => linkMap.push({ name: e.name, pack: 'eaw-equipment', uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-equipment.${e._id}]{${e.name}}` }));
   // Sort longest names first to avoid partial matches
   linkMap.sort((a, b) => b.name.length - a.name.length);
 
   for (const feat of allFeats) {
     let desc = feat.system.description.value;
     for (const item of linkMap) {
-      // Don't link a feat to itself
-      if (item.name === feat.name) continue;
+      // Don't link a feat to its own feat entry (but allow linking to same-name spell/equipment)
+      if (item.name === feat.name && item.pack === 'eaw-feats') continue;
       // Skip if this item is already linked via @UUID in this description
       if (desc.includes(`{${item.name}}`)) continue;
       // Replace first occurrence (case-insensitive, word boundary, not inside HTML tags)
