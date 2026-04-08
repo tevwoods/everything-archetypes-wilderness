@@ -1,0 +1,546 @@
+[
+  {
+    "_id": "49a3ee224a87abbf",
+    "name": "Lasso",
+    "type": "weapon",
+    "img": "systems/pf2e/icons/default-icons/equipment.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>The lasso is a treated rope tied in a specific way to allow it to be thrown over some part of a creature and pulled tight.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "traits": {
+        "value": [
+          "nonlethal",
+          "ranged-grapple",
+          "tethered",
+          "thrown"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "lasso",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 0
+      },
+      "price": {
+        "value": {
+          "gp": 1
+        }
+      },
+      "bulk": {
+        "value": "L"
+      },
+      "damage": {
+        "dice": 1,
+        "die": "d4",
+        "damageType": "bludgeoning"
+      },
+      "range": 20,
+      "reload": {
+        "value": "0"
+      },
+      "usage": {
+        "value": "held-in-one-plus-hands"
+      },
+      "category": "martial",
+      "group": "brawling"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "2ebe436da14dc0e9",
+    "name": "Barbed Lasso",
+    "type": "weapon",
+    "img": "systems/pf2e/icons/default-icons/equipment.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>The barbed lasso is a variation on the lasso in which metal barbs are woven into the end of the rope to make it a particularly brutal way of capturing someone.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "traits": {
+        "value": [
+          "ranged-grapple",
+          "tethered",
+          "thrown"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "barbed-lasso",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 0
+      },
+      "price": {
+        "value": {
+          "gp": 3
+        }
+      },
+      "bulk": {
+        "value": "L"
+      },
+      "damage": {
+        "dice": 1,
+        "die": "d4",
+        "damageType": "piercing"
+      },
+      "range": 20,
+      "reload": {
+        "value": "0"
+      },
+      "usage": {
+        "value": "held-in-one-plus-hands"
+      },
+      "category": "martial",
+      "group": "knife"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "b74ed15522338794",
+    "name": "Net Gun",
+    "type": "weapon",
+    "img": "systems/pf2e/icons/default-icons/equipment.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>The net gun is powered by black powder charges to launch a folded net with weighted ends at an enemy to entangle them. The net is attached to two lead ropes that anchor back to the firearm. Once a net is fired, you can quickly grab these lead ropes with one hand and use them to keep the target grappled. Packing and loading the net is a difficult and time-consuming task, so net guns are often only fired once in a given engagement, though it is said that some people have mastered the art of reloading them quickly. Ammunition for a net gun is a pre-packed net charge that costs 1gp each. However, you may recover any spent charges as a 10 minute activity to repair and repack the nets.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "traits": {
+        "value": [
+          "nonlethal",
+          "ranged-grapple"
+        ],
+        "rarity": "rare",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "net-gun",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 0
+      },
+      "price": {
+        "value": {
+          "gp": 15
+        }
+      },
+      "bulk": {
+        "value": "1"
+      },
+      "damage": {
+        "dice": 1,
+        "die": "d10",
+        "damageType": "bludgeoning"
+      },
+      "range": 30,
+      "reload": {
+        "value": "2"
+      },
+      "usage": {
+        "value": "held-in-two-hands"
+      },
+      "category": "advanced",
+      "group": "firearm"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "6d3e938190bc8ff9",
+    "name": "Bag Rounds",
+    "type": "consumable",
+    "img": "systems/pf2e/icons/default-icons/equipment.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>These small bags filled with soft pellets can be shot from a firearm instead of normal rounds. These rounds can only deal bludgeoning damage, even if fired from a concussive weapon, and you do not take a penalty when attempting a non-lethal attack when using these rounds. You can attempt to make a lethal attack with these rounds with a -2 circumstance penalty. Purchased in sets of 10.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "traits": {
+        "value": [
+          "consumable"
+        ],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "bag-rounds",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 2
+      },
+      "price": {
+        "value": {
+          "gp": 1
+        }
+      },
+      "bulk": {
+        "value": "-"
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "318611cf9016c6d2",
+    "name": "Blunted Arrows",
+    "type": "consumable",
+    "img": "systems/pf2e/icons/default-icons/equipment.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>Instead of an arrow or bolt for puncturing or making large wounds, these shafts end in a blunt tip. When fired from a weapon in the bow group the weapon deals bludgeoning damage, and you do not take a penalty when attempting a non-lethal attack when using this ammunition. You can attempt to make a lethal attack with this ammunition with a -2 circumstance penalty. Purchased in sets of 10.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "traits": {
+        "value": [
+          "consumable"
+        ],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "blunted-arrows",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 2
+      },
+      "price": {
+        "value": {
+          "gp": 1
+        }
+      },
+      "bulk": {
+        "value": "-"
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "5a00f81c207259e9",
+    "name": "Blunted Bolts",
+    "type": "consumable",
+    "img": "systems/pf2e/icons/default-icons/equipment.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>Instead of an arrow or bolt for puncturing or making large wounds, these shafts end in a blunt tip. When fired from a weapon in the crossbow group the weapon deals bludgeoning damage, and you do not take a penalty when attempting a non-lethal attack when using this ammunition. You can attempt to make a lethal attack with this ammunition with a -2 circumstance penalty. Purchased in sets of 10.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "traits": {
+        "value": [
+          "consumable"
+        ],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "blunted-bolts",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 2
+      },
+      "price": {
+        "value": {
+          "gp": 1
+        }
+      },
+      "bulk": {
+        "value": "-"
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "708638cceaf1cdc6",
+    "name": "Slow Takedown",
+    "type": "consumable",
+    "img": "systems/pf2e/icons/default-icons/equipment.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This synthetic toxin mixture causes the target to slowly become drowsier until it cannot move and falls unconscious.</p><p><strong>Saving Throw</strong> DC 18 Fortitude; <strong>Maximum Duration</strong> 5 minutes; <strong>Stage 1</strong> 1d6 non-lethal poison damage (1 round); <strong>Stage 2</strong> 1d8 non-lethal poison damage (1 round); <strong>Stage 3</strong> 1d10 non-lethal poison damage (1 round); <strong>Stage 4</strong> 2d8 non-lethal poison damage and immobilized (1 round)</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "traits": {
+        "value": [
+          "alchemical",
+          "consumable",
+          "injury",
+          "sleep"
+        ],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "slow-takedown",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 2
+      },
+      "price": {
+        "value": {
+          "gp": 5
+        }
+      },
+      "bulk": {
+        "value": "L"
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "298e209acbfaac08",
+    "name": "Quick Nap",
+    "type": "consumable",
+    "img": "systems/pf2e/icons/default-icons/equipment.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This synthetic toxin mixture is injected into the bloodstream and almost immediately knocks the victim unconscious.</p><p><strong>Saving Throw</strong> DC 24 Fortitude; <strong>Maximum Duration</strong> 10 minutes; <strong>Stage 1</strong> stunned 1 (1 round); <strong>Stage 2</strong> stunned (1 round); <strong>Stage 3</strong> unconscious and can't attempt Perception checks to wake up (1 minute)</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "traits": {
+        "value": [
+          "alchemical",
+          "consumable",
+          "drug",
+          "incapacitation",
+          "injury",
+          "sleep"
+        ],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "quick-nap",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 7
+      },
+      "price": {
+        "value": {
+          "gp": 80
+        }
+      },
+      "bulk": {
+        "value": "L"
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  }
+]

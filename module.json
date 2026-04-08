@@ -1,0 +1,74 @@
+{
+  "id": "everything-archetypes-wilderness",
+  "title": "Everything Archetypes: Wilderness",
+  "description": "Expanded archetype feats, spells, and equipment for wilderness-themed archetypes in Pathfinder 2e.",
+  "version": "#{VERSION}#",
+  "authors": [
+    {
+      "name": "Everything4Everybody"
+    }
+  ],
+  "url": "https://github.com/tevwoods/everything-archetypes-wilderness",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "packs": [
+    {
+      "name": "eaw-feats",
+      "label": "Archetype Feats",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-feats.db",
+      "folder": "Everything-Archetypes-Wilderness",
+      "type": "Item"
+    },
+    {
+      "name": "eaw-spells",
+      "label": "Spells",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-spells.db",
+      "folder": "Everything-Archetypes-Wilderness",
+      "type": "Item"
+    },
+    {
+      "name": "eaw-equipment",
+      "label": "Equipment",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-equipment.db",
+      "folder": "Everything-Archetypes-Wilderness",
+      "type": "Item"
+    },
+    {
+      "name": "eaw-macros",
+      "label": "Macros",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-macros.db",
+      "folder": "Everything-Archetypes-Wilderness",
+      "type": "Macro"
+    },
+    {
+      "name": "eaw-effects",
+      "label": "Effects",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-effects.db",
+      "folder": "Everything-Archetypes-Wilderness",
+      "type": "Item"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ]
+  }
+}

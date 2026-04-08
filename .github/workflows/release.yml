@@ -1,0 +1,65 @@
+# Builds and publishes a Foundry VTT module zip when a GitHub Release is published.
+# Trigger: create a new Release with a tag like "v1.0.0".
+#
+# Security notes:
+#   - Third-party actions pinned to full SHA (not floating tags)
+#   - Version extraction and token replacement done via shell (no extra actions)
+#   - Uses automatic GITHUB_TOKEN (scoped to this repo, no PAT required)
+#   - Minimal permissions: contents:write only
+
+name: Release Module
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+
+      - name: Extract version from tag
+        id: version
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          VERSION="${TAG#v}"
+          if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "::error::Tag must follow vX.Y.Z format (got '$TAG')"
+            exit 1
+          fi
+          echo "value=${VERSION}" >> "$GITHUB_OUTPUT"
+
+      - name: Substitute manifest values
+        run: |
+          VERSION="${{ steps.version.outputs.value }}"
+          REPO="https://github.com/${{ github.repository }}"
+          MANIFEST="${REPO}/releases/latest/download/module.json"
+          DOWNLOAD="${REPO}/releases/download/${{ github.event.release.tag_name }}/everything-archetypes-wilderness.zip"
+
+          sed -i "s|#{VERSION}#|${VERSION}|g" module.json
+          sed -i "s|#{MANIFEST}#|${MANIFEST}|g" module.json
+          sed -i "s|#{DOWNLOAD}#|${DOWNLOAD}|g" module.json
+
+          echo "--- module.json after substitution ---"
+          cat module.json
+
+      - name: Create module archive
+        run: |
+          zip -r everything-archetypes-wilderness.zip module.json packs/ lang/
+          [ -f LICENSE ] && zip everything-archetypes-wilderness.zip LICENSE
+          [ -f README.md ] && zip everything-archetypes-wilderness.zip README.md
+
+      - name: Upload release assets
+        uses: ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd # v1.21.0
+        with:
+          allowUpdates: true
+          omitBodyDuringUpdate: true
+          omitNameDuringUpdate: true
+          artifacts: "module.json,everything-archetypes-wilderness.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}

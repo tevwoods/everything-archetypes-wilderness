@@ -1,0 +1,2027 @@
+[
+  {
+    "_id": "f9997f6e3ab3f45d",
+    "name": "Effect: Energizing Chew",
+    "type": "effect",
+    "img": "icons/svg/aura.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain a +1 status bonus to Acrobatics, Athletics, and Perception checks for 1 hour. If you were fatigued, the condition is suppressed for the duration.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": "acrobatics",
+          "type": "status",
+          "value": 1,
+          "label": "Energizing Chew"
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "athletics",
+          "type": "status",
+          "value": 1,
+          "label": "Energizing Chew"
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "perception",
+          "type": "status",
+          "value": 1,
+          "label": "Energizing Chew"
+        }
+      ],
+      "slug": "effect-energizing-chew",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 8
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "hours",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "fae091f3ecb8de70",
+    "name": "Effect: Dietary Cleanse",
+    "type": "effect",
+    "img": "icons/svg/aura.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain a +2 circumstance bonus to Fortitude saves for 1 week.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": "saving-throw:fortitude",
+          "type": "circumstance",
+          "value": 2,
+          "label": "Dietary Cleanse"
+        }
+      ],
+      "slug": "effect-dietary-cleanse",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 10
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": -1,
+        "unit": "unlimited",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "87a3025666e9ef20",
+    "name": "Effect: Evening Brew",
+    "type": "effect",
+    "img": "icons/svg/heal.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain temporary Hit Points equal to half the herbalist's level (or their full level if master in Nature). Lasts until next daily preparations.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "TempHP",
+          "value": "floor(@actor.level/2)"
+        }
+      ],
+      "slug": "effect-evening-brew",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 6
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": -1,
+        "unit": "unlimited",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "63bf10a97fbf06c9",
+    "name": "Effect: Anesthetic Tincture",
+    "type": "effect",
+    "img": "icons/svg/aura.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>The next time you are reduced to 0 HP but not killed, you instead remain at 1 HP, your wounded condition increases by 1, and you gain temporary HP equal to the herbalist's level for 1 minute. Then remove this effect.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "Note",
+          "selector": "ac",
+          "text": "<p class=\"compact-text\"><strong>Anesthetic Tincture</strong> If reduced to 0 HP (not killed): stay at 1 HP, wounded +1, gain TempHP = herbalist level for 1 min. Then remove this effect.</p>"
+        }
+      ],
+      "slug": "effect-anesthetic-tincture",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 14
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": -1,
+        "unit": "unlimited",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "c473d62c45bf4d97",
+    "name": "Effect: Rejuvenate",
+    "type": "effect",
+    "img": "icons/svg/heal.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain fast healing 1 for 30 minutes.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FastHealing",
+          "value": 1
+        }
+      ],
+      "slug": "effect-rejuvenate",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 8
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 30,
+        "unit": "minutes",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "3f5714e2cd233e13",
+    "name": "Effect: Tree of Life",
+    "type": "effect",
+    "img": "icons/svg/heal.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain regeneration 30 for 3 rounds (deactivated by fire damage).</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FastHealing",
+          "value": 30
+        },
+        {
+          "key": "Note",
+          "selector": "ac",
+          "text": "<p class=\"compact-text\"><strong>Tree of Life</strong> This regeneration is deactivated by fire damage.</p>"
+        }
+      ],
+      "slug": "effect-tree-of-life",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 20
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 3,
+        "unit": "rounds",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "d7db6b01b4be17a6",
+    "name": "Effect: Terrain Guidance",
+    "type": "effect",
+    "img": "icons/svg/aura.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain a +2 circumstance bonus to skill checks to move through terrain and to saving throws against hazards. You ignore non-magical difficult terrain until the end of your turn.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": "acrobatics",
+          "type": "circumstance",
+          "value": 2,
+          "label": "Terrain Guidance"
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "athletics",
+          "type": "circumstance",
+          "value": 2,
+          "label": "Terrain Guidance"
+        }
+      ],
+      "slug": "effect-terrain-guidance",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 4
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "rounds",
+        "sustained": false,
+        "expiry": "turn-end"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "bf23eb06eac863c4",
+    "name": "Effect: Detailed Report (+1)",
+    "type": "effect",
+    "img": "icons/svg/aura.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain a +1 circumstance bonus to Recall Knowledge checks about the creature described in the scout's report. (Scout has expert Perception.) Duration: 10 minutes.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": [
+            "arcana",
+            "crafting",
+            "medicine",
+            "nature",
+            "occultism",
+            "religion",
+            "society"
+          ],
+          "type": "circumstance",
+          "value": 1,
+          "label": "Detailed Report",
+          "predicate": [
+            "action:recall-knowledge"
+          ]
+        }
+      ],
+      "slug": "effect-detailed-report-1",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 6
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 10,
+        "unit": "minutes",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "5f6bd0f667dfccfa",
+    "name": "Effect: Detailed Report (+2)",
+    "type": "effect",
+    "img": "icons/svg/aura.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain a +2 circumstance bonus to Recall Knowledge checks about the creature described in the scout's report. (Scout has master Perception.) Duration: 10 minutes.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": [
+            "arcana",
+            "crafting",
+            "medicine",
+            "nature",
+            "occultism",
+            "religion",
+            "society"
+          ],
+          "type": "circumstance",
+          "value": 2,
+          "label": "Detailed Report",
+          "predicate": [
+            "action:recall-knowledge"
+          ]
+        }
+      ],
+      "slug": "effect-detailed-report-2",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 6
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 10,
+        "unit": "minutes",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "c2427cbb27566043",
+    "name": "Effect: Detailed Report (+3)",
+    "type": "effect",
+    "img": "icons/svg/aura.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain a +3 circumstance bonus to Recall Knowledge checks about the creature described in the scout's report. (Scout has legendary Perception.) Duration: 10 minutes.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": [
+            "arcana",
+            "crafting",
+            "medicine",
+            "nature",
+            "occultism",
+            "religion",
+            "society"
+          ],
+          "type": "circumstance",
+          "value": 3,
+          "label": "Detailed Report",
+          "predicate": [
+            "action:recall-knowledge"
+          ]
+        }
+      ],
+      "slug": "effect-detailed-report-3",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 6
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 10,
+        "unit": "minutes",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "daf601221eee9fdd",
+    "name": "Effect: Marking Shot",
+    "type": "effect",
+    "img": "icons/svg/eye.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This creature has been marked. The next creature other than the attacker to Strike this target gains a +1 circumstance bonus to their attack roll. Remove after the next attack against this creature.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [],
+      "slug": "effect-marking-shot",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 8
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "rounds",
+        "sustained": false,
+        "expiry": "turn-end"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "c80b662998fd29ba",
+    "name": "Effect: Marking Shot (Critical)",
+    "type": "effect",
+    "img": "icons/svg/eye.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This creature has been critically marked. The next creature other than the attacker to Strike this target gains a +2 circumstance bonus to their attack roll. Remove after the next attack against this creature.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [],
+      "slug": "effect-marking-shot-critical",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 8
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "rounds",
+        "sustained": false,
+        "expiry": "turn-end"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "6bd0f49f055bf010",
+    "name": "Effect: Hampering Critical",
+    "type": "effect",
+    "img": "icons/svg/downgrade.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You take a -10-foot circumstance penalty to all Speeds until the end of the attacker's next turn.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": "speed",
+          "type": "circumstance",
+          "value": -10,
+          "label": "Hampering Critical"
+        }
+      ],
+      "slug": "effect-hampering-critical",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 4
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "rounds",
+        "sustained": false,
+        "expiry": "turn-end"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "b148e793c91b6d8d",
+    "name": "Effect: Lethal Ultimatum",
+    "type": "effect",
+    "img": "icons/svg/downgrade.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You take a -1 status penalty to attack rolls for 1 round.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": "attack-roll",
+          "type": "status",
+          "value": -1,
+          "label": "Lethal Ultimatum"
+        }
+      ],
+      "slug": "effect-lethal-ultimatum",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 6
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "rounds",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "f4c1a20cf6af8dfc",
+    "name": "Effect: Dog Pile",
+    "type": "effect",
+    "img": "icons/svg/aura.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain a +2 circumstance bonus to Athletics checks to Grapple, Shove, or Trip while flanking the bounty hunter's hunted prey.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": "athletics",
+          "type": "circumstance",
+          "value": 2,
+          "label": "Dog Pile",
+          "predicate": [
+            {
+              "or": [
+                "action:grapple",
+                "action:shove",
+                "action:trip"
+              ]
+            }
+          ]
+        }
+      ],
+      "slug": "effect-dog-pile",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 10
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": -1,
+        "unit": "unlimited",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "465a1877f36546c4",
+    "name": "Effect: Darken Tone",
+    "type": "effect",
+    "img": "icons/svg/aura.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain a status bonus to damage rolls equal to the number of your weapon's damage dice. When you critically hit an enemy, the enemy becomes frightened 1.</p><p><em>Note: The damage bonus defaults to 1. Adjust if your weapon has more damage dice.</em></p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": "strike-damage",
+          "type": "status",
+          "value": 1,
+          "label": "Darken Tone (adjust to weapon dice count)"
+        },
+        {
+          "key": "Note",
+          "selector": "strike-attack-roll",
+          "text": "<p class=\"compact-text\"><strong>Darken Tone</strong> On a critical hit, the enemy becomes frightened 1.</p>",
+          "outcome": [
+            "criticalSuccess"
+          ]
+        }
+      ],
+      "slug": "effect-darken-tone",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 8
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": -1,
+        "unit": "unlimited",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "7b1a8673d2df148c",
+    "name": "Effect: Lighten Tone",
+    "type": "effect",
+    "img": "icons/svg/heal.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You gain temporary HP equal to half the folklorist's level. Once per round when you damage the villain, regain these temporary HP.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "TempHP",
+          "value": "floor(@actor.level/2)"
+        },
+        {
+          "key": "Note",
+          "selector": "strike-damage",
+          "text": "<p class=\"compact-text\"><strong>Lighten Tone</strong> Once per round when you damage the Spin Tale villain, regain TempHP equal to half the folklorist's level.</p>"
+        }
+      ],
+      "slug": "effect-lighten-tone",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 8
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": -1,
+        "unit": "unlimited",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "e92b9bdf0db0e7e9",
+    "name": "Effect: Establish Foil",
+    "type": "effect",
+    "img": "icons/svg/eye.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This creature is a foil of the Spin Tale. The hero gains their Spin Tale status bonus to attacks and damage against this creature in addition to the original villain.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [],
+      "slug": "effect-establish-foil",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 6
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": -1,
+        "unit": "unlimited",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "fa93b46a79999283",
+    "name": "Effect: Establish Foil (Ally)",
+    "type": "effect",
+    "img": "icons/svg/aura.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You are an ally foil of the Spin Tale. The hero gains a +1 status bonus to checks to Aid you. Each time you take damage, reduce it by 5 (10 at master Performance, 15 at legendary) — the Spin Tale hero takes that damage instead (unreducible).</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "Note",
+          "selector": "ac",
+          "text": "<p class=\"compact-text\"><strong>Establish Foil</strong> When you take damage, reduce by 5/10/15. The Spin Tale hero takes that unreducible damage instead.</p>"
+        }
+      ],
+      "slug": "effect-establish-foil-ally",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 6
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": -1,
+        "unit": "unlimited",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "b7e64737c5fa8b5b",
+    "name": "Effect: Cast of Villains Foil",
+    "type": "effect",
+    "img": "icons/svg/downgrade.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>You take a -2 status penalty to attack rolls and skill checks against targets that are not the hero of the Spin Tale.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": "attack-roll",
+          "type": "status",
+          "value": -2,
+          "label": "Cast of Villains Foil"
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "skill-check",
+          "type": "status",
+          "value": -2,
+          "label": "Cast of Villains Foil"
+        },
+        {
+          "key": "Note",
+          "selector": "attack-roll",
+          "text": "<p class=\"compact-text\"><strong>Cast of Villains</strong> This penalty does NOT apply against the Spin Tale hero.</p>"
+        }
+      ],
+      "slug": "effect-cast-of-villains-foil",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 12
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": -1,
+        "unit": "unlimited",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "eb0211e6e2a91446",
+    "name": "Effect: Second Act (Off-Guard)",
+    "type": "effect",
+    "img": "icons/svg/downgrade.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This creature is off-guard to the hero of the Spin Tale for 1 round.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [],
+      "slug": "effect-second-act-off-guard",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 10
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "rounds",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "d796bf5da57e9dee",
+    "name": "Effect: Second Act (Off-Guard, 1 min)",
+    "type": "effect",
+    "img": "icons/svg/downgrade.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This creature is off-guard to the hero of the Spin Tale for 1 minute.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [],
+      "slug": "effect-second-act-off-guard-1-min",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 10
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "minutes",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "b875ad4c663e23b7",
+    "name": "Effect: Second Act (Off-Guard + Weakness)",
+    "type": "effect",
+    "img": "icons/svg/downgrade.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This creature is off-guard to the hero of the Spin Tale for 1 minute and gains weakness 3 to the hero's primary weapon damage type.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "Note",
+          "selector": "ac",
+          "text": "<p class=\"compact-text\"><strong>Second Act</strong> This creature has weakness 3 to the Spin Tale hero's primary weapon damage type.</p>"
+        }
+      ],
+      "slug": "effect-second-act-off-guard-weakness",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 10
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "minutes",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "fb02e9fd8885f9aa",
+    "name": "Effect: Third Act (Off-Guard)",
+    "type": "effect",
+    "img": "icons/svg/downgrade.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This creature is off-guard for 1 round.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [],
+      "slug": "effect-third-act-off-guard",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 14
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "rounds",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "15e990cb1e0603e9",
+    "name": "Effect: Third Act (Enhanced Tale)",
+    "type": "effect",
+    "img": "icons/svg/downgrade.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This creature is off-guard for 1 round. The Spin Tale status bonus to attacks and damage against all villains increases to +2 for the remainder of the tale.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [],
+      "slug": "effect-third-act-enhanced-tale",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 14
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "rounds",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "e668caa1ba2252e7",
+    "name": "Effect: Third Act (Off-Guard + Weakness)",
+    "type": "effect",
+    "img": "icons/svg/downgrade.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This creature is off-guard for 1 round and gains weakness to the hero's primary weapon damage type equal to half the folklorist's level for the remainder of the tale.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "Note",
+          "selector": "ac",
+          "text": "<p class=\"compact-text\"><strong>Third Act</strong> This creature has weakness to the Spin Tale hero's primary weapon damage type equal to half the folklorist's level.</p>"
+        }
+      ],
+      "slug": "effect-third-act-off-guard-weakness",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 14
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": -1,
+        "unit": "unlimited",
+        "sustained": false,
+        "expiry": "turn-start"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "13c03c476020040e",
+    "name": "Effect: Climax",
+    "type": "effect",
+    "img": "icons/svg/aura.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>During this extra turn from Climax, you gain a +3 status bonus to all checks.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": "skill-check",
+          "type": "status",
+          "value": 3,
+          "label": "Climax"
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "attack-roll",
+          "type": "status",
+          "value": 3,
+          "label": "Climax"
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "spell-attack-roll",
+          "type": "status",
+          "value": 3,
+          "label": "Climax"
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "saving-throw",
+          "type": "status",
+          "value": 3,
+          "label": "Climax"
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "perception",
+          "type": "status",
+          "value": 3,
+          "label": "Climax"
+        }
+      ],
+      "slug": "effect-climax",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 18
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "rounds",
+        "sustained": false,
+        "expiry": "turn-end"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "1b14a03f9994d355",
+    "name": "Effect: Distract (Off-Guard)",
+    "type": "effect",
+    "img": "icons/svg/downgrade.svg",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>This creature is off-guard to the animal trainer's attacks until the end of the animal trainer's next turn.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "rules": [],
+      "slug": "effect-distract-off-guard",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-04-08T02:19:26.739Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 4
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common"
+      },
+      "duration": {
+        "value": 1,
+        "unit": "rounds",
+        "sustained": false,
+        "expiry": "turn-end"
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1775614766727,
+      "modifiedTime": 1775614766727,
+      "lastModifiedBy": "generator"
+    },
+    "schemaVersion": 13
+  }
+]

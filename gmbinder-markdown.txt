@@ -1,0 +1,4725 @@
+<style>
+/* Sample Styles, comment out for real product*/
+
+.sample-stamp {
+    visibility: hidden;
+}
+
+/*
+.sample-stamp {
+    font-size: 12em;
+    color: #C40021;
+    position: absolute;
+    top: 450px;
+    left: 120px;
+    transform: rotate(-23deg);
+}
+
+.pageNumber {
+    visibility: hidden;
+}
+*/
+
+</style>
+
+<div class="feat-margin"></div>
+
+<div class="sample-stamp">SAMPLE</div>
+
+<img src="https://www.gmbinder.com/images/Ft8uEjC.jpg" style="position: absolute; left: 0; right: 0; top: 0; width: 100%" />
+
+\pagebreak
+
+<div style="text-align: center;">
+
+# {product-title}
+
+## Game Design
+
+### Tevis Woods
+
+<div class="feat-margin"></div>
+
+## Cover and Logo Art
+
+### Michael Gribble
+
+<div class="feat-margin"></div>
+
+## Balance Editor
+
+### Dominick Agniel
+
+<div class="feat-margin"></div>
+
+## Editors
+
+### Chance Woods
+
+### Chris Haley
+
+### Christopher Swing
+
+### Tucker Hanna
+
+
+
+
+<div style="margin-top: 40px"></div>
+
+<hr style="visibility: visible" />
+
+<div style="margin-top: 40px"></div>
+
+</div>
+
+### Compatibility
+
+Compatibility with Pathfinder Second Edition requires Pathfinder Second Edition from Paizo Inc. See paizo.com/pathfinder
+to learn more about Pathfinder. Paizo Inc. does not guarantee compatibility, and does not endorse this product.
+
+Pathfinder is a registered trademark of Paizo Inc. Pathfinder Second Edition and the Pathfinder Second Edition
+Compatibility Logo are trademarks of Paizo Inc. The Pathfinder-Icons font is © 2019 Paizo Inc. These trademarks and
+copyrighted works are used under the Pathfinder Second Edition Compatibility License. See
+paizo.com/pathfinder/compatibility for more information on this license.
+
+This product is compliant with the Open Game License (OGL) and is suitable for use with the Pathfinder Roleplaying Game (Second Edition).
+
+\columnbreak
+
+### Declaration of Product Identity
+
+**Product Identity**: The following items are hereby identified as Product Identity, as defined in the Open Game License version 1.0a, Section 1(e), and are not Open Game Content: All trademarks, registered trademarks, proper nouns (characters, deities, locations, etc., as well as all adjectives, names, titles, and descriptive terms derived from proper nouns), artworks, characters, dialogue, locations, organizations, plots, storylines, trade dress, the historical period called the Gap, the terms kishalee, sivv, skyfire, Dreamer (the official Open Game Content term for which is “dreaming barathu”), and the Drift (the official Open Game Content term for which is “hyperspace”). (Elements that have previously been designated as Open Game Content, or are exclusively derived from previous Open Game Content, or that are in the public domain are not included in this declaration.)
+
+**Open Game Content**: Except for material designated as Product Identity, the game mechanics of this Pathfinder Infinite game product are Open Game Content, as defined in the Open Game License version 1.0a, Section 1(d). No portion of this work other than the material designated as Open Game Content may be reproduced in any form without written permission.
+
+
+<div style="margin-top: 95px"></div>
+
+
+**_{product-title}_** © 2022 by Tevis Woods. All rights reserved. Paizo, the Paizo golem logo, Pathfinder, the Pathfinder logo, Pathfinder Society, Starfinder, and the Starfinder logo are registered trademarks of Paizo Inc.; the Pathfinder P logo, Pathfinder Accessories, Pathfinder Adventure, Pathfinder Adventure Card Game, Pathfinder Adventure Card Society, Pathfinder Adventure Path, Pathfinder Battles, Pathfinder Combat Pad, Pathfinder Flip-Mat, Pathfinder Flip-Tiles, Pathfinder Legends, Pathfinder Lost Omens, Pathfinder Pawns, Pathfinder Roleplaying Game, Pathfinder Tales, Starfinder Adventure Path, Starfinder Combat Pad, Starfinder Flip-Mat, Starfinder Flip-Tiles, Starfinder Pawns, Starfinder Roleplaying Game, and Starfinder Society are trademarks of Paizo Inc. 
+
+This work is published under the Community Content Agreement for Pathfinder Infinite and Starfinder Infinite.
+
+
+\pagebreakNum
+
+# Table of Contents
+
+<div class="wide widepage table-of-contents">
+
+<div class="wide" style="margin-left: 70px; margin-right: -90px; margin-top: 20px;">
+
+## Introduction - Page {page-start-introduction}
+
+A brief overview of the underlying reasons behind the creation of this supplement, and how you can implement it
+in your game right away. This section covers some key terms that will make understanding the rest of the
+supplement much easier. You can't go wrong by starting here!
+
+## New Archetype - Treespeaker - Page {page-start-treespeaker}
+
+Explore an all-new archetype, filled with its own deep lore and motivations. The Treespeaker allows you to take on the mantle of defender of forests as you take on some of the powers of the great elder trees themselves. Find the introductory archetype Called Speaker at the end of this section.
+
+## Animal Trainer - Page 10
+
+Teach your animal companion specialized tricks to support you and your allies.
+
+## Bounty Hunter - Page 13
+
+Explore the tools and tricks of the bounty hunting trade with new weapons and more options to subdue enemies.
+
+## Folklorist - Page 16
+
+Spin complex tales and support your allies in combat at the same time.
+
+## Game Hunter - Page 19
+
+Become the ultimate hunter with new feats that support the game hunter's unique style.
+
+## Herbalist - Page 22
+
+Harvest new ways to use and prepare herbs to heal and empower your companions.
+
+## Horizon Walker - Page 24
+
+Find new horizons and even travel the planes in this expansion to the premier wilderness traveler.
+
+## Scout - Page 27
+
+Become the master of seeing without being seen and coordinating ambushes. Destroy your enemies before they even know you're there.
+
+## Gear - Page {page-start-gear}
+
+We have added a handful of new gear items to support the expanded archetypes. Find the new weapons lasso, net gun, and barbed lasso, as well as soporific poisons here!
+
+## Spells - Page {page-start-spells}
+
+New spells and focus spells that are utilized by the new Treespeaker! Find three new primal-only spells here: Splinter Bolt, Vine Shield, and Forest Avenger.
+
+</div>
+
+</div>
+
+\pagebreakNum
+
+# Introduction
+
+## Design Intent
+
+We love archetypes! We knew we wanted to write a supplement that introduced new archetypes and lots of new options for existing archetypes to flesh them out and expand on the incredible ideas that have been printed in official material. What we didn't know is that Pathfinder Second Edition already has more than 100 archetypes printed in official Paizo content at the time of this writing! Because of the sheer number of them, we've divided this project into separate thematic volumes, starting with this one, Wilderness! 
+
+Because there are already so many archetypes in official printed material, we decided to release only a single new archetype in this volume, and spend the rest of the pages focusing on expanding the archetypes that are already out there. That being said, for our new archetype we focused on creating a holistic, thorough archetype that really embraces lore, background, and storytelling potential, rather than just a new basket of feats. We hope you enjoy what we came up with: the Treespeaker!
+
+When we thought of Wilderness, we thought about the various archetypes that have been published that thrive outside the bounds of the city. These archetypes typically spend their time out in the wild, honing their skills to make themselves unmatched trackers, gathering encyclopedic knowledge of nearby cultures, or hunting potent herbs to heal their allies and give them an edge in battle.
+
+With that in mind, we chose the following archetypes to expand upon in this supplement: Animal Trainer, Bounty Hunter, Folklorist, Game Hunter, Herbalist, Horizon Walker, and Scout.
+
+Some of these archetypes could potentially have a ton of crossover in what they can do because their themes are very similar in places.  The last thing we want to do is wash out their uniqueness by mixing and matching feats across these different archetypes, even though in some cases they already share a number of feats. In order to avoid that crossover, we set about carving out a unique niche for each archetype. 
+
+You'll find more description of the niches that we chose and why we chose them at the start of each expanded archetype, but let's use Animal Trainer as a example to explain our reasoning. On the surface, the Animal Trainer is like any other archetype that grants an animal companion such as Beastmaster or Cavalier. Rather than simply grant the archetype generic animal companion feats, we looked for what it was that really made the Animal Trainer stand out. 
+
+Because the animal companion becomes trained in Performance instead of one of their normal skills, and because the Animal Trainer has access to a powerful improvement to Commanding an Animal with Insistent Command, we thought it would be a fantastic niche for the Animal Trainer to focus around teaching their animal companion special "tricks." It's clear from the much slower progression of the Animal Trainer's companion (mature at 6th level and nimble/savage at 12th level, as opposed to mature at 4th level and incredible at 8th level for the Beastmaster) that this companion isn't necessarily meant to be a combat-oriented sidekick, though it can still be helpful in that realm. Because of that we wanted to focus in on providing more supportive aspects with the companion's new tricks.
+
+As always, we approached this with the specific goal that we do not want to make anything that is inherently stronger than what can be found in official content. We want GMs to feel comfortable incorporating our entire supplement into their games without fear of something hidden within these pages that introduces power creep into their game. Like most people, we love the tight balance of Pathfinder Second Edition and how it keeps things simple for players and GMs alike.
+
+That being said, the core reason we wanted to write this expansion is because Paizo has indicated that, at least for now, they aren't interested in making expansions like these. We know that we would love to have these archetypes fleshed out, so we decided to take up the mantle ourselves and also share our creations with the broader community. We hope you love it!
+
+
+\pagebreakNum
+
+# External Resources
+
+<div class="wide">
+
+## Foundry VTT
+
+We have crafted a module that works with the Foundry Virtual Tabletop system. To install, navigate to the "Add-on Modules" tab in Foundry, click "Install Module," then paste this link into the Manifest URL field at the bottom and click "Install." After the module is installed, you can activate it within your game world as normal. At this time, the primary url contains a version of the module that is compatible with Foundry's version 10.
+
+<strong>https://www.everything4everybody.com/everything-archetypes-wilderness/module.json</strong>
+
+## Pathbuilder2e
+
+Pathbuilder is a popular Pathfinder character creation tool that has full support for Pathfinder Second Edition. It has an Android app that can be downloaded from Google Play, and a web version available at <strong>https://pathbuilder2e.com</strong>.
+
+We have put together a Custom Pack that includes all of the content from Everything Archetypes: Wilderness and is compatible with Pathbuilder2e. You can download this pack from:
+
+<strong>https://everything4everybody.com/everything-archetypes-wilderness/pathbuilder-pack.json</strong>
+
+<br>
+
+To use this file within Pathbuilder, use the correct instructions below for the platform you are using:
+
+<strong>Android:</strong> On the main screen of the app, before creating a character or loading a character, touch the button called Custom Packs, then in the dialog that appears touch Import Custom Pack. This will bring up a file browser for you to locate the 'pathbuilder-pack.json' file you downloaded earlier. Once you have selected that file, the Custom Pack will be imported into Pathbuilder and you can use the content from Everything Archetypes: Wilderness when building your characters!
+
+<strong>Web:</strong> Once you have navigated to the Pathbuilder2e website, click the Menu button then click Custom Pack. At the bottom of the dialog that appears, click Import Custom Pack. This will open a file selection dialog. Navigate to the location where you downloaded the 'pathbuilder-pack.json' file previously, and choose that file. Click the Accept button, and the content will be available for your characters!
+
+## Contact Us
+
+As always, if you have any questions about this product, any of our external resources, or anything else Pathfinder related, be sure to reach out at <b>twoods@everything4everybody.com</b>
+
+
+</div>
+
+\pagebreakNum
+
+# Treespeaker Archetype
+
+<div class="wide flavor subtitle">You have established an ineffably deep relationship with the trees of Golarion, to the point that you are not just their advocate and friend, but also a hand for their purposes. You possess the ability to speak to trees, but even further you have also been granted the authority to speak and act on their behalf. All Treespeakers are called to service. Some were already deeply intertwined with nature as druids or rangers, but many city-dwellers also feel the Call and choose to answer it. The ancient wisdom of the forest understands that having representatives from all walks of life is the surest way to preserve their future.</div>
+
+<div class='wide widepage'> 
+
+<div class="widebar">
+
+<div class="tabified">
+
+### DURING COMBAT ENCOUNTERS...
+You draw on arboreal power to defeat enemies and protect trees and their habitats. You may cast spells, or embrace the wilder magics to enhance your body directly, or both. In either case, you fuse these abilities with those granted by your class to accomplish the will of the forest.
+
+### DURING SOCIAL ENCOUNTERS...
+Your class may determine more of how you approach social encounters, but being a Treespeaker you always have a mind toward the goals and needs of nearby forests and elder trees. Additionally, not all trees grow in the wild.  Many cities and urban areas keep trees within the city walls, and you are the defender of these as well.
+
+### WHILE EXPLORING...
+Your ability to speak with trees is utterly invaluable whenever you and your party are traveling in an area where they grow. When you find yourself traveling for long periods where trees do not grow, you are prone to becoming listless and despondent.
+
+### IN DOWNTIME...
+You might spend time mostly outside of any urban areas, connecting with the local arboreal inhabitants, or communing with them if you are already familiar with the area. In addition to local concerns, you might view this as an opportunity to tap into the ancient wisdom of the local tree network.
+
+### YOU MIGHT...
+
+<div class="main-bullets">
+
+- Take a very long view of time and how events impact you and those around you.
+- Have a love of nature and avoid urban areas as much as possible.
+- Come from an urban background, but have given up many of your urban habits to answer the call to become a Treespeaker.
+
+</div>
+
+### OTHERS PROBABLY...
+
+<div class="main-bullets">
+
+- Are curious or fearful of your unique relationship with trees.
+- May not necessarily know about your role as a Treespeaker. Not all Treespeakers make their powers or position known externally.
+- Ask you for help with any question regarding nature, even if it's not something you're familiar with.
+
+</div>
+
+</div>
+
+
+</div>
+
+<div class="thinbar rule">
+
+### THE CALL
+
+All Treespeakers are called to service, but this Call can come in different forms, and is tailored to the individual being called. No one really knows who or what is responsible for the Call, though some hypothesize that it comes from Gozreh or even one of the Eldest that takes an interest in the material plane, such as the Green Mother.
+
+Whichever form the Call takes, if the person chooses to answer it they are led to an elder tree to commune. This communion is how they gain their powers and an understanding of their new role.
+
+### THE ROLE
+
+Usually a Treespeaker is called to fulfill a specific need, such as trying to stop an urban expansion that threatens a forest, or to stop a group of people who threaten the stability of a nearby ecosystem. Succeed or fail, once the situation is resolved the Treespeaker retains their role and powers. 
+
+Due to this, most Treespeakers do not have specific tasks to complete on behalf of trees for most of their service, but they stand ever ready to answer if an elder tree calls for aid.
+
+</div></div>
+
+\pagebreakNum
+
+# Treespeaker Feats
+
+<div class="wide">
+
+<p class="wide">
+The treespeaker archetype allows a character to take on specific aspects of trees and arboreals to embrace the fantasy of being a tree warrior. The feats available in this archetype are divided roughly into three types: feats that give the character a very limited selection of tree-oriented spells, feats that give the character physical properties of trees that help them become better warriors, and thematic and utility feats that flesh out additional abilities that a tree mystic/warrior might have. There is, of course, nothing stopping a character from dipping into all three to blend these abilities to become the ultimate arboreal warrior mystic!
+</p>
+
+<div style="margin-top: 35px;"></div>
+
+<div class="wide flavor subtitle"></div>
+
+<div style="margin-top: 10px;"></div>
+
+</div>
+
+
+###### Level 6
+
+#### Treespeaker Dedication <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ARCHETYPE</div>
+<div class="tag">DEDICATION</div>
+</div>
+<div class="rule">
+You have been called to become a Treespeaker. Answering this Call and receiving the benefits of this dedication feat usually requires you to commune with an elder tree for one week to receive your powers and instructions, though exceptions are sometimes made for extreme situations, such as when you are very far from the nearest elder tree, or unable to reach one for another reason. Exceptions are also made if the reason of the call is urgent enough that a one week communion would prevent you from fulfilling your calling. Regardless, you must return to the elder tree to complete your communion within one year of your calling, or you lose all benefits of this archetype. 
+
+After you have completed your communion, you learn the arboreal language, which is spoken by most awakened trees. You must still use <i>speak with plants</i> to communicate with trees that are not awakened or do not understand arboreal.
+
+You gain the ability to cast *one with plants* at will. If you cast *one with plants* near other trees, such that your root systems intertwine, you may spend 1 hour to gain vague impressions of what the nearby trees have experienced over the past 24 hours.
+
+Once per day, you may cast *speak with plants*, except that it only works with trees. Most trees have a vague awareness of the actions of creatures around them, unless those creatures are actively threatening nearby trees. Some trees do take a particular interest in the affairs of creatures, however, and it is up to your GM to determine what kind of trees you encounter.
+
+<b>Special</b> You can't select another dedication feat until you have gained two other feats from the Treespeaker archetype.
+</div><br>
+
+#### Native Treespeaker <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag rare">RARE</div>
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+</div>
+<div class="rule">
+When you received the Call, it was as if something inside you was waiting for it, and you quickly became fluent in the language of trees. You are permanently under the effects of your <i>speak with plants</i> spell, instead of being able to cast it once per day. It still only works with trees. Because of your puissance with the language, you are able to draw out specific information even from trees that do not care about the affairs of creatures.
+</div><br>
+
+
+#### Branch Out <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication; expert in Nature</div>
+</div>
+<div class="rule">
+You are able to expand your understanding of the natural world to other concepts and make connections with others in this way. When you attempt to Gather Information or Make an Impression you may use Nature instead of Diplomacy.
+</div><br>
+
+
+###### Level 8
+
+#### Arboreal Arms <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+</div>
+<div class="rule">
+You can transform one or both of your arms into massive branches or trunks and use them as lethally as weapons. You gain the <i>arboreal arms</i> focus spell (page {arboreal-arms-focus-spell-page}). Increase the number of Focus Points in your focus pool by 1.
+</div><br>
+
+
+#### Arboreal Mystic <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+</div>
+<div class="rule">
+You draw upon the primal magic inherent in the world around you, and shape that magic into the powers granted to you by your arboreal patrons. You gain the Cast a Spell activity. You're trained in spell attack rolls and spell DCs. Your key spellcasting attribute for your Treespeaker archetype spells is your choice of Intelligence, Wisdom, or Charisma. You cast your Treespeaker spells spontaneously, and all of your Treespeaker spells are considered Signature Spells.
+
+You gain two 3rd-rank spell slots that can only be used to cast the following spells, all of which are in your repertoire: <i>protector tree</i>, <i>shillelagh</i>, <i>oaken resilience</i>, <i>entangling flora</i>, <i>fungal hyphae</i>, <i>shape wood</i>, <i>soothing blossoms</i>, and <i>splinter bolt</i> (page {page-splinter-bolt-spell}).
+</div><br>
+
+#### Rejuvenate <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+</div>
+<div class="rule">
+When you rest you can sink little tendrils of roots into the ground and use the energy there to restore those around you. When you spend 10 minutes at rest or Refocusing, you and up to four allies gain fast</div>
+
+\pagebreakNum
+
+<div class="rule">healing 1 for 30 minutes. Fast healing 1 will heal 10 Hit Points per minute.
+</div><br>
+
+
+###### Level 10
+
+#### Mystic Avenger <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication, Arboreal Mystic</div>
+</div>
+<div class="rule">
+You gain one 4th-rank spell slot. You do not gain this slot if you have already gained a 4th-rank spell slot from the Treespeaker archetype. Add <i>bloodspray curse</i>, <i>murderous vine</i>, and <i>petal storm</i> to your repertoire.
+</div><br>
+
+#### Mystic Protector <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication, Arboreal Mystic</div>
+</div>
+<div class="rule">
+You gain one 4th-rank spell slot. You do not gain this slot if you have already gained a 4th-rank spell slot from the Treespeaker archetype. Add <i>soothing spring</i>, <i>rusting grasp</i>, and <i>vine shield</i> (page {page-vine-shield-spell}) to your repertoire.
+</div><br>
+
+
+#### Versatile Arms <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication, Arboreal Arms</div>
+</div>
+<div class="rule">
+Each time you cast <i>arboreal arms</i>, you may choose agile, deadly d6, reach, or trip and add the chosen trait to the unarmed attack granted to you by <i>arboreal arms</i>. If you chose to transform both of your arms as part of the spell, you may choose a different trait for each arm.
+</div><br>
+
+###### Level 12
+
+#### Aspect of Oak <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+</div>
+<div class="rule">
+You permanently take on some of the aspects of the hardy oak tree, whose timber is strong and hard, and whose seeds are nutritious to most humanoids. Your entire body becomes harder and stronger and your skin takes on a shade that gives away your arboreal influence. 
+
+You gain resistance to piercing and slashing damage equal to half your level. 
+
+When you successfully Shove or Grapple a creature, you may deal bludgeoning damage to them equal to your Constitution modifier. 
+
+You produce a number of acorns each day equal to half your level. Each of these acorns can be eaten with a single Interact action to restore a number of Hit Points equal to half your level.
+
+<b>Special</b> You cannot select this feat if you have Aspect of Rosewood or Aspect of Yew.
+</div><br>
+
+#### Aspect of Rosewood <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+</div>
+<div class="rule">
+You permanently take on some of the aspects of the iron rosewood tree, whose timber is rigid and unyielding, and whose oil is a fragrant perfume. Your skin takes on a shade that gives away your arboreal influence and becomes noticeably harder to the touch. 
+
+You gain a +1 circumstance bonus to AC, and to your DCs to avoid being shoved or grappled. 
+
+You gain resistance to physical damage equal to half your level. 
+
+You gain a +1 circumstance bonus to Diplomacy checks when interacting with someone who is close enough to smell you.
+
+<b>Special</b> You cannot select this feat if you have Aspect of Oak or Aspect of Yew.
+</div><br>
+
+#### Aspect of Yew <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+</div>
+<div class="rule">
+You permanently take on some of the aspects of the resilient yew tree, whose timber is both strong and springy, and whose seeds and leaves are extremely poisonous. Your entire body becomes more springy and absorbent to force. 
+
+You gain resistance to bludgeoning damage equal to half your level. 
+
+The first time you hit a creature with a ranged Strike on each turn, you gain a status bonus to damage equal to two times the number of weapon damage dice.
+
+Additionally, your body produces a single dose of poison each day when you make your daily preparations. This may be any poison up to your level - 3 and it remains effective until you make your next daily preparations.
+
+<b>Special</b> You cannot select this feat if you have Aspect of Oak or Aspect of Rosewood.
+</div><br>
+
+
+#### Expert Arboreal Mystic <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication, Arboreal Mystic</div>
+</div>
+<div class="rule">
+Your proficiency in spell attack rolls and spell DCs increases to expert. You gain an additional 3rd-rank spell slot. At 14th level, you gain one 5th-rank spell slot, and add <i>plant form</i> to your repertoire. At 16th level you gain one 6th-rank spell slot and add <i>tangling creepers</i> to your repertoire.
+</div><br>
+
+###### Level 14
+
+#### All Connected <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+</div>
+<div class="rule">
+From robust tree networks to tenuous connections of a few plants, nearly every plant creature across the face of Golarion is connected somehow. You have mastered submerging yourself and your allies into and through these connections. You can cast <i>teleport</i> once per day as an innate primal spell, but your destination must be adjacent to a tree within range. Because of your ability to communicate with trees as you travel, there is no chance for you to miss the intended destination.
+
+</div><br>
+
+#### Arboreal Legs <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+</div>
+
+\pagebreakNum
+
+<div class="rule">
+You can transform your legs into thick and powerful tree trunks. You gain the <i>arboreal legs</i> focus spell (page {arboreal-legs-focus-spell-page}). Increase the number of Focus Points in your focus pool by 1. If you also have the <i>arboreal arms</i> focus spell, you may spend 2 actions instead of 1 when casting this focus spell. If you do so, you gain the effects of both spells at the cost of 1 focus point.
+</div><br>
+
+
+
+
+
+
+
+#### Effortless Grapple {0A} <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">Flourish</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication, Arboreal Arms</div>
+<div class="rule req">You have a creature grappled by your arboreal arm.</div>
+<div class="rule targets">the creature you have grappled</div>
+</div>
+<div class="rule">
+You have incredible control over the grappling tendrils of your arboreal arms and can use them to maintain a grapple with very little thought. You Grapple the target.
+</div><br>
+
+###### Level 16
+
+#### Arboreal Bole <div class="label">FEAT 16</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+</div>
+<div class="rule">
+You can transform your torso into a thick bole that protects you and offers nature's healing touch. You gain the <i>arboreal bole</i> focus spell (page {arboreal-heart-focus-spell-page}). Increase the number of Focus Points in your focus pool by 1. If you also have the <i>arboreal arms</i> or <i>arboreal legs</i> focus spell, you may spend 2 or 3 actions instead of 1 when casting this focus spell. If you spend 2 actions, you gain the effects of this spell and one of the others at the cost of 1 focus point. If you spend 3 actions, you gain the effects of all 3 spells at the cost of 2 focus points. 
+</div><br>
+
+#### Tree Herald <div class="label">FEAT 16</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+</div>
+<div class="rule">
+You are so deeply respected by trees and arboreals that they and their other allies will answer your call freely to aid you. You may cast <i>summon plant or fungus</i> as an 8th-rank innate primal spell once per day. When you reach 18th level you cast this spell as a 9th-rank spell, and at 20th level you cast it as a 10th-rank spell.
+</div><br>
+
+###### Level 18
+
+#### Master Arboreal Mystic <div class="label">FEAT 18</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication, Expert Arboreal Mystic</div>
+</div>
+<div class="rule">
+Your proficiency in spell attack rolls and spell DCs increases to master. You gain a single 7th-rank spell slot and add <i>regenerate</i> to your repertoire. In addition to the normal targets of <i>regenerate</i> you may also target a living tree, regenerating any severed limbs, and causing the tree to blossom and bear fruit, depending on the type of tree. At 20th level, you gain one 8th-rank spell slot, and add <i>forest avenger</i> (page 31) to your repertoire. When you cast <i>forest avenger</i>, you may still cast your Treespeaker spells while in the battle form, though you cannot cast spells from any other source.
+</div><br>
+
+
+
+###### Level 20
+
+#### Ascended Aspect <div class="label">FEAT 20</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication; one of Aspect of Oak, Aspect of Rosewood, or Aspect of Yew</div>
+</div>
+<div class="rule">
+You fully embrace the arboreal aspect you chose. You gain the benefit below that is associated to the aspect you chose.
+
+<div class="feat-margin-tiny"></div>
+
+<div><b>Aspect of Oak</b> When you Grapple or Shove a creature, you may deal damage equal to four times your Constitution modifier (minimum 4).</div>
+
+<div><b>Aspect of Rosewood</b> The circumstance bonus to AC increases to +3.</div>
+
+<div><b>Aspect of Yew</b> The status bonus to damage applies to all of your ranged attacks.</div>
+
+</div><br>
+
+#### Mystic Refocus <div class="label">FEAT 20</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication, Arboreal Mystic</div>
+</div>
+<div class="rule">
+You draw strength from the world around you when you have a few minutes to refocus. Once per day when you Refocus, you may also regain 2 expended Treespeaker spell slots of your choice.
+
+</div><br>
+
+#### Tree of Life {3A} <div class="label">FEAT 20</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">HEALING</div>
+<div class="tag">PRIMAL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Treespeaker Dedication</div>
+<div class="rule frequency">once per day</div>
+</div>
+<div class="rule">
+The lower half of your body transforms into a tree trunk and roots race deep into the ground to draw healing energy. Your arms reach overhead and become a vast network of branches that extend out in every direction, instantly blossoming into a wild array of petals and pollen that showers the area around you in the life-giving power of nature. Each ally within 60 feet gains regeneration 30 for 3 rounds. This regeneration can be deactivated by fire damage. Each enemy within 60 feet takes 5d8 persistent vitality or persistent holy spirit damage, your choice. This activity has the vitality or holy and spirit traits based on this choice.
+
+</div><br>
+
+<div class="smallsidebar">
+
+##### THE NATURE OF TREES
+
+Golarion's trees come in a number of varieties, not just in their shape, color, size, leafage and fruit, but also in their level of consciousness and intelligence. Many trees have only a vague impression of the events around them, gained mostly through the collective of their root system, and limited intelligence to interpret that information.
+
+But there are a great many trees that are very intelligent and possess their own personalities and interests, apart from the collective. In addition to these, there are many arboreals: humanoid tree creatures that nurture and defend forests.
+
+<div style="height: 20px; margin-top: 20px;"></div>
+
+</div>
+
+
+
+\pagebreakNum
+
+# Called Speaker Feats
+
+<div class="wide">
+
+<p class="wide">
+The abilities that a Treespeaker needs to have, and the amount of influence they inherently wield means that it makes sense for the Treespeaker dedication to be a 6th-rank feat, but we still want players to be able to dive right into their character's journey as a Treespeaker if they so desire. The Called Speaker archetype lets players pick up some of the powers of a Treespeaker, and gives access to feats that add a mechanical flair to their progress becoming a full-fledged Treespeaker. These feats also contribute to the character's mechanical narrative that hints at why the character has not yet answered the Call to become a Treespeaker.
+</p>
+
+<div style="margin-top: 35px;"></div>
+
+<div class="wide flavor subtitle"></div>
+
+<div style="margin-top: 10px;"></div>
+
+</div>
+
+###### Level 2
+
+#### Called Speaker Dedication <div class="label">FEAT 2</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ARCHETYPE</div>
+<div class="tag">DEDICATION</div>
+</div>
+<div class="rule">
+You have been called to become a Treespeaker, but you have not yet answered the Call. Perhaps you do not feel that you are worthy, or you believe you have more pressing matters to attend to before answering the Call. Regardless, you have not refused the Call and you have begun to manifest some of the powers of a Treespeaker despite not yet having communed with an elder tree.
+
+You become trained in Nature, or expert if you were already trained. You gain the ability to cast <i>one with plants</i> as an innate primal spell once per day.
+
+You can sense the direction of the nearest elder tree at all times, and you can cast <i>know the way</i> as an innate primal cantrip at will.
+
+<b>Special</b> You can't select another dedication feat until you have gained two other feats from the Called Speaker archetype, though you may take the Treespeaker Dedication feat. It and any other feat from that archetype count as a Called Speaker feat for the purpose of satisfying this special requirement.
+</div><br>
+
+###### Level 4
+
+#### Dumb Luck <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">FORTUNE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Called Speaker Dedication</div>
+</div>
+<div class="rule">
+You haven't always resisted the Call, but every time you would instinctively answer it, something comes up from seemingly nowhere to stop you and keep you on your previous course. Once per day when you fail or critically fail a saving throw, you may reroll the triggering save with your highest saving throw modifier. You must use the new result.
+</div><br>
+
+#### Incredible Willpower {R} <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Called Speaker Dedication</div>
+<div class="rule trigger">You succeed on a saving throw against a mental effect.</div>
+</div>
+<div class="rule">
+You have endured the compulsion of the Call for a great period of time without answering it, demonstrating incredible powers of self-determination.  You receive a critical success instead of a success on the triggering save.
+</div><br>
+
+#### Timeless Persuasion <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Called Speaker Dedication; expert in Diplomacy</div>
+</div>
+<div class="rule">
+Persuading others to see your point of view is a core requirement for any Treespeaker, but some excel above others. When you attempt a check to Make an Impression or Request, if the target is willing you may spend 10 minutes attempting the check instead of the usual amount of time. If you do, you gain a +2 circumstance bonus to your check. If the target is willing, you may spend 1 hour instead. If you do and roll a critical failure on the check, you receive a failure instead.
+</div><br>
+
+<div class="smallsidebar">
+
+##### Random Tree Encounters
+
+<br>
+
+If you're not sure what kind of trees the players should encounter during exploration, roll and consult the following table for the most helpful tree they find:
+
+<p style="padding-top: 15px; padding-bottom: 15px;">
+<span class="rule"><b>01</b> An elder arboreal is nearby and contacts you telepathically.</span><br>
+<span class="rule"><b>02-03</b> An ancient tree is rooted nearby that loves hearing stories of social creatures.</span><br>
+<span class="rule"><b>04-07</b> An ancient tree is rooted nearby that doesn't care about the affairs of mortals.</span><br>
+<span class="rule"><b>08-13</b> An adult tree is rooted nearby that has a keen awareness of all creatures that pass by.</span><br>
+<span class="rule"><b>14-32</b> An adult tree is rooted nearby that doesn't care about the affairs of mortals.</span><br>
+<span class="rule"><b>33-40</b> A young tree is rooted nearby that takes note of the happenings of some mortal creatures.</span><br>
+<span class="rule"><b>41-70</b> A young tree is rooted nearby that doesn't care about the affairs of mortals.<span><br>
+<span class="rule"><b>71-100</b> A sapling that is unlikely to be able to help at all.</span>
+</p>
+
+</div>
+
+
+\pagebreakNum
+
+
+# Animal Trainer
+
+<div class="wide">
+
+<p>
+<b>Originally Printed</b> Pathfinder #152: Legacy of the Lost God
+</p>
+
+<p class="wide">
+Animal Trainer was originally printed in the second book of Extinction Curse, which is an adventure path that revolves around a traveling circus and the characters that work in and around that circus. In that context, even though Animal Trainer has a lot in common mechanically with Beastmaster and other archetypes that grant an animal companion, it's clear that Animal Trainer is meant to be more geared toward the "lion  jumping through a hoop of fire" style of animal companion.  Unfortunately the original printing didn't allow a lot of space to expand on the theme, with only two feats that stepped outside the core animal companion progression, and a minor deviation in which skills your animal companion gets access to.
+
+With that in mind, we focused our expansion of the archetype on the tricks that you and your animal companion are able to pull off when you work together. Because the animal trainer's animal companion lags behind the others in how their raw numbers advance, we wanted to focus these tricks around utility and being helpful to the animal trainer and their allies in and out of combat.
+</p>
+
+<div style="margin-top: 35px;"></div>
+
+<div class="wide flavor subtitle"></div>
+
+<div style="margin-top: 10px;"></div>
+
+</div>
+
+###### Level 4
+
+#### Cover Performance <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">Exploration</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication</div>
+</div>
+<div class="rule">
+Your animal companion puts on a performance that people simply cannot look away from. Your animal companion spends 10 minutes performing and then attempts a Performance check to Perform. Compare the result of this check to the Will DC of each creature that can see or hear your animal companion.
+
+<div class="r4 line-break-above">The creature is fascinated by your animal companion, and cannot look away for 10 minutes.</div>
+<div class="r3">As critical success, but the creature will lose the fascinated condition if they hear a loud or concerning noise, such as the sounds of combat.</div>
+<div class="r2">The creature is unaffected by the performance.</div>
+<div class="r1">The creature suspects that your animal companion's performance is cover for something else.</div>
+
+</div><br>
+
+#### Distract Trick <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+<div class="tag">TRICK</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Teacher; expert in Nature</div>
+</div>
+<div class="rule">
+Your animal companion gains the following activity, which it can use when you Command it.
+</div>
+
+<div class="rule">
+<div class="ability-box">
+<span class="ability-box-name">Distract</span> 
+{1A} 
+<span class="rule targets"> A creature within 30 feet;</span>
+<span class="rule effect">Your animal companion creates a distraction by performing stunts to get the target's attention. Your animal companion attempts a Performance check to Perform against the target's Will DC.</span><br><br>
+<div class="r4">The target is off-guard to your attacks until the end of your next turn.</div>
+<div class="r3">The target is off-guard to your next attack.</div>
+</div>
+</div><br>
+
+\columnbreak
+
+#### Fetch Trick <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+<div class="tag">TRICK</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Teacher; expert in Nature</div>
+</div>
+<div class="rule">
+Your animal companion gains the following activity, which it can use if you succeed on a Nature check when you Command it. If you critically succeed on the check, the animal companion does not trigger enemy reactions at any time during this trick.
+
+<div style="margin-top: 10px;"></div>
+
+<div class="ability-box">
+<span class="ability-box-name">Fetch</span> (manipulate, move)
+{2A} 
+<span class="rule targets">an unattended object or an object held or worn by a willing ally;</span>
+<span class="rule effect">
+Your animal companion Strides toward the target, Interacts to pick it up, and Strides toward you. If it reaches you, it can deliver the object into one of your hands if you have a free hand, otherwise it Releases the object after completing its Stride.
+</span>
+</div>
+</div>
+<br>
+
+#### Open and Close Trick <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+<div class="tag">TRICK</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Teacher</div>
+</div>
+<div class="rule">
+Your animal companion gains the following activity, which it can use when you Command it.
+
+<div class="ability-box">
+<span class="ability-box-name">Open and Close</span> (manipulate, move) {1A} Your animal companion Strides up to its Speed and Interacts to open or close a door.
+</div>
+</div><br>
+
+#### Play Dead Trick <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+<div class="tag">TRICK</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Teacher</div>
+</div>
+<div class="rule">
+Your animal companion gains the following activity, which it can use when you Command it.
+
+<div class="ability-box">
+<span class="ability-box-name">Play Dead</span> 
+{1A} Your animal companion acts as though it just died. Your animal companion drops prone and attempts a Perform check against the Perception DC of all enemy observers. Each creature that the animal companion succeeds against believes the creature has died.
+</div>
+</div><br>
+
+
+\pagebreakNum
+
+#### Trick Teacher <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication</div>
+</div>
+<div class="rule">
+You specialize in teaching your animal companion to perform special tricks that they wouldn't normally be capable of. Choose one 4th-rank skill feat from this archetype that has the trick trait. You gain that skill feat, and your animal companion learns the accompanying trick; this feat doesn't count toward the 2 feats required before you can take another dedication feat. Unlike normal Commands that you give to your animal companion, tricks do not always automatically succeed. Each trick describes the checks that need to be made, if any. If a trick requires you to attempt a Nature check, do so when you grant your animal companion actions. If you succeed, you grant the actions as normal and your animal companion can use the trick in question if it has sufficient actions. If you fail, the animal companion still gains actions as normal, but it cannot use the trick this turn.
+</div><br>
+
+
+
+###### Level 6
+
+#### Trickster Companion <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Teacher</div>
+</div>
+<div class="rule">
+Your animal companion is a natural-born trickster and doesn't always wait for your direction before performing tricks. During an encounter, even if you don't use the Command an Animal action, your animal companion can still use one action on your turn that round to Stride or perform an action granted by a feat with the trick trait. You must still attempt any required Nature checks to Command an Animal if the trick normally requires it. Your animal companion can use this action to Burrow, Climb, Fly, or Swim instead of Stride if they have the corresponding movement type.
+
+Choose one skill feat from this archetype that you qualify for and that has the trick trait. You gain that skill feat, and your animal companion learns the accompanying trick.
+</div><br>
+
+
+###### Level 8
+
+#### Deliver Consumable Trick <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+<div class="tag">TRICK</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Teacher; master in Nature</div>
+</div>
+<div class="rule">
+Your animal companion gains the following activity, which it can use if you succeed on a Nature check when you Command it. If you critically succeed on the check, the animal companion does not trigger enemy reactions at any time during this trick.
+
+<div class="ability-box">
+<span class="ability-box-name">Deliver Consumable</span> 
+{2A} 
+Your animal companion Strides up to its Speed to an ally within range of a single Stride, and Interacts to pour a potion into the ally's mouth or place a different type of consumable into the ally's hand. The animal companion must start this activity within melee reach of you, and you must be wearing or carrying the consumable that will be delivered.
+</div>
+</div><br>
+
+\columnbreak
+
+#### Keep Away Trick <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+<div class="tag">TRICK</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Teacher; master in Nature</div>
+</div>
+<div class="rule">
+Your animal companion gains the following activity, which it can use when you Command it.
+
+<div class="ability-box">
+<span class="ability-box-name">Keep Away</span> 
+{2A} <span class="rule req">You animal companion is adjacent to you;</span> <span class="rule effect"></span>
+Your animal companion takes a defensive posture next to you, actively deflecting and disrupting incoming attacks. You gain a +2 circumstance bonus to AC for 1 round. You lose this benefit if you are not adjacent to your animal companion at any time during this effect.
+</div>
+</div><br>
+
+#### Rolling Charge Trick <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+<div class="tag">TRICK</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Teacher; master in Nature</div>
+</div>
+<div class="rule">
+Your animal companion gains the following activity, which it can use when you succeed at a Nature check when you Command it.
+
+<div class="ability-box">
+<span class="ability-box-name">Rolling Charge</span> (move)
+{2A} <span class="rule req">No one is riding your animal companion, or you are riding them and you have the Trick Rider feat;</span> <span class="rule effect">Your animal companion rolls into the enemies, either head over heels or on its side, attempting to bowl them over. They Stride up to twice their Speed in a straight line that can include enemies. Each time your animal companion would pass through an enemy's square, it attempts an Athletics check against the enemy's Reflex DC with the following outcomes. If you are riding your animal companion and you have the Trick Rider feat, you may remain mounted and you walk along your animal companion's back as they roll.</span>
+
+<div class="r3 line-break-above">The enemy is knocked prone and moved 5 feet out of the path of your animal companion.</div>
+<div class="r2">Your animal companion fails to knock the enemy prone, but continues through its square.</div>
+<div class="r1">Your animal companion stumbles to a halt in front of the enemy and does not finish their Stride.</div>
+</div>
+</div><br>
+
+#### Trick Rider <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication</div>
+</div>
+<div class="rule">
+You have trained with your animal companion extensively to move in tandem; mounting for a short stretch and then dismounting is all part of the performance. Once per minute when your animal companion is adjacent to you and uses an action with the move trait, you may choose to Mount them as a free action. When their movement ends you may Dismount as a free action. If your animal companion is your size or one size smaller you may still use this ability despite not normally being able to Mount your companion, but you must Dismount at the end of their movement.
+</div><br>
+
+\pagebreakNum
+
+###### Level 10
+
+#### Flamboyant Dismount <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">VISUAL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Rider</div>
+</div>
+<div class="rule">
+In a great performance there is no room for a standard dismount: you perform an elegant flip, ride underneath your mount for a moment, or some other unbelievable trick. When you Dismount, you may attempt a Nature check and compare the result to the Will DC of each enemy creature adjacent to you at the end of your Dismount. Regardless of the outcome each creature is immune to your Flamboyant Dismount for 10 minutes. 
+
+<div class="r4 line-break-above">The creature is off-guard for 1 round.</div>
+<div class="r3">The creature is off-guard until the end of your turn.</div>
+</div><br>
+
+#### Swimming Companion <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication</div>
+</div>
+<div class="rule">
+Your animal companion gains the ability to swim as though born to water. Your animal companion gains a swim Speed equal to its Speed.
+
+</div><br>
+<br>
+
+###### Level 12
+
+#### Dazzling Display Trick <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+<div class="tag">TRICK</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Teacher; master in Nature</div>
+</div>
+<div class="rule">
+Your animal companion gains the following activity, which it can use when you Command it.
+
+<div class="ability-box">
+<span class="ability-box-name">Dazzling Display</span> (auditory, visual)
+{2A} Your animal companion roars or demonstrates its prowess in a display of power that shakes enemies. Your animal companion attempts a Performance check to Perform. Compare the result to the Will DCs of each enemy creature within 20 feet of your animal companion with the following effects. Regardless of the outcome, each affected creature is immune to your animal companion's Dazzling Display for 24 hours.
+
+<div style="margin-top: 10px; margin-left: 18px;">
+<div class="r4">The enemy is frightened 2.</div>
+<div class="r3">The enemy is frightened 1.</div>
+<div class="r2">The enemy is clumsy 1 until the end of your turn.</div>
+</div>
+
+</div>
+</div><br><br>
+
+#### Drag Trick <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+<div class="tag">TRICK</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Teacher; master in Nature</div>
+</div>
+<div class="rule">
+Your animal companion gains the following activity, which it can use when you Command it.
+</div>
+
+<div class="rule">
+<div class="ability-box">
+<span class="ability-box-name">Drag</span> (flourish, manipulate, move)
+{1A} <span class="rule targets">an adjacent creature;</span> <span class="rule effect"></span> Your animal companion pulls an enemy into a more advantageous position, or drags an ally to safety. Your animal companion attempts an Athletics check against the Fortitude DC of the target with the following effects. If the target is willing or unconscious, treat the result as one degree higher.
+
+<div style="margin-top: 10px; margin-left: 18px;">
+<div class="r4">Your animal companion can drag the target a distance up to their Speed.</div>
+<div class="r3">Your animal companion can drag the target a distance up to half their Speed.</div>
+<div class="r2">Your animal companion fails to move the target.</div>
+<div class="r1">Your animal companion fails to move the target and falls prone.</div>
+</div>
+
+
+</div>
+</div><br>
+
+###### Level 14
+
+#### Tandem Performance <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">VISUAL</div>   
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication</div>
+</div>
+<div class="rule">
+You and your animal companion perform together whenever you're side-by-side. When you attempt a check using Deception, Diplomacy, Intimidation, or Performance and your animal companion is adjacent to you, your animal companion may attempt to Aid you without needing to prepare or spend a reaction. If your animal companion attempts one of these checks while you are adjacent to them, you may attempt to Aid them without needing to prepare or spend a reaction.
+</div><br>
+
+###### Level 16
+
+#### Flying Companion <div class="label">FEAT 16</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication</div>
+</div>
+<div class="rule">
+Your animal companion gains the power of flight, either by growing wings or through some other supernatural power. Your animal companion gains a fly Speed equal to its Speed.
+
+</div><br>
+
+
+#### Running Mount Trick <div class="label">FEAT 16</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+<div class="tag">TRICK</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Animal Trainer Dedication, Trick Teacher; legendary in Nature</div>
+</div>
+<div class="rule">
+Your animal companion gains the following activity, which it can use when you succeed on a Nature check when you Command it.
+
+<div class="ability-box">
+<span class="ability-box-name">Running Mount</span> (move) {1A} <span class="rule targets">a willing creature within the range of one Stride;</span> <span class="rule effect"></span>
+ Your mount has mastered a trick of picking you or your allies up without help by sliding its head underneath of the target, or some other feat that is appropriate to the animal companion's anatomy. Your companion Strides and must end their movement adjacent to the target. The target may then Mount your animal companion immediately as a free action. Your companion Strides again. 
+
+</div>
+</div><br>
+
+
+
+\pagebreakNum
+
+# Bounty Hunter
+
+<div class="wide">
+
+<p>
+<b>Originally Printed</b> Advanced Player's Guide
+</p>
+
+<p class="wide">
+Bounty Hunter shares some similarities to the ranger, such as a Hunt Prey action that brings in a more social aspect by giving a bonus to Gather Information checks regarding your prey, and allowing you to hunt a particular prey off of something like a bounty board or wanted poster. This is at the same time more freeing and more restrictive than the ranger's Hunt Prey, since they are not able to hunt a creature they're Tracking, but instead they can Hunt Prey just by hearing <i>about</i> a particular target.
+
+There is an emphasis on non-lethal damage to subdue a target and ostensibly bring them to justice, and even further incorporation of a social aspect from its Posse feat, which has the potential to give your entire party bonuses related to your Hunt Prey action. In expanding this archetype, we focused on three core elements: exploring the social aspects of hunting a target, honing in on non-lethal takedowns to capture a target rather than kill them, and keeping a target in your sights once you've found them, in the vein of Keep Pace and Opportunistic Grapple.
+
+We have also added three new weapons that are especially suitable for bounty hunters: the lasso, the barbed lasso, and the net gun (page {page-start-gear}). The net gun has its own proficiency feat listed here, but we recommend adding the lasso and barbed lasso to the list of weapons you gain training with in the Tools of the Trade feat (APG).
+</p>
+
+<div style="margin-top: 35px;"></div>
+
+<div class="wide flavor subtitle"></div>
+
+<div style="margin-top: 15px;"></div>
+
+</div>
+
+###### Level 4
+
+#### Hampering Critical <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication</div>
+</div>
+<div class="rule">
+You know you cannot let your target get away once you've found them, so you aim your attacks to slow them down. When you Strike a creature with a weapon or unarmed attack and critically succeed on the attack roll, you may choose to give the target a -10-foot circumstance penalty to its Speeds until the end of your next turn. If you critically succeed on an attack roll to Strike a creature already under this effect, increase the circumstance penalty to Speeds by 5 feet. This is a critical specialization effect.
+</div><br>
+
+#### Net Gun Proficiency <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication</div>
+</div>
+<div class="rule">
+The net gun is a difficult weapon to use, let alone master, but you have become proficient in it. You become trained in net guns and gain access to them. Whenever you gain a class feature that grants you expert or greater proficiency with a weapon or unarmed strike, you also gain that proficiency with net guns.
+</div><br>
+
+#### Sketch Artist <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication; trained in Society</div>
+</div>
+<div class="rule">
+You are gifted in creating rough images that evoke a creature or person that you've seen. If you have something to draw with you may spend 10 minutes sketching a person or creature you have seen within the last 24 hours. Attempt a Society check; others may be able to identify the subject of the sketch based on the result, see below. Additionally you have the ability to better understand sketches from other artists. When you encounter a creature, you immediately know if you have seen a sketch of them before and where you saw it. If you see a sketch and you have already encountered the subject of the sketch, you remember who or what it was and where you saw them.
+
+<div style="margin-top: 1em;"></div>
+
+<div class="r3">Anyone who has met or encountered the subject of the sketch immediately recognizes it.</div>
+<div class="r2">Anyone who has met or encountered the subject of the sketch can recognize them with a successful Society check against the standard DC for your level.</div>
+<div class="r1">The sketch is completely unrecognizable.</div>
+</div><br>
+
+#### Soporific Specialist <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication</div>
+</div>
+<div class="rule">
+You may not know everything about alchemy, but you have learned a very narrow set of concoctions to slow your enemies and make them easier to apprehend. You gain the basic alchemy benefits, though they only apply for soporifics: alchemical items with the sleep trait. You gain batches of infused reagents per day equal to your level. Your advanced alchemy level for creating these is your level - 3 (minimum 2). You learn the formula for Lethargy Poison (Player Core 2), and you gain access to all uncommon alchemical items with the sleep trait and their formulas. Additionally, you use your class DC or spell DC if it would be higher than the item's normal DC for your soporifics. For injury poisons, this effect only applies if you are the one attempting to Strike with the poisoned weapon.
+</div>
+
+\pagebreakNum
+
+###### Level 6
+
+#### Lethal Ultimatum {1A} <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">INCAPACITATION</div>
+<div class="tag">LINGUISTIC</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication</div>
+<div class="rule range">30 feet</div>
+<div class="rule targets">your hunted prey</div>
+<div class="rule frequency">once per hour</div>
+</div>
+<div class="rule">
+In life or death situations, sometimes you have to eliminate a target even if you're supposed to take them alive. You've learned that occasionally if you give them one last chance, you can still save them. You offer them a simple ultimatum: submit or be killed. The target must attempt a Will save against your class DC or spell DC, whichever is higher. If the target has less than half their total Hit Points they take a -2 circumstance penalty to this save. Some of the effects of this ability refer to subduing the target. For the purpose of this effect, you may subdue the target with manacles or rope as a 2-action activity, but you must be wearing or carrying the manacles or rope. If you have the Hog Tie feat, this takes a single action instead of two. The target is also considered subdued if they gain the restrained condition through another means.
+
+<div style="margin-top: 1em;"></div>
+
+<div class="r4">The target rejects your ultimatum.</div>
+<div class="r3">The target rejects your ultimatum, but fear of your retribution gives it a -1 status penalty to its attack rolls for 1 round.</div>
+<div class="r2">The target accepts your ultimatum and cannot take hostile actions until the end of your next turn. If you or an ally subdues the target during this effect with manacles or rope, it remains subdued and its disposition toward you changes from hostile to unfriendly. Otherwise it regains its senses and resumes hostilities after the end of your next turn.</div>
+<div class="r1">The target accepts your ultimatum, falls prone, and waits to be subdued for 1 minute. This effect ends immediately if the creature takes any damage. The creature remains docile for 24 hours, after which it might attempt to escape or become hostile again at the GM's discretion.</div>
+
+</div><br>
+
+#### Paid Posse <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication, Posse</div>
+</div>
+<div class="rule">
+Sometimes the people in an area aren't motivated to do the right thing just because it's right, and they need to be incentivized. You usually do pay them the agreed amount. You gain the Hireling Manager general feat. When you hire a hireling you treat their level as your level - 4 instead of 0, and they add their level to their skill checks. When you hire a hireling this way they have the minion trait. Additionally you may attempt a Deception check to Lie against a standard DC for your level. On a success, the hireling agrees that you will pay them "later" and is free for one week. 
+</div><br>
+
+
+###### Level 8
+
+#### Soporific Expert <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication, Soporific Specialist</div>
+</div>
+<div class="rule">
+You tailor your soporifics to affect your targets more aggressively. Treat the level of your soporifics as your level for the purpose of the incapacitation trait and counteracting. If you critically hit a target and they must attempt a save against one of your soporifics, they take a -2 circumstance penalty to the save.  
+</div><br>
+
+#### Tactical Posse <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication, Posse</div>
+</div>
+<div class="rule">
+When you are giving guidance to your posse for how to hunt down your prey, you also lay the groundwork for how best to fight it. When you have a posse and you and your prey are both rolling initiative, the GM chooses a piece of information to give you from the following list: which of the enemy's weaknesses is highest, which of the enemy's saving throws has the lowest modifier, one immunity the enemy has, or which of the enemy's resistances is highest. The GM should choose the piece of information that will be most beneficial to the posse. You may share this information with your posse immediately as part of this effect.
+</div><br>
+
+###### Level 10
+
+#### Dog Pile <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication</div>
+</div>
+<div class="rule">
+You work together with the other members of your team to both corral and take down a target. When your hunted prey has the off-guard condition because you are flanking it with an ally, you and that ally gain a +2 circumstance bonus to Grapple, Shove, and Trip checks.
+</div><br>
+
+#### Projected Ultimatum <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication, Lethal Ultimatum</div>
+</div>
+<div class="rule">
+You can project your ultimatum to an entire group of enemies. When you use Lethal Ultimatum, you may choose to use it as a 2-action activity. If you do, it affects all enemies in a 30-foot emanation instead of a single target.
+
+</div><br>
+
+
+###### Level 12
+
+#### Hog Tie {1A} <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">MANIPULATE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication</div>
+<div class="rule req">Your most recent action was a successful Grapple or Trip check, or you successfully used Opportunistic Grapple since your last turn. You must be wearing or carrying a length of rope.</div>
+<div class="rule targets">The creature you successfully Grappled or Tripped</div>
+</div>
+<div class="rule">
+After tripping or grabbing your target it's simple enough to tie them up for more convenient delivery. Attempt a Survival or Thievery check against the target's Fortitude DC. On a success, the target is restrained for 1 round or until they successfully Escape against the better of your Survival DC or Thievery DC. On subsequent turns you may repeat this action against the creature you have Hog Tied; if you succeed the restrained condition persists for an additional round. If you critically succeed on the initial check or any subsequent check, the restrained condition lasts for 1 minute, though the creature may still attempt to Escape against your Survival DC or Thievery DC as</div>
+
+\pagebreakNum
+
+<div class="rule"> normal. Regardless of the outcome, the length of rope that satisfied the requirements of this action is now in the target's square: either restraining them or laying on the ground next to them.
+</div><br>
+
+#### Net Gun Specialist <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication</div>
+</div>
+<div class="rule">
+You have mastered the use of the net gun as a legitimate primary weapon. When you are wielding a net gun, reduce its reload to 1. If you critically succeed on a Strike with a net gun, instead of the normal critical specialization you may cause the target to be grabbed by your net as if you had succeeded on a Grapple check with it. If you critically succeed on a Grapple check with your net gun, you may choose to also deal nonlethal damage as if you had hit the target with a Strike.
+</div><br>
+
+###### Level 14
+
+#### Persistent Soporifics <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication, Soporific Expert</div>
+</div>
+<div class="rule">
+Your soporifics are truly works of art, lingering on the victim longer than normal. When a creature saves against one of your soporifics, they must attempt the save again at the start of their next turn. If they fail or critically fail that save, they are affected by the poison as normal.
+</div><br>
+
+#### Spontaneous Posse <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication, Posse</div>
+</div>
+<div class="rule">
+You are adept at getting the attention of a group of people and getting them to work together to take down a common enemy. When you roll initiative you may Hunt Prey on a creature you can see as a free action. If you do, you may immediately designate a Posse from nearby allies to assist you without needing to spend 1 minute giving guidance, and you all receive the circumstance bonus to your initiative rolls.  If you have Tactical Posse, you also receive those benefits on the chosen target.
+</div><br>
+
+###### Level 16
+
+#### Pressure-Point Strike {2A} <div class="label">FEAT 16</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">INCAPACITATION</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication</div>
+</div>
+<div class="rule">
+Your line of work often requires disabling opponents, and you have become a master of techniques that simplify that process. You Strike a creature. On a success, the target must attempt a Fortitude save against your class DC or spell DC, whichever is higher. Regardless of the outcome, the target is immune to your Pressure-Point Strike for 24 hours. If the target falls unconscious as a result of the save, they fall prone, release what they're holding, and cannot attempt to make Perception checks to wake up until the duration ends. They also cannot be woken from nudging or shaking.
+
+<div style="margin-top: 1em;"></div>
+
+<div class="r4">The target is unaffected.</div>
+<div class="r3">The target is stunned 1.</div>
+<div class="r2">The target falls unconscious for 1 round.</div>
+<div class="r1">The target falls unconscious for 1 minute.</div>
+
+</div><br>
+
+###### Level 18
+
+#### Eliminate {1A} <div class="label">FEAT 18</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">ATTACK</div>
+<div class="tag">FLOURISH</div>
+<div class="tag">INCAPACITATION</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication</div>
+<div class="rule req">You have an adjacent creature grabbed or restrained</div>
+</div>
+<div class="rule">
+Sometimes disabling a target harmlessly is not an option. You snap the target's neck, or irrevocably damage them in some other way appropriate to their anatomy. This ability has no effect on a creature that is immune to precision damage. Attempt an attack roll against the target with a weapon or unarmed attack. As usual for effects with the incapacitation trait, reduce the degree of success of your attack roll by one step if the target's level is higher than yours. Regardless of the outcome, the target is immune to your Eliminate for 1 minute.
+
+<div class="r4 line-break-above">The target is killed immediately as a death effect.</div>
+<div class="r3">The target is drained 3.</div>
+<div class="r2">The target is drained 1.</div>
+</div><br>
+
+###### Level 20
+
+#### Helpful Posse <div class="label">FEAT 20</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication, Posse</div>
+</div>
+<div class="rule">
+You instinctively command respect and assistance from those around you, without any effort on your part. When you are in an encounter and you have a designated Posse, they are always working to Aid you. You gain a +1 circumstance bonus to all attacks as if you had been successfully Aided until the end of the encounter.
+
+</div><br>
+
+#### Implacable Captor <div class="label">FEAT 20</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication</div>
+</div>
+<div class="rule">
+No matter what your quarry does, you never give up on getting them trussed up for delivery. You are permanently quickened, and you can only use the extra action to Grapple, Trip, or Hog Tie.
+</div><br>
+
+
+#### Legendary Bounty Hunter <div class="label">FEAT 20</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">MENTAL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Bounty Hunter Dedication</div>
+</div>
+<div class="rule">
+Tales of your captures and kills are widely known throughout every corner of Golarion; just by seeing you, enemies know their fate is sealed. When you roll initiative, each enemy creature that can see you must attempt a Will save against the higher of your class DC or spell DC with the following results.
+
+<div class="r4 line-break-above">The creature is unaffected.</div>
+<div class="r3">The creature is frightened 1.</div>
+<div class="r2">The creature is frightened 2.</div>
+<div class="r1">The creature is frightened 3 and fleeing for 1 round.</div>
+
+</div><br>
+
+\pagebreakNum
+
+# Folklorist
+
+<div class="wide">
+
+<p>
+<b>Originally Printed</b> Pathfinder #170: Spoken on the Song Wind
+</p>
+
+<p class="wide">
+Folklorist takes a lot of its design and inspiration from the Bard class. Its core action Spin Tale, granted by the dedication feat, is similar to the Bard's Inspire Courage ability, and its Folktales Lore strongly parallels the Bard's Bardic Lore. Apart from these similarities the Folklorist distinguishes itself with its focus on carrying and sharing lore and telling stories as a form of oral history.
+
+It makes sense to expand upon those themes, focusing on sharing lore and history with others, both in a utility sense and in a way that empowers allies by inspiring them to heroic acts. In the vein of Rule of Three, we have also expanded the archetype with options that revolve around how the story unfolds, giving the folklorist a unique way to engage with each encounter.
+
+Because of the fact that you cannot declare yourself to be the hero of Spin Tale, the Folklorist is clearly meant to be an archetype centered on empowering your friends and allies. We lean heavily into that theme to make Folklorist a viable route for any character that wants to have a strong supporting role in the party.
+</p>
+
+<div style="margin-top: 35px;"></div>
+
+<div class="wide flavor subtitle"></div>
+
+<div style="margin-top: 15px;"></div>
+
+</div>
+
+###### Level 4
+
+#### Exchange Tales <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication; trained in Society</div>
+</div>
+<div class="rule">
+As the primary person responsible for carrying on your culture's oral history, you have mastered quickly exchanging tales and stories to preserve the history of your people. When you spend 1 minute or more in conversation with a person who belongs to a particular town or group of people, you may attempt a Society check against the standard DC for your level as you exchange the tales from your respective areas or groups. On a success, you become trained in the Lore of that town or group of people for 24 hours. For example you might gain Whispering Way Lore if you use this ability when conversing with a cultist of the Whispering Way. The Lore you learn from this should always be a specific Lore, and the DC for any checks made with it should be adjusted accordingly. If you are master in Society, you become expert in the new Lore instead of trained.
+</div><br>
+
+#### Recall Tale {1A} <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">CONCENTRATE</div>
+<div class="tag">LINGUISTIC</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication</div>
+</div>
+<div class="rule">
+You think back to a vast trove of stories that represent a diverse array of axioms and truths, and try to find the one story that perfectly resonates with the moment. You exhort an ally with this tale to bolster their efforts. This action counts as sufficient preparation to Aid that ally. When you use the Aid reaction to help that ally, you can roll Recall Knowledge in place of the usual check, using a skill that has the Recall Knowledge action and is fitting for the situation. This should commonly be a Society check to remember stories of what other humanoids have experienced, but you may use other skills with the Recall Knowledge action, including Lore skills, at the GM's discretion. If you use a Lore skill, reduce the DC of the Aid check based on whether the Lore skill is specific or unspecific as normal for Recalling Knowledge.
+</div>
+
+\columnbreak
+
+###### Level 6 
+
+#### Confounding Illusions {2A} <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">ILLUSION</div>
+<div class="tag">LINGUISTIC</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication</div>
+<div class="rule req">You have used Spin Tale and its effect is still active.</div>
+<div class="rule frequency">once per day</div>
+<div class="rule range">60 feet</div>
+<div class="rule targets">the hero of your current tale</div>
+</div>
+<div class="rule">
+The illusions that spring up as you spin your tale are far from harmless, serving to confuse the villain about who the hero really is. You cast <i>mirror image</i> but instead of targeting yourself, it affects the hero of your tale. If your tale has multiple heroes, choose one to receive this benefit.
+</div><br>
+
+
+#### Establish Foil {1A} <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">LINGUISTIC</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication</div>
+<div class="rule req">You have used Spin Tale and its effect is still active.</div>
+</div>
+<div class="rule">
+A great story doesn't just have a hero and a villain, it also has someone that challenges the hero's journey and highlights their heroic qualities: the foil. The foil can be a friend of the hero who unintentionally makes their task more challenging, or it can be a rival. Choose a creature within 60 feet. If the target is an enemy, the hero gains the same benefits against the foil that he gains against the villain. If the target is an ally, the hero gains a +1 status bonus on checks to Aid the target, and each time the target takes damage, reduce that damage by 5 and the hero takes 5 damage. This damage cannot be reduced in any way. If you are master in Performance, increase the damage transferred to 10. If you are legendary, increase it to 15. This effect remains active as long as the effect of Spin Tale is active.
+</div><br>
+
+
+\pagebreakNum
+
+###### Level 8
+
+#### Darken Tone {1A} <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">LINGUISTIC</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication</div>
+<div class="rule req">You have used Spin Tale and its effect is still active.</div>
+</div>
+<div class="rule">
+The hero of the story has experienced a setback, and digs deeper to press forward. They are willing to go further than before, and possibly even cross boundaries they normally wouldn't. Attempt a Performance check against a Standard DC of your level. On a success, as long as your story continues, the hero gains a status bonus to damage rolls equal to the number of weapon damage dice of the unarmed attack or weapon they are wielding that has the most weapon damage dice. When they critically hit an enemy with a Strike, the enemy is frightened 1. If you have previously lightened the tone of the story with Lighten Tone, that effect ends. If your story has multiple heroes, they each gain this effect.
+</div><br>
+
+#### Lighten Tone {1A} <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">LINGUISTIC</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication</div>
+<div class="rule req">You have used Spin Tale and its effect is still active.</div>
+</div>
+<div class="rule">
+The hero of the story is triumphantly pressing forward. They have momentum on their side and they feel unstoppable. Attempt a Performance check against a Standard DC of your level. On a success, the hero gains temporary Hit Points equal to half your level. Once per round when the hero damages the villain, they gain these temporary Hit Points again. This effect lasts as long as your story continues. If you have previously darkened the tone of the story with Darken Tone, that effect ends. If your story has multiple heroes, they each gain this effect.
+</div><br>
+
+#### Theme of Loss {2A} <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">LINGUISTIC</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication</div>
+<div class="rule frequency">once per day</div>
+</div>
+<div class="rule">
+Sometimes the story requires that the hero or one of their allies loses a decisive battle, only to come back stronger later. Someone has to provide succor to the hero in this time and serve as the wise guide who sets them on the right path. You cast <i>soothe</i> on an ally, heightened to half your level.
+</div><br>
+
+###### Level 10
+
+#### Second Act {2A} <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">LINGUISTIC</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication</div>
+<div class="rule req">You have used Spin Tale and its effect is still active, and you haven't used Second Act in this encounter.</div>
+</div>
+<div class="rule">
+As the story enters the second act, the folklorist emphasizes and builds the confrontation between the hero and the villain. The villain must attempt a Will save against your Performance DC with the following outcomes. If your story has multiple heroes, they are all affected by the outcome. If your story has multiple villains, choose one to target with this effect.
+
+<div class="feat-margin-tiny"></div>
+<div class="r4">The hero is off-guard to the villain for 1 round.</div>
+<div class="r3">The villain is off-guard to the hero for 1 round.</div>
+<div class="r2">The villain is off-guard to the hero for 1 minute.</div>
+<div class="r1">As failure, and the villain gains weakness 3 to the damage type of the hero's primary weapon. If the hero does not typically use a weapon, choose between bludgeoning, piercing, or slashing.</div>
+</div><br>
+
+###### Level 12
+
+#### Cast of Villains <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication</div>
+</div>
+<div class="rule">
+Many stories don't revolve around a single villain, but instead contain several. When you use Spin Tale, all enemies within 60 feet are the villains of the story.
+
+If you have Establish Foil, you may now target an enemy who is already a villain with that ability. If you do, the target must attempt a Will save against your Performance DC. On a failure it takes a -2 status penalty to all attack rolls and skill checks against targets that are not the hero of your story. If your story has multiple heroes, choose one to be the hero for this effect. This effect lasts as long as your Spin Tale is active.
+</div><br>
+
+###### Level 14
+
+#### Third Act {2A} <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">LINGUISTIC</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication, Second Act</div>
+<div class="rule req">You have used Spin Tale and its effect is still active, and you have used Second Act in your current story.</div>
+<div class="rule frequency">once per hour</div>
+</div>
+<div class="rule">
+As the story enters the third act, the folklorist describes the final confrontation between the hero and the villain, with the hero bringing all of their energy to bear, including the help of their allies. The villain must attempt a Will save against your Performance DC.
+
+<div class="r4 line-break-above">The villain is unaffected</div>
+<div class="r3">The villain is off-guard for 1 round.</div>
+<div class="r2">As success, and the status bonus from Spin Tale increases to +2 as long as your tale continues.</div>
+<div class="r1">As failure, and the villain gains weakness to the damage type of the hero's primary weapon equal to half your level. If the hero does not typically use a weapon, choose between bludgeoning, piercing, or slashing.</div>
+</div><br>
+
+###### Level 16
+
+#### Denouement <div class="label">FEAT 16</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">EXPLORATION</div>
+<div class="tag">LINGUISTIC</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication</div>
+<div class="rule frequency">once per 10 minutes</div>
+</div>
+<div class="rule">
+After a difficult fight, you soothe your companions and prepare them for their next stories. When you're not in an encounter you may spend 1 round soothing up to 5 allies. Each ally regains Hit Points equal to four times your level.
+</div><br>
+
+\pagebreakNum
+
+###### Level 18
+
+#### Climax {2A} <div class="label">FEAT 18</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">AUDITORY</div>
+<div class="tag">LINGUISTIC</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Folklorist Dedication</div>
+<div class="rule req">You have used Spin Tale and its effect is still active.</div>
+</div>
+<div class="rule">
+The hero presses their advantage to defeat the villain once and for all. The hero of the story immediately takes an additional turn, and receives a +3 status bonus to all checks during this turn. If your story has multiple heroes, choose one ally who is receiving the hero's benefits to take this additional turn. After the hero has taken this extra turn the story has ended, and you cannot Spin Tale again during this encounter. The hero's additional turn does not change their initiative, and they still act on their regular turn as normal.
+</div><br>
+
+
+\pagebreakNum
+
+# Game Hunter
+
+<div class="wide">
+
+<p>
+<b>Originally Printed</b> Pathfinder #175: Broken Tusk Moon
+</p>
+
+<p class="wide">
+Game Hunter takes a lot of inspiration from the Ranger and Bounty Hunter skill set, but incorporates an element of honor and respect toward the hunted. Because its Hunt Prey action is limited to the types of creatures it can affect, this archetype has a tendency to be hit-or-miss. Often these creature types might feature strongly in a certain part of an adventure, but later there is a tonal or regional shift and those creatures don't appear nearly as often, or at all.  This can create vestigial player selections: features that are part of your character, but no longer really function. You may not want to retrain them because they represent something fundamental about who your character is or where they came from, but you also gain very little benefit from them.
+
+We added It's All Game to give players an option to overcome this problem by unrestricting their Hunt Prey ability. Because the Game Hunter's Hunt Prey action receives additional benefits beyond the Ranger's, it makes sense to spend a class feat to unlock this power for all creature types.
+
+With that in mind, we also want to really focus in on the way that a Game Hunter honors their fallen foes and the unique way they treat their prey, since this is the core distinction between it and the Bounty Hunter, which is otherwise very similar mechanically.
+</p>
+
+<div style="margin-top: 35px;"></div>
+
+<div class="wide flavor subtitle"></div>
+
+<div style="margin-top: 15px;"></div>
+
+</div>
+
+###### Level 4
+
+#### Instant Tracker <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication; expert in Survival</div>
+</div>
+<div class="rule">
+You can use your skill in tracking to find elusive foes. When you Seek an area looking for your hunted prey, you may roll Survival instead of Perception.
+</div><br>
+
+#### Sense Game <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ARCHETYPE</div>
+<div class="tag">Exploration</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication</div>
+</div>
+<div class="rule">
+You can detect the presence of certain types of creatures with almost no information to work from. As a 10-minute activity you can use inscrutable techniques, such as listening to the wind, smelling for certain signs, or noticing the way certain foliage is damaged to sense nearby creatures. Choose a type of creature that is a valid target for your Hunt Prey ability and against whom your Stealth bonus and Speed reduction apply. For example, you may normally choose between animals, beasts, and dragons. If you have It's All Game, you may choose from any type of creature. You automatically know whether any creatures of the chosen type are within 1 mile of you. You do not know the direction of any creatures that you detect, but you do gain sufficient information to begin Tracking the creatures in exploration. The GM may call for additional Survival checks to determine if you know which specific creature you are Tracking if there are more than one.
+</div><br>
+
+#### Trophy Collector <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">Exploration</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication</div>
+</div>
+<div class="rule">
+After a successful hunt, you sometimes collect a trophy from your prey to honor it and enshrine your victory. This trophy serves as a constant reminder of the hunt and your prey. If you used Hunt Prey in an encounter and the target of that ability was killed, you may spend 10 minutes collecting a trophy from the creature's body. At the GM's discretion, collecting trophies from certain creatures, such as creatures from your own ancestry or similar ancestries, may violate the edicts or anathemas of your deity, cause, or ancestry. Keep track of the creature types you have collected trophies from; as long as you display your trophies visibly, you gain a +1 circumstance bonus to Intimidation checks against and attempts to Recall Knowledge about creatures of the same type (e.g. beast, dragon, fiend, etc). If you are a master of Survival, this bonus increases to +2.
+</div><br>
+
+###### Level 6
+
+#### Improved Slowing Strikes <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication</div>
+</div>
+<div class="rule">
+You can keep the pressure up on your target to prevent them from escaping. When you apply your Speed reduction to a target by striking your Hunted Prey while it's off-guard the target also gains the drained 1 condition, and the creature no longer becomes immune to your Speed reduction afterwards.
+
+</div><br>
+
+#### It's All Game <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication</div>
+</div>
+<div class="rule">
+You have learned to hunt men and monsters just as much as beasts and dragons. You may now designate any type of creature as prey, instead of only animals, beasts, and dragons. You gain the Stealth bonus and Speed reduction from the Game Hunter Dedication when you hunt any prey. You gain a +1 circumstance bonus to the DC for your Speed reduction effect as well.
+</div><br>
+
+\pagebreakNum
+
+###### Level 8 
+
+#### Lie in Wait <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication</div>
+</div>
+<div class="rule">
+Timing is everything, and patience is the key to good timing. If you choose to Delay on your first turn of an encounter, you may immediately Hunt Prey as a free action, but you may only target a creature that hasn't acted yet. If you do so, you must wait until the target of your Hunt Prey has ended their turn before you can rejoin the initiative. When you do, you deal an additional 1d6 precision damage the first time you successfully Strike your prey this turn. This damage increases to 2d6 at level 16. If you are also undetected by the target of your Hunt Prey, increase this damage to 1d10, or 2d10 at level 16. If you have the rogue's Surprise Attack feature (or similar ability) and its effect would apply at the point when you Delay, you still gain its effects despite acting after the target creature.
+</div><br>
+
+###### Level 10
+
+#### Hunter's Verve <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication</div>
+</div>
+<div class="rule">
+You know it's always a risk that the hunter may become the hunted. Despite that, you have weathered many hunts and come out the victor, even when your prey got in a lucky hit. When your hunted prey critically hits you, you may attempt a DC 17 flat check. On a success, it becomes a normal hit. Alternatively you may choose to automatically reduce the critical hit to a normal hit; if you do, you cannot use this ability again until after your next daily preparations.
+</div><br>
+
+
+#### Precise Trapper <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication, Big Game Trapper</div>
+</div>
+<div class="rule">
+You set your traps so precisely that only one creature could ever reasonably trigger them. When you set a snare you may designate a target creature that you can see, that you're aware of, or that you have successfully Tracked. The snare can only be triggered by that creature. If the snare triggers and would affect that creature, the snare receives a +3 circumstance bonus to attack rolls, DCs, and any other checks the snare attempts.
+</div><br>
+
+###### Level 12
+
+#### Brandish Trophy {0A} <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">MANIPULATE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication, Trophy Collector</div>
+<div class="rule targets">a creature whose type matches a trophy you have collected</div>
+<div class="rule frequency">once per minute</div>
+</div>
+<div class="rule">
+You have grown accustomed to instilling fear in your foes with your trophies, and using them as totems to trigger memories about all the creatures you have hunted. You attempt to Demoralize or Recall Knowledge about the target. When you Demoralize this way it loses the auditory trait and gains the visual trait. You do not take a penalty for not sharing a language with the target.
+</div><br>
+
+#### Hunter's Certainty <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication</div>
+</div>
+<div class="rule">
+When you hunt a target, it's not possible for them to act more quickly than you do. Once per day when you roll initiative and you have already used Hunt Prey on a creature that is in the current encounter, you may choose to go right before your hunted prey. Adjust your initiative score to be one higher than the target.
+</div><br>
+
+###### Level 14
+
+#### Lacerating Strikes {2A} <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication</div>
+<div class="rule req">You are wielding a piercing or slashing melee weapon.</div>
+<div class="rule targets">your hunted prey</div>
+</div>
+<div class="rule">
+You relentlessly attack the same part of your prey's body, opening up an ever-widening hemorrhage so that even if your prey escapes you, it will still perish from its wounds. You Strike your target with the required weapon, and on a hit the target takes 2d6 persistent bleed damage. If the target was already suffering from persistent bleed damage from an effect other than Lacerating Strikes, you increase that damage by 2d6. 
+
+Once per round on subsequent rounds, if you hit the target with the required weapon and it is still bleeding, increase the persistent bleed damage by 1d6. If the target's persistent bleed condition ends for any reason, this effect also ends. If you hit the target with the required weapon and it is already suffering from 4d6 bleed damage from your Lacerating Strikes, its persistent bleed condition ends and it immediately takes 10d10 damage of the same type as your weapon and it is immune to your Lacerating Strikes for 24 hours.
+
+</div><br>
+
+#### Slowing Shots {2A} <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication</div>
+<div class="rule req">You are wielding a ranged weapon.</div>
+<div class="rule targets">your hunted prey</div>
+</div>
+<div class="rule">
+You mercilessly attack a part of your prey's body that is responsible for movement, reducing their mobility with each successive shot. You Strike your target with the required weapon, and on a success the target is clumsy 1 until the end of your next turn and marked for as long as they remain clumsy from this ability. 
+
+Once per round on subsequent rounds when you successfully hit your marked prey you extend the duration of their clumsy condition to the end of your next turn and increase its value by 1. This does not increase the target's clumsy condition if it came from a different source. If you hit the target while this ability is active and they are clumsy 3, they instead become stunned for 1 round. Once the target is stunned it is no longer marked by your Slowing Shots and is immune to this ability for 24 hours.
+</div><br>
+
+\pagebreakNum
+
+###### Level 16
+
+#### Preternatural Hunter <div class="label">FEAT 16</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ARCHETYPE</div>
+<div class="tag">EXPLORATION</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication, It's All Game</div>
+</div>
+<div class="rule">
+You can catch the trail of any creature, whether there is a trail or not. You may Track any creature on the same plane, no matter the distance, by declaring their name or describing them. For example you might Track "the nearest bear," or "Bendrion Pelonius," or "the creature who destroyed this village". You do not need tracks or physical phemonema to follow, you just sense their direction intuitively. As normal you may Hunt Prey on any creature you are Tracking in exploration, including those you are able to track with this feat.
+</div><br>
+
+###### Level 18
+
+#### Unshakeable Hunter <div class="label">FEAT 18</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Game Hunter Dedication</div>
+</div>
+<div class="rule">
+When you are hunting a creature, you rise to the demands of the moment, moving faster and more certainly than you ever thought possible. When you Track a creature in exploration, increase your travel Speed to match that of your target. When you are in an encounter and you have used Hunt Prey, all of your Speeds are equal to the highest Speed that either you or your hunted prey has.
+
+</div><br>
+
+\pagebreakNum
+
+
+# Herbalist
+
+<div class="wide">
+
+<p>
+<b>Originally Printed</b> Advanced Player's Guide
+</p>
+
+<p class="wide">
+For only having a handful of feats, Herbalist is a very interesting and powerful archetype. The original archetype lays out a character concept that takes a small section of alchemy and focuses in on that, with an emphasis on empowering their healing and potion-crafting with local herbs and alternate preparations like Poultice Preparation. 
+
+We have expanded on that concept to imagine what types of special brews an herbalist might come up with to heal and strengthen their allies, additional ways to gather herbs and make use of them, other ways to make special preparations of their herbal alchemy, and other ways to interact with and empower those preparations.
+
+</p>
+
+<div style="margin-top: 35px;"></div>
+
+<div class="wide flavor subtitle"></div>
+
+<div style="margin-top: 15px;"></div>
+
+</div>
+
+###### Level 4
+
+#### Battle Herbs {1A} <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">HEALING</div>
+<div class="tag">MANIPULATE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication</div>
+</div>
+<div class="rule">
+You can apply your natural medicines even in the midst of combat. Attempt a Nature check with the same DC as for Treat Wounds and restore the corresponding amount of HP; this doesn't remove the wounded condition. As with Treat Wounds, you can attempt checks against higher DCs if you have the minimum proficiency rank in Nature that would normally require Medicine. The target is then temporarily immune to Battle Herbs for 1 day. If you have Fresh Ingredients, you can spend a batch of herbs to gain a +2 circumstance bonus to this check.
+</div><br>
+
+#### Constant Gatherer <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">EXPLORATION</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication</div>
+</div>
+<div class="rule">
+<div>You are always on the lookout for useful herbs for your potions and poultices. When you use the Search exploration activity and spend at least 1 hour searching you may also attempt a Nature check with the following effects. The GM should use a level-based DC, adjusted by how rare useful ingredients might be in an area. If it would be unreasonable for you to find any useful herbs, mosses, flowers, or other natural ingredients the GM may make this unavailable in certain areas. You cannot exceed your initial daily allotment of infused reagents by gathering this way. Infused reagents gathered this way may only be used to create items specified in the Herbalist archetype.</div><br>
+
+<div class="r4">You find enough materials to gain 2 infused reagents, and you may make items from these 2 infused reagents immediately.</div>
+<div class="r3">You find enough materials to gain 1 infused reagent, and you may spend an additional 10 minutes to make items from it.</div>
+<div class="r1">You do not find anything and your search for ingredients has distracted you from your original purpose. You critically fail the Search activity that triggered this check.</div>
+</div><br>
+
+\columnbreak
+
+###### Level 6
+
+#### Evening Brew <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">EXPLORATION</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication</div>
+</div>
+<div class="rule">
+Adventuring is often stressful and it can be difficult to rest easy. You can brew an herbal tea that contains a mix of soothing and relaxing ingredients that ensure you and your allies get a good rest before making your daily preparations. Each time you and up to 5 allies rest and make your daily preparations, you each receive temporary Hit Points equal to half your level. These temporary Hit Points last until your next daily preparations. If you're master in Nature, you each receive temporary Hit Points equal to your level instead.
+</div><br>
+
+###### Level 8
+
+#### Energizing Chew {1A} <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">MANIPULATE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication</div>
+<div class="rule targets">an adjacent ally</div>
+</div>
+<div class="rule">
+You can put together of small bundle of herbs that enhance concentration and stave off the effects of weariness for an ally to chew on. You expend 1 batch of infused reagents. For 1 hour the target's fatigued condition and its effects are suppressed. After the hour has passed, if the source of the fatigue is still present, the target is affected by the condition as normal. During this hour the target also gains a +1 status bonus to Acrobatics, Athletics, and Perception checks.
+
+</div><br>
+
+#### Quick Poultice {0A} <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">FLOURISH</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication</div>
+</div>
+<div class="rule">
+You're always ready to pull out the necessary poultice at a moment's notice. You Interact to draw a poultice that you're wearing.
+</div><br>
+
+
+
+\pagebreakNum
+
+###### Level 10 
+
+#### Dietary Cleanse <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">DOWNTIME</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication</div>
+</div>
+<div class="rule">
+You restrict your diet to a very small list of specific foods to prepare your body's immune system to be in peak condition for your next adventure. When you spend at least 1 week of downtime that doesn't involve much strenuous activity, you (and up to five allies you can convince to join you) spend that week eating only this restrictive list of foods. For 1 week after you use this ability, you and any allies who participated in the cleanse gain a +2 circumstance bonus to Fortitude saves.
+</div><br>
+
+#### Long-Term Care <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication; master in Nature</div>
+</div>
+<div class="rule">
+Over time you get to know your frequent patients better and are able to personalize your ministrations to maximize their effectiveness. When you Treat Disease or Treat Poison, you may continue attempting the check after the first attempt, replacing the results of the initial check with your most recent attempt. If you succeed on a check to Treat Disease or Treat Poison, and the target rolls a critical failure on their next save against that effect, they receive a failure instead.
+</div><br>
+
+###### Level 12
+
+#### Vapor Preparation <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication</div>
+</div>
+<div class="rule">
+When you create an herbal elixir, you can prepare it as a vapor bomb instead. When you Craft an item with the elixir trait using infused reagents, you may prepare it as a vapor bomb instead. A vapor bomb loses the elixir and ingested trait and gains the inhaled trait. A vapor bomb can be activated and thrown by Interacting with one hand. The vapor bomb creates a 10-foot burst within 20 feet. Each creature within the burst receives the effect of the herbal elixir. If the elixir has a variable numerical effect, such as the amount of healing granted by an Elixir of Life, each creature in the burst receives half the normal benefit from the variable effect.
+</div><br>
+
+
+###### Level 14
+
+#### Anesthetic Tincture <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication</div>
+</div>
+<div class="rule">
+You can prepare a tincture to help someone shrug off the effects of pain. As a 10-minute activity you can expend 2 batches of infused reagents to prepare a tincture for a specific creature, taking into account the creature's size, weight, ancestry, and other factors. Attempt a Nature check with a Hard DC based on the target's level. The target creature must consume the tincture immediately as part of this activity or it spoils.
+
+
+<div class="r4 line-break-above">For 24 hours, the next time the target creature would be reduced to 0 Hit Points but not immediately killed, they instead remain at 1 Hit Point, their wounded condition increases by 1, and they gain temporary Hit Points equal to your level for 1 minute.</div>
+<div class="r3">As critical success, but the duration is 1 hour instead of 24 hours.</div>
+<div class="r2">You fail to calculate the dosage correctly, but realize your mistake before it's too late. The target is unaffected, and you do not expend your infused reagents.</div>
+<div class="r1">The target immediately falls unconscious and stays that way for 1 hour. They cannot be roused by any means. The infused reagents used to prepare this tincture are lost.</div>
+</div><br>
+
+###### Level 16
+
+#### Smelling Vapors <div class="label">FEAT 16</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication, Vapor Preparation</div>
+</div>
+<div class="rule">
+When you create healing vapor bombs, you add a pungent odor that helps break your allies out of a stupor. When you use a vapor bomb, it also reduces the stupefied condition of each creature in the area by 1. If any creature in the area has the confused or controlled condition, you may attempt a Nature check to counteract those conditions. Make a separate counteract check for each creature. If you apply Smelling Vapors to a Vapor Preparation of a Bottled Catharsis elixir, all creatures in the area instead automatically lose their stupefied condition, and you attempt to counteract the affected creatures' confused or controlled conditions using the higher of your Nature or the elixir's counteract modifier.
+</div><br>
+
+###### Level 18
+
+#### Merciful Killer <div class="label">FEAT 18</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication</div>
+</div>
+<div class="rule">
+It may not be your proudest piece of knowledge, but in your time studying herbalism you have learned ways to ease people into the next life to reduce their suffering. When you create items as part of your daily preparations, you may spend 3 infused reagents to create one dose of Tears of Death (Player Core 2). It remains viable until your next daily preparations.
+</div><br>
+
+###### Level 20
+
+#### True Panacea <div class="label">FEAT 20</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Herbalist Dedication</div>
+</div>
+<div class="rule">
+You have mastered a combination of herbs that restores someone to perfect health. Each day when you make your daily preparations you create one dose of true panacea, a potion that is effective until you make your next daily preparations. When a creature drinks your True Panacea, their Hit Points are restored to maximum. Attempt a single Nature check to counteract all negative conditions currently affecting the target. Compare the result of the check to each condition's counteract level and DC.
+
+</div><br>
+
+
+
+\pagebreakNum
+
+# Horizon Walker
+
+<div class="wide">
+
+<p>
+<b>Originally Printed</b> Advanced Player's Guide
+</p>
+
+<p class="wide">
+The Horizon Walker archetype is about becoming the absolute master over a type of wilderness of your choosing. Finding safe paths through your favored terrain and guiding your allies through that same terrain is the core concept of the archetype. 
+
+Inherently since this archetype focuses on travel through extreme terrains, there is an emphasis on non-combat feats and abilities. This puts the Horizon Walker into a fairly narrow niche: when you're traveling through the rougher parts of your favored terrain, your abilities can be quite useful, however most campaigns don't have much emphasis on these types of difficulties. 
+
+This means the Horizon Walker is a binary choice: if the campaign has a lot of environmental hazards in a specific type of terrain, then Horizon Walker is incredibly powerful, likely single-handedly bypassing many of the challenges of those parts of the campaign. If the campaign does not feature that kind of situation often or at all, then the Horizon Walker is relegated to a more flavor-based choice, and adds very little to the character's potential in terms of mechanics.
+
+To overcome these limitations, we focus on two core aspects: broadening the Horizon Walker's potential usefulness in a campaign that crosses multiple types of terrain, and making them the masters of their favored terrain, rather than just masters of traveling through it. Versatile Horizons allows the Horizon Walker to expand their favored terrain selection, which is perfect for campaigns that start primarily in one biome but then transition to another. It only makes sense that the Horizon Walker would quickly become a master of their new terrain without forgetting what they know of the old one. In terms of making Horizon Walkers masters of their terrain, we added feats that let them Recall Knowledge about creatures in their favored terrain, spot hazards, create hazards, and expand upon their magical adaptations. Previous iterations of the Horizon Walker have also seen them mastering travel of other planes in addition to the material plane, so we have recaptured some of that essence as well.
+</p>
+
+<div style="margin-top: 35px;"></div>
+
+<div class="wide flavor subtitle"></div>
+
+<div style="margin-top: 15px;"></div>
+
+</div>
+
+###### Level 4
+
+#### Natural Snares <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication, Snare Crafting</div>
+</div>
+<div class="rule">
+Your knowledge of your favored terrain allows you to assemble devastating hazards at a moment's notice with almost no materials. You carry enough knickknacks with you to construct four snares when combined with the natural materials around you. The first four snares you craft in your favored terrain each day that don't have the clockwork trait don't cost any resources to Craft, and you may deploy them with 3 Interact actions if they would normally take 1 minute to Craft. The number of snares you can Craft this way increases to six if you're a master in Crafting and eight if you're legendary.
+</div><br>
+
+#### Terrain Guidance {R} <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication</div>
+<div class="rule req">You are in your favored terrain.</div>
+<div class="rule trigger">Your ally attempts a skill check to move, a saving throw against a hazard, or is entering non-magical difficult terrain.</div>
+</div>
+<div class="rule">
+You quickly point out a hazard or a better way to navigate. For the rest of their turn, your ally gains a +2 circumstance bonus to skill checks to move within your favored terrain, such as an Acrobatics check to Balance or a Stealth check to Sneak. They gain a +2 circumstance bonus on saving throws against hazards (including the triggering hazard, and they can ignore the effects of non-magical difficult terrain. This action gains the auditory or visual trait based on how you convey the information to your ally.
+</div><br> 
+
+#### Versatile Horizons <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication; expert in Survival</div>
+</div>
+<div class="rule">
+You have traveled beyond just one domain and have mastered lands far and wide. Choose another type of terrain from your Favored Terrain feat that you have not yet chosen. You gain all of your Horizon Walker benefits in this terrain in addition to the first terrain you chose.
+
+If you have Terrain Master, you may choose which of your favored terrains to replace for the purpose of that feat.
+
+**Special** You may select this feat more than once. Each time you choose this feat you must select a terrain that you have not yet chosen.
+</div><br>
+
+###### Level 6
+
+#### Known Predators <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication</div>
+</div>
+<div class="rule">
+You have encyclopedic knowledge about the types of creatures that can be found in your favored terrain. When you are in your favored terrain and you attempt a Recall Knowledge check to identify a creature, you may roll Survival instead of the normal skill.
+</div><br>
+
+\pagebreakNum
+
+#### Live off the Land <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication; expert in Survival</div>
+</div>
+<div class="rule">
+You have hunted and gathered in your favored terrain so long that it has become second nature to you. When you Subsist in your favored terrain, increase the degree of success of your Survival check by one step. For example, if you roll a success, you receive a critical success instead. If you roll a failure, you receive a success, and so forth.
+</div><br>
+
+#### Terrain Specialist <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication</div>
+</div>
+<div class="rule">
+You have completely mastered one of your favored terrains, and have gained an edge that helps you no matter which terrain you find yourself in. Choose a terrain type that is one of your favored terrains. You gain the benefit associated to that terrain type permanently. If you also have the Sure Foot feat, increase its circumstance bonus to +3 when you are in the chosen terrain.
+
+<ul class="line-break-above">
+<li class="rule"><b>Aquatic</b> You gain a +2 status bonus to Athletics checks to Swim.</li>
+<li class="rule"><b>Arctic</b> You gain resistance to cold equal to your level.</li>
+<li class="rule"><b>Desert</b> You are immune to the fatigued condition.</li>
+<li class="rule"><b>Forest</b> You gain a +1 status bonus to Stealth checks.</li>
+<li class="rule"><b>Mountain</b> You gain a +2 status bonus to Athletics checks to Climb.</li>
+<li class="rule"><b>Underground</b> You gain low-light vision, or darkvision if you already have low-light vision. When attempting a flat check to target a hidden or concealed creature, reduce the DC by 1.</li>
+<li class="rule"><b>Plains</b> Reduce your Speed penalty from armor by 5 feet.</li>
+<li class="rule"><b>Sky</b> You gain resistance to electricity equal to your level.</li>
+<li class="rule"><b>Swamp</b> You gain resistance to poison equal to your level.</li>
+</ul>
+
+<div>
+<b>Special</b> You can take this feat more than once. Each time you take this feat, you must choose a type of terrain that you have not chosen before, and which is already a favored terrain for you. You may choose from additional options if you also have the Extraplanar Walker feat.
+</div>
+
+</div><br>
+
+
+
+###### Level 8 
+
+#### Wide Snares <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication, Natural Snares</div>
+</div>
+<div class="rule">
+Because you rely on the terrain around you to construct your snares, you can easily expand them to create larger hazards. When you Craft a snare without paying a cost as part of your Natural Snares feat, you may choose to have the snare occupy a 10-foot square instead of a 5-foot square.
+</div><br>
+
+###### Level 10
+
+#### Extraplanar Walker <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication; you must have spent at least 30 days on the plane you choose with this feat</div>
+</div>
+<div class="rule">
+Some of the greatest horizon walkers learn the mysteries of the planes, and master travel in those realms as well. When selecting terrains from your Favored Terrain feat, you may also choose from the elemental planes (Air, Earth, Fire, and Water) and the Astral Plane, Ethereal Plane, or Netherworld. You must still meet the travel prerequisite of this feat to do so. When you gain this feat, choose one of these planes; that plane becomes a favored terrain for you. You gain a benefit based on your choice from the list below, which counts as having the Terrain Specialist feat for that type of terrain. If you take the Terrain Specialist feat in the future, you may choose from these options in addition to those listed in that feat's description.
+<ul class="line-break-above">
+<li class="rule"><b>Astral Plane</b> You can cast <i>translocate</i> once per day as an innate primal spell.</li>
+<li class="rule"><b>Ethereal Plane</b> Once per day as a reaction when you are hit by an attack, you may shift into the ethereal plane momentarily; the attack misses you instead, or becomes a regular hit if it would have been a critical hit. If you are in the ethereal plane already, you shift to the material plane instead.</li>
+<li class="rule"><b>Plane of Air</b> You can cast <i>fly</i> once per day as an innate primal spell.</li>
+<li class="rule"><b>Plane of Earth</b> You gain imprecise tremorsense with a range of 30-feet.</li>
+<li class="rule"><b>Plane of Fire</b> You gain fire resistance equal to your level.</li>
+<li class="rule"><b>Plane of Water</b> You gain the ability to breathe underwater.</li>
+<li class="rule"><b>Netherworld</b> You can cast <i>invisibility</i> as a 4th-rank innate primal spell once per day.</li>
+</ul>
+
+<div class="rule"><b>Special</b> Because this feat requires the character to have spent 30 days on the plane that they will choose for this ability, it may be inconvenient to work into certain campaigns. At the discretion of the GM, the horizon walker may take 30 days of downtime and spend 1,000 gp to pay for the necessary castings of <i>interplanar teleport</i> and other accomodations required to visit the chosen plane. After this downtime is complete, they qualify to take this feat.</div>
+
+</div><br>
+
+#### Urban Walker <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication</div>
+</div>
+<div class="rule">
+Although horizon walkers always begin their journey in the wilderness, an uncommon few of them adapt their skills to urban environments. You gain urban areas as a favored terrain, which includes cities, towns, and villages. Regardless of where you are, you may cast 4th-rank <i>illusory disguise</i> once per day as an innate primal spell. This counts as having the Terrain Specialist feat for the urban favored terrain.
+If you have the ranger Wild Stride feature, you may roll Survival instead of Diplomacy when attempting to Gather Information or Make an Impression while in an urban area. 
+
+</div>
+
+<div style="margin-top: 23px;"></div>
+
+###### Level 12
+
+#### Planar Walker <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication; you must have spent at least 30 days on the plane you choose with this feat</div>
+</div>
+
+\pagebreakNum
+
+<div class="rule">
+You have traveled to one of the outer planes of existence; you have adapted to travel in that realm and learned to fight its denizens. Choose one of the outer planes listed below. You treat that plane as favored terrain. Your Strikes deal an extra 1d6 damage of the type associated with the chosen plane. You may choose other outer planes at your GM's discretion, who should assign a damage type that is thematically appropriate.
+
+<ul class="line-break-above">
+<li class="rule"><b>Abaddon</b> void damage</li>
+<li class="rule"><b>Abyss</b> poison damage</li>
+<li class="rule"><b>Axis</b> force damage</li>
+<li class="rule"><b>Elysium</b> sonic damage</li>
+<li class="rule"><b>Heaven</b> spirit damage</li>
+<li class="rule"><b>Hell</b> fire damage</li>
+<li class="rule"><b>Nirvana</b> vitality damage</li>
+<li class="rule"><b>The Maelstrom</b> mental damage</li>
+
+</ul>
+
+<div class="rule"><b>Special</b> You may choose this feat more than once. Each time you do, you must select a different outer plane. If you gain the ability to deal different types of damage from this feat, you choose which type of extra damage you will deal each time you make a Strike. Because this feat requires the character to have spent 30 days on the plane that they will choose for this ability, it may be inconvenient to work into certain campaigns. At the discretion of the GM, the horizon walker may take 30 days of downtime and spend 1,000 gp to pay for the necessary castings of <i>interplanar teleport</i> and other accomodations required to visit the chosen plane. After this downtime is complete, they qualify to take this feat.</div>
+
+</div><br>
+
+#### Brutal Snares <div class="label">FEAT 12</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication, Natural Snares</div>
+</div>
+<div class="rule">
+In your experience the wilderness is rarely merciful, and you have taken lessons from nature's own designs to empower your snares. When you Craft a snare without paying a cost as part of your Natural Snares feat, you may choose an additional effect that applies if the snare successfully hits a creature or if the creature fails its saving throw against the snare's effect. Choose from 2d6 persistent bleed damage, 4d6 slashing damage, or immobilized for 1 round.
+</div><br>
+
+###### Level 14
+
+#### Greater Magical Adaptation <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication, Magical Adaptation</div>
+</div>
+<div class="rule">
+You have expanded your magical tricks to use the terrain around you to your advantage. You can cast <i>flammable fumes</i>, <i>safe passage</i>, and <i>solid fog</i> as innate primal spells, each once per day.
+
+</div><br>
+
+#### Terrain Dominance <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication, Terrain Specialist</div>
+</div>
+<div class="rule">
+You are peerless in your favored terrain. Choose a terrain type for which you have the Terrain Specialist feat. You gain the benefit associated to that terrain type permanently.
+
+<ul class="line-break-above">
+<li class="rule"><b>Aquatic</b> You ignore difficult terrain while swimming, including when moving up or down.</li>
+<li class="rule"><b>Arctic</b> When you gain the slowed condition, reduce its value by 1.</li>
+<li class="rule"><b>Astral Plane</b> You may cast <i>translocate</i> twice per day instead of once per day, and as a 5th-rank spell, instead of 4th-rank.</li>
+<li class="rule"><b>Desert</b> You are immune to the dazzled condition.</li>
+<li class="rule"><b>Ethereal Plane</b> You can cast <i>ethereal jaunt</i> once per day as an innate primal spell.</li>
+<li class="rule"><b>Forest</b> You can attempt to Hide or Sneak anywhere, without needing cover or concealment. When you attempt a check to Hide or Sneak this way, you have a -2 circumstance penalty to your Stealth check.</li>
+<li class="rule"><b>Mountain</b> You may gain or Dismiss the benefits of <i>gecko grip</i> at will as a free action. Your climb Speed while under this effect is equal to double your Speed.</li>
+<li class="rule"><b>Plane of Air</b> You learn Sussuran and you may cast <i>fly</i> at will instead of once per day.</li>
+<li class="rule"><b>Plane of Earth</b> You learn Petran and gain a burrow Speed equal to your Speed.</li>
+<li class="rule"><b>Plane of Fire</b> You learn Pyric and can cast <i>fireball</i> once per day heightened to half your level as an innate primal spell.</li>
+<li class="rule"><b>Plane of Water</b> You learn Thalassic and can speak telepathically to creatures with the amphibious, aquatic, or water trait as long as they are within 500 feet. You can communicate this way even with creatures that don't speak any languages.</li>
+<li class="rule"><b>Underground</b> You gain greater darkvision. Reduce the DC for flat checks to target concealed or hidden creatures by 2 instead of 1.</li>
+<li class="rule"><b>Plains</b> You ignore all Speed penalties from armor, encumbrance, and non-magical effects.</li>
+<li class="rule"><b>Netherworld</b> You can cast <i>umbral journey</i> once per day as an innate primal spell. For you the cast time is 2 actions instead of 1 minute.</li>
+<li class="rule"><b>Sky</b> You ignore difficult terrain while Flying, including when moving upward.</li>
+<li class="rule"><b>Swamp</b> When you attempt a save against a poison effect, improve the result of the save by one step.</li>
+<li class="rule"><b>Urban</b> You can roll Survival instead of Diplomacy for any check that would normally use Diplomacy.</li>
+</ul>
+
+<div>
+<b>Special</b> You can take this feat more than once. Each time you take this feat, you must choose a type of terrain that you have not chosen before, and for which you already have the Terrain Specialist feat.
+</div>
+
+</div><br>
+
+###### Level 18
+
+#### Major Magical Adaptation <div class="label">FEAT 18</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Horizon Walker Dedication, Greater Magical Adaptation</div>
+</div>
+<div class="rule">
+You have learned to tap into the true power of the land. You can cast <i>nature's reprisal</i> as a 9th-rank spell once per day.
+
+</div><br>
+
+\pagebreakNum
+
+# Scout
+
+<div class="wide">
+
+<p>
+<b>Originally Printed</b> Advanced Player's Guide
+</p>
+
+<p class="wide">
+The Scout archetype revolves around three core elements: seeing, moving, and not being seen. Usually ranging ahead of and behind their allies, the scout attempts to keep their party from being surprised, and if possible manufactures ways to surprise any enemies they are able to scout out ahead of time.
+
+The core scout feats revolve around these concepts, gaining feats that allow them to move around, hide, sneak, and attack. We lean into the scout's ability to ambush enemies, move around the field of combat, and also add interesting feats that embrace ranged combat styles since the core archetype includes mostly support for melee combat styles.
+</p>
+
+<div style="margin-top: 35px;"></div>
+
+<div class="wide flavor subtitle"></div>
+
+<div style="margin-top: 15px;"></div>
+
+</div>
+
+###### Level 4
+
+#### Demoralizing Volley {2A} <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication</div>
+<div class="rule req">You are wielding a ranged weapon that is reload 1 or less, and you have not attempted any Strikes yet this encounter.</div>
+</div>
+<div class="rule">
+You launch a quick barrage of arrows at the start of the fight that breaks your opponent's courage. Attempt to Demoralize an enemy within your weapon's first range increment, then make two Strikes against that target with the required weapon. This Demoralize loses the auditory trait and you don't take a penalty if you don't share a language with the target. If both Strikes hit, increase the target's frightened condition by 1 (to frightened 1 if it does not have the frightened condition). If your weapon requires an action to reload, this ability is a 3-action activity.
+</div><br>
+
+#### Hidden Scout <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">Exploration</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication; trained in Stealth</div>
+</div>
+<div class="rule">
+The best scouts see the enemy without being seen. Whenever you use the Scout activity, you may also Avoid Notice at the same time without further reductions to your Speed. You gain the Foil Senses skill feat even if you do not meet the prerequisites.
+</div><br>
+
+#### Spotted! <div class="label">FEAT 4</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication; expert in Stealth</div>
+</div>
+<div class="rule">
+No matter how careful you are, if you are scouting ahead long enough you will eventually get caught. When that happens, the best thing you can do is move faster than whoever spotted you. When you roll initiative because you failed a Stealth check, or because an enemy succeeded on a Perception check against your Stealth DC, you gain a +2 status bonus to your initiative roll. If you tie with an enemy's initiative roll, you act before they do.
+</div><br>
+
+
+\columnbreak
+
+###### Level 6
+
+#### Beleaguering Attack {1A} <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">FLOURISH</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication</div>
+<div class="rule req">You are hidden from or undetected by your target.</div>
+</div>
+<div class="rule">
+You make a single attack from hiding and immediately hide again, staying on the move to keep the enemy in constant confusion about your position. You Strike and then Sneak. If you succeed on your Sneak check and you were undetected before using Beleaguering Attack, you remain undetected.
+</div><br>
+
+#### Detailed Report <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">Exploration</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication</div>
+</div>
+<div class="rule">
+When you spot an enemy, you make note of details that you can report back to your allies; even if you don't know about the target, they may. When you see a creature you may retain specific information about their appearance for 10 minutes. During that time, you may relay this information to your allies. After hearing about the creature, your allies can attempt to Recall Knowledge about the creature as though they were seeing it themselves. If you are an expert in Perception, they gain a +1 circumstance bonus to this check. If you are master the bonus is +2, and if you are legendary it is +3. If you choose to retain specific information about another creature during this time, you forget important details about the first and cannot accurately explain it until you've seen it again.
+</div><br>
+
+
+#### Scout Language <div class="label">FEAT 6</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">SKILL</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication; expert in Survival</div>
+</div>
+<div class="rule">
+You have developed a series of signs and signals with your allies that allow you to clandestinely communicate with them in a variety of situations. You can communicate through hand gestures, sounds of creatures native to an area, or even more contrived scenarios. Attempt a Survival check against a level-based DC, adjusted for how contrived the communication is. On a success, your allies understand your message clearly. Compare the result of your Survival check to the Perception DCs of any enemies that would be</div>
+
+\pagebreakNum
+
+<div class="rule"> able to see or hear your communication. If the result of your Survival check meets or exceeds their Perception DC, they are oblivious to your communication.
+
+</div><br>
+
+
+###### Level 8
+
+#### Marking Shot {1A} <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+<div class="tag">FIGHTER</div>
+<div class="tag">FLOURISH</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication</div>
+<div class="rule req">You are wielding a ranged weapon.</div>
+</div>
+<div class="rule">
+After scouting an enemy position, you know who needs to be dealt with first; you fire a shot to mark the target that your allies should focus their attention on. Make a Strike with the required weapon. If the Strike hits, the next creature other than you to attack the same target gains a +1 circumstance bonus to their roll, or a +2 circumstance bonus if your Strike was a critical hit.
+
+</div><br>
+
+#### Scout's Ambush <div class="label">FEAT 8</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication; master in Stealth</div>
+</div>
+<div class="rule">
+When you are able to scout out the enemy position, you can prepare yourself for the combat ahead. When you have used the Scout exploration activity, and would gain the circumstance bonus to your initiative roll you may always choose to roll Stealth for your initiative instead of Perception. When you do so, if your initiative result is higher than that of all enemy combatants you may immediately use a single action.
+</div><br>
+
+###### Level 10
+
+#### Exhaustive Report <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication, Detailed Report</div>
+</div>
+<div class="rule">
+With practice you are no longer limited to describing a single creature in great detail. Now you can retain specific information about any number of creatures you have seen, and you may relay those details to someone at any time before your next daily preparations. When someone succeeds at a Recall Knowledge check using your information from Exhaustive Report, they gain additional information or context.
+</div><br>
+
+#### Quick Scout <div class="label">FEAT 10</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication</div>
+</div>
+<div class="rule">
+You are so adept at scouting that you no longer need to slow down to do it. When you use the Scout activity you may move at full Speed instead of half Speed. 
+</div><br>
+
+###### Level 14
+
+#### Harrying Charge <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication, Scout's Charge</div>
+</div>
+<div class="rule">
+You dash in, strike your enemy, and then create distance. When you use Scout's Charge, you may also take a Step after you Strike.
+</div>
+
+#### Shattering Volley <div class="label">FEAT 14</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication, Demoralizing Volley</div>
+</div>
+<div class="rule">
+Your demoralizing volley has the potential to shatter the enemy's morale. When you use Demoralizing Volley and hit with both Strikes, increase the target's frightened condition by 2 instead of by 1 (to frightened 2 if it does not have the frightened condition). It must also attempt a Will save against the higher of your class DC or spell DC. On a failure, it is fleeing for 1 round.
+
+</div><br>
+
+###### Level 16
+
+#### Legendary Scout's Ambush <div class="label">FEAT 16</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication, Scout's Ambush; legendary in Stealth</div>
+</div>
+<div class="rule">
+You are able to craft and explain elaborate ambush plans at a moment's notice. When you use your Scout's Ambush ability and your initiative result is higher than that of all enemy combatants, you may immediately use 2 actions instead of a single action. Additionally you may designate one of your allies within 30 feet. That ally may use a single action immediately as well. You and your ally may choose to take these actions in whichever order you prefer. 
+</div><br>
+
+
+
+###### Level 18
+
+#### Scout's Senses <div class="label">FEAT 18</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication</div>
+</div>
+<div class="rule">
+Your diligent practice has honed your senses beyond what you would normally be capable of. You gain a +2 circumstance bonus to Perception checks while you are using the Scout exploration activity. When you succeed on a Perception check while Scouting, you receive a critical success instead.
+</div><br>
+
+###### Level 20
+
+#### Must Have Been the Wind <div class="label">FEAT 20</div>
+<div class="taglist">
+<div class="tag">ARCHETYPE</div>
+</div>
+<div class="reqbox">
+<div class="rule prereq">Scout Dedication</div>
+</div>
+<div class="rule">
+You have mastered a magical trick of vanishing completely when you need it the most. You can cast <i>disappearance</i> once per day as an innate occult spell. 
+
+You may use this casting of <i>disappearance</i> as a reaction instead of its normal cast time with any the following triggers: you fail your Sneak check as part of Beleaguering Attack; you roll initiative and would gain the status bonus from Spotted!; or you hit both of the Strikes of a Demoralizing Volley. You may only use this reaction once per day, even if you gain additional castings of <i>disappearance</i> from other sources.
+</div><br>
+
+
+\pagebreakNum
+
+# Gear
+
+<div class="wide">
+
+## Weapons
+
+<p>
+<b>Net gun</b> The net gun is powered by black powder charges to launch a folded net with weighted ends at an enemy to entangle them. The net is attached to two lead ropes that anchor back to the firearm. Once a net is fired, you can quickly grab these lead ropes with one hand and use them to keep the target grappled.  Packing and loading the net is a difficult and time-consuming task, so net guns are often only fired once in a given engagement, though it is said that some people have mastered the art of reloading them quickly. Ammunition for a net gun is a pre-packed net charge that costs 1gp each. However, you may recover any spent charges as a 10 minute activity to repair and repack the nets.
+</p>
+
+<p>
+<b>Lasso</b> The lasso is a treated rope tied in a specific way to allow it to be thrown over some part of a creature and pulled tight.
+</p>
+
+<p>
+<b>Barbed lasso</b> The barbed lasso is a variation on the lasso in which metal barbs are woven into the end of the rope to make it a particularly brutal way of capturing someone.
+</p>
+
+
+
+##### Table 1-1: Weapons
+
+| Name  | Type | Category | Traits | Price | Damage | Hands | Range | Reload | Bulk | Group |
+|:-----:|:----:|:--------:|:------:|:------:|:-----:|:------:|:-----:|:-----:|:------:|:----:|:-----:|
+| Lasso | Ranged | Martial | nonlethal, ranged grapple, tethered, thrown | 1gp | 1d4 B | 1+ | 20 ft. | 0 | L | Brawling
+| Barbed Lasso | Ranged | Martial | ranged grapple, tethered, thrown | 3gp | 1d4 P | 1+ | 20 ft. | 0 | L | Knife
+| Net gun | Ranged | Advanced | nonlethal, ranged grapple, rare | 15gp | 1d10 B | 2 | 30 ft. | 2 | 1 | Firearm
+
+<br>
+
+## Weapon Traits
+
+<p>
+<b>Ranged grapple</b> A weapon with the ranged grapple trait always has a lead: some kind of rope, chain, or wire. This lead is used to initiate a grapple and maintain it. You may attempt an Athletics check to Grapple a target that is within the first range increment of the weapon, and you may attempt to maintain that Grapple on subsequent turns as long as you still have the lead in one hand. If a creature that is grabbed or restrained this way is ever beyond the first range increment of the weapon, the grabbed or restrained condition ends. If an effect would cause a grabbed or restrained creature to be forcefully moved outside of this range, you may attempt an Athletics check against the initiating creature's Fortitude DC or spell DC as appropriate to prevent the forced movement. You do not need a free hand to Grapple when using a weapon with this trait, but you do have to continue to hold the lead. If a weapon with this trait is two-handed, changing grip so that you are carrying the weapon in one hand and holding the lead is a free action. Similarly dropping the lead and resuming two-handed use of the weapon is a free action. If you Release the lead, the Grapple ends and the target is no longer grabbed or restrained by you. Unless otherwise specified, you cannot attack with this weapon while you have a target grappled with it. 
+</p>
+
+## Ammunition
+
+<p>
+<b>Bag rounds</b> These small bags filled with soft pellets can be shot from a firearm instead of normal rounds. These rounds can only deal bludgeoning damage, even if fired from a concussive weapon, and you do not take a penalty when attempting a non-lethal attack when using these rounds. You can attempt to make a lethal attack with these rounds with a -2 circumstance penalty. Purchased in sets of 10.
+</p>
+
+<p>
+<b>Blunted arrows/bolts</b> Instead of an arrow or bolt for puncturing or making large wounds, these shafts end in a blunt tip. When fired from a weapon in the bow group the weapon deals bludgeoning damage, and you do not take a penalty when attempting a non-lethal attack when using this ammunition. You can attempt to make a lethal attack with this ammunition with a -2 circumstance penalty. Purchased in sets of 10.
+</p>
+
+##### Table 1-2: Ammunition
+
+| Name | Rarity | Level | Price |
+|:-:|:-:|:-:|:-:
+| Bag rounds x10 | Uncommon | 2 | 1gp |
+| Blunted arrows x10 | Uncommon | 2 | 1gp |
+| Blunted bolts x10 | Uncommon | 2 | 1gp |
+</div>
+
+<div class="feat-margin"></div>
+
+
+\pagebreakNum
+
+## Poisons
+
+#### Slow Takedown <div class="label">ITEM 2</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ALCHEMICAL</div>
+<div class="tag">CONSUMABLE</div>
+<div class="tag">INJURY</div>
+<div class="tag">SLEEP</div>
+</div>
+<div class="reqbox"><div>
+<span class="rule price">5 gp</span>
+</div><div>
+<span class="rule usage">held in 2 hands</span>
+<span class="rule bulk">L</span>
+</div><div>
+<span class="rule activate">{2A} interact</span>
+</div></div>
+<div class="box"><div>
+</div><div>
+<span class="rule">This synthetic toxin mixture causes the target to slowly become drowsier until it cannot move and falls unconscious.</span>
+</div><div class="tab">
+<span class="rule savingthrow">DC 18 Fortitude;</span>
+<span class="rule maxduration">5 minutes;</span>
+<span class="rule stage1">1d6 non-lethal poison damage (1 round);</span>
+<span class="rule stage2">1d8 non-lethal poison damage (1 round);</span>
+<span class="rule stage3">1d10 non-lethal poison damage (1 round);</span>
+<span class="rule stage4">2d8 non-lethal poison damage and immobilized (1 round)</span>
+</div></div><br>
+
+\columnbreak
+
+<div style="margin-top: 39px"></div>
+
+#### Quick Nap <div class="label">ITEM 7</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ALCHEMICAL</div>
+<div class="tag">CONSUMABLE</div>
+<div class="tag">DRUG</div>
+</div>
+<div style="margin-top: -2px; margin-bottom: 5px;">
+<div class="tag">INCAPACITATION</div>
+<div class="tag">INJURY</div>
+<div class="tag">SLEEP</div>
+</div><br>
+<div class="reqbox"><div>
+<span class="rule price">80 gp</span>
+</div><div>
+<span class="rule usage">held in 2 hands</span>
+<span class="rule bulk">L</span>
+</div><div>
+<span class="rule activate">{2A} interact</span>
+</div></div>
+<div class="box"><div>
+</div><div>
+<span class="rule">This synthetic toxin mixture is injected into the bloodstream and almost immediately knocks the victim unconscious.</span>
+</div><div class="tab">
+<span class="rule savingthrow">DC 24 Fortitude</span>
+<span class="rule maxduration">10 minutes</span>
+<span class="rule stage1">stunned 1 (1 round);</span>
+<span class="rule stage2">stunned (1 round);</span>
+<span class="rule stage3">unconscious and can't attempt Perception checks to wake up (1 minute)</span>
+</div></div>
+
+
+<div style="margin-top: 100px;"></div>
+
+<div class="wide flavor subtitle"></div>
+
+<div style="margin-top: 15px;"></div>
+
+# Spells
+
+#### Arboreal Arms <div class="label">FOCUS 4</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">MANIPULATE</div>
+<div class="tag">MORPH</div>
+<div class="tag">PLANT</div>
+</div>
+<div class="reqbox"><div>
+<span class="rule cast">&nbsp;{1A}</span>
+</div><div>
+<span class="rule targets">self</span>
+</div><div>
+<span class="rule duration">1 minute</span>
+</div></div>
+<div class="box">
+<div class="rule">You crumble a small piece of bark in your hand and transform one or both of your arms into massive branches or trunks. One or both of your hands takes the shape of a thick trunk that can be used to make unarmed attacks. This attack deals 1d8 bludgeoning damage, has the grapple and sweep traits, and is in the club group. Small roots extend from the end of the trunk and allow you to Interact with objects, but you cannot wield a weapon in this hand. Instead of the normal critical specialization effect, if you roll a critical success on an attack with <i>arboreal arms</i> the small roots at the end of the trunk extend out and wrap around some part of your foe's body; you may make a Grapple attempt as a free action. This Grapple attempt doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Grapple check. This unarmed attack is a valid target for <i>shillelagh</i>.</div>
+</div>
+<div class="rule heightened6">The duration increases to 10 minutes and you can Dismiss the spell to end its duration early.</div>
+
+<div class="feat-margin"></div>
+
+#### Arboreal Bole <div class="label">FOCUS 8</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">MANIPULATE</div>
+<div class="tag">MORPH</div>
+<div class="tag">PLANT</div>
+</div>
+<div class="reqbox"><div>
+<span class="rule cast">&nbsp;{1A}</span>
+</div><div>
+<span class="rule targets">self</span>
+</div><div>
+<span class="rule duration">10 minutes</span>
+</div></div>
+<div class="rule">You crumble a small piece of bark over your chest and it morphs into a thick bole. Your chest is covered in layers of thick heartwood and bark. You gain a number of temporary Hit Points equal to twice your level. You gain the effects of a 6th-rank <i>vital beacon</i> that lasts for the duration of this spell.</div>
+
+<div class="feat-margin"></div>
+
+#### Arboreal Legs <div class="label">FOCUS 7</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">MANIPULATE</div>
+<div class="tag">MORPH</div>
+<div class="tag">PLANT</div>
+</div>
+<div class="reqbox"><div>
+<span class="rule cast">&nbsp;{1A}</span>
+</div><div>
+<span class="rule targets">self</span>
+</div><div>
+<span class="rule duration">10 minutes</span>
+</div></div>
+<div class="rule">You crumble a small piece of bark onto your legs and they become covered in bark and take on the power of supple trees. For the duration you are immune to forced movement, unless you are willing to be moved. 
+
+When you take the Leap action you may jump up to your Speed or 30 feet, whichever is higher, in any direction. You must land on a space of solid ground or else you fall after using your next action. 
+
+If your next action after Leaping is a Strike you impart the energy of your leap into your attack; the Strike gains a circumstance bonus to damage equal to 2 per damage die of your weapon or unarmed attack. 
+
+You can exert a great deal of control over this transformation. You may choose to create truly massive arboreal legs, increasing your size to Large. If you do so, this spell gains the polymorph trait, and your reach increases by 5 feet (or by 10 feet if you started out tiny). If you are also activating <i>arboreal arms</i> or <i>arboreal bole</i> when casting this spell, you may choose</div>
+
+\pagebreakNum
+
+<div class="rule"> to instead become Huge, or Gargantuan if you are activating all three. If you become Huge, your reach increases by 10 feet, or 15 feet if you become Gargantuan (15 and 20 feet respectively if you started out tiny). 
+
+You can Dismiss this effect.</div>
+
+
+<div class="feat-margin"></div>
+
+#### Splinter Bolt <div class="label">SPELL 3</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">ATTACK</div>
+<div class="tag">CONCENTRATE</div>
+<div class="tag">MANIPULATE</div>
+<div class="tag">PLANT</div>
+</div>
+<div class="reqbox">
+<div>
+<span class="rule traditions">primal</span>
+</div><div>
+<span class="rule cast">&nbsp;{2A}</span>
+</div><div>
+<span class="rule range">60 feet</span>
+</div><div>
+<span class="rule targets">one creature</span>
+</div></div>
+<div class="box">
+<div class="rule">You conjure the vengeance of shattered trees in the form of a splintered shaft of wood that you launch toward your foe. Make a spell attack roll. On a hit, you deal 6d6 piercing damage and 1d6 persistent bleed damage.</div>
+</div>
+<div class="rule heightenedp1">Increase the piercing damage by 2d6, and the persistent bleed by 1d6.</div>
+
+<div class="feat-margin"></div>
+
+#### Vine Shield <div class="label">SPELL 4</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">CONCENTRATE</div>
+<div class="tag">PLANT</div>
+</div>
+<div class="reqbox">
+<div>
+<span class="rule traditions">primal</span>
+</div><div>
+<span class="rule cast">&nbsp;{1A}</span>
+</div><div>
+<span class="rule range">60 feet</span>
+</div><div>
+<span class="rule targets">one creature on the ground</span>
+</div><div>
+<span class="rule duration">1 round</span>
+</div></div>
+<div class="box">
+<div class="rule">You cause a web of hardened vines to grow up out of the ground around a creature, protecting them from attacks. Each square adjacent to the target becomes difficult terrain for the duration of the spell, and the target gains resistance 10 to slashing and bludgeoning damage as long as they stay in the same square. After the spell has blocked 30 damage, it ends immediately.</div>
+</div>
+<div class="rule heightenedp1">Increase the resistance granted by 2, and the total amount blocked by 10.</div>
+
+<div class="feat-margin"></div>
+
+#### Forest Avenger <div class="label">SPELL 8</div>
+<div class="taglist">
+<div class="tag uncommon">UNCOMMON</div>
+<div class="tag">CONCENTRATE</div>
+<div class="tag">MANIPULATE</div>
+<div class="tag">PLANT</div>
+<div class="tag">POLYMORPH</div>
+</div>
+<div class="reqbox"><div>
+<span class="rule traditions">primal</span>
+</div><div>
+<span class="rule cast">&nbsp;{2A}</span>
+</div><div>
+<span class="rule targets">self</span>
+</div><div>
+<span class="rule duration">1 minute</span>
+</div></div>
+<div class="rule">You take the form of a powerful arboreal, a living, walking tree, assuming a Huge battle form. Your arms become branches and your fingers become twigs with leaves. Your legs are like the trunks of a tree. While in this form you gain the plant trait. You can speak while in this form. You can Dismiss this spell.
+
+<div class="line-break-above">You gain the following statistics and abilities:</div>
+
+<ul>
+<li class="rule">AC = 21 + your level. Ignore your armor's check penalty and Speed reduction.</li>
+<li class="rule">15 temporary Hit Points.</li>
+<li class="rule">Speed 40 feet.</li>
+<li class="rule">Resistance 10 to physical.</li>
+<li class="rule">Darkvision and tremorsense 60 feet.</li>
+<li class="rule">Athletics modifier of +30, unless your own modifier is higher.</li>
+</ul>
+
+<div class="rule">You gain the following melee attacks, which are the only attacks you can use. You are trained with them. Your attack modifier is +28, and you use the listed damage. These attacks are Strength based (for the purpose of the enfeebled condition, for example). If your unarmed attack modifier is higher, you can use it instead.</div>
+
+<div class="line-break-above"></div>
+
+<div><b>Melee</b> {1A} branch (reach 20 feet), <b>Damage</b> 3d12 + 15 bludgeoning</div>
+
+<div><b>Melee</b> {1A} trunk (agile, reach 15 feet), <b>Damage</b> 3d8 + 15 bludgeoning</div>
+
+</div>
+
+<div class="feat-margin"></div>
+
+\pagebreakNum
+
+<div style="font-size:95%;">
+
+### OPEN GAME LICENSE Version 1.0a
+
+The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc
+("Wizards"). All Rights Reserved.
+
+1. Definitions: (a)"Contributors" means the copyright and/or trademark owners who have contributed Open Game
+Content; (b)"Derivative Material" means copyrighted material including derivative works and translations (including
+into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement,
+compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c)
+"Distribute" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise
+distribute; (d)"Open Game Content" means the game mechanic and includes the methods, procedures, processes and
+routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art
+and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by
+this License, including translations and derivative works under copyright law, but specifically excludes Product
+Identity. (e) "Product Identity" means product and product line names, logos and identifying marks including trade
+dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents,
+language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic,
+photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments,
+personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures,
+equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark
+or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which
+specifically excludes the Open Game Content; (f) "Trademark" means the logos, names, mark, sign, motto, designs that
+are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game
+License by the Contributor (g) "Use", "Used" or "Using" means to use, Distribute, copy, edit, format, modify,
+translate and otherwise create Derivative Material of Open Game Content. (h) "You" or "Your" means the licensee in
+terms of this agreement.
+
+2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game
+Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content
+that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No
+other terms or conditions may be applied to any Open Game Content distributed using this License.
+
+3. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.
+
+4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a
+perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game
+Content.
+
+\columnbreak
+
+5. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You
+represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights
+conveyed by this License.
+
+6. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact
+text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add
+the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game
+Content you Distribute.
+
+7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to
+compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that
+Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered
+Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another,
+independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in
+Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any
+Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product
+Identity.
+
+8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you
+are distributing are Open Game Content.
+
+9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use
+any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed
+under any version of this License.
+
+10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You
+Distribute.
+
+11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any
+Contributor unless You have written permission from the Contributor to do so.
+
+12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to
+some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use
+any Open Game Material so affected.
+
+13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to
+cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of
+this License.
+
+14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only
+to the extent necessary to make it enforceable.
+
+15. COPYRIGHT NOTICE
+Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+
+</div>
+
+
+
+<style>
+/* Created by Apostol Apostolov. V.1.041 7th of March 2020.  */
+/* For support, join Grit and Glory Discord at https://discord.gg/ZDtCmhm */
+/* Please do not remove this message. It allows people who copy the template from your work get dev support. */
+/* It also helps others find newer version of the template by comparing the version number with their own    */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Eczar:800|Roboto+Condensed|Tauri|Teko:500|Changa+One|Gelasio|DM+Serif+Text:400i&display=swap');
+/* Loads fonts from Google Web Fonts. Add additional @import if you license web fonts from elsewhere (such as from Monotype) */
+
+/* Proper Printing */
+@media print {
+.phb {
+height: 279.4mm;
+width: 215.9mm;
+}
+}
+
+ .ability-box {
+margin-top: 0.5em;
+padding-left: 1.5em;
+text-indent:-1.5em; 
+hyphens: manual; 
+overflow-wrap: 
+break-word; 
+overflow: hidden; 
+} 
+
+.ability-box-name {
+    font-weight: bold;
+}
+
+.tabified { margin-left: 30px;}
+/* Background */
+/* Sets two backgrounds. First image is the image margin column on each page, the second is the Pathfinder signature parchment. You can change the image margin depending on the content of your book but I suggest that you use the Imgur image I am using and just change the picture in the upper frame. I had to redesign the whole image margin and just using one from a Paizo PDF will not fit the whole length. On odd pages the parchment is horizontall flipped to emphasize odd and even pages. */
+
+
+.feat-margin-large {
+margin-top: 40px;
+}
+
+.feat-margin {
+margin-top: 25px;
+}
+
+.feat-margin-small {
+margin-top: 20px;
+}
+
+.feat-margin-tiny {
+margin-top: 15px;
+}
+
+/* Cover */
+.cover-title {
+font-family: 'Eczar', sans-serif !important;
+color: #4E0707;
+border-color: #EFCD98;
+border: 10px;
+text-shadow: 1px 1px 0 #EFCD98, -1px 1px 0 #EFCD98, 1px -1px 0 #EFCD98, -1px -1px 0 #EFCD98, 0px 1px 0 #EFCD98, 0px -1px 0 #EFCD98, -1px 0px 0 #EFCD98, 1px 0px 0 #EFCD98, 2px 2px 0 #EFCD98, -2px 2px 0 #EFCD98, 2px -2px 0 #EFCD98, -2px -2px 0 #EFCD98, 0px 2px 0 #EFCD98, 0px -2px 0 #EFCD98, -2px 0px 0 #EFCD98, 2px 0px 0 #EFCD98, 1px 2px 0 #EFCD98, -1px 2px 0 #EFCD98, 1px -2px 0 #EFCD98, -1px -2px 0 #EFCD98, 2px 1px 0 #EFCD98, -2px 1px 0 #EFCD98, 2px -1px 0 #EFCD98, -2px -1px 0 #EFCD98;
+font-size: 3em;
+width: 820px;
+}
+
+
+
+/* Fix for image-less covers */
+
+/* Page Numbers */
+.phb:after {
+background-image: url('https://www.gmbinder.com/images/O3hOuX8.png?1') !important;
+background-size: 100px;
+background-repeat: no-repeat;
+z-index: -1;
+margin-bottom: 5px;
+margin-left: -25px;
+}
+
+/* Styles the box used by page number */
+.phb:nth-child(odd):after {
+transform: rotate(180deg);
+margin-bottom: 21px;
+margin-left: 25px;
+}
+
+.pageNumber.auto {
+font-family: 'Tauri', sans-serif;
+color: #552444;
+font-size: 2em;
+border-color: #EFCD98;
+border: 10px;
+text-shadow: 1px 1px 0 #EFCD98, -1px 1px 0 #EFCD98, 1px -1px 0 #EFCD98, -1px -1px 0 #EFCD98, 0px 1px 0 #EFCD98, 0px -1px 0 #EFCD98, -1px 0px 0 #EFCD98, 1px 0px 0 #EFCD98, 2px 2px 0 #EFCD98, -2px 2px 0 #EFCD98, 2px -2px 0 #EFCD98, -2px -2px 0 #EFCD98, 0px 2px 0 #EFCD98, 0px -2px 0 #EFCD98, -2px 0px 0 #EFCD98, 2px 0px 0 #EFCD98, 1px 2px 0 #EFCD98, -1px 2px 0 #EFCD98, 1px -2px 0 #EFCD98, -1px -2px 0 #EFCD98, 2px 1px 0 #EFCD98, -2px 1px 0 #EFCD98, 2px -1px 0 #EFCD98, -2px -1px 0 #EFCD98;
+}
+
+/* Styles the automatically generated page number */
+.phb#p1 {
+counter-reset: phb-page-numbers -1;
+}
+
+/* Allows you to start the page count from a value different than 1st page. Change 0 to the value you want to add to the page number on the 1st page */
+.phb#p1 .pageNumber.auto {
+display: none
+}
+
+/* Hides the page number on the cover page. Remove "none" if you don't use a cover page */
+.phb#p1:after {
+display: none
+}
+
+/* Hides the box used by the page number on the cover page. Remove "none" if you don't use a cover page */
+
+/* Headers */
+.phb h1,
+.phb h2 {
+font-family: 'Eczar', sans-serif;
+color: #932f1c
+}
+
+/* No Taroca, unless you license it yourself */
+.phb h1 {
+text-align: center;
+font-size: 5em;
+margin-bottom: 30px;
+}
+
+.phb h2 {
+color: #02256E;
+font-size: 2.25em;
+}
+
+.phb h3,
+.phb h4,
+.phb h5 {
+font-family: 'Tauri', sans-serif;
+}
+
+.phb h3 {
+font-family: 'Teko', sans-serif;
+font-size: 1.95em;
+border-bottom: 0px
+}
+
+.phb h4 {
+color: #000000;
+border-bottom: 1px solid #000000;
+margin-bottom: 0px;
+text-transform: uppercase;
+}
+
+.phb h5 {
+text-transform: uppercase;
+}
+
+.phb h6 {
+background-color: #002664;
+color: #EDE3C8;
+border-bottom: 1px solid #002664;
+margin-bottom: 5px;
+padding-left: 8px;
+padding-top: 5px;
+padding-bottom: 3px;
+font-size: 1.25em;
+font-family: 'Tauri', sans-serif;
+text-transform: uppercase;
+border-radius: 12px 12px 0px 0px;
+}
+
+/* Content */
+.redsidebar .phb li {
+color: white;
+}
+
+.phb,
+.phb p,
+.phb p+p,
+.phb ul,
+.phb ol {
+font-family: 'Gelasio', sans-serif;
+text-align: justify;
+text-justify: inter-character;
+line-height: 1.4;
+}
+
+.phb hr+section blockquote {
+background: white;
+}
+
+.flavor {
+font-family: 'DM Serif Text', serif !important;
+text-align: justify;
+text-justify: inter-character;
+font-size: 1.25em;
+line-height: 1.4;
+padding-bottom: 8px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.subtitle {
+font-size: 1.4em;
+color: #552444 !important;
+background-color: transparent !important;
+margin-top: -30px;
+margin-bottom: px !important;
+margin-right: 10px !important;
+margin-left: 10px !important;
+background-image: url('https://www.gmbinder.com/images/5uPOPvf.png');
+background-position: bottom;
+background-repeat: no-repeat;
+padding-bottom: 35px;
+background-size: 800px;
+}
+
+/* Tables */
+.phb table {
+background-color: #F5EFE0;
+margin-bottom: 0px;
+}
+
+.phb table th {
+background-color: #5A1D19;
+color: white;
+padding-top: 4px;
+}
+
+.phb table tbody tr:nth-child(odd) {
+background-color: #EDE3C8
+}
+
+.phb table tbody,
+.phb table th {
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.tablefooter {
+background-color: #E6D8B0 !important;
+}
+
+/* Actions */
+.label {
+font-family: 'Tauri', sans-serif;
+float: right;
+text-align: right;
+display: inline-block;
+font-size: .4cm;
+color: black;
+margin-bottom: -3px;
+text-transform: uppercase;
+border: 0px;
+}
+
+/* Keywords */
+.margin-top {
+margin-top: 5px;
+}
+
+.activation-block {
+padding-left: 1.5em;
+text-indent: -1.5em;
+}
+
+.taglist {
+height: 22px;
+}
+
+.tag {
+font-family: 'Roboto Condensed', sans-serif;
+border-color: #DAC68A;
+border: 1px solid #DAC68A;
+border-left: 2px solid #DAC68A;
+border-right: 2px solid #DAC68A;
+border-radius: 2px;
+background-color: #552444;
+color: white;
+text-align: center;
+margin-top: 2px;
+margin-right: 2px;
+min-width: 30px;
+float: left;
+margin-bottom: -5px;
+padding-left: 3px;
+padding-right: 3px;
+text-transform: uppercase;
+}
+
+/*Keyword for Rarities */
+.uncommon {
+background-color: #98513D !important;
+}
+
+.rare {
+background-color: #002664 !important;
+}
+
+.unique {
+background-color: #54166E !important;
+}
+
+/* Keyword for Creatures */
+.align {
+background-color: #576293 !important;
+}
+
+.size {
+background-color: #3B7B59 !important;
+}
+
+/* Compact Rules */
+.rule,
+.rule p,
+.rule p+p {
+font-family: 'Roboto Condensed', sans-serif;
+line-height: 1.4;
+}
+
+.rule p,
+.rule p+p {
+text-indent: 1.5em;
+line-height: 1.4;
+font-size: 100%;
+}
+
+p .oneaction {
+margin-top: -0px;
+margin-bottom: -0px;
+width: 14px;
+margin-right: -1px;
+margin-left: -1px;
+}
+
+p .twoaction {
+margin-top: -0px;
+margin-bottom: -0px;
+height: 22px;
+width: 24px;
+margin-right: -1px;
+margin-left: -1px;
+}
+
+p .threeaction {
+margin-top: 0px;
+margin-bottom: -0px;
+height: 28px;
+width: 32px;
+margin-right: -1px;
+margin-left: -1px;
+}
+
+h5 .oneaction,
+h4 .oneaction {
+margin-top: -10px;
+margin-bottom: -6px;
+width: 16px;
+margin-right: -1px;
+margin-left: -1px;
+}
+
+h5 .twoaction,
+h4 .twoaction {
+margin-top: -10px;
+margin-bottom: -6px;
+height: 26px;
+width: 28px;
+margin-right: -1px;
+margin-left: -1px;
+}
+
+h5 .threeaction,
+h4 .threeaction {
+margin-top: -10px;
+margin-bottom: -6px;
+height: 34px;
+width: 38px;
+margin-right: -1px;
+margin-left: -1px;
+}
+
+.rule .oneaction {
+width: 14px;
+margin-top: -6px;
+margin-bottom: -6px;
+margin-right: -1px;
+margin-left: -1px;
+}
+
+.rule .twoaction {
+height: 22px;
+width: 24px;
+margin-top: -6px;
+margin-bottom: -6px;
+margin-right: -1px;
+margin-left: -1px;
+}
+
+.rule .threeaction {
+height: 28px;
+width: 32px;
+margin-top: -7px;
+margin-bottom: -6px;
+margin-right: -1px;
+margin-left: -1px;
+}
+
+.result {
+font-family: 'Roboto Condensed', sans-serif;
+padding-left: 1.5em;
+text-indent: -1.5em;
+}
+
+.ability {
+font-family: 'Roboto Condensed', sans-serif;
+padding-left: 1.5em;
+text-indent: -1.5em;
+}
+
+.abilityname {
+font-weight: bold;
+}
+
+.r4:before {
+content: "Critical Success ";
+font-weight: bold;
+}
+
+.r3:before {
+content: "Success ";
+font-weight: bold;
+}
+
+.r2:before {
+content: "Failure ";
+font-weight: bold;
+}
+
+.r1:before {
+content: "Critical Failure ";
+font-weight: bold;
+}
+
+/* Boxed Containers */
+.box {
+border-bottom: 1px solid #000000;
+hyphens: manual;
+hyphens: auto;
+word-break: break-word;
+}
+
+/* Normal boxes just put a separator line at the bottom */
+.reqbox {
+border-bottom: 1px solid #000000;
+padding-left: 1.5em;
+text-indent: -1.5em;
+hyphens: manual;
+overflow-wrap: break-word;
+overflow: hidden;
+}
+
+/* Boxes for requirements and prerequisites require the Pathfinder signature identation */
+.tab {
+text-indent: 1.5em;
+}
+
+/* Labels for Feats and Actions */
+.prereq:before {
+content: "Prerequisites ";
+font-weight: bold;
+}
+
+.req:before {
+content: "Requirements ";
+font-weight: bold;
+}
+
+.name {
+font-style: italic;
+}
+
+.name:before {
+content: "Name ";
+font-weight: bold;
+font-style: normal;
+}
+
+.name:after {
+content: "; ";
+}
+
+.archetype:before {
+content: "Archetype ";
+font-weight: bold;
+}
+
+.hands:before {
+content: "Hands ";
+font-weight: bold;
+}
+
+.hands:after {
+content: "; ";
+}
+
+/*Labels for Spells */
+.traditions:before {
+content: "Traditions ";
+font-weight: bold;
+}
+
+.cast:before {
+content: "Cast ";
+font-weight: bold;
+}
+
+.range {
+float: left;
+margin-right: 20px;
+}
+
+.range:before {
+content: "Range ";
+font-weight: bold;
+}
+
+.range:after {
+content: ";";
+}
+
+.targets:before {
+content: "Targets ";
+font-weight: bold;
+}
+
+.area:before {
+content: "Area ";
+font-weight: bold;
+}
+
+.savingthrow:before {
+content: "Saving Throw ";
+font-weight: bold;
+}
+
+.trigger:before {
+content: "Trigger ";
+font-weight: bold;
+}
+
+.duration:before {
+content: "Duration ";
+font-weight: bold;
+}
+
+.heightened:before {
+content: "Heightened ";
+font-weight: bold;
+}
+
+.heightenedp1:before {
+content: "Heightened (+1) ";
+font-weight: bold;
+}
+
+.heightenedp2:before {
+content: "Heightened (+2) ";
+font-weight: bold;
+}
+
+.heightenedp3:before {
+content: "Heightened (+3) ";
+font-weight: bold;
+}
+
+.heightenedp4:before {
+content: "Heightened (+4) ";
+font-weight: bold;
+}
+
+.heightened1:before {
+content: "Heightened (1st) ";
+font-weight: bold;
+}
+
+.heightened2:before {
+content: "Heightened (2nd) ";
+font-weight: bold;
+}
+
+.heightened3:before {
+content: "Heightened (3rd) ";
+font-weight: bold;
+}
+
+.heightened4:before {
+content: "Heightened (4th) ";
+font-weight: bold;
+}
+
+.heightened5:before {
+content: "Heightened (5th) ";
+font-weight: bold;
+}
+
+.heightened6:before {
+content: "Heightened (6th) ";
+font-weight: bold;
+}
+
+.heightened7:before {
+content: "Heightened (7th) ";
+font-weight: bold;
+}
+
+.heightened8:before {
+content: "Heightened (8th) ";
+font-weight: bold;
+}
+
+.heightened9:before {
+content: "Heightened (9th) ";
+font-weight: bold;
+}
+
+.heightened10:before {
+content: "Heightened (10th) ";
+font-weight: bold;
+}
+
+/*Labels for Spells */
+.perception:before {
+content: "Perception ";
+font-weight: bold;
+}
+
+.languages:before {
+content: "Languages ";
+font-weight: bold;
+}
+
+.skills:before {
+content: "Skills ";
+font-weight: bold;
+}
+
+.str {
+float: left;
+margin-right: 19px;
+}
+
+.str:before {
+content: "Str ";
+font-weight: bold;
+}
+
+.str:after {
+content: "; ";
+}
+
+.dex {
+float: left;
+margin-right: 19px;
+}
+
+.dex:before {
+content: "Dex ";
+font-weight: bold;
+}
+
+.dex:after {
+content: "; ";
+}
+
+.con {
+float: left;
+margin-right: 19px;
+}
+
+.con:before {
+content: "Con ";
+font-weight: bold;
+}
+
+.con:after {
+content: "; ";
+}
+
+.int {
+float: left;
+margin-right: 19px;
+}
+
+.int:before {
+content: "Int ";
+font-weight: bold;
+}
+
+.int:after {
+content: "; ";
+}
+
+.wis {
+float: left;
+margin-right: 19px;
+}
+
+.wis:before {
+content: "Wis ";
+font-weight: bold;
+}
+
+.wis:after {
+content: "; ";
+}
+
+.cha:before {
+content: "Cha ";
+font-weight: bold;
+}
+
+.ac {
+float: left;
+margin-right: 19px;
+}
+
+.ac:before {
+content: "AC ";
+font-weight: bold;
+}
+
+.ac:after {
+content: "; ";
+}
+
+.fort {
+float: left;
+margin-right: 19px;
+}
+
+.fort:before {
+content: "Fort ";
+font-weight: bold;
+}
+
+.fort:after {
+content: "; ";
+}
+
+.ref {
+float: left;
+margin-right: 19px;
+}
+
+.ref:before {
+content: "Ref ";
+font-weight: bold;
+}
+
+.ref:after {
+content: "; ";
+}
+
+.will:before {
+content: "Will ";
+font-weight: bold;
+}
+
+.hp:before {
+content: "HP ";
+font-weight: bold;
+}
+
+.hp:after {
+content: "; ";
+}
+
+.bt:before {
+content: "BT ";
+font-weight: bold;
+}
+
+.bt:after {
+content: "; ";
+}
+
+.hardness:before {
+content: "Hardness ";
+font-weight: bold;
+}
+
+.hardness:after {
+content: "; ";
+}
+
+.immunities:before {
+content: "Immunities ";
+font-weight: bold;
+}
+
+.immunities:after {
+content: "; ";
+}
+
+.weaknesses:before {
+content: "Weaknesses ";
+font-weight: bold;
+}
+
+.weaknesses:after {
+content: "; ";
+}
+
+.resistances:before {
+content: "Resistances ";
+font-weight: bold;
+}
+
+.speed {
+clear: left;
+}
+
+.speed:before {
+content: "Speed ";
+font-weight: bold;
+}
+
+.melee:before {
+content: "Melee ";
+font-weight: bold;
+}
+
+.melee:after {
+content: ", ";
+}
+
+.ranged:before {
+content: "Ranged ";
+font-weight: bold;
+}
+
+.ranged:after {
+content: ", ";
+}
+
+.damage {
+word-break: break-all;
+}
+
+.damage:before {
+content: "Damage ";
+font-weight: bold;
+}
+
+.innatespells {
+font-weight: bold;
+}
+
+.innatespells:after {
+content: " Innate Spells ";
+font-weight: bold;
+}
+
+.preparedspells {
+font-weight: bold;
+}
+
+.preparedspells:after {
+content: " Prepared Spells ";
+font-weight: bold;
+}
+
+.dc:before {
+content: "DC ";
+}
+
+.dc:after {
+content: ", ";
+}
+
+.spellattack:before {
+content: "attack ";
+}
+
+.spellattack:after {
+content: "; ";
+}
+
+.sp1,
+.sp2,
+.sp3,
+.sp4,
+.sp5,
+.sp6,
+.sp7,
+.sp8,
+.sp9,
+.sp10,
+.can1,
+.can2,
+.can3,
+.can4,
+.can5,
+.can6,
+.can7,
+.can8,
+.can9,
+.can10 {
+font-style: italic;
+}
+
+.sp1:before {
+content: " 1st ";
+font-weight: bold;
+font-style: normal;
+}
+
+.sp2:before {
+content: " 2nd ";
+font-weight: bold;
+font-style: normal;
+}
+
+.sp3:before {
+content: " 3rd ";
+font-weight: bold;
+font-style: normal;
+}
+
+.sp4:before {
+content: " 4th ";
+font-weight: bold;
+font-style: normal;
+}
+
+.sp5:before {
+content: " 5th ";
+font-weight: bold;
+font-style: normal;
+}
+
+.sp6:before {
+content: " 6th ";
+font-weight: bold;
+font-style: normal;
+}
+
+.sp7:before {
+content: " 7th ";
+font-weight: bold;
+font-style: normal;
+}
+
+.sp8:before {
+content: " 8th ";
+font-weight: bold;
+font-style: normal;
+}
+
+.sp9:before {
+content: " 9th ";
+font-weight: bold;
+font-style: normal;
+}
+
+.sp10:before {
+content: " 10th ";
+font-weight: bold;
+font-style: normal;
+}
+
+.can1:before {
+content: " Cantrips (1st) ";
+font-weight: bold;
+font-style: normal;
+}
+
+.can2:before {
+content: " Cantrips (2nd) ";
+font-weight: bold;
+font-style: normal;
+}
+
+.can3:before {
+content: " Cantrips (3rd) ";
+font-weight: bold;
+font-style: normal;
+}
+
+.can4:before {
+content: " Cantrips (4th) ";
+font-weight: bold;
+font-style: normal;
+}
+
+.can5:before {
+content: " Cantrips (5th) ";
+font-weight: bold;
+font-style: normal;
+}
+
+.can6:before {
+content: " Cantrips (6th) ";
+font-weight: bold;
+font-style: normal;
+}
+
+.can7:before {
+content: " Cantrips (7th) ";
+font-weight: bold;
+font-style: normal;
+}
+
+.can8:before {
+content: " Cantrips (8th) ";
+font-weight: bold;
+font-style: normal;
+}
+
+.can9:before {
+content: " Cantrips (9th) ";
+font-weight: bold;
+font-style: normal;
+}
+
+.can10:before {
+content: " Cantrips (10th) ";
+font-weight: bold;
+font-style: normal;
+}
+
+/* Labels for Hazards */
+.stealth:before {
+content: "Stealth ";
+font-weight: bold;
+}
+
+.description:before {
+content: "Description ";
+font-weight: bold;
+}
+
+.disable:before {
+content: "Disable ";
+font-weight: bold;
+}
+
+.routine:before {
+content: "Routine ";
+font-weight: bold;
+}
+
+.reset:before {
+content: "Reset ";
+font-weight: bold;
+}
+
+/* Labels for Items */
+.price:before {
+content: "Price ";
+font-weight: bold;
+}
+
+.usage:before {
+content: "Usage ";
+font-weight: bold;
+}
+
+.bulk:before {
+content: "Bulk ";
+font-weight: bold;
+}
+
+.type {
+font-style: italic;
+}
+
+.type:before {
+content: "Type ";
+font-weight: bold;
+font-style: normal;
+}
+
+.level:before {
+content: "Level ";
+font-weight: bold;
+}
+
+.activate:before {
+content: "Activate ";
+font-weight: bold;
+}
+
+.activate:after {
+content: "; ";
+}
+
+.frequency:before {
+content: "Frequency ";
+font-weight: bold;
+}
+
+.effect:before {
+content: "Effect ";
+font-weight: bold;
+}
+
+.onset:before {
+content: "Onset ";
+font-weight: bold;
+}
+
+.maxduration:before {
+content: "Maximum Duration ";
+font-weight: bold;
+}
+
+.stage1:before {
+content: "Stage 1 ";
+font-weight: bold;
+}
+
+.stage2:before {
+content: "Stage 2 ";
+font-weight: bold;
+}
+
+.stage3:before {
+content: "Stage 3 ";
+font-weight: bold;
+}
+
+.stage4:before {
+content: "Stage 4 ";
+font-weight: bold;
+}
+
+.stage5:before {
+content: "Stage 5 ";
+font-weight: bold;
+}
+
+.stage6:before {
+content: "Stage 6 ";
+font-weight: bold;
+}
+
+.craftrequirements:before {
+content: "Craft Requirements ";
+font-weight: bold;
+}
+
+<!--.savingthrow:after,-->
+<!--.onset:after,-->
+<!--.maxduration:after,-->
+<!--.stage1:after,-->
+<!--.stage2:after,-->
+<!--.stage3:after,-->
+<!--.stage4:after,-->
+<!--.stage5:after,-->
+<!--.stage6:after,-->
+<!--.level:after,-->
+<!--.type:after {-->
+<!--content: "; ";-->
+<!--}-->
+
+.quantity:before {
+content: "Quantity ";
+font-weight: bold;
+}
+
+.quantity:after {
+content: "; ";
+}
+
+.ammunition:before {
+content: "Ammunition ";
+font-weight: bold;
+}
+
+.special:before {
+content: "Special ";
+font-weight: bold;
+}
+
+.sageadvice:before {
+content: "Developer Feedback ";
+font-weight: bold;
+}
+
+.damage:before {
+content: "Damage ";
+font-weight: bold;
+}
+
+.damage:after {
+content: "; ";
+}
+
+.thrown:before {
+content: "thrown ";
+font-weight: bold;
+}
+
+.criticalspecialization:before {
+content: "Critical Specialization ";
+font-weight: bold;
+}
+
+/* Sidebar */
+.smallsidebar {
+background-image: url("https://pf2.easytool.es/sheets/boxBorder2.png");
+background-size: 350px;
+background-repeat: no-repeat;
+margin-left: -1em;
+margin-right: -3em;
+padding-left: 2.6em;
+padding-right: 3em;
+padding-top: 2.5em;
+display: inline-block;
+padding-bottom: 40px;
+}
+
+.smallsidebar h5 {
+text-align: center;
+padding-bottom: 10px;
+text-transform: uppercase;
+}
+
+.smallsidebar p,
+.smallsidebar p+p {
+background-color: #DBD1BC;
+font-family: 'Roboto Condensed', sans-serif;
+margin-left: -10px;
+padding-left: 13px;
+margin-right: -8px;
+padding-right: 12px;
+width: 309px;
+margin-top: -11px;
+}
+
+/* Dual Sidebar */
+.dualsidebar {
+background-image: url("https://www.gmbinder.com/images/M2t21DV.png"), url("https://www.gmbinder.com/images/sVseLe2.png");
+background-position: -10% 100%, top left;
+background-size: 705px, 705px;
+background-repeat: no-repeat;
+margin-left: 0.7em;
+padding-left: 1.75em;
+padding-right: 3.5em;
+padding-top: 3.2em;
+padding-bottom: 40px;
+margin-right: -35px;
+}
+
+.phb:nth-child(odd) .dualsidebar {
+margin-left: -25px !important;
+margin-right: 0px;
+padding-left: 3.5em;
+padding-right: 2em;
+}
+
+/* This code moves tables 35px right on odd pages, avoiding the table overlapping the page's image margin */
+.dualsidebar h5 {
+text-align: center;
+background-color: #C4B8A0;
+margin-left: px;
+margin-right: px;
+padding-bottom: 8px;
+margin-top: 5px;
+margin-bottom: -2px;
+}
+
+.dualsidebar p,
+.dualsidebar p+p {
+background-color: #C4B8A0;
+font-family: 'Roboto Condensed', sans-serif;
+margin-left: -17px;
+padding-left: 13px;
+margin-right: -15px;
+padding-right: 12px;
+}
+
+/* Red Sidebar */
+.redsidebar {
+border-image-slice: 296 328 296 328 fill;
+border-image-width: 60px 60px 60px 60px;
+border-image-outset: 0px 0px 0px 0px;
+border-image-repeat: stretch stretch;
+border-image-source: url("https://www.gmbinder.com/images/74yYuhq.png");
+border-top: 32px solid;
+border-bottom: 32 solid;
+margin-left: -2em;
+margin-right: -4em;
+padding-left: 2.6em;
+padding-right: 3em;
+padding-top: 1.5em;
+padding-bottom: 40px;
+}
+
+.redsidebar h2 {
+font-family: 'Eczar', sans-serif;
+text-align: center;
+color: #CFBF80;
+background-color: #932f1c;
+margin-left: -px;
+margin-right: -8px;
+padding-bottom: 8px;
+margin-top: -5px;
+margin-bottom: -2px;
+font-size: 1.5em;
+}
+
+.redsidebar h3 {
+font-family: 'Eczar', sans-serif;
+text-align: center;
+color: WHITE;
+background-color: #932f1c;
+margin-left: -px;
+margin-right: -8px;
+padding-bottom: 8px;
+margin-top: -5px;
+margin-bottom: -2px;
+font-size: 2em;
+}
+
+.redsidebar h3 span {
+text-align: left;
+}
+
+.redsidebar img {
+height: 450px;
+margin-top: -30px;
+align: right;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.redsidebar h5 {
+text-align: left;
+color: white;
+background-color: #932f1c;
+margin-left: -px;
+margin-right: -8px;
+padding-bottom: 8px;
+margin-top: 7px;
+margin-bottom: -2px;
+}
+
+.redsidebar p,
+.redsidebar p+p,
+.redsidebar .flavor,
+.dualredsidebar .flavor {
+background-color: #932f1c;
+color: white;
+font-family: 'Roboto Condensed', sans-serif;
+margin-left: -13px;
+padding-left: 13px;
+margin-right: -8px;
+padding-right: -12px;
+}
+
+.redseparatorfull {
+background-image: url("https://www.gmbinder.com/images/cC3OCdw.png");
+background-size: 375px;
+height: 35px;
+margin-right: -20px;
+margin-left: -14px;
+margin-top: -6px;
+}
+
+.redseparatorsmall {
+background-image: url("https://www.gmbinder.com/images/LlbSin0.png");
+background-size: 375px;
+background-position: top center;
+height: 4px;
+margin-bottom: 5px;
+margin-top: -5px;
+margin-right: -20px;
+margin-left: -14px;
+}
+
+.redsidebar .toc {
+background-image: url("https://www.gmbinder.com/images/Lw65fTb.png"), url("https://www.gmbinder.com/images/kCLyCck.png");
+background-position: bottom right, top;
+background-size: 392px, 392px;
+background-repeat: no-repeat;
+}
+
+/* Dual Red Sidebar */
+.dualredsidebar {
+background-image: url("https://www.gmbinder.com/images/JwtgIpO.png"), url("https://www.gmbinder.com/images/SXJd6Hg.png");
+background-position: bottom left, top left;
+background-size: 705px, 705px;
+background-repeat: no-repeat;
+margin-left: 0.7em;
+margin-right: -3em;
+padding-left: 2.6em;
+padding-right: 3em;
+padding-top: 3.2em;
+padding-bottom: 30px;
+}
+
+.dualredsidebar h5 {
+text-align: center;
+color: white;
+background-color: #552444;
+margin-left: px;
+margin-right: px;
+padding-bottom: 8px;
+margin-top: 5px;
+margin-bottom: -2px;
+}
+
+.dualredsidebar p,
+.dualredsidebar p+p {
+background-color: #552444;
+color: white;
+font-family: 'Roboto Condensed', sans-serif;
+margin-left: -9px;
+padding-left: 0px;
+margin-right: -6px;
+padding-right: 12px;
+}
+
+.phb:nth-child(odd) .dualredsidebar {
+margin-left: -25px !important;
+margin-right: -21px;
+padding-left: 45px;
+}
+
+/* This code moves tables 35px right on odd pages, avoiding the table overlapping the page's image margin */
+.dualredsidebar .flavor,
+.dualredsidebar h5 {
+margin-left: -15px !important;
+margin-right: 15px !important;
+}
+
+/* Wide Page Sidebar */
+.widepage {
+display: grid;
+grid-template-columns: 530px 250px;
+}
+
+/* Creates a grid with two columns with variable width. The sidebar column is on the right. */
+.phb:nth-child(odd) .widepage {
+margin-left: -30px;
+}
+
+/* Moves the wide page grid to the right on odd pages */
+.widepageright {
+display: grid;
+grid-template-columns: 250px 530px;
+}
+
+/* Creates a grid with two columns with variable width. The sidebar column is on the left. */
+.phb:nth-child(odd) .widepageright {
+margin-left: -30px;
+}
+
+/* Moves the wide page grid to the right on odd pages */
+.widebar {}
+
+.thinbar {
+color: #5E0004;
+font-size: 0.9em;
+margin-top: 0px;
+margin-left: 10px;
+padding-left: 10px;
+margin-right: 65px;
+border-left: 1px solid #5E0004;
+}
+
+.widebarright {
+margin-left: -50px;
+margin-right: 60px;
+}
+
+.thinbarright {
+color: #5E0004;
+font-size: 0.9em;
+margin-top: 0px;
+margin-right: 10px;
+padding-right: 10px;
+margin-right: 65px;
+border-right: 1px solid #5E0004;
+}
+
+.thinbar h3,
+.thinbarright h3 {
+font-size: 2em;
+font-weight: normal;
+}
+
+/* Sidebars use a smaller heading 3, so bold weight needs to be removed */
+.thinbar p,
+.thinbar p+p,
+.thinbar ul,
+.thinbar ol {
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* table of contents */
+.toc {
+padding-left: 40px;
+padding-right: 45px;
+margin-left: -37px;
+}
+
+.toc a {
+color: #F2EFEA !important;
+/*toc specifically wants black text. This resets the headers*/
+}
+
+.toc li span:nth-child(2) {
+/*Allow dot leaders to fill remaining space but not overlap*/
+width: auto;
+overflow: hidden;
+white-space: nowrap;
+display: block;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.toc li span:nth-child(2):after {
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 0.317cm;
+font-weight: normal;
+color: #F2EFEA;
+content: " ........................................";
+}
+
+.toc li span:first-child {
+/*Remove any header styles from page numbers*/
+float: right;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 0.317cm;
+font-weight: normal;
+color: #F2EFEA;
+margin-left: 1px;
+/*Leaves a small space between page numbers and dot leaders*/
+}
+
+/*Special cases for headings*/
+.toc li h3 span:nth-child(2):after {
+content: " ";
+/*Remove dot leaders on h3*/
+}
+
+.toc li h3 {
+margin-bottom: 4px !important;
+/*Special spacing for h3*/
+margin-top: 10px !important;
+line-height: initial !important;
+/*For some reason Multi-line h3 line spacing changed*/
+}
+
+.toc li h3 span:first-child {
+line-height: 1.8em !important;
+/*Line page numbers up with Multi-line h3 better*/
+}
+
+.toc ul ul {
+margin-left: 10px !important;
+font-size: 0.375cm;
+/*Original lists intented too much*/
+}
+
+.toc>ul>li {
+margin-bottom: initial !important;
+/*margin for list items needs to be removed or 0*/
+}
+
+/* Fixes */
+.phb:after {
+content: "";
+}
+
+/*  Removes Wizards of the Coast disclaimer. I should probably add OGL disclaimer. */
+.phb {
+padding-bottom: 0.5cm;
+}
+
+/* Minimizes the bottom padding of pages so that less content spills across columns */
+.dualsidebarfix {
+margin-left: -65px;
+margin-right: 68px;
+margin-top: -40px;
+padding-bottom: 40px;
+column-gap: 0.75cm
+}
+
+/* Dual Sidebars needs repositioning of two column content */
+.phb#p1 {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+/* Remove this if you do not use a cover */
+.phb:nth-child(even) {
+padding-left: 75px;
+padding-right: 1.5cm
+}
+
+.phb:nth-child(odd) {
+padding-left: 55px;
+padding-right: 75px;
+}
+
+/* Paizo Compatibility Fixes */
+.pathfinderlogo {
+display: none;
+}
+
+.secondedition {
+display: none;
+}
+
+.bookcover {
+display: none;
+}
+
+.phb#p1,
+.phb,
+.phb:nth-child(odd) {
+background-color: #EFECE7;
+}
+
+.phb:after {
+display: none;
+}
+
+/* The following lines remove the Page Margin Bauble completely */
+.phb {
+background-size: 90px 100%, 822px;
+background-repeat: no-repeat;
+background-position-x: right;
+}
+
+.phb:nth-child(even) {
+background-position-x: left;
+}
+
+.phb {
+background-image: url('https://www.gmbinder.com/images/ySjKlWR.png'), url('https://www.gmbinder.com/images/M9uE4nj.png');
+}
+
+.phb:nth-child(even) {
+background-image: url('https://www.gmbinder.com/images/HVABD2r.png'), url('https://www.gmbinder.com/images/M9uE4nj.png');
+}
+
+.amiri {
+opacity: 0.0;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+.table-of-contents ul {
+list-style-type: none;
+font-size: 2em;
+text-decoration: none;
+}
+
+.table-of-contents a {
+text-decoration: none;
+color: #02256E;
+}
+
+#p1 {
+padding-top: 0;
+padding-bottom: 0;
+}
+
+.tag {
+    background-color: #404C2D;
+    border-color: #a1ac81;
+}
+
+h1 {
+    color: #404C2D !important;
+}
+
+h6 {
+    background-color: #5A1D19 !important;
+    border-color: #5A1D19 !important;
+}
+
+h2 {
+    color: #5A1D19 !important;
+}
+
+h3 {
+    color: #AB5E07 !important;
+}
+
+
+.line-break-above {
+    margin-top: 1em;
+}
+
+.main-bullets ul {
+    list-style: none;
+}
+
+.main-bullets li::before {
+    content: "\2022";
+    color: black;
+    margin-left: -1em;
+    width: 1em;
+    font-weight: bold;
+    padding-right: 0.5em;
+}
+
+</style>
