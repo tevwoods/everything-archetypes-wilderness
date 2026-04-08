@@ -108,6 +108,7 @@ function extractDescription(entryName, labelType) {
       .replace(/\{0A\}/g, '[free-action]')
       .replace(/\{R\}/g, '[reaction]')
       .replace(/<b>/g, '<strong>').replace(/<\/b>/g, '</strong>')
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
       .replace(/<div class="rule heightened\w+">/g, '<p>')
       .replace(/<div class="line-break-above"><\/div>/g, '')
       .replace(/<div style="[^"]*"><\/div>/g, '')
@@ -134,6 +135,9 @@ function extractDescription(entryName, labelType) {
     result = `<p>${result}</p>`;
   }
   result = result.replace(/<p>\s*<\/p>/g, '');
+  // Strip Special paragraphs from parsed content (featDoc appends these from the special param)
+  result = result.replace(/\n?<p><strong>Special<\/strong>\s[^<]*<\/p>/g, '');
+  result = result.replace(/<strong>Special<\/strong>\s[^<]*/g, '');
   return result || `<p>${entryName} description.</p>`;
 }
 
