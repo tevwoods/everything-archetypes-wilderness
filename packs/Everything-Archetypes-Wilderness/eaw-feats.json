@@ -38,7 +38,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.526Z",
+          "datetime": "2026-04-08T16:56:40.013Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -75,8 +75,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -115,7 +115,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.526Z",
+          "datetime": "2026-04-08T16:56:40.013Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -156,8 +156,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -208,7 +208,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.526Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -252,8 +252,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -291,7 +291,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.526Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -332,8 +332,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -349,7 +349,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You draw upon the primal magic inherent in the world around you, and shape that magic into the powers granted to you by your arboreal patrons. You gain the Cast a Spell activity. You're trained in spell attack rolls and spell DCs. Your key spellcasting attribute for your Treespeaker archetype spells is your choice of Intelligence, Wisdom, or Charisma. You cast your Treespeaker spells spontaneously, and all of your Treespeaker spells are considered Signature Spells.\n</p>\n<p>\nYou gain two 3rd-rank spell slots that can only be used to cast the following spells, all of which are in your repertoire: <em>protector tree</em>, <em>shillelagh</em>, <em>oaken resilience</em>, <em>entangling flora</em>, <em>fungal hyphae</em>, <em>shape wood</em>, <em>soothing blossoms</em>, and <em>splinter bolt</em> (page {page-splinter-bolt-spell}).\n</p>"
+        "value": "<p>You draw upon the primal magic inherent in the world around you, and shape that magic into the powers granted to you by your arboreal patrons. You gain the Cast a Spell activity. You're trained in spell attack rolls and spell DCs. Your key spellcasting attribute for your Treespeaker archetype spells is your choice of Intelligence, Wisdom, or Charisma. You cast your Treespeaker spells spontaneously, and all of your Treespeaker spells are considered Signature Spells.\n</p>\n<p>\nYou gain two 3rd-rank spell slots that can only be used to cast the following spells, all of which are in your repertoire: <em>protector tree</em>, <em>shillelagh</em>, <em>oaken resilience</em>, <em>entangling flora</em>, <em>fungal hyphae</em>, <em>shape wood</em>, <em>soothing blossoms</em>, and @UUID[Compendium.everything-archetypes-wilderness.eaw-spells.59269540436ab1d8]{Splinter Bolt} (page {page-splinter-bolt-spell}).\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -366,7 +366,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.526Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -407,8 +407,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -441,7 +441,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -482,8 +482,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -516,7 +516,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -560,8 +560,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -577,7 +577,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You gain one 4th-rank spell slot. You do not gain this slot if you have already gained a 4th-rank spell slot from the Treespeaker archetype. Add <em>soothing spring</em>, <em>rusting grasp</em>, and <em>vine shield</em> (page {page-vine-shield-spell}) to your repertoire.\n</p>"
+        "value": "<p>You gain one 4th-rank spell slot. You do not gain this slot if you have already gained a 4th-rank spell slot from the Treespeaker archetype. Add <em>soothing spring</em>, <em>rusting grasp</em>, and @UUID[Compendium.everything-archetypes-wilderness.eaw-spells.6641f258236b7afa]{Vine Shield} (page {page-vine-shield-spell}) to your repertoire.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -594,7 +594,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -638,8 +638,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -655,7 +655,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Each time you cast <em>arboreal arms</em>, you may choose agile, deadly d6, reach, or trip and add the chosen trait to the unarmed attack granted to you by <em>arboreal arms</em>. If you chose to transform both of your arms as part of the spell, you may choose a different trait for each arm.\n</p>"
+        "value": "<p>Each time you cast @UUID[Compendium.everything-archetypes-wilderness.eaw-spells.5b60756260a036b8]{Arboreal Arms}, you may choose agile, deadly d6, reach, or trip and add the chosen trait to the unarmed attack granted to you by <em>arboreal arms</em>. If you chose to transform both of your arms as part of the spell, you may choose a different trait for each arm.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -672,7 +672,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -716,8 +716,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -733,7 +733,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You permanently take on some of the aspects of the hardy oak tree, whose timber is strong and hard, and whose seeds are nutritious to most humanoids. Your entire body becomes harder and stronger and your skin takes on a shade that gives away your arboreal influence.\n</p>\n<p>\nYou gain resistance to piercing and slashing damage equal to half your level.\n</p>\n<p>\nWhen you successfully Shove or Grapple a creature, you may deal bludgeoning damage to them equal to your Constitution modifier.\n</p>\n<p>\nYou produce a number of acorns each day equal to half your level. Each of these acorns can be eaten with a single Interact action to restore a number of Hit Points equal to half your level.\n</p>\n<p>\n</p>\n<p><strong>Special</strong> You cannot select this feat if you have Aspect of Rosewood or Aspect of Yew.</p>"
+        "value": "<p>You permanently take on some of the aspects of the hardy oak tree, whose timber is strong and hard, and whose seeds are nutritious to most humanoids. Your entire body becomes harder and stronger and your skin takes on a shade that gives away your arboreal influence.\n</p>\n<p>\nYou gain resistance to piercing and slashing damage equal to half your level.\n</p>\n<p>\nWhen you successfully Shove or Grapple a creature, you may deal bludgeoning damage to them equal to your Constitution modifier.\n</p>\n<p>\nYou produce a number of acorns each day equal to half your level. Each of these acorns can be eaten with a single Interact action to restore a number of Hit Points equal to half your level.\n</p>\n<p>\n</p>\n<p><strong>Special</strong> You cannot select this feat if you have @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.d281b33f402fd562]{Aspect of Rosewood} or @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.c76ed56a659b1da3]{Aspect of Yew}.</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -761,7 +761,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -802,8 +802,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -819,7 +819,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You permanently take on some of the aspects of the iron rosewood tree, whose timber is rigid and unyielding, and whose oil is a fragrant perfume. Your skin takes on a shade that gives away your arboreal influence and becomes noticeably harder to the touch.\n</p>\n<p>\nYou gain a +1 circumstance bonus to AC, and to your DCs to avoid being shoved or grappled.\n</p>\n<p>\nYou gain resistance to physical damage equal to half your level.\n</p>\n<p>\nYou gain a +1 circumstance bonus to Diplomacy checks when interacting with someone who is close enough to smell you.\n</p>\n<p>\n</p>\n<p><strong>Special</strong> You cannot select this feat if you have Aspect of Oak or Aspect of Yew.</p>"
+        "value": "<p>You permanently take on some of the aspects of the iron rosewood tree, whose timber is rigid and unyielding, and whose oil is a fragrant perfume. Your skin takes on a shade that gives away your arboreal influence and becomes noticeably harder to the touch.\n</p>\n<p>\nYou gain a +1 circumstance bonus to AC, and to your DCs to avoid being shoved or grappled.\n</p>\n<p>\nYou gain resistance to physical damage equal to half your level.\n</p>\n<p>\nYou gain a +1 circumstance bonus to Diplomacy checks when interacting with someone who is close enough to smell you.\n</p>\n<p>\n</p>\n<p><strong>Special</strong> You cannot select this feat if you have @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.d44c17d51aacea66]{Aspect of Oak} or @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.c76ed56a659b1da3]{Aspect of Yew}.</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -866,7 +866,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -907,8 +907,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -924,7 +924,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You permanently take on some of the aspects of the resilient yew tree, whose timber is both strong and springy, and whose seeds and leaves are extremely poisonous. Your entire body becomes more springy and absorbent to force.\n</p>\n<p>\nYou gain resistance to bludgeoning damage equal to half your level.\n</p>\n<p>\nThe first time you hit a creature with a ranged Strike on each turn, you gain a status bonus to damage equal to two times the number of weapon damage dice.\n</p>\n<p>\nAdditionally, your body produces a single dose of poison each day when you make your daily preparations. This may be any poison up to your level - 3 and it remains effective until you make your next daily preparations.\n</p>\n<p>\n</p>\n<p><strong>Special</strong> You cannot select this feat if you have Aspect of Oak or Aspect of Rosewood.</p>"
+        "value": "<p>You permanently take on some of the aspects of the resilient yew tree, whose timber is both strong and springy, and whose seeds and leaves are extremely poisonous. Your entire body becomes more springy and absorbent to force.\n</p>\n<p>\nYou gain resistance to bludgeoning damage equal to half your level.\n</p>\n<p>\nThe first time you hit a creature with a ranged Strike on each turn, you gain a status bonus to damage equal to two times the number of weapon damage dice.\n</p>\n<p>\nAdditionally, your body produces a single dose of poison each day when you make your daily preparations. This may be any poison up to your level - 3 and it remains effective until you make your next daily preparations.\n</p>\n<p>\n</p>\n<p><strong>Special</strong> You cannot select this feat if you have @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.d44c17d51aacea66]{Aspect of Oak} or @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.d281b33f402fd562]{Aspect of Rosewood}.</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -947,7 +947,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -988,8 +988,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1028,7 +1028,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1072,8 +1072,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1106,7 +1106,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1147,8 +1147,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1164,7 +1164,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You can transform your legs into thick and powerful tree trunks. You gain the <em>arboreal legs</em> focus spell (page {arboreal-legs-focus-spell-page}). Increase the number of Focus Points in your focus pool by 1. If you also have the <em>arboreal arms</em> focus spell, you may spend 2 actions instead of 1 when casting this focus spell. If you do so, you gain the effects of both spells at the cost of 1 focus point.\n</p>"
+        "value": "<p>You can transform your legs into thick and powerful tree trunks. You gain the <em>arboreal legs</em> focus spell (page {arboreal-legs-focus-spell-page}). Increase the number of Focus Points in your focus pool by 1. If you also have the @UUID[Compendium.everything-archetypes-wilderness.eaw-spells.5b60756260a036b8]{Arboreal Arms} focus spell, you may spend 2 actions instead of 1 when casting this focus spell. If you do so, you gain the effects of both spells at the cost of 1 focus point.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -1186,7 +1186,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1227,8 +1227,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1244,7 +1244,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Targets</strong> the creature you have grappled</p>\n<p><strong>Requirements</strong> You have a creature grappled by your arboreal arm.</p>\n<p>You have incredible control over the grappling tendrils of your arboreal arms and can use them to maintain a grapple with very little thought. You Grapple the target.\n</p>"
+        "value": "<p><strong>Targets</strong> the creature you have grappled</p>\n<p><strong>Requirements</strong> You have a creature grappled by your arboreal arm.</p>\n<p>You have incredible control over the grappling tendrils of your @UUID[Compendium.everything-archetypes-wilderness.eaw-spells.5b60756260a036b8]{Arboreal Arms} and can use them to maintain a grapple with very little thought. You Grapple the target.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -1271,7 +1271,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1315,8 +1315,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1332,7 +1332,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You can transform your torso into a thick bole that protects you and offers nature's healing touch. You gain the <em>arboreal bole</em> focus spell (page {arboreal-heart-focus-spell-page}). Increase the number of Focus Points in your focus pool by 1. If you also have the <em>arboreal arms</em> or <em>arboreal legs</em> focus spell, you may spend 2 or 3 actions instead of 1 when casting this focus spell. If you spend 2 actions, you gain the effects of this spell and one of the others at the cost of 1 focus point. If you spend 3 actions, you gain the effects of all 3 spells at the cost of 2 focus points.\n</p>"
+        "value": "<p>You can transform your torso into a thick bole that protects you and offers nature's healing touch. You gain the <em>arboreal bole</em> focus spell (page {arboreal-heart-focus-spell-page}). Increase the number of Focus Points in your focus pool by 1. If you also have the @UUID[Compendium.everything-archetypes-wilderness.eaw-spells.5b60756260a036b8]{Arboreal Arms} or @UUID[Compendium.everything-archetypes-wilderness.eaw-spells.e2f14211476b8cda]{Arboreal Legs} focus spell, you may spend 2 or 3 actions instead of 1 when casting this focus spell. If you spend 2 actions, you gain the effects of this spell and one of the others at the cost of 1 focus point. If you spend 3 actions, you gain the effects of all 3 spells at the cost of 2 focus points.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -1354,7 +1354,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1395,8 +1395,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1429,7 +1429,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1470,8 +1470,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1487,7 +1487,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Your proficiency in spell attack rolls and spell DCs increases to master. You gain a single 7th-rank spell slot and add <em>regenerate</em> to your repertoire. In addition to the normal targets of <em>regenerate</em> you may also target a living tree, regenerating any severed limbs, and causing the tree to blossom and bear fruit, depending on the type of tree. At 20th level, you gain one 8th-rank spell slot, and add <em>forest avenger</em> (page 31) to your repertoire. When you cast <em>forest avenger</em>, you may still cast your Treespeaker spells while in the battle form, though you cannot cast spells from any other source.\n</p>"
+        "value": "<p>Your proficiency in spell attack rolls and spell DCs increases to master. You gain a single 7th-rank spell slot and add <em>regenerate</em> to your repertoire. In addition to the normal targets of <em>regenerate</em> you may also target a living tree, regenerating any severed limbs, and causing the tree to blossom and bear fruit, depending on the type of tree. At 20th level, you gain one 8th-rank spell slot, and add @UUID[Compendium.everything-archetypes-wilderness.eaw-spells.a30f059e7d0fd09e]{Forest Avenger} (page 31) to your repertoire. When you cast <em>forest avenger</em>, you may still cast your Treespeaker spells while in the battle form, though you cannot cast spells from any other source.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -1510,7 +1510,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1554,8 +1554,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1571,7 +1571,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You fully embrace the arboreal aspect you chose. You gain the benefit below that is associated to the aspect you chose.\n</p>\n\n<p>\n<strong>Aspect of Oak</strong> When you Grapple or Shove a creature, you may deal damage equal to four times your Constitution modifier (minimum 4).\n</p>\n<p>\n<strong>Aspect of Rosewood</strong> The circumstance bonus to AC increases to +3.\n</p>\n<p>\n<strong>Aspect of Yew</strong> The status bonus to damage applies to all of your ranged attacks.\n</p>"
+        "value": "<p>You fully embrace the arboreal aspect you chose. You gain the benefit below that is associated to the aspect you chose.\n</p>\n\n<p>\n<strong>@UUID[Compendium.everything-archetypes-wilderness.eaw-feats.d44c17d51aacea66]{Aspect of Oak}</strong> When you Grapple or Shove a creature, you may deal damage equal to four times your Constitution modifier (minimum 4).\n</p>\n<p>\n<strong>@UUID[Compendium.everything-archetypes-wilderness.eaw-feats.d281b33f402fd562]{Aspect of Rosewood}</strong> The circumstance bonus to AC increases to +3.\n</p>\n<p>\n<strong>@UUID[Compendium.everything-archetypes-wilderness.eaw-feats.c76ed56a659b1da3]{Aspect of Yew}</strong> The status bonus to damage applies to all of your ranged attacks.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -1623,7 +1623,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1667,8 +1667,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1701,7 +1701,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1745,8 +1745,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1781,7 +1781,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1822,8 +1822,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1839,7 +1839,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You have been called to become a Treespeaker, but you have not yet answered the Call. Perhaps you do not feel that you are worthy, or you believe you have more pressing matters to attend to before answering the Call. Regardless, you have not refused the Call and you have begun to manifest some of the powers of a Treespeaker despite not yet having communed with an elder tree.\n</p>\n<p>\nYou become trained in Nature, or expert if you were already trained. You gain the ability to cast <em>one with plants</em> as an innate primal spell once per day.\n</p>\n<p>\nYou can sense the direction of the nearest elder tree at all times, and you can cast <em>know the way</em> as an innate primal cantrip at will.\n</p>\n<p>\n</p>\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the Called Speaker archetype, though you may take the Treespeaker Dedication feat. It and any other feat from that archetype count as a Called Speaker feat for the purpose of satisfying this special requirement.</p>"
+        "value": "<p>You have been called to become a Treespeaker, but you have not yet answered the Call. Perhaps you do not feel that you are worthy, or you believe you have more pressing matters to attend to before answering the Call. Regardless, you have not refused the Call and you have begun to manifest some of the powers of a Treespeaker despite not yet having communed with an elder tree.\n</p>\n<p>\nYou become trained in Nature, or expert if you were already trained. You gain the ability to cast <em>one with plants</em> as an innate primal spell once per day.\n</p>\n<p>\nYou can sense the direction of the nearest elder tree at all times, and you can cast <em>know the way</em> as an innate primal cantrip at will.\n</p>\n<p>\n</p>\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the Called Speaker archetype, though you may take the @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.b23ddb45d762734e]{Treespeaker Dedication} feat. It and any other feat from that archetype count as a Called Speaker feat for the purpose of satisfying this special requirement.</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -1864,7 +1864,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1901,8 +1901,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1942,7 +1942,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1983,8 +1983,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2028,7 +2028,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2069,8 +2069,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2122,7 +2122,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2166,8 +2166,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2201,7 +2201,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.014Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2242,8 +2242,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2278,7 +2278,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.015Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2325,8 +2325,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2361,7 +2361,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.015Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2408,8 +2408,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2444,7 +2444,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.015Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2488,8 +2488,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2524,7 +2524,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.527Z",
+          "datetime": "2026-04-08T16:56:40.015Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2568,8 +2568,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2602,7 +2602,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.528Z",
+          "datetime": "2026-04-08T16:56:40.015Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2643,8 +2643,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2677,7 +2677,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.528Z",
+          "datetime": "2026-04-08T16:56:40.015Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2721,8 +2721,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2757,7 +2757,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.528Z",
+          "datetime": "2026-04-08T16:56:40.015Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2804,8 +2804,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2858,7 +2858,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.528Z",
+          "datetime": "2026-04-08T16:56:40.015Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2905,8 +2905,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2922,7 +2922,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Your animal companion gains the following activity, which it can use when you succeed at a Nature check when you Command it.\n</p>\n<p>\n<hr /><p>\n<strong>Rolling Charge</strong> (move)\n[two-actions] <strong>Requirements</strong> No one is riding your animal companion, or you are riding them and you have the Trick Rider feat; <strong>Effect</strong> Your animal companion rolls into the enemies, either head over heels or on its side, attempting to bowl them over. They Stride up to twice their Speed in a straight line that can include enemies. Each time your animal companion would pass through an enemy's square, it attempts an Athletics check against the enemy's Reflex DC with the following outcomes. If you are riding your animal companion and you have the Trick Rider feat, you may remain mounted and you walk along your animal companion's back as they roll.\n</p>\n<p>\n<p><strong>Success</strong> The enemy is knocked prone and moved 5 feet out of the path of your animal companion.\n<p><strong>Failure</strong> Your animal companion fails to knock the enemy prone, but continues through its square.\n<p><strong>Critical Failure</strong> Your animal companion stumbles to a halt in front of the enemy and does not finish their Stride.\n</p>"
+        "value": "<p>Your animal companion gains the following activity, which it can use when you succeed at a Nature check when you Command it.\n</p>\n<p>\n<hr /><p>\n<strong>Rolling Charge</strong> (move)\n[two-actions] <strong>Requirements</strong> No one is riding your animal companion, or you are riding them and you have the @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.f5185e9364b9254c]{Trick Rider} feat; <strong>Effect</strong> Your animal companion rolls into the enemies, either head over heels or on its side, attempting to bowl them over. They Stride up to twice their Speed in a straight line that can include enemies. Each time your animal companion would pass through an enemy's square, it attempts an Athletics check against the enemy's Reflex DC with the following outcomes. If you are riding your animal companion and you have the Trick Rider feat, you may remain mounted and you walk along your animal companion's back as they roll.\n</p>\n<p>\n<p><strong>Success</strong> The enemy is knocked prone and moved 5 feet out of the path of your animal companion.\n<p><strong>Failure</strong> Your animal companion fails to knock the enemy prone, but continues through its square.\n<p><strong>Critical Failure</strong> Your animal companion stumbles to a halt in front of the enemy and does not finish their Stride.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -2941,7 +2941,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.528Z",
+          "datetime": "2026-04-08T16:56:40.015Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2988,8 +2988,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3022,7 +3022,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.528Z",
+          "datetime": "2026-04-08T16:56:40.015Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3063,8 +3063,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3098,7 +3098,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.528Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3142,8 +3142,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3176,7 +3176,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.528Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3217,8 +3217,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3253,7 +3253,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.528Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3300,8 +3300,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3336,7 +3336,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.528Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3383,8 +3383,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3430,7 +3430,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.528Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3471,8 +3471,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3505,7 +3505,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3546,8 +3546,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3582,7 +3582,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3629,8 +3629,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3672,7 +3672,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3713,8 +3713,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3730,7 +3730,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>The net gun is a difficult weapon to use, let alone master, but you have become proficient in it. You become trained in net guns and gain access to them. Whenever you gain a class feature that grants you expert or greater proficiency with a weapon or unarmed strike, you also gain that proficiency with net guns.\n</p>"
+        "value": "<p>The @UUID[Compendium.everything-archetypes-wilderness.eaw-equipment.b74ed15522338794]{Net Gun} is a difficult weapon to use, let alone master, but you have become proficient in it. You become trained in net guns and gain access to them. Whenever you gain a class feature that grants you expert or greater proficiency with a weapon or unarmed strike, you also gain that proficiency with net guns.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -3759,7 +3759,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3800,8 +3800,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3835,7 +3835,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3879,8 +3879,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3913,7 +3913,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3954,8 +3954,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3971,7 +3971,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Range</strong> 30 feet</p>\n<p><strong>Targets</strong> your hunted prey</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p>In life or death situations, sometimes you have to eliminate a target even if you're supposed to take them alive. You've learned that occasionally if you give them one last chance, you can still save them. You offer them a simple ultimatum: submit or be killed. The target must attempt a Will save against your class DC or spell DC, whichever is higher. If the target has less than half their total Hit Points they take a -2 circumstance penalty to this save. Some of the effects of this ability refer to subduing the target. For the purpose of this effect, you may subdue the target with manacles or rope as a 2-action activity, but you must be wearing or carrying the manacles or rope. If you have the Hog Tie feat, this takes a single action instead of two. The target is also considered subdued if they gain the restrained condition through another means.\n</p>\n\n<p>\n<p><strong>Critical Success</strong> The target rejects your ultimatum.\n<p><strong>Success</strong> The target rejects your ultimatum, but fear of your retribution gives it a -1 status penalty to its attack rolls for 1 round.\n<p><strong>Failure</strong> The target accepts your ultimatum and cannot take hostile actions until the end of your next turn. If you or an ally subdues the target during this effect with manacles or rope, it remains subdued and its disposition toward you changes from hostile to unfriendly. Otherwise it regains its senses and resumes hostilities after the end of your next turn.\n<p><strong>Critical Failure</strong> The target accepts your ultimatum, falls prone, and waits to be subdued for 1 minute. This effect ends immediately if the creature takes any damage. The creature remains docile for 24 hours, after which it might attempt to escape or become hostile again at the GM's discretion.\n</p>\n\n\n<hr /><p><strong>Effects</strong> Drag to enemy: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.b148e793c91b6d8d]{Effect: Lethal Ultimatum}</p>"
+        "value": "<p><strong>Range</strong> 30 feet</p>\n<p><strong>Targets</strong> your hunted prey</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p>In life or death situations, sometimes you have to @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.752ab94ae678a912]{Eliminate} a target even if you're supposed to take them alive. You've learned that occasionally if you give them one last chance, you can still save them. You offer them a simple ultimatum: submit or be killed. The target must attempt a Will save against your class DC or spell DC, whichever is higher. If the target has less than half their total Hit Points they take a -2 circumstance penalty to this save. Some of the effects of this ability refer to subduing the target. For the purpose of this effect, you may subdue the target with manacles or rope as a 2-action activity, but you must be wearing or carrying the manacles or rope. If you have the @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.fb0b88e286a9b55a]{Hog Tie} feat, this takes a single action instead of two. The target is also considered subdued if they gain the restrained condition through another means.\n</p>\n\n<p>\n<p><strong>Critical Success</strong> The target rejects your ultimatum.\n<p><strong>Success</strong> The target rejects your ultimatum, but fear of your retribution gives it a -1 status penalty to its attack rolls for 1 round.\n<p><strong>Failure</strong> The target accepts your ultimatum and cannot take hostile actions until the end of your next turn. If you or an ally subdues the target during this effect with manacles or rope, it remains subdued and its disposition toward you changes from hostile to unfriendly. Otherwise it regains its senses and resumes hostilities after the end of your next turn.\n<p><strong>Critical Failure</strong> The target accepts your ultimatum, falls prone, and waits to be subdued for 1 minute. This effect ends immediately if the creature takes any damage. The creature remains docile for 24 hours, after which it might attempt to escape or become hostile again at the GM's discretion.\n</p>\n\n\n<hr /><p><strong>Effects</strong> Drag to enemy: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.b148e793c91b6d8d]{Effect: Lethal Ultimatum}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -3991,7 +3991,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4032,8 +4032,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4072,7 +4072,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4116,8 +4116,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4159,7 +4159,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4203,8 +4203,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4243,7 +4243,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4287,8 +4287,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4346,7 +4346,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4387,8 +4387,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4404,7 +4404,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You can project your ultimatum to an entire group of enemies. When you use Lethal Ultimatum, you may choose to use it as a 2-action activity. If you do, it affects all enemies in a 30-foot emanation instead of a single target.\n</p>"
+        "value": "<p>You can project your ultimatum to an entire group of enemies. When you use @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.fe368fe86bf7699f]{Lethal Ultimatum}, you may choose to use it as a 2-action activity. If you do, it affects all enemies in a 30-foot emanation instead of a single target.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -4421,7 +4421,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4465,8 +4465,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4500,7 +4500,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4541,8 +4541,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4558,7 +4558,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You have mastered the use of the net gun as a legitimate primary weapon. When you are wielding a net gun, reduce its reload to 1. If you critically succeed on a Strike with a net gun, instead of the normal critical specialization you may cause the target to be grabbed by your net as if you had succeeded on a Grapple check with it. If you critically succeed on a Grapple check with your net gun, you may choose to also deal nonlethal damage as if you had hit the target with a Strike.\n</p>"
+        "value": "<p>You have mastered the use of the @UUID[Compendium.everything-archetypes-wilderness.eaw-equipment.b74ed15522338794]{Net Gun} as a legitimate primary weapon. When you are wielding a net gun, reduce its reload to 1. If you critically succeed on a Strike with a net gun, instead of the normal critical specialization you may cause the target to be grabbed by your net as if you had succeeded on a Grapple check with it. If you critically succeed on a Grapple check with your net gun, you may choose to also deal nonlethal damage as if you had hit the target with a Strike.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -4584,7 +4584,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4625,8 +4625,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4669,7 +4669,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4713,8 +4713,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4730,7 +4730,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You are adept at getting the attention of a group of people and getting them to work together to take down a common enemy. When you roll initiative you may Hunt Prey on a creature you can see as a free action. If you do, you may immediately designate a Posse from nearby allies to assist you without needing to spend 1 minute giving guidance, and you all receive the circumstance bonus to your initiative rolls.  If you have Tactical Posse, you also receive those benefits on the chosen target.\n</p>"
+        "value": "<p>You are adept at getting the attention of a group of people and getting them to work together to take down a common enemy. When you roll initiative you may Hunt Prey on a creature you can see as a free action. If you do, you may immediately designate a Posse from nearby allies to assist you without needing to spend 1 minute giving guidance, and you all receive the circumstance bonus to your initiative rolls.  If you have @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.69dd9f53212386ba]{Tactical Posse}, you also receive those benefits on the chosen target.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -4753,7 +4753,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4797,8 +4797,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4832,7 +4832,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4873,8 +4873,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4910,7 +4910,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4951,8 +4951,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5003,7 +5003,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5047,8 +5047,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5064,7 +5064,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>No matter what your quarry does, you never give up on getting them trussed up for delivery. You are permanently quickened, and you can only use the extra action to Grapple, Trip, or Hog Tie.\n</p>"
+        "value": "<p>No matter what your quarry does, you never give up on getting them trussed up for delivery. You are permanently quickened, and you can only use the extra action to Grapple, Trip, or @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.fb0b88e286a9b55a]{Hog Tie}.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -5095,7 +5095,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5136,8 +5136,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5177,7 +5177,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5218,8 +5218,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5253,7 +5253,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5297,8 +5297,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5334,7 +5334,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5375,8 +5375,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5412,7 +5412,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.529Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5453,8 +5453,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5489,7 +5489,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5530,8 +5530,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5547,7 +5547,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Requirements</strong> Spin Tale is active</p>\n<p>The hero of the story has experienced a setback, and digs deeper to press forward. They are willing to go further than before, and possibly even cross boundaries they normally wouldn't. Attempt a Performance check against a Standard DC of your level. On a success, as long as your story continues, the hero gains a status bonus to damage rolls equal to the number of weapon damage dice of the unarmed attack or weapon they are wielding that has the most weapon damage dice. When they critically hit an enemy with a Strike, the enemy is frightened 1. If you have previously lightened the tone of the story with Lighten Tone, that effect ends. If your story has multiple heroes, they each gain this effect.\n</p>\n\n<hr /><p><strong>Effects</strong> Drag to hero: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.465a1877f36546c4]{Effect: Darken Tone}</p>"
+        "value": "<p><strong>Requirements</strong> Spin Tale is active</p>\n<p>The hero of the story has experienced a setback, and digs deeper to press forward. They are willing to go further than before, and possibly even cross boundaries they normally wouldn't. Attempt a Performance check against a Standard DC of your level. On a success, as long as your story continues, the hero gains a status bonus to damage rolls equal to the number of weapon damage dice of the unarmed attack or weapon they are wielding that has the most weapon damage dice. When they critically hit an enemy with a Strike, the enemy is frightened 1. If you have previously lightened the tone of the story with @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.e84fb29366983d03]{Lighten Tone}, that effect ends. If your story has multiple heroes, they each gain this effect.\n</p>\n\n<hr /><p><strong>Effects</strong> Drag to hero: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.465a1877f36546c4]{Effect: Darken Tone}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -5566,7 +5566,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5607,8 +5607,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5624,7 +5624,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Requirements</strong> Spin Tale is active</p>\n<p>The hero of the story is triumphantly pressing forward. They have momentum on their side and they feel unstoppable. Attempt a Performance check against a Standard DC of your level. On a success, the hero gains temporary Hit Points equal to half your level. Once per round when the hero damages the villain, they gain these temporary Hit Points again. This effect lasts as long as your story continues. If you have previously darkened the tone of the story with Darken Tone, that effect ends. If your story has multiple heroes, they each gain this effect.\n</p>\n\n<hr /><p><strong>Effects</strong> Drag to hero: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.7b1a8673d2df148c]{Effect: Lighten Tone}</p>"
+        "value": "<p><strong>Requirements</strong> Spin Tale is active</p>\n<p>The hero of the story is triumphantly pressing forward. They have momentum on their side and they feel unstoppable. Attempt a Performance check against a Standard DC of your level. On a success, the hero gains temporary Hit Points equal to half your level. Once per round when the hero damages the villain, they gain these temporary Hit Points again. This effect lasts as long as your story continues. If you have previously darkened the tone of the story with @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.570bfc3c1156b72f]{Darken Tone}, that effect ends. If your story has multiple heroes, they each gain this effect.\n</p>\n\n<hr /><p><strong>Effects</strong> Drag to hero: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.7b1a8673d2df148c]{Effect: Lighten Tone}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -5643,7 +5643,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5684,8 +5684,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5720,7 +5720,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5761,8 +5761,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5797,7 +5797,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5838,8 +5838,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5855,7 +5855,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Many stories don't revolve around a single villain, but instead contain several. When you use Spin Tale, all enemies within 60 feet are the villains of the story.\n</p>\n<p>\nIf you have Establish Foil, you may now target an enemy who is already a villain with that ability. If you do, the target must attempt a Will save against your Performance DC. On a failure it takes a -2 status penalty to all attack rolls and skill checks against targets that are not the hero of your story. If your story has multiple heroes, choose one to be the hero for this effect. This effect lasts as long as your Spin Tale is active.\n</p>\n\n<hr /><p><strong>Effects</strong> Drag to foil: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.b7e64737c5fa8b5b]{Effect: Cast of Villains Foil}</p>"
+        "value": "<p>Many stories don't revolve around a single villain, but instead contain several. When you use Spin Tale, all enemies within 60 feet are the villains of the story.\n</p>\n<p>\nIf you have @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.37d1db51a9640696]{Establish Foil}, you may now target an enemy who is already a villain with that ability. If you do, the target must attempt a Will save against your Performance DC. On a failure it takes a -2 status penalty to all attack rolls and skill checks against targets that are not the hero of your story. If your story has multiple heroes, choose one to be the hero for this effect. This effect lasts as long as your Spin Tale is active.\n</p>\n\n<hr /><p><strong>Effects</strong> Drag to foil: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.b7e64737c5fa8b5b]{Effect: Cast of Villains Foil}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -5872,7 +5872,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.016Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5913,8 +5913,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5930,7 +5930,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Requirements</strong> Spin Tale is active and you have used Second Act in the current story</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p>As the story enters the third act, the folklorist describes the final confrontation between the hero and the villain, with the hero bringing all of their energy to bear, including the help of their allies. The villain must attempt a Will save against your Performance DC.\n</p>\n<p>\n<p><strong>Critical Success</strong> The villain is unaffected\n<p><strong>Success</strong> The villain is off-guard for 1 round.\n<p><strong>Failure</strong> As success, and the status bonus from Spin Tale increases to +2 as long as your tale continues.\n<p><strong>Critical Failure</strong> As failure, and the villain gains weakness to the damage type of the hero's primary weapon equal to half your level. If the hero does not typically use a weapon, choose between bludgeoning, piercing, or slashing.\n</p>\n\n<hr /><p><strong>Effects</strong> @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.fb02e9fd8885f9aa]{Off-Guard 1 rnd} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.15e990cb1e0603e9]{Enhanced Tale} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.e668caa1ba2252e7]{Off-Guard + Weakness}</p>"
+        "value": "<p><strong>Requirements</strong> Spin Tale is active and you have used @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.f82592b035845594]{Second Act} in the current story</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p>As the story enters the third act, the folklorist describes the final confrontation between the hero and the villain, with the hero bringing all of their energy to bear, including the help of their allies. The villain must attempt a Will save against your Performance DC.\n</p>\n<p>\n<p><strong>Critical Success</strong> The villain is unaffected\n<p><strong>Success</strong> The villain is off-guard for 1 round.\n<p><strong>Failure</strong> As success, and the status bonus from Spin Tale increases to +2 as long as your tale continues.\n<p><strong>Critical Failure</strong> As failure, and the villain gains weakness to the damage type of the hero's primary weapon equal to half your level. If the hero does not typically use a weapon, choose between bludgeoning, piercing, or slashing.\n</p>\n\n<hr /><p><strong>Effects</strong> @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.fb02e9fd8885f9aa]{Off-Guard 1 rnd} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.15e990cb1e0603e9]{Enhanced Tale} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.e668caa1ba2252e7]{Off-Guard + Weakness}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -5949,7 +5949,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5993,8 +5993,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6030,7 +6030,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6071,8 +6071,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6107,7 +6107,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6148,8 +6148,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6195,7 +6195,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6239,8 +6239,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6256,7 +6256,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You can detect the presence of certain types of creatures with almost no information to work from. As a 10-minute activity you can use inscrutable techniques, such as listening to the wind, smelling for certain signs, or noticing the way certain foliage is damaged to sense nearby creatures. Choose a type of creature that is a valid target for your Hunt Prey ability and against whom your Stealth bonus and Speed reduction apply. For example, you may normally choose between animals, beasts, and dragons. If you have It's All Game, you may choose from any type of creature. You automatically know whether any creatures of the chosen type are within 1 mile of you. You do not know the direction of any creatures that you detect, but you do gain sufficient information to begin Tracking the creatures in exploration. The GM may call for additional Survival checks to determine if you know which specific creature you are Tracking if there are more than one.\n</p>"
+        "value": "<p>You can detect the presence of certain types of creatures with almost no information to work from. As a 10-minute activity you can use inscrutable techniques, such as listening to the wind, smelling for certain signs, or noticing the way certain foliage is damaged to sense nearby creatures. Choose a type of creature that is a valid target for your Hunt Prey ability and against whom your Stealth bonus and Speed reduction apply. For example, you may normally choose between animals, beasts, and dragons. If you have @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.28e5ab0337f7f35b]{It's All Game}, you may choose from any type of creature. You automatically know whether any creatures of the chosen type are within 1 mile of you. You do not know the direction of any creatures that you detect, but you do gain sufficient information to begin Tracking the creatures in exploration. The GM may call for additional Survival checks to determine if you know which specific creature you are Tracking if there are more than one.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -6274,7 +6274,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6315,8 +6315,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6376,7 +6376,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6417,8 +6417,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6457,7 +6457,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6498,8 +6498,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6541,7 +6541,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6582,8 +6582,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6622,7 +6622,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6663,8 +6663,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6703,7 +6703,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6744,8 +6744,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6778,7 +6778,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6822,8 +6822,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6857,7 +6857,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6901,8 +6901,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6941,7 +6941,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6982,8 +6982,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7016,7 +7016,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7057,8 +7057,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7091,7 +7091,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7132,8 +7132,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7167,7 +7167,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7211,8 +7211,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7251,7 +7251,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7292,8 +7292,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7328,7 +7328,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7369,8 +7369,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7404,7 +7404,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7445,8 +7445,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7480,7 +7480,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7521,8 +7521,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7594,7 +7594,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7635,8 +7635,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7670,7 +7670,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.530Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7711,8 +7711,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7764,7 +7764,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7805,8 +7805,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7854,7 +7854,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7898,8 +7898,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7932,7 +7932,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7973,8 +7973,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8007,7 +8007,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8048,8 +8048,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8065,7 +8065,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>When you create healing vapor bombs, you add a pungent odor that helps break your allies out of a stupor. When you use a vapor bomb, it also reduces the stupefied condition of each creature in the area by 1. If any creature in the area has the confused or controlled condition, you may attempt a Nature check to counteract those conditions. Make a separate counteract check for each creature. If you apply Smelling Vapors to a Vapor Preparation of a Bottled Catharsis elixir, all creatures in the area instead automatically lose their stupefied condition, and you attempt to counteract the affected creatures' confused or controlled conditions using the higher of your Nature or the elixir's counteract modifier.\n</p>"
+        "value": "<p>When you create healing vapor bombs, you add a pungent odor that helps break your allies out of a stupor. When you use a vapor bomb, it also reduces the stupefied condition of each creature in the area by 1. If any creature in the area has the confused or controlled condition, you may attempt a Nature check to counteract those conditions. Make a separate counteract check for each creature. If you apply Smelling Vapors to a @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.b18edd36b3bd8bfb]{Vapor Preparation} of a Bottled Catharsis elixir, all creatures in the area instead automatically lose their stupefied condition, and you attempt to counteract the affected creatures' confused or controlled conditions using the higher of your Nature or the elixir's counteract modifier.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -8082,7 +8082,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8126,8 +8126,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8160,7 +8160,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8201,8 +8201,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8235,7 +8235,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8276,8 +8276,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8310,7 +8310,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8354,8 +8354,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8388,7 +8388,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8429,8 +8429,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8513,7 +8513,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8557,8 +8557,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8600,7 +8600,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8641,8 +8641,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8697,7 +8697,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8741,8 +8741,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8903,7 +8903,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8944,8 +8944,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8961,7 +8961,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Because you rely on the terrain around you to construct your snares, you can easily expand them to create larger hazards. When you Craft a snare without paying a cost as part of your Natural Snares feat, you may choose to have the snare occupy a 10-foot square instead of a 5-foot square.\n</p>"
+        "value": "<p>Because you rely on the terrain around you to construct your snares, you can easily expand them to create larger hazards. When you Craft a snare without paying a cost as part of your @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.9da25dc549b9fd80]{Natural Snares} feat, you may choose to have the snare occupy a 10-foot square instead of a 5-foot square.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -8978,7 +8978,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.017Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9022,8 +9022,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9039,7 +9039,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Some of the greatest horizon walkers learn the mysteries of the planes, and master travel in those realms as well. When selecting terrains from your Favored Terrain feat, you may also choose from the elemental planes (Air, Earth, Fire, and Water) and the Astral Plane, Ethereal Plane, or Netherworld. You must still meet the travel prerequisite of this feat to do so. When you gain this feat, choose one of these planes; that plane becomes a favored terrain for you. You gain a benefit based on your choice from the list below, which counts as having the Terrain Specialist feat for that type of terrain. If you take the Terrain Specialist feat in the future, you may choose from these options in addition to those listed in that feat's description.\n<ul>\n<li><strong>Astral Plane</strong> You can cast <em>translocate</em> once per day as an innate primal spell.</li>\n<li><strong>Ethereal Plane</strong> Once per day as a reaction when you are hit by an attack, you may shift into the ethereal plane momentarily; the attack misses you instead, or becomes a regular hit if it would have been a critical hit. If you are in the ethereal plane already, you shift to the material plane instead.</li>\n<li><strong>Plane of Air</strong> You can cast <em>fly</em> once per day as an innate primal spell.</li>\n<li><strong>Plane of Earth</strong> You gain imprecise tremorsense with a range of 30-feet.</li>\n<li><strong>Plane of Fire</strong> You gain fire resistance equal to your level.</li>\n<li><strong>Plane of Water</strong> You gain the ability to breathe underwater.</li>\n<li><strong>Netherworld</strong> You can cast <em>invisibility</em> as a 4th-rank innate primal spell once per day.</li>\n</ul>\n</p>\n<p>\n<em>interplanar teleport</em> and other accomodations required to visit the chosen plane. After this downtime is complete, they qualify to take this feat.\n</p>\n<p><strong>Special</strong> This feat requires having spent 30 days on the chosen plane. At GM discretion, 30 days of downtime and 1,000 gp may substitute.</p>"
+        "value": "<p>Some of the greatest horizon walkers learn the mysteries of the planes, and master travel in those realms as well. When selecting terrains from your Favored Terrain feat, you may also choose from the elemental planes (Air, Earth, Fire, and Water) and the Astral Plane, Ethereal Plane, or Netherworld. You must still meet the travel prerequisite of this feat to do so. When you gain this feat, choose one of these planes; that plane becomes a favored terrain for you. You gain a benefit based on your choice from the list below, which counts as having the @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.2ec4f7c336f3660a]{Terrain Specialist} feat for that type of terrain. If you take the Terrain Specialist feat in the future, you may choose from these options in addition to those listed in that feat's description.\n<ul>\n<li><strong>Astral Plane</strong> You can cast <em>translocate</em> once per day as an innate primal spell.</li>\n<li><strong>Ethereal Plane</strong> Once per day as a reaction when you are hit by an attack, you may shift into the ethereal plane momentarily; the attack misses you instead, or becomes a regular hit if it would have been a critical hit. If you are in the ethereal plane already, you shift to the material plane instead.</li>\n<li><strong>Plane of Air</strong> You can cast <em>fly</em> once per day as an innate primal spell.</li>\n<li><strong>Plane of Earth</strong> You gain imprecise tremorsense with a range of 30-feet.</li>\n<li><strong>Plane of Fire</strong> You gain fire resistance equal to your level.</li>\n<li><strong>Plane of Water</strong> You gain the ability to breathe underwater.</li>\n<li><strong>Netherworld</strong> You can cast <em>invisibility</em> as a 4th-rank innate primal spell once per day.</li>\n</ul>\n</p>\n<p>\n<em>interplanar teleport</em> and other accomodations required to visit the chosen plane. After this downtime is complete, they qualify to take this feat.\n</p>\n<p><strong>Special</strong> This feat requires having spent 30 days on the chosen plane. At GM discretion, 30 days of downtime and 1,000 gp may substitute.</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -9114,7 +9114,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9155,8 +9155,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9172,7 +9172,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Although horizon walkers always begin their journey in the wilderness, an uncommon few of them adapt their skills to urban environments. You gain urban areas as a favored terrain, which includes cities, towns, and villages. Regardless of where you are, you may cast 4th-rank <em>illusory disguise</em> once per day as an innate primal spell. This counts as having the Terrain Specialist feat for the urban favored terrain.\nIf you have the ranger Wild Stride feature, you may roll Survival instead of Diplomacy when attempting to Gather Information or Make an Impression while in an urban area.\n</p>"
+        "value": "<p>Although horizon walkers always begin their journey in the wilderness, an uncommon few of them adapt their skills to urban environments. You gain urban areas as a favored terrain, which includes cities, towns, and villages. Regardless of where you are, you may cast 4th-rank <em>illusory disguise</em> once per day as an innate primal spell. This counts as having the @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.2ec4f7c336f3660a]{Terrain Specialist} feat for the urban favored terrain.\nIf you have the ranger Wild Stride feature, you may roll Survival instead of Diplomacy when attempting to Gather Information or Make an Impression while in an urban area.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -9206,7 +9206,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9247,8 +9247,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9414,7 +9414,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9455,8 +9455,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9472,7 +9472,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>In your experience the wilderness is rarely merciful, and you have taken lessons from nature's own designs to empower your snares. When you Craft a snare without paying a cost as part of your Natural Snares feat, you may choose an additional effect that applies if the snare successfully hits a creature or if the creature fails its saving throw against the snare's effect. Choose from 2d6 persistent bleed damage, 4d6 slashing damage, or immobilized for 1 round.\n</p>"
+        "value": "<p>In your experience the wilderness is rarely merciful, and you have taken lessons from nature's own designs to empower your snares. When you Craft a snare without paying a cost as part of your @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.9da25dc549b9fd80]{Natural Snares} feat, you may choose an additional effect that applies if the snare successfully hits a creature or if the creature fails its saving throw against the snare's effect. Choose from 2d6 persistent bleed damage, 4d6 slashing damage, or immobilized for 1 round.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -9489,7 +9489,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9533,8 +9533,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9567,7 +9567,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9611,8 +9611,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9628,7 +9628,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You are peerless in your favored terrain. Choose a terrain type for which you have the Terrain Specialist feat. You gain the benefit associated to that terrain type permanently.\n</p>\n<p>\n<ul>\n<li><strong>Aquatic</strong> You ignore difficult terrain while swimming, including when moving up or down.</li>\n<li><strong>Arctic</strong> When you gain the slowed condition, reduce its value by 1.</li>\n<li><strong>Astral Plane</strong> You may cast <em>translocate</em> twice per day instead of once per day, and as a 5th-rank spell, instead of 4th-rank.</li>\n<li><strong>Desert</strong> You are immune to the dazzled condition.</li>\n<li><strong>Ethereal Plane</strong> You can cast <em>ethereal jaunt</em> once per day as an innate primal spell.</li>\n<li><strong>Forest</strong> You can attempt to Hide or Sneak anywhere, without needing cover or concealment. When you attempt a check to Hide or Sneak this way, you have a -2 circumstance penalty to your Stealth check.</li>\n<li><strong>Mountain</strong> You may gain or Dismiss the benefits of <em>gecko grip</em> at will as a free action. Your climb Speed while under this effect is equal to double your Speed.</li>\n<li><strong>Plane of Air</strong> You learn Sussuran and you may cast <em>fly</em> at will instead of once per day.</li>\n<li><strong>Plane of Earth</strong> You learn Petran and gain a burrow Speed equal to your Speed.</li>\n<li><strong>Plane of Fire</strong> You learn Pyric and can cast <em>fireball</em> once per day heightened to half your level as an innate primal spell.</li>\n<li><strong>Plane of Water</strong> You learn Thalassic and can speak telepathically to creatures with the amphibious, aquatic, or water trait as long as they are within 500 feet. You can communicate this way even with creatures that don't speak any languages.</li>\n<li><strong>Underground</strong> You gain greater darkvision. Reduce the DC for flat checks to target concealed or hidden creatures by 2 instead of 1.</li>\n<li><strong>Plains</strong> You ignore all Speed penalties from armor, encumbrance, and non-magical effects.</li>\n<li><strong>Netherworld</strong> You can cast <em>umbral journey</em> once per day as an innate primal spell. For you the cast time is 2 actions instead of 1 minute.</li>\n<li><strong>Sky</strong> You ignore difficult terrain while Flying, including when moving upward.</li>\n<li><strong>Swamp</strong> When you attempt a save against a poison effect, improve the result of the save by one step.</li>\n<li><strong>Urban</strong> You can roll Survival instead of Diplomacy for any check that would normally use Diplomacy.</li>\n</ul>\n</p>\n<p>\n</p>\n<p><strong>Special</strong> You can take this feat more than once. Each time you must choose a different terrain for which you have Terrain Specialist.</p>"
+        "value": "<p>You are peerless in your favored terrain. Choose a terrain type for which you have the @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.2ec4f7c336f3660a]{Terrain Specialist} feat. You gain the benefit associated to that terrain type permanently.\n</p>\n<p>\n<ul>\n<li><strong>Aquatic</strong> You ignore difficult terrain while swimming, including when moving up or down.</li>\n<li><strong>Arctic</strong> When you gain the slowed condition, reduce its value by 1.</li>\n<li><strong>Astral Plane</strong> You may cast <em>translocate</em> twice per day instead of once per day, and as a 5th-rank spell, instead of 4th-rank.</li>\n<li><strong>Desert</strong> You are immune to the dazzled condition.</li>\n<li><strong>Ethereal Plane</strong> You can cast <em>ethereal jaunt</em> once per day as an innate primal spell.</li>\n<li><strong>Forest</strong> You can attempt to Hide or Sneak anywhere, without needing cover or concealment. When you attempt a check to Hide or Sneak this way, you have a -2 circumstance penalty to your Stealth check.</li>\n<li><strong>Mountain</strong> You may gain or Dismiss the benefits of <em>gecko grip</em> at will as a free action. Your climb Speed while under this effect is equal to double your Speed.</li>\n<li><strong>Plane of Air</strong> You learn Sussuran and you may cast <em>fly</em> at will instead of once per day.</li>\n<li><strong>Plane of Earth</strong> You learn Petran and gain a burrow Speed equal to your Speed.</li>\n<li><strong>Plane of Fire</strong> You learn Pyric and can cast <em>fireball</em> once per day heightened to half your level as an innate primal spell.</li>\n<li><strong>Plane of Water</strong> You learn Thalassic and can speak telepathically to creatures with the amphibious, aquatic, or water trait as long as they are within 500 feet. You can communicate this way even with creatures that don't speak any languages.</li>\n<li><strong>Underground</strong> You gain greater darkvision. Reduce the DC for flat checks to target concealed or hidden creatures by 2 instead of 1.</li>\n<li><strong>Plains</strong> You ignore all Speed penalties from armor, encumbrance, and non-magical effects.</li>\n<li><strong>Netherworld</strong> You can cast <em>umbral journey</em> once per day as an innate primal spell. For you the cast time is 2 actions instead of 1 minute.</li>\n<li><strong>Sky</strong> You ignore difficult terrain while Flying, including when moving upward.</li>\n<li><strong>Swamp</strong> When you attempt a save against a poison effect, improve the result of the save by one step.</li>\n<li><strong>Urban</strong> You can roll Survival instead of Diplomacy for any check that would normally use Diplomacy.</li>\n</ul>\n</p>\n<p>\n</p>\n<p><strong>Special</strong> You can take this feat more than once. Each time you must choose a different terrain for which you have Terrain Specialist.</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -9779,7 +9779,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9823,8 +9823,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9857,7 +9857,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9901,8 +9901,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9935,7 +9935,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9976,8 +9976,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10017,7 +10017,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10061,8 +10061,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10114,7 +10114,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10158,8 +10158,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10193,7 +10193,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10234,8 +10234,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10275,7 +10275,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.531Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10316,8 +10316,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10351,7 +10351,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.532Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10395,8 +10395,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10431,7 +10431,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.532Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10472,8 +10472,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10512,7 +10512,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.532Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10556,8 +10556,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10596,7 +10596,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.532Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10640,8 +10640,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10674,7 +10674,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.532Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10715,8 +10715,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10749,7 +10749,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.532Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10793,8 +10793,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10810,7 +10810,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Your demoralizing volley has the potential to shatter the enemy's morale. When you use Demoralizing Volley and hit with both Strikes, increase the target's frightened condition by 2 instead of by 1 (to frightened 2 if it does not have the frightened condition). It must also attempt a Will save against the higher of your class DC or spell DC. On a failure, it is fleeing for 1 round.\n</p>"
+        "value": "<p>Your @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.2a37f0e442a3c188]{Demoralizing Volley} has the potential to shatter the enemy's morale. When you use Demoralizing Volley and hit with both Strikes, increase the target's frightened condition by 2 instead of by 1 (to frightened 2 if it does not have the frightened condition). It must also attempt a Will save against the higher of your class DC or spell DC. On a failure, it is fleeing for 1 round.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -10833,7 +10833,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.532Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10877,8 +10877,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10894,7 +10894,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You are able to craft and explain elaborate ambush plans at a moment's notice. When you use your Scout's Ambush ability and your initiative result is higher than that of all enemy combatants, you may immediately use 2 actions instead of a single action. Additionally you may designate one of your allies within 30 feet. That ally may use a single action immediately as well. You and your ally may choose to take these actions in whichever order you prefer.\n</p>"
+        "value": "<p>You are able to craft and explain elaborate ambush plans at a moment's notice. When you use your @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.4114382642a0f8ba]{Scout's Ambush} ability and your initiative result is higher than that of all enemy combatants, you may immediately use 2 actions instead of a single action. Additionally you may designate one of your allies within 30 feet. That ally may use a single action immediately as well. You and your ally may choose to take these actions in whichever order you prefer.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -10917,7 +10917,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.532Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10964,8 +10964,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -11016,7 +11016,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.532Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -11057,8 +11057,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -11074,7 +11074,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You have mastered a magical trick of vanishing completely when you need it the most. You can cast <em>disappearance</em> once per day as an innate occult spell.\n</p>\n<p>\nYou may use this casting of <em>disappearance</em> as a reaction instead of its normal cast time with any the following triggers: you fail your Sneak check as part of Beleaguering Attack; you roll initiative and would gain the status bonus from Spotted!; or you hit both of the Strikes of a Demoralizing Volley. You may only use this reaction once per day, even if you gain additional castings of <em>disappearance</em> from other sources.\n</p>\n\n\n<hr /><p><strong>Spells</strong> @UUID[Compendium.pf2e.spells-srd.Item.wfleiawxsfhpRRwf]{Disappearance} (1/day, occult)</p>"
+        "value": "<p>You have mastered a magical trick of vanishing completely when you need it the most. You can cast <em>disappearance</em> once per day as an innate occult spell.\n</p>\n<p>\nYou may use this casting of <em>disappearance</em> as a reaction instead of its normal cast time with any the following triggers: you fail your Sneak check as part of @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.08d932bb4485ab81]{Beleaguering Attack}; you roll initiative and would gain the status bonus from @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.b0abe9ede9309219]{Spotted!}; or you hit both of the Strikes of a @UUID[Compendium.everything-archetypes-wilderness.eaw-feats.2a37f0e442a3c188]{Demoralizing Volley}. You may only use this reaction once per day, even if you gain additional castings of <em>disappearance</em> from other sources.\n</p>\n\n\n<hr /><p><strong>Spells</strong> @UUID[Compendium.pf2e.spells-srd.Item.wfleiawxsfhpRRwf]{Disappearance} (1/day, occult)</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -11091,7 +11091,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:41:47.532Z",
+          "datetime": "2026-04-08T16:56:40.018Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -11132,8 +11132,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775662907523,
-      "modifiedTime": 1775662907523,
+      "createdTime": 1775667400010,
+      "modifiedTime": 1775667400010,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13

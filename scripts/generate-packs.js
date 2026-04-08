@@ -1136,6 +1136,34 @@ allEffects.push(effectDoc({ name: 'Effect: Distract (Off-Guard)', level: 4,
 }));
 
 // ============================================================
+// Auto-link first mention of module items in feat descriptions
+// ============================================================
+{
+  // Build name → @UUID map for all module items (spells, feats, equipment)
+  const linkMap = [];
+  allSpells.forEach(s => linkMap.push({ name: s.name, uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-spells.${s._id}]{${s.name}}` }));
+  allFeats.forEach(f => linkMap.push({ name: f.name, uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-feats.${f._id}]{${f.name}}` }));
+  allEquipment.forEach(e => linkMap.push({ name: e.name, uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-equipment.${e._id}]{${e.name}}` }));
+  // Sort longest names first to avoid partial matches
+  linkMap.sort((a, b) => b.name.length - a.name.length);
+
+  for (const feat of allFeats) {
+    let desc = feat.system.description.value;
+    for (const item of linkMap) {
+      // Don't link a feat to itself
+      if (item.name === feat.name) continue;
+      // Skip if this item is already linked via @UUID in this description
+      if (desc.includes(`{${item.name}}`)) continue;
+      // Replace first occurrence (case-insensitive, word boundary, not inside HTML tags)
+      const escaped = item.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const re = new RegExp(`(?<![\\w@])(?:<em>)?${escaped}(?:<\\/em>)?(?!\\w)`, 'i');
+      desc = desc.replace(re, item.uuid);
+    }
+    feat.system.description.value = desc;
+  }
+}
+
+// ============================================================
 const outDir = path.join(process.cwd(), 'packs', 'Everything-Archetypes-Wilderness');
 fs.mkdirSync(outDir, { recursive: true });
 
