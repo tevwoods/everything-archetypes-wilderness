@@ -16,6 +16,46 @@ function effectUuid(name) { return `Compendium.everything-archetypes-wilderness.
 function sysSpell(id, label) { return `@UUID[Compendium.pf2e.spells-srd.Item.${id}]{${label}}`; }
 const now = Date.now();
 
+// System spell name → ID map for auto-linking italic spell references
+const systemSpellMap = {
+  'one with plants': 'dileJ0Yxqg76LMvu',
+  'speak with plants': 'qvwIwJ9QBihy8R0t',
+  'teleport': '69L70wKfGDY66Mk9',
+  'summon plant or fungus': 'jSRAyd57kd4WZ4yE',
+  'mirror image': 'j8vIoIEWElvpwkcI',
+  'soothe': 'szIyEsvihc5e1w8n',
+  'flammable fumes': '6AqH5SGchbdhOJxA',
+  'safe passage': 'IFuEzfmmWyNwVbhY',
+  'solid fog': 'piMJO6aYeDJbrhEo',
+  "nature's reprisal": 'YtBZq49N4Um1cwm7',
+  'disappearance': 'wfleiawxsfhpRRwf',
+  'bloodspray curse': 'VXUrO8TwRqBpNzdU',
+  'entangling flora': 'J6vNvrUT3b1hx2iA',
+  'ethereal jaunt': 'D2nPKbIS67m9199U',
+  'fireball': 'sxQZ6yqTn0czJxVd',
+  'fly': 'A2JfEKe6BZcTG1S8',
+  'fungal hyphae': 'oNUyCqbpGWHifS02',
+  'gecko grip': '5KobTMrZeZxuXMgl',
+  'illusory disguise': 'i35dpZFI7jZcRoBo',
+  'interplanar teleport': '5bTt2CvYHPvaR7QQ',
+  'invisibility': 'XXqE1eY3w3z6xJCB',
+  'know the way': 'tXa5vOu5giBNCjdR',
+  'murderous vine': 'kCgkreCT6g0dipMd',
+  'oaken resilience': 'YWrfKetOqDwVFut7',
+  'petal storm': 'D31YX7zvRBvenTAz',
+  'plant form': 'zCcfPS4y5SrZzU2x',
+  'protector tree': 'K9gI08enGtmih5X1',
+  'regenerate': '2Vkd1IxylPceUAAF',
+  'rusting grasp': '0fYE64odlKqISzft',
+  'shape wood': 'CXICME10TkEJxz0P',
+  'shillelagh': 's3abwDbTV43pGFFW',
+  'soothing blossoms': '5XUn9NADr05IyiVw',
+  'soothing spring': 'fH08MI4KP0KH2EQ9',
+  'tangling creepers': 'JbAcSLu62TU1OgNF',
+  'translocate': 'VlNcjmYyu95vOUe8',
+  'umbral journey': 'rxvS7EMJ7qmexAyA',
+};
+
 // ---------- read markdown & pre-index headers ----------
 const markdownPath = path.join(process.cwd(), 'gmbinder-markdown.txt');
 const raw = fs.readFileSync(markdownPath, 'utf8');
@@ -1161,6 +1201,25 @@ allEffects.push(effectDoc({ name: 'Effect: Distract (Off-Guard)', level: 4,
       const escaped = item.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       const re = new RegExp(`(?<![\\w@])(?:<em>)?${escaped}(?:<\\/em>)?(?!\\w)`, 'i');
       desc = desc.replace(re, item.uuid);
+    }
+    feat.system.description.value = desc;
+  }
+
+  // Second pass: link system spells (italic <em>spell name</em> references)
+  // Sort longest first to avoid partial matches (e.g. "summon plant or fungus" before "fly")
+  const sysSpells = Object.entries(systemSpellMap)
+    .map(([name, id]) => ({ name, uuid: `@UUID[Compendium.pf2e.spells-srd.Item.${id}]{${name}}` }))
+    .sort((a, b) => b.name.length - a.name.length);
+
+  for (const feat of allFeats) {
+    let desc = feat.system.description.value;
+    for (const spell of sysSpells) {
+      // Skip if already linked in this description
+      if (desc.includes(`{${spell.name}}`)) continue;
+      // Match <em>spell name</em> (first occurrence only)
+      const escaped = spell.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const re = new RegExp(`<em>${escaped}<\\/em>`, 'i');
+      desc = desc.replace(re, spell.uuid);
     }
     feat.system.description.value = desc;
   }
