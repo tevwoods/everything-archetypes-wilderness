@@ -53,7 +53,10 @@ function extractDescription(entryName, labelType) {
 
   for (const rawLine of block) {
     const t = rawLine.trim();
-    if (!t) continue;
+    if (!t) {
+      if (inRule && desc.length > 0) desc.push('</p>\n<p>');
+      continue;
+    }
     if (t.includes('\\pagebreakNum') || t.includes('\\columnbreak')) continue;
     if (t.includes('class="feat-margin')) continue;
 
