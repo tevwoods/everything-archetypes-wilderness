@@ -38,7 +38,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.745Z",
+          "datetime": "2026-04-08T15:41:47.526Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -75,8 +75,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -115,7 +115,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.746Z",
+          "datetime": "2026-04-08T15:41:47.526Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -156,8 +156,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -208,7 +208,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.746Z",
+          "datetime": "2026-04-08T15:41:47.526Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -252,8 +252,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -291,7 +291,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.746Z",
+          "datetime": "2026-04-08T15:41:47.526Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -332,8 +332,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -366,7 +366,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.746Z",
+          "datetime": "2026-04-08T15:41:47.526Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -407,8 +407,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -424,7 +424,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>When you rest you can sink little tendrils of roots into the ground and use the energy there to restore those around you. When you spend 10 minutes at rest or Refocusing, you and up to four allies gain fast\n</p>\n\n<p>\nhealing 1 for 30 minutes. Fast healing 1 will heal 10 Hit Points per minute.\n</p>\n\n\n\n<hr /><p><strong>Effects</strong> Drag to ally: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.c473d62c45bf4d97]{Effect: Rejuvenate}</p>"
+        "value": "<p>When you rest you can sink little tendrils of roots into the ground and use the energy there to restore those around you. When you spend 10 minutes at rest or Refocusing, you and up to four allies gain fast\n</p>\n\n<hr /><p><strong>Effects</strong> Drag to ally: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.c473d62c45bf4d97]{Effect: Rejuvenate}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -441,7 +441,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.746Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -482,8 +482,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -516,7 +516,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.746Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -560,8 +560,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -594,7 +594,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.746Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -638,8 +638,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -672,7 +672,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -716,8 +716,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -761,7 +761,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -802,8 +802,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -866,7 +866,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -907,8 +907,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -947,7 +947,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -988,8 +988,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1028,7 +1028,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1072,8 +1072,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1106,7 +1106,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1147,8 +1147,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1186,7 +1186,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1227,8 +1227,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1271,7 +1271,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1315,8 +1315,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1354,7 +1354,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1395,8 +1395,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1412,7 +1412,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You are so deeply respected by trees and arboreals that they and their other allies will answer your call freely to aid you. You may cast <em>summon plant or fungus</em> as an 8th-rank innate primal spell once per day. When you reach 18th level you cast this spell as a 9th-rank spell, and at 20th level you cast it as a 10th-rank spell.\n</p>\n\n\n<hr /><p><strong>Spells</strong> @UUID[Compendium.pf2e.spells-srd.Item.jSRAyd57kd4WZ4yE]{Summon Plant or Fungus} (1/day, 8th rank; 9th at 18th, 10th at 20th)</p>"
+        "value": "<p>You are so deeply respected by trees and arboreals that they and their other allies will answer your call freely to aid you. You may cast <em>summon plant or fungus</em> as an 8th-rank innate primal spell once per day. When you reach 18th level you cast this spell as a 9th-rank spell, and at 20th level you cast it as a 10th-rank spell.\n</p>\n\n<hr /><p><strong>Spells</strong> @UUID[Compendium.pf2e.spells-srd.Item.jSRAyd57kd4WZ4yE]{Summon Plant or Fungus} (1/day, 8th rank; 9th at 18th, 10th at 20th)</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -1429,7 +1429,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1470,8 +1470,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1510,7 +1510,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1554,8 +1554,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1623,7 +1623,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1667,8 +1667,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1701,7 +1701,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1745,8 +1745,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1762,7 +1762,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Frequency</strong> once per day</p>\n<p>The lower half of your body transforms into a tree trunk and roots race deep into the ground to draw healing energy. Your arms reach overhead and become a vast network of branches that extend out in every direction, instantly blossoming into a wild array of petals and pollen that showers the area around you in the life-giving power of nature. Each ally within 60 feet gains regeneration 30 for 3 rounds. This regeneration can be deactivated by fire damage. Each enemy within 60 feet takes 5d8 persistent vitality or persistent holy spirit damage, your choice. This activity has the vitality or holy and spirit traits based on this choice.\n</p>\n\n\n\n<p>\nGolarion's trees come in a number of varieties, not just in their shape, color, size, leafage and fruit, but also in their level of consciousness and intelligence. Many trees have only a vague impression of the events around them, gained mostly through the collective of their root system, and limited intelligence to interpret that information.\n</p>\n<p>\nBut there are a great many trees that are very intelligent and possess their own personalities and interests, apart from the collective. In addition to these, there are many arboreals: humanoid tree creatures that nurture and defend forests.\n</p>\n\n\n\n\n\n\n\n<p>\nThe abilities that a Treespeaker needs to have, and the amount of influence they inherently wield means that it makes sense for the Treespeaker dedication to be a 6th-rank feat, but we still want players to be able to dive right into their character's journey as a Treespeaker if they so desire. The Called Speaker archetype lets players pick up some of the powers of a Treespeaker, and gives access to feats that add a mechanical flair to their progress becoming a full-fledged Treespeaker. These feats also contribute to the character's mechanical narrative that hints at why the character has not yet answered the Call to become a Treespeaker.\n</p>\n\n\n\n\n\n\n<hr /><p><strong>Effects</strong> Drag to ally: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.3f5714e2cd233e13]{Effect: Tree of Life}</p>"
+        "value": "<p><strong>Frequency</strong> once per day</p>\n<p>The lower half of your body transforms into a tree trunk and roots race deep into the ground to draw healing energy. Your arms reach overhead and become a vast network of branches that extend out in every direction, instantly blossoming into a wild array of petals and pollen that showers the area around you in the life-giving power of nature. Each ally within 60 feet gains regeneration 30 for 3 rounds. This regeneration can be deactivated by fire damage. Each enemy within 60 feet takes 5d8 persistent vitality or persistent holy spirit damage, your choice. This activity has the vitality or holy and spirit traits based on this choice.\n</p>\n\n\n<hr /><p><strong>Effects</strong> Drag to ally: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.3f5714e2cd233e13]{Effect: Tree of Life}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -1781,7 +1781,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1822,8 +1822,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1864,7 +1864,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1901,8 +1901,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -1942,7 +1942,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -1983,8 +1983,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2028,7 +2028,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2069,8 +2069,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2086,7 +2086,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Persuading others to see your point of view is a core requirement for any Treespeaker, but some excel above others. When you attempt a check to Make an Impression or Request, if the target is willing you may spend 10 minutes attempting the check instead of the usual amount of time. If you do, you gain a +2 circumstance bonus to your check. If the target is willing, you may spend 1 hour instead. If you do and roll a critical failure on the check, you receive a failure instead.\n</p>\n\n\n\n<p>\nIf you're not sure what kind of trees the players should encounter during exploration, roll and consult the following table for the most helpful tree they find:\n</p>\n<p>\n<p style=\"padding-top: 15px; padding-bottom: 15px;\">\n<strong>01</strong> An elder arboreal is nearby and contacts you telepathically.<br>\n<strong>02-03</strong> An ancient tree is rooted nearby that loves hearing stories of social creatures.<br>\n<strong>04-07</strong> An ancient tree is rooted nearby that doesn't care about the affairs of mortals.<br>\n<strong>08-13</strong> An adult tree is rooted nearby that has a keen awareness of all creatures that pass by.<br>\n<strong>14-32</strong> An adult tree is rooted nearby that doesn't care about the affairs of mortals.<br>\n<strong>33-40</strong> A young tree is rooted nearby that takes note of the happenings of some mortal creatures.<br>\n<strong>41-70</strong> A young tree is rooted nearby that doesn't care about the affairs of mortals.<span><br>\n<strong>71-100</strong> A sapling that is unlikely to be able to help at all.\n</p>\n\n\n\n\n\n\n<p>\n<p>\n<strong>Originally Printed</strong> Pathfinder #152: Legacy of the Lost God\n</p>\n<p>\nAnimal Trainer was originally printed in the second book of Extinction Curse, which is an adventure path that revolves around a traveling circus and the characters that work in and around that circus. In that context, even though Animal Trainer has a lot in common mechanically with Beastmaster and other archetypes that grant an animal companion, it's clear that Animal Trainer is meant to be more geared toward the \"lion  jumping through a hoop of fire\" style of animal companion.  Unfortunately the original printing didn't allow a lot of space to expand on the theme, with only two feats that stepped outside the core animal companion progression, and a minor deviation in which skills your animal companion gets access to.\n</p>\n<p>\nWith that in mind, we focused our expansion of the archetype on the tricks that you and your animal companion are able to pull off when you work together. Because the animal trainer's animal companion lags behind the others in how their raw numbers advance, we wanted to focus these tricks around utility and being helpful to the animal trainer and their allies in and out of combat.\n</p>"
+        "value": "<p>Persuading others to see your point of view is a core requirement for any Treespeaker, but some excel above others. When you attempt a check to Make an Impression or Request, if the target is willing you may spend 10 minutes attempting the check instead of the usual amount of time. If you do, you gain a +2 circumstance bonus to your check. If the target is willing, you may spend 1 hour instead. If you do and roll a critical failure on the check, you receive a failure instead.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -2122,7 +2122,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2166,8 +2166,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2201,7 +2201,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.747Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2242,8 +2242,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2259,7 +2259,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Your animal companion gains the following activity, which it can use when you Command it.\n</p>\n<p>\n<hr /><p>\n<strong>Distract</strong>\n[one-action]\n<strong>Targets</strong> A creature within 30 feet;\n<strong>Effect</strong> Your animal companion creates a distraction by performing stunts to get the target's attention. Your animal companion attempts a Performance check to Perform against the target's Will DC.<br><br>\n<p><strong>Critical Success</strong> The target is off-guard to your attacks until the end of your next turn.\n<p><strong>Success</strong> The target is off-guard to your next attack.\n</p>\n\n\n<hr /><p><strong>Effects</strong> Drag to enemy: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.1b14a03f9994d355]{Effect: Distract (Off-Guard)}</p>"
+        "value": "<p>Your animal companion gains the following activity, which it can use when you Command it.\n</p>\n<p>\n<hr /><p>\n<strong>Distract</strong>\n[one-action]\n<strong>Targets</strong> A creature within 30 feet;\n<strong>Effect</strong> Your animal companion creates a distraction by performing stunts to get the target's attention. Your animal companion attempts a Performance check to Perform against the target's Will DC.<br><br>\n<p><strong>Critical Success</strong> The target is off-guard to your attacks until the end of your next turn.\n<p><strong>Success</strong> The target is off-guard to your next attack.\n</p>\n\n<hr /><p><strong>Effects</strong> Drag to enemy: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.1b14a03f9994d355]{Effect: Distract (Off-Guard)}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -2278,7 +2278,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2325,8 +2325,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2361,7 +2361,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2408,8 +2408,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2444,7 +2444,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2488,8 +2488,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2524,7 +2524,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.527Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2568,8 +2568,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2602,7 +2602,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.528Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2643,8 +2643,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2677,7 +2677,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.528Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2721,8 +2721,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2757,7 +2757,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.528Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2804,8 +2804,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2858,7 +2858,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.528Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2905,8 +2905,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -2941,7 +2941,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.528Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -2988,8 +2988,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3022,7 +3022,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.528Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3063,8 +3063,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3098,7 +3098,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.528Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3142,8 +3142,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3176,7 +3176,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.528Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3217,8 +3217,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3253,7 +3253,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.528Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3300,8 +3300,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3336,7 +3336,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.528Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3383,8 +3383,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3430,7 +3430,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.528Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3471,8 +3471,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3505,7 +3505,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3546,8 +3546,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3563,7 +3563,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Your animal companion gains the following activity, which it can use when you succeed on a Nature check when you Command it.\n</p>\n<p>\n<hr /><p>\n<strong>Running Mount</strong> (move) [one-action] <strong>Targets</strong> a willing creature within the range of one Stride; <strong>Effect</strong>\nYour mount has mastered a trick of picking you or your allies up without help by sliding its head underneath of the target, or some other feat that is appropriate to the animal companion's anatomy. Your companion Strides and must end their movement adjacent to the target. The target may then Mount your animal companion immediately as a free action. Your companion Strides again.\n</p>\n\n\n\n\n\n\n<p>\n<p>\n<strong>Originally Printed</strong> Advanced Player's Guide\n</p>\n<p>\nBounty Hunter shares some similarities to the ranger, such as a Hunt Prey action that brings in a more social aspect by giving a bonus to Gather Information checks regarding your prey, and allowing you to hunt a particular prey off of something like a bounty board or wanted poster. This is at the same time more freeing and more restrictive than the ranger's Hunt Prey, since they are not able to hunt a creature they're Tracking, but instead they can Hunt Prey just by hearing <em>about</em> a particular target.\n</p>\n<p>\nThere is an emphasis on non-lethal damage to subdue a target and ostensibly bring them to justice, and even further incorporation of a social aspect from its Posse feat, which has the potential to give your entire party bonuses related to your Hunt Prey action. In expanding this archetype, we focused on three core elements: exploring the social aspects of hunting a target, honing in on non-lethal takedowns to capture a target rather than kill them, and keeping a target in your sights once you've found them, in the vein of Keep Pace and Opportunistic Grapple.\n</p>\n<p>\nWe have also added three new weapons that are especially suitable for bounty hunters: the lasso, the barbed lasso, and the net gun (page {page-start-gear}). The net gun has its own proficiency feat listed here, but we recommend adding the lasso and barbed lasso to the list of weapons you gain training with in the Tools of the Trade feat (APG).\n</p>"
+        "value": "<p>Your animal companion gains the following activity, which it can use when you succeed on a Nature check when you Command it.\n</p>\n<p>\n<hr /><p>\n<strong>Running Mount</strong> (move) [one-action] <strong>Targets</strong> a willing creature within the range of one Stride; <strong>Effect</strong>\nYour mount has mastered a trick of picking you or your allies up without help by sliding its head underneath of the target, or some other feat that is appropriate to the animal companion's anatomy. Your companion Strides and must end their movement adjacent to the target. The target may then Mount your animal companion immediately as a free action. Your companion Strides again.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -3582,7 +3582,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3629,8 +3629,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3672,7 +3672,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3713,8 +3713,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3759,7 +3759,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3800,8 +3800,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3835,7 +3835,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.748Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3879,8 +3879,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3913,7 +3913,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -3954,8 +3954,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -3991,7 +3991,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4032,8 +4032,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4072,7 +4072,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4116,8 +4116,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4159,7 +4159,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4203,8 +4203,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4243,7 +4243,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4287,8 +4287,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4346,7 +4346,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4387,8 +4387,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4421,7 +4421,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4465,8 +4465,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4482,7 +4482,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Targets</strong> The creature you successfully Grappled or Tripped</p>\n<p><strong>Requirements</strong> Your most recent action was a successful Grapple or Trip check, or you successfully used Opportunistic Grapple since your last turn. You must be wearing or carrying a length of rope.</p>\n<p>After tripping or grabbing your target it's simple enough to tie them up for more convenient delivery. Attempt a Survival or Thievery check against the target's Fortitude DC. On a success, the target is restrained for 1 round or until they successfully Escape against the better of your Survival DC or Thievery DC. On subsequent turns you may repeat this action against the creature you have Hog Tied; if you succeed the restrained condition persists for an additional round. If you critically succeed on the initial check or any subsequent check, the restrained condition lasts for 1 minute, though the creature may still attempt to Escape against your Survival DC or Thievery DC as\n</p>\n\n<p>\nnormal. Regardless of the outcome, the length of rope that satisfied the requirements of this action is now in the target's square: either restraining them or laying on the ground next to them.\n</p>"
+        "value": "<p><strong>Targets</strong> The creature you successfully Grappled or Tripped</p>\n<p><strong>Requirements</strong> Your most recent action was a successful Grapple or Trip check, or you successfully used Opportunistic Grapple since your last turn. You must be wearing or carrying a length of rope.</p>\n<p>After tripping or grabbing your target it's simple enough to tie them up for more convenient delivery. Attempt a Survival or Thievery check against the target's Fortitude DC. On a success, the target is restrained for 1 round or until they successfully Escape against the better of your Survival DC or Thievery DC. On subsequent turns you may repeat this action against the creature you have Hog Tied; if you succeed the restrained condition persists for an additional round. If you critically succeed on the initial check or any subsequent check, the restrained condition lasts for 1 minute, though the creature may still attempt to Escape against your Survival DC or Thievery DC as\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -4500,7 +4500,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4541,8 +4541,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4584,7 +4584,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4625,8 +4625,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4669,7 +4669,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4713,8 +4713,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4753,7 +4753,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4797,8 +4797,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4832,7 +4832,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4873,8 +4873,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -4910,7 +4910,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -4951,8 +4951,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5003,7 +5003,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5047,8 +5047,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5095,7 +5095,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5136,8 +5136,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5153,7 +5153,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Tales of your captures and kills are widely known throughout every corner of Golarion; just by seeing you, enemies know their fate is sealed. When you roll initiative, each enemy creature that can see you must attempt a Will save against the higher of your class DC or spell DC with the following results.\n</p>\n<p>\n<p><strong>Critical Success</strong> The creature is unaffected.\n<p><strong>Success</strong> The creature is frightened 1.\n<p><strong>Failure</strong> The creature is frightened 2.\n<p><strong>Critical Failure</strong> The creature is frightened 3 and fleeing for 1 round.\n</p>\n\n\n\n\n<p>\n<p>\n<strong>Originally Printed</strong> Pathfinder #170: Spoken on the Song Wind\n</p>\n<p>\nFolklorist takes a lot of its design and inspiration from the Bard class. Its core action Spin Tale, granted by the dedication feat, is similar to the Bard's Inspire Courage ability, and its Folktales Lore strongly parallels the Bard's Bardic Lore. Apart from these similarities the Folklorist distinguishes itself with its focus on carrying and sharing lore and telling stories as a form of oral history.\n</p>\n<p>\nIt makes sense to expand upon those themes, focusing on sharing lore and history with others, both in a utility sense and in a way that empowers allies by inspiring them to heroic acts. In the vein of Rule of Three, we have also expanded the archetype with options that revolve around how the story unfolds, giving the folklorist a unique way to engage with each encounter.\n</p>\n<p>\nBecause of the fact that you cannot declare yourself to be the hero of Spin Tale, the Folklorist is clearly meant to be an archetype centered on empowering your friends and allies. We lean heavily into that theme to make Folklorist a viable route for any character that wants to have a strong supporting role in the party.\n</p>"
+        "value": "<p>Tales of your captures and kills are widely known throughout every corner of Golarion; just by seeing you, enemies know their fate is sealed. When you roll initiative, each enemy creature that can see you must attempt a Will save against the higher of your class DC or spell DC with the following results.\n</p>\n<p>\n<p><strong>Critical Success</strong> The creature is unaffected.\n<p><strong>Success</strong> The creature is frightened 1.\n<p><strong>Failure</strong> The creature is frightened 2.\n<p><strong>Critical Failure</strong> The creature is frightened 3 and fleeing for 1 round.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -5177,7 +5177,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5218,8 +5218,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5253,7 +5253,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5297,8 +5297,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5334,7 +5334,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5375,8 +5375,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5412,7 +5412,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.529Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5453,8 +5453,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5470,7 +5470,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Requirements</strong> Spin Tale is active</p>\n<p>A great story doesn't just have a hero and a villain, it also has someone that challenges the hero's journey and highlights their heroic qualities: the foil. The foil can be a friend of the hero who unintentionally makes their task more challenging, or it can be a rival. Choose a creature within 60 feet. If the target is an enemy, the hero gains the same benefits against the foil that he gains against the villain. If the target is an ally, the hero gains a +1 status bonus on checks to Aid the target, and each time the target takes damage, reduce that damage by 5 and the hero takes 5 damage. This damage cannot be reduced in any way. If you are master in Performance, increase the damage transferred to 10. If you are legendary, increase it to 15. This effect remains active as long as the effect of Spin Tale is active.\n</p>\n\n\n\n\n<hr /><p><strong>Effects</strong> Enemy: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.e92b9bdf0db0e7e9]{Establish Foil} | Ally: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.fa93b46a79999283]{Establish Foil (Ally)}</p>"
+        "value": "<p><strong>Requirements</strong> Spin Tale is active</p>\n<p>A great story doesn't just have a hero and a villain, it also has someone that challenges the hero's journey and highlights their heroic qualities: the foil. The foil can be a friend of the hero who unintentionally makes their task more challenging, or it can be a rival. Choose a creature within 60 feet. If the target is an enemy, the hero gains the same benefits against the foil that he gains against the villain. If the target is an ally, the hero gains a +1 status bonus on checks to Aid the target, and each time the target takes damage, reduce that damage by 5 and the hero takes 5 damage. This damage cannot be reduced in any way. If you are master in Performance, increase the damage transferred to 10. If you are legendary, increase it to 15. This effect remains active as long as the effect of Spin Tale is active.\n</p>\n\n\n<hr /><p><strong>Effects</strong> Enemy: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.e92b9bdf0db0e7e9]{Establish Foil} | Ally: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.fa93b46a79999283]{Establish Foil (Ally)}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -5489,7 +5489,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5530,8 +5530,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5566,7 +5566,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5607,8 +5607,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5643,7 +5643,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5684,8 +5684,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5701,7 +5701,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Frequency</strong> once per day</p>\n<p>Sometimes the story requires that the hero or one of their allies loses a decisive battle, only to come back stronger later. Someone has to provide succor to the hero in this time and serve as the wise guide who sets them on the right path. You cast <em>soothe</em> on an ally, heightened to half your level.\n</p>\n\n\n<hr /><p><strong>Spells</strong> @UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]{Soothe} (1/day, heightened to half your level)</p>"
+        "value": "<p><strong>Frequency</strong> once per day</p>\n<p>Sometimes the story requires that the hero or one of their allies loses a decisive battle, only to come back stronger later. Someone has to provide succor to the hero in this time and serve as the wise guide who sets them on the right path. You cast <em>soothe</em> on an ally, heightened to half your level.\n</p>\n\n<hr /><p><strong>Spells</strong> @UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]{Soothe} (1/day, heightened to half your level)</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -5720,7 +5720,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5761,8 +5761,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5778,7 +5778,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Requirements</strong> Spin Tale is active and you haven't used Second Act this encounter</p>\n<p>As the story enters the second act, the folklorist emphasizes and builds the confrontation between the hero and the villain. The villain must attempt a Will save against your Performance DC with the following outcomes. If your story has multiple heroes, they are all affected by the outcome. If your story has multiple villains, choose one to target with this effect.\n</p>\n<p>\n<p><strong>Critical Success</strong> The hero is off-guard to the villain for 1 round.\n<p><strong>Success</strong> The villain is off-guard to the hero for 1 round.\n<p><strong>Failure</strong> The villain is off-guard to the hero for 1 minute.\n<p><strong>Critical Failure</strong> As failure, and the villain gains weakness 3 to the damage type of the hero's primary weapon. If the hero does not typically use a weapon, choose between bludgeoning, piercing, or slashing.\n</p>\n\n\n<hr /><p><strong>Effects</strong> @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.eb0211e6e2a91446]{Off-Guard 1 rnd} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.d796bf5da57e9dee]{Off-Guard 1 min} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.b875ad4c663e23b7]{Off-Guard + Weakness}</p>"
+        "value": "<p><strong>Requirements</strong> Spin Tale is active and you haven't used Second Act this encounter</p>\n<p>As the story enters the second act, the folklorist emphasizes and builds the confrontation between the hero and the villain. The villain must attempt a Will save against your Performance DC with the following outcomes. If your story has multiple heroes, they are all affected by the outcome. If your story has multiple villains, choose one to target with this effect.\n</p>\n<p>\n<p><strong>Critical Success</strong> The hero is off-guard to the villain for 1 round.\n<p><strong>Success</strong> The villain is off-guard to the hero for 1 round.\n<p><strong>Failure</strong> The villain is off-guard to the hero for 1 minute.\n<p><strong>Critical Failure</strong> As failure, and the villain gains weakness 3 to the damage type of the hero's primary weapon. If the hero does not typically use a weapon, choose between bludgeoning, piercing, or slashing.\n</p>\n\n<hr /><p><strong>Effects</strong> @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.eb0211e6e2a91446]{Off-Guard 1 rnd} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.d796bf5da57e9dee]{Off-Guard 1 min} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.b875ad4c663e23b7]{Off-Guard + Weakness}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -5797,7 +5797,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5838,8 +5838,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5855,7 +5855,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Many stories don't revolve around a single villain, but instead contain several. When you use Spin Tale, all enemies within 60 feet are the villains of the story.\n</p>\n<p>\nIf you have Establish Foil, you may now target an enemy who is already a villain with that ability. If you do, the target must attempt a Will save against your Performance DC. On a failure it takes a -2 status penalty to all attack rolls and skill checks against targets that are not the hero of your story. If your story has multiple heroes, choose one to be the hero for this effect. This effect lasts as long as your Spin Tale is active.\n</p>\n\n\n<hr /><p><strong>Effects</strong> Drag to foil: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.b7e64737c5fa8b5b]{Effect: Cast of Villains Foil}</p>"
+        "value": "<p>Many stories don't revolve around a single villain, but instead contain several. When you use Spin Tale, all enemies within 60 feet are the villains of the story.\n</p>\n<p>\nIf you have Establish Foil, you may now target an enemy who is already a villain with that ability. If you do, the target must attempt a Will save against your Performance DC. On a failure it takes a -2 status penalty to all attack rolls and skill checks against targets that are not the hero of your story. If your story has multiple heroes, choose one to be the hero for this effect. This effect lasts as long as your Spin Tale is active.\n</p>\n\n<hr /><p><strong>Effects</strong> Drag to foil: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.b7e64737c5fa8b5b]{Effect: Cast of Villains Foil}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -5872,7 +5872,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5913,8 +5913,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -5930,7 +5930,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Requirements</strong> Spin Tale is active and you have used Second Act in the current story</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p>As the story enters the third act, the folklorist describes the final confrontation between the hero and the villain, with the hero bringing all of their energy to bear, including the help of their allies. The villain must attempt a Will save against your Performance DC.\n</p>\n<p>\n<p><strong>Critical Success</strong> The villain is unaffected\n<p><strong>Success</strong> The villain is off-guard for 1 round.\n<p><strong>Failure</strong> As success, and the status bonus from Spin Tale increases to +2 as long as your tale continues.\n<p><strong>Critical Failure</strong> As failure, and the villain gains weakness to the damage type of the hero's primary weapon equal to half your level. If the hero does not typically use a weapon, choose between bludgeoning, piercing, or slashing.\n</p>\n\n\n<hr /><p><strong>Effects</strong> @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.fb02e9fd8885f9aa]{Off-Guard 1 rnd} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.15e990cb1e0603e9]{Enhanced Tale} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.e668caa1ba2252e7]{Off-Guard + Weakness}</p>"
+        "value": "<p><strong>Requirements</strong> Spin Tale is active and you have used Second Act in the current story</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p>As the story enters the third act, the folklorist describes the final confrontation between the hero and the villain, with the hero bringing all of their energy to bear, including the help of their allies. The villain must attempt a Will save against your Performance DC.\n</p>\n<p>\n<p><strong>Critical Success</strong> The villain is unaffected\n<p><strong>Success</strong> The villain is off-guard for 1 round.\n<p><strong>Failure</strong> As success, and the status bonus from Spin Tale increases to +2 as long as your tale continues.\n<p><strong>Critical Failure</strong> As failure, and the villain gains weakness to the damage type of the hero's primary weapon equal to half your level. If the hero does not typically use a weapon, choose between bludgeoning, piercing, or slashing.\n</p>\n\n<hr /><p><strong>Effects</strong> @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.fb02e9fd8885f9aa]{Off-Guard 1 rnd} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.15e990cb1e0603e9]{Enhanced Tale} | @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.e668caa1ba2252e7]{Off-Guard + Weakness}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -5949,7 +5949,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -5993,8 +5993,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6030,7 +6030,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6071,8 +6071,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6088,7 +6088,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p><strong>Requirements</strong> Spin Tale is active</p>\n<p>The hero presses their advantage to defeat the villain once and for all. The hero of the story immediately takes an additional turn, and receives a +3 status bonus to all checks during this turn. If your story has multiple heroes, choose one ally who is receiving the hero's benefits to take this additional turn. After the hero has taken this extra turn the story has ended, and you cannot Spin Tale again during this encounter. The hero's additional turn does not change their initiative, and they still act on their regular turn as normal.\n</p>\n\n\n\n\n<p>\n<p>\n<strong>Originally Printed</strong> Pathfinder #175: Broken Tusk Moon\n</p>\n<p>\nGame Hunter takes a lot of inspiration from the Ranger and Bounty Hunter skill set, but incorporates an element of honor and respect toward the hunted. Because its Hunt Prey action is limited to the types of creatures it can affect, this archetype has a tendency to be hit-or-miss. Often these creature types might feature strongly in a certain part of an adventure, but later there is a tonal or regional shift and those creatures don't appear nearly as often, or at all.  This can create vestigial player selections: features that are part of your character, but no longer really function. You may not want to retrain them because they represent something fundamental about who your character is or where they came from, but you also gain very little benefit from them.\n</p>\n<p>\nWe added It's All Game to give players an option to overcome this problem by unrestricting their Hunt Prey ability. Because the Game Hunter's Hunt Prey action receives additional benefits beyond the Ranger's, it makes sense to spend a class feat to unlock this power for all creature types.\n</p>\n<p>\nWith that in mind, we also want to really focus in on the way that a Game Hunter honors their fallen foes and the unique way they treat their prey, since this is the core distinction between it and the Bounty Hunter, which is otherwise very similar mechanically.\n</p>\n\n\n\n\n\n\n<hr /><p><strong>Effects</strong> Drag to hero: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.13c03c476020040e]{Effect: Climax}</p>"
+        "value": "<p><strong>Requirements</strong> Spin Tale is active</p>\n<p>The hero presses their advantage to defeat the villain once and for all. The hero of the story immediately takes an additional turn, and receives a +3 status bonus to all checks during this turn. If your story has multiple heroes, choose one ally who is receiving the hero's benefits to take this additional turn. After the hero has taken this extra turn the story has ended, and you cannot Spin Tale again during this encounter. The hero's additional turn does not change their initiative, and they still act on their regular turn as normal.\n</p>\n\n\n<hr /><p><strong>Effects</strong> Drag to hero: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.13c03c476020040e]{Effect: Climax}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -6107,7 +6107,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6148,8 +6148,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6195,7 +6195,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6239,8 +6239,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6274,7 +6274,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6315,8 +6315,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6376,7 +6376,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6417,8 +6417,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6457,7 +6457,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6498,8 +6498,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6541,7 +6541,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6582,8 +6582,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6622,7 +6622,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6663,8 +6663,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6703,7 +6703,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.749Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6744,8 +6744,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6778,7 +6778,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6822,8 +6822,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6857,7 +6857,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6901,8 +6901,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -6941,7 +6941,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -6982,8 +6982,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7016,7 +7016,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7057,8 +7057,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7091,7 +7091,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7132,8 +7132,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7167,7 +7167,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7211,8 +7211,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7228,7 +7228,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>When you are hunting a creature, you rise to the demands of the moment, moving faster and more certainly than you ever thought possible. When you Track a creature in exploration, increase your travel Speed to match that of your target. When you are in an encounter and you have used Hunt Prey, all of your Speeds are equal to the highest Speed that either you or your hunted prey has.\n</p>\n\n\n\n\n\n<p>\n<p>\n<strong>Originally Printed</strong> Advanced Player's Guide\n</p>\n<p>\nFor only having a handful of feats, Herbalist is a very interesting and powerful archetype. The original archetype lays out a character concept that takes a small section of alchemy and focuses in on that, with an emphasis on empowering their healing and potion-crafting with local herbs and alternate preparations like Poultice Preparation.\n</p>\n<p>\nWe have expanded on that concept to imagine what types of special brews an herbalist might come up with to heal and strengthen their allies, additional ways to gather herbs and make use of them, other ways to make special preparations of their herbal alchemy, and other ways to interact with and empower those preparations.\n</p>"
+        "value": "<p>When you are hunting a creature, you rise to the demands of the moment, moving faster and more certainly than you ever thought possible. When you Track a creature in exploration, increase your travel Speed to match that of your target. When you are in an encounter and you have used Hunt Prey, all of your Speeds are equal to the highest Speed that either you or your hunted prey has.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -7251,7 +7251,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7292,8 +7292,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7328,7 +7328,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7369,8 +7369,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7404,7 +7404,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7445,8 +7445,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7462,7 +7462,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>Adventuring is often stressful and it can be difficult to rest easy. You can brew an herbal tea that contains a mix of soothing and relaxing ingredients that ensure you and your allies get a good rest before making your daily preparations. Each time you and up to 5 allies rest and make your daily preparations, you each receive temporary Hit Points equal to half your level. These temporary Hit Points last until your next daily preparations. If you're master in Nature, you each receive temporary Hit Points equal to your level instead.\n</p>\n\n\n<hr /><p><strong>Effects</strong> Drag to ally: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.87a3025666e9ef20]{Effect: Evening Brew}</p>"
+        "value": "<p>Adventuring is often stressful and it can be difficult to rest easy. You can brew an herbal tea that contains a mix of soothing and relaxing ingredients that ensure you and your allies get a good rest before making your daily preparations. Each time you and up to 5 allies rest and make your daily preparations, you each receive temporary Hit Points equal to half your level. These temporary Hit Points last until your next daily preparations. If you're master in Nature, you each receive temporary Hit Points equal to your level instead.\n</p>\n\n<hr /><p><strong>Effects</strong> Drag to ally: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.87a3025666e9ef20]{Effect: Evening Brew}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -7480,7 +7480,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7521,8 +7521,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7594,7 +7594,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7635,8 +7635,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7670,7 +7670,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.530Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7711,8 +7711,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7764,7 +7764,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7805,8 +7805,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7854,7 +7854,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7898,8 +7898,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7932,7 +7932,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -7973,8 +7973,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -7990,7 +7990,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You can prepare a tincture to help someone shrug off the effects of pain. As a 10-minute activity you can expend 2 batches of infused reagents to prepare a tincture for a specific creature, taking into account the creature's size, weight, ancestry, and other factors. Attempt a Nature check with a Hard DC based on the target's level. The target creature must consume the tincture immediately as part of this activity or it spoils.\n</p>\n\n<p>\n<p><strong>Critical Success</strong> For 24 hours, the next time the target creature would be reduced to 0 Hit Points but not immediately killed, they instead remain at 1 Hit Point, their wounded condition increases by 1, and they gain temporary Hit Points equal to your level for 1 minute.\n<p><strong>Success</strong> As critical success, but the duration is 1 hour instead of 24 hours.\n<p><strong>Failure</strong> You fail to calculate the dosage correctly, but realize your mistake before it's too late. The target is unaffected, and you do not expend your infused reagents.\n<p><strong>Critical Failure</strong> The target immediately falls unconscious and stays that way for 1 hour. They cannot be roused by any means. The infused reagents used to prepare this tincture are lost.\n</p>\n\n\n<hr /><p><strong>Effects</strong> Drag to target: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.63bf10a97fbf06c9]{Effect: Anesthetic Tincture}</p>"
+        "value": "<p>You can prepare a tincture to help someone shrug off the effects of pain. As a 10-minute activity you can expend 2 batches of infused reagents to prepare a tincture for a specific creature, taking into account the creature's size, weight, ancestry, and other factors. Attempt a Nature check with a Hard DC based on the target's level. The target creature must consume the tincture immediately as part of this activity or it spoils.\n</p>\n\n<p>\n<p><strong>Critical Success</strong> For 24 hours, the next time the target creature would be reduced to 0 Hit Points but not immediately killed, they instead remain at 1 Hit Point, their wounded condition increases by 1, and they gain temporary Hit Points equal to your level for 1 minute.\n<p><strong>Success</strong> As critical success, but the duration is 1 hour instead of 24 hours.\n<p><strong>Failure</strong> You fail to calculate the dosage correctly, but realize your mistake before it's too late. The target is unaffected, and you do not expend your infused reagents.\n<p><strong>Critical Failure</strong> The target immediately falls unconscious and stays that way for 1 hour. They cannot be roused by any means. The infused reagents used to prepare this tincture are lost.\n</p>\n\n<hr /><p><strong>Effects</strong> Drag to target: @UUID[Compendium.everything-archetypes-wilderness.eaw-effects.63bf10a97fbf06c9]{Effect: Anesthetic Tincture}</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -8007,7 +8007,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8048,8 +8048,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8082,7 +8082,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8126,8 +8126,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8160,7 +8160,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8201,8 +8201,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8218,7 +8218,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You have mastered a combination of herbs that restores someone to perfect health. Each day when you make your daily preparations you create one dose of true panacea, a potion that is effective until you make your next daily preparations. When a creature drinks your True Panacea, their Hit Points are restored to maximum. Attempt a single Nature check to counteract all negative conditions currently affecting the target. Compare the result of the check to each condition's counteract level and DC.\n</p>\n\n\n\n\n\n\n<p>\n<p>\n<strong>Originally Printed</strong> Advanced Player's Guide\n</p>\n<p>\nThe Horizon Walker archetype is about becoming the absolute master over a type of wilderness of your choosing. Finding safe paths through your favored terrain and guiding your allies through that same terrain is the core concept of the archetype.\n</p>\n<p>\nInherently since this archetype focuses on travel through extreme terrains, there is an emphasis on non-combat feats and abilities. This puts the Horizon Walker into a fairly narrow niche: when you're traveling through the rougher parts of your favored terrain, your abilities can be quite useful, however most campaigns don't have much emphasis on these types of difficulties.\n</p>\n<p>\nThis means the Horizon Walker is a binary choice: if the campaign has a lot of environmental hazards in a specific type of terrain, then Horizon Walker is incredibly powerful, likely single-handedly bypassing many of the challenges of those parts of the campaign. If the campaign does not feature that kind of situation often or at all, then the Horizon Walker is relegated to a more flavor-based choice, and adds very little to the character's potential in terms of mechanics.\n</p>\n<p>\nTo overcome these limitations, we focus on two core aspects: broadening the Horizon Walker's potential usefulness in a campaign that crosses multiple types of terrain, and making them the masters of their favored terrain, rather than just masters of traveling through it. Versatile Horizons allows the Horizon Walker to expand their favored terrain selection, which is perfect for campaigns that start primarily in one biome but then transition to another. It only makes sense that the Horizon Walker would quickly become a master of their new terrain without forgetting what they know of the old one. In terms of making Horizon Walkers masters of their terrain, we added feats that let them Recall Knowledge about creatures in their favored terrain, spot hazards, create hazards, and expand upon their magical adaptations. Previous iterations of the Horizon Walker have also seen them mastering travel of other planes in addition to the material plane, so we have recaptured some of that essence as well.\n</p>"
+        "value": "<p>You have mastered a combination of herbs that restores someone to perfect health. Each day when you make your daily preparations you create one dose of true panacea, a potion that is effective until you make your next daily preparations. When a creature drinks your True Panacea, their Hit Points are restored to maximum. Attempt a single Nature check to counteract all negative conditions currently affecting the target. Compare the result of the check to each condition's counteract level and DC.\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -8235,7 +8235,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8276,8 +8276,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8310,7 +8310,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8354,8 +8354,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8388,7 +8388,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8429,8 +8429,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8513,7 +8513,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8557,8 +8557,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8600,7 +8600,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8641,8 +8641,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8697,7 +8697,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8741,8 +8741,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8903,7 +8903,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -8944,8 +8944,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -8978,7 +8978,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9022,8 +9022,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9114,7 +9114,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9155,8 +9155,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9206,7 +9206,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.750Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9247,8 +9247,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9414,7 +9414,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9455,8 +9455,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9489,7 +9489,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9533,8 +9533,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9567,7 +9567,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9611,8 +9611,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9779,7 +9779,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9823,8 +9823,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9840,7 +9840,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You have learned to tap into the true power of the land. You can cast <em>nature's reprisal</em> as a 9th-rank spell once per day.\n</p>\n\n\n\n\n<p>\n<p>\n<strong>Originally Printed</strong> Advanced Player's Guide\n</p>\n<p>\nThe Scout archetype revolves around three core elements: seeing, moving, and not being seen. Usually ranging ahead of and behind their allies, the scout attempts to keep their party from being surprised, and if possible manufactures ways to surprise any enemies they are able to scout out ahead of time.\n</p>\n<p>\nThe core scout feats revolve around these concepts, gaining feats that allow them to move around, hide, sneak, and attack. We lean into the scout's ability to ambush enemies, move around the field of combat, and also add interesting feats that embrace ranged combat styles since the core archetype includes mostly support for melee combat styles.\n</p>\n\n\n\n\n\n\n<hr /><p><strong>Spells</strong> @UUID[Compendium.pf2e.spells-srd.Item.YtBZq49N4Um1cwm7]{Nature's Reprisal} (1/day, 9th rank)</p>"
+        "value": "<p>You have learned to tap into the true power of the land. You can cast <em>nature's reprisal</em> as a 9th-rank spell once per day.\n</p>\n\n\n<hr /><p><strong>Spells</strong> @UUID[Compendium.pf2e.spells-srd.Item.YtBZq49N4Um1cwm7]{Nature's Reprisal} (1/day, 9th rank)</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -9857,7 +9857,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9901,8 +9901,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -9935,7 +9935,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -9976,8 +9976,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10017,7 +10017,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10061,8 +10061,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10114,7 +10114,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10158,8 +10158,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10193,7 +10193,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10234,8 +10234,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10275,7 +10275,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.531Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10316,8 +10316,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10333,7 +10333,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You have developed a series of signs and signals with your allies that allow you to clandestinely communicate with them in a variety of situations. You can communicate through hand gestures, sounds of creatures native to an area, or even more contrived scenarios. Attempt a Survival check against a level-based DC, adjusted for how contrived the communication is. On a success, your allies understand your message clearly. Compare the result of your Survival check to the Perception DCs of any enemies that would be\n</p>\n\n<p>\nable to see or hear your communication. If the result of your Survival check meets or exceeds their Perception DC, they are oblivious to your communication.\n</p>"
+        "value": "<p>You have developed a series of signs and signals with your allies that allow you to clandestinely communicate with them in a variety of situations. You can communicate through hand gestures, sounds of creatures native to an area, or even more contrived scenarios. Attempt a Survival check against a level-based DC, adjusted for how contrived the communication is. On a success, your allies understand your message clearly. Compare the result of your Survival check to the Perception DCs of any enemies that would be\n</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -10351,7 +10351,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.532Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10395,8 +10395,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10431,7 +10431,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.532Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10472,8 +10472,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10512,7 +10512,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.532Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10556,8 +10556,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10596,7 +10596,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.532Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10640,8 +10640,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10674,7 +10674,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.532Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10715,8 +10715,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10749,7 +10749,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.532Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10793,8 +10793,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10833,7 +10833,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.532Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10877,8 +10877,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -10917,7 +10917,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.532Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -10964,8 +10964,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -11016,7 +11016,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.532Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -11057,8 +11057,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -11074,7 +11074,7 @@
     "flags": {},
     "system": {
       "description": {
-        "value": "<p>You have mastered a magical trick of vanishing completely when you need it the most. You can cast <em>disappearance</em> once per day as an innate occult spell.\n</p>\n<p>\nYou may use this casting of <em>disappearance</em> as a reaction instead of its normal cast time with any the following triggers: you fail your Sneak check as part of Beleaguering Attack; you roll initiative and would gain the status bonus from Spotted!; or you hit both of the Strikes of a Demoralizing Volley. You may only use this reaction once per day, even if you gain additional castings of <em>disappearance</em> from other sources.\n</p>\n\n\n\n\n\n<p>\n<p>\n<strong>Net gun</strong> The net gun is powered by black powder charges to launch a folded net with weighted ends at an enemy to entangle them. The net is attached to two lead ropes that anchor back to the firearm. Once a net is fired, you can quickly grab these lead ropes with one hand and use them to keep the target grappled.  Packing and loading the net is a difficult and time-consuming task, so net guns are often only fired once in a given engagement, though it is said that some people have mastered the art of reloading them quickly. Ammunition for a net gun is a pre-packed net charge that costs 1gp each. However, you may recover any spent charges as a 10 minute activity to repair and repack the nets.\n</p>\n<p>\n<p>\n<strong>Lasso</strong> The lasso is a treated rope tied in a specific way to allow it to be thrown over some part of a creature and pulled tight.\n</p>\n<p>\n<p>\n<strong>Barbed lasso</strong> The barbed lasso is a variation on the lasso in which metal barbs are woven into the end of the rope to make it a particularly brutal way of capturing someone.\n</p>\n\n\n\n<p>\n| Name  | Type | Category | Traits | Price | Damage | Hands | Range | Reload | Bulk | Group |\n|:-----:|:----:|:--------:|:------:|:------:|:-----:|:------:|:-----:|:-----:|:------:|:----:|:-----:|\n| Lasso | Ranged | Martial | nonlethal, ranged grapple, tethered, thrown | 1gp | 1d4 B | 1+ | 20 ft. | 0 | L | Brawling\n| Barbed Lasso | Ranged | Martial | ranged grapple, tethered, thrown | 3gp | 1d4 P | 1+ | 20 ft. | 0 | L | Knife\n| Net gun | Ranged | Advanced | nonlethal, ranged grapple, rare | 15gp | 1d10 B | 2 | 30 ft. | 2 | 1 | Firearm\n</p>\n\n\n<p>\n<p>\n<strong>Ranged grapple</strong> A weapon with the ranged grapple trait always has a lead: some kind of rope, chain, or wire. This lead is used to initiate a grapple and maintain it. You may attempt an Athletics check to Grapple a target that is within the first range increment of the weapon, and you may attempt to maintain that Grapple on subsequent turns as long as you still have the lead in one hand. If a creature that is grabbed or restrained this way is ever beyond the first range increment of the weapon, the grabbed or restrained condition ends. If an effect would cause a grabbed or restrained creature to be forcefully moved outside of this range, you may attempt an Athletics check against the initiating creature's Fortitude DC or spell DC as appropriate to prevent the forced movement. You do not need a free hand to Grapple when using a weapon with this trait, but you do have to continue to hold the lead. If a weapon with this trait is two-handed, changing grip so that you are carrying the weapon in one hand and holding the lead is a free action. Similarly dropping the lead and resuming two-handed use of the weapon is a free action. If you Release the lead, the Grapple ends and the target is no longer grabbed or restrained by you. Unless otherwise specified, you cannot attack with this weapon while you have a target grappled with it.\n</p>\n\n<p>\n<p>\n<strong>Bag rounds</strong> These small bags filled with soft pellets can be shot from a firearm instead of normal rounds. These rounds can only deal bludgeoning damage, even if fired from a concussive weapon, and you do not take a penalty when attempting a non-lethal attack when using these rounds. You can attempt to make a lethal attack with these rounds with a -2 circumstance penalty. Purchased in sets of 10.\n</p>\n<p>\n<p>\n<strong>Blunted arrows/bolts</strong> Instead of an arrow or bolt for puncturing or making large wounds, these shafts end in a blunt tip. When fired from a weapon in the bow group the weapon deals bludgeoning damage, and you do not take a penalty when attempting a non-lethal attack when using this ammunition. You can attempt to make a lethal attack with this ammunition with a -2 circumstance penalty. Purchased in sets of 10.\n</p>\n\n<p>\n| Name | Rarity | Level | Price |\n|:-:|:-:|:-:|:-:\n| Bag rounds x10 | Uncommon | 2 | 1gp |\n| Blunted arrows x10 | Uncommon | 2 | 1gp |\n| Blunted bolts x10 | Uncommon | 2 | 1gp |\n</p>\n\n\n\n\n\n<hr /><p><strong>Spells</strong> @UUID[Compendium.pf2e.spells-srd.Item.wfleiawxsfhpRRwf]{Disappearance} (1/day, occult)</p>"
+        "value": "<p>You have mastered a magical trick of vanishing completely when you need it the most. You can cast <em>disappearance</em> once per day as an innate occult spell.\n</p>\n<p>\nYou may use this casting of <em>disappearance</em> as a reaction instead of its normal cast time with any the following triggers: you fail your Sneak check as part of Beleaguering Attack; you roll initiative and would gain the status bonus from Spotted!; or you hit both of the Strikes of a Demoralizing Volley. You may only use this reaction once per day, even if you gain additional castings of <em>disappearance</em> from other sources.\n</p>\n\n\n<hr /><p><strong>Spells</strong> @UUID[Compendium.pf2e.spells-srd.Item.wfleiawxsfhpRRwf]{Disappearance} (1/day, occult)</p>"
       },
       "source": {
         "value": "Everything Archetypes: Wilderness"
@@ -11091,7 +11091,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-08T15:18:47.751Z",
+          "datetime": "2026-04-08T15:41:47.532Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -11132,8 +11132,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775661527743,
-      "modifiedTime": 1775661527743,
+      "createdTime": 1775662907523,
+      "modifiedTime": 1775662907523,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13

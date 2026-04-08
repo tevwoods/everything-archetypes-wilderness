@@ -57,14 +57,34 @@ function extractDescription(entryName, labelType) {
       if (inRule && desc.length > 0) desc.push('</p>\n<p>');
       continue;
     }
-    if (t.includes('\\pagebreakNum') || t.includes('\\columnbreak')) continue;
+    if (t.includes('\\pagebreakNum') || t.includes('\\columnbreak')) {
+      if (inRule) break;
+      continue;
+    }
     if (t.includes('class="feat-margin')) continue;
 
     // Stop at any markdown header (# through ######)
-    if (/^#{1,6}\s/.test(t)) continue;
-    // Stop at wide intro paragraphs and flavor sections (not feat content)
-    if (t.includes('class="wide"') || t.includes('class="wide ')) continue;
-    if (t.includes('class="flavor')) continue;
+    if (/^#{1,6}\s/.test(t)) {
+      if (inRule) break;
+      continue;
+    }
+    // Stop at wide intro paragraphs, flavor sections, and sidebars (not feat content)
+    if (t.includes('class="wide"') || t.includes('class="wide ')) {
+      if (inRule) break;
+      continue;
+    }
+    if (t.includes('class="flavor')) {
+      if (inRule) break;
+      continue;
+    }
+    if (t.includes('class="smallsidebar"') || t.includes('class="sidebar"')) {
+      if (inRule) break;
+      continue;
+    }
+    if (t.includes('<p class="wide"') || t.includes('<p style=')) {
+      if (inRule) break;
+      continue;
+    }
 
     // --- skip taglist ---
     if (t.includes('class="taglist"')) { inTagList = true; tagDepth = 1; continue; }
