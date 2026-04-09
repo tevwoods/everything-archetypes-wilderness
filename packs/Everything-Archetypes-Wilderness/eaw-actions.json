@@ -3,7 +3,7 @@
     "_id": "0cc09c8dbead5f35",
     "name": "Distract",
     "type": "action",
-    "img": "systems/pf2e/icons/default-icons/action.webp",
+    "img": "systems/pf2e/icons/default-icons/action.svg",
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -25,7 +25,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-09T05:15:30.991Z",
+          "datetime": "2026-04-09T19:18:32.656Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -49,8 +49,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775711730974,
-      "modifiedTime": 1775711730974,
+      "createdTime": 1775762312644,
+      "modifiedTime": 1775762312644,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -59,7 +59,7 @@
     "_id": "7fc1060c8dcdeda6",
     "name": "Fetch",
     "type": "action",
-    "img": "systems/pf2e/icons/default-icons/action.webp",
+    "img": "systems/pf2e/icons/default-icons/action.svg",
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -84,7 +84,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-09T05:15:30.991Z",
+          "datetime": "2026-04-09T19:18:32.656Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -108,8 +108,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775711730974,
-      "modifiedTime": 1775711730974,
+      "createdTime": 1775762312644,
+      "modifiedTime": 1775762312644,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -118,7 +118,7 @@
     "_id": "6308b61a664dee98",
     "name": "Open and Close",
     "type": "action",
-    "img": "systems/pf2e/icons/default-icons/action.webp",
+    "img": "systems/pf2e/icons/default-icons/action.svg",
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -143,7 +143,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-09T05:15:30.991Z",
+          "datetime": "2026-04-09T19:18:32.656Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -167,8 +167,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775711730974,
-      "modifiedTime": 1775711730974,
+      "createdTime": 1775762312644,
+      "modifiedTime": 1775762312644,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -177,7 +177,7 @@
     "_id": "b001cb15355e5147",
     "name": "Play Dead",
     "type": "action",
-    "img": "systems/pf2e/icons/default-icons/action.webp",
+    "img": "systems/pf2e/icons/default-icons/action.svg",
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -199,7 +199,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-09T05:15:30.991Z",
+          "datetime": "2026-04-09T19:18:32.656Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -223,8 +223,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775711730974,
-      "modifiedTime": 1775711730974,
+      "createdTime": 1775762312644,
+      "modifiedTime": 1775762312644,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -233,7 +233,7 @@
     "_id": "6ac5184494edd2d0",
     "name": "Deliver Consumable",
     "type": "action",
-    "img": "systems/pf2e/icons/default-icons/action.webp",
+    "img": "systems/pf2e/icons/default-icons/action.svg",
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -255,7 +255,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-09T05:15:30.991Z",
+          "datetime": "2026-04-09T19:18:32.656Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -279,8 +279,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775711730974,
-      "modifiedTime": 1775711730974,
+      "createdTime": 1775762312644,
+      "modifiedTime": 1775762312644,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -289,7 +289,7 @@
     "_id": "15513e2cab58ba11",
     "name": "Keep Away",
     "type": "action",
-    "img": "systems/pf2e/icons/default-icons/action.webp",
+    "img": "systems/pf2e/icons/default-icons/action.svg",
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -311,7 +311,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-09T05:15:30.991Z",
+          "datetime": "2026-04-09T19:18:32.656Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -335,8 +335,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775711730974,
-      "modifiedTime": 1775711730974,
+      "createdTime": 1775762312644,
+      "modifiedTime": 1775762312644,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -345,7 +345,7 @@
     "_id": "093de45f47fdf103",
     "name": "Rolling Charge",
     "type": "action",
-    "img": "systems/pf2e/icons/default-icons/action.webp",
+    "img": "systems/pf2e/icons/default-icons/action.svg",
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -369,7 +369,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-09T05:15:30.991Z",
+          "datetime": "2026-04-09T19:18:32.656Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -393,8 +393,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775711730974,
-      "modifiedTime": 1775711730974,
+      "createdTime": 1775762312644,
+      "modifiedTime": 1775762312644,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -403,7 +403,7 @@
     "_id": "6b869ae78f2e73c0",
     "name": "Dazzling Display",
     "type": "action",
-    "img": "systems/pf2e/icons/default-icons/action.webp",
+    "img": "systems/pf2e/icons/default-icons/action.svg",
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -428,7 +428,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-09T05:15:30.991Z",
+          "datetime": "2026-04-09T19:18:32.656Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -452,8 +452,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775711730974,
-      "modifiedTime": 1775711730974,
+      "createdTime": 1775762312644,
+      "modifiedTime": 1775762312644,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -462,7 +462,7 @@
     "_id": "cdb216e45ad7d722",
     "name": "Drag",
     "type": "action",
-    "img": "systems/pf2e/icons/default-icons/action.webp",
+    "img": "systems/pf2e/icons/default-icons/action.svg",
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -488,7 +488,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-09T05:15:30.991Z",
+          "datetime": "2026-04-09T19:18:32.656Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -512,8 +512,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775711730974,
-      "modifiedTime": 1775711730974,
+      "createdTime": 1775762312644,
+      "modifiedTime": 1775762312644,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13
@@ -522,7 +522,7 @@
     "_id": "f4799f49e0ea0798",
     "name": "Running Mount",
     "type": "action",
-    "img": "systems/pf2e/icons/default-icons/action.webp",
+    "img": "systems/pf2e/icons/default-icons/action.svg",
     "effects": [],
     "folder": null,
     "sort": 0,
@@ -546,7 +546,7 @@
       "schema": {
         "version": 0.93,
         "lastMigration": {
-          "datetime": "2026-04-09T05:15:30.991Z",
+          "datetime": "2026-04-09T19:18:32.656Z",
           "version": {
             "schema": 0.93,
             "foundry": "13",
@@ -570,8 +570,8 @@
       "systemId": "pf2e",
       "systemVersion": "6.0.0",
       "coreVersion": "13",
-      "createdTime": 1775711730974,
-      "modifiedTime": 1775711730974,
+      "createdTime": 1775762312644,
+      "modifiedTime": 1775762312644,
       "lastModifiedBy": "generator"
     },
     "schemaVersion": 13

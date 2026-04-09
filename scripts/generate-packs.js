@@ -445,7 +445,7 @@ function actionDoc({
   if (trigger) desc = `<p><strong>Trigger</strong> ${trigger}</p>\n${desc}`;
   return {
     _id: stableId('eaw-actions:' + name), name, type: 'action',
-    img: 'systems/pf2e/icons/default-icons/action.webp',
+    img: 'systems/pf2e/icons/default-icons/action.svg',
     effects: [], folder: null, sort: 0, flags: {},
     system: {
       description: { value: desc },
@@ -1437,6 +1437,77 @@ for (const feat of allFeats) {
     feat.system.description.value = desc;
     delete feat._linkMeta;
   }
+}
+
+// Cross-link dedication feats ↔ archetype feats
+{
+  // System dedication feat IDs (from PF2e compendium)
+  const systemDedications = {
+    'Animal Trainer Dedication': 'm3ANSHYfBrFyFUvo',
+    'Bounty Hunter Dedication': 'tKaesXO5nlZ2sspx',
+    'Folklorist Dedication': 'sG9fPQk4w9y6MmnY',
+    'Game Hunter Dedication': 'CowQy8gXP9POjuxq',
+    'Herbalist Dedication': '5CRt5Dy9eLv5LpRF',
+    'Horizon Walker Dedication': 'pZMBq7gn66SEEA0n',
+    'Scout Dedication': 'qMa2fIP2nqrFzHrq',
+  };
+
+  // Module dedication feats (Treespeaker, Called Speaker)
+  const moduleDedications = allFeats.filter(f => f.system.traits.value.includes('dedication'));
+  for (const ded of moduleDedications) {
+    const dedName = ded.name;
+    const members = allFeats.filter(f =>
+      f !== ded &&
+      f.system.prerequisites.value.some(p => p.value === dedName)
+    );
+    if (members.length === 0) continue;
+
+    const memberLinks = members
+      .map(f => `@UUID[Compendium.everything-archetypes-wilderness.eaw-feats.${f._id}]{${f.name}} (${f.system.level.value})`)
+      .join(', ');
+    ded.system.description.value += `\n<hr /><p><strong>Archetype Feats</strong> ${memberLinks}</p>`;
+
+    const dedLink = `<p><em>@UUID[Compendium.everything-archetypes-wilderness.eaw-feats.${ded._id}]{${dedName}}</em></p>\n`;
+    for (const f of members) {
+      f.system.description.value = dedLink + f.system.description.value;
+    }
+  }
+
+  // System dedication feats — group module feats by their system dedication prerequisite
+  for (const [dedName, dedId] of Object.entries(systemDedications)) {
+    const members = allFeats.filter(f =>
+      f.system.prerequisites.value.some(p => p.value === dedName)
+    );
+    if (members.length === 0) continue;
+
+    const dedLink = `<p><em>@UUID[Compendium.pf2e.feats-srd.Item.${dedId}]{${dedName}}</em></p>\n`;
+    for (const f of members) {
+      f.system.description.value = dedLink + f.system.description.value;
+    }
+  }
+
+  // Generate journal injection data for runtime archetype journal augmentation
+  const injData = {};
+  for (const [dn, di] of Object.entries(systemDedications)) {
+    const archName = dn.replace(' Dedication', '');
+    const members = allFeats.filter(f =>
+      f.system.prerequisites.value.some(p => p.value === dn)
+    );
+    if (members.length === 0) continue;
+    injData[archName] = {
+      dedicationId: di,
+      feats: members
+        .sort((a, b) => a.system.level.value - b.system.level.value || a.name.localeCompare(b.name))
+        .map(f => ({
+          name: f.name,
+          level: f.system.level.value,
+          uuid: `Compendium.everything-archetypes-wilderness.eaw-feats.${f._id}`
+        }))
+    };
+  }
+  const injPath = path.join(process.cwd(), 'scripts', 'journal-injection-data.json');
+  fs.writeFileSync(injPath, JSON.stringify(injData, null, 2), 'utf8');
+  console.log(`Wrote ${injPath} (${Object.keys(injData).length} archetypes)`);
 }
 
 // ============================================================

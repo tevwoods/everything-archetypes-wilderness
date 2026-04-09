@@ -1,0 +1,557 @@
+{
+  "Animal Trainer": {
+    "dedicationId": "m3ANSHYfBrFyFUvo",
+    "feats": [
+      {
+        "name": "Cover Performance",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.7c275d5ed138266e"
+      },
+      {
+        "name": "Distract Trick",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.cef813340f3d820c"
+      },
+      {
+        "name": "Fetch Trick",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.87723c782b45ed63"
+      },
+      {
+        "name": "Open and Close Trick",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.95860b211198717b"
+      },
+      {
+        "name": "Play Dead Trick",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.a8f5908e2a97f826"
+      },
+      {
+        "name": "Trick Teacher",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.5e833c1bcee017b6"
+      },
+      {
+        "name": "Trickster Companion",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.59b706f53a420670"
+      },
+      {
+        "name": "Deliver Consumable Trick",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.88d0ce61f78c079c"
+      },
+      {
+        "name": "Keep Away Trick",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.913eb65e4d60a38c"
+      },
+      {
+        "name": "Rolling Charge Trick",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.1d567e81450d2ec2"
+      },
+      {
+        "name": "Trick Rider",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.f5185e9364b9254c"
+      },
+      {
+        "name": "Flamboyant Dismount",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.114a0900c3173052"
+      },
+      {
+        "name": "Swimming Companion",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.aca19dd79d4ca21a"
+      },
+      {
+        "name": "Dazzling Display Trick",
+        "level": 12,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.2549d80f946c780b"
+      },
+      {
+        "name": "Drag Trick",
+        "level": 12,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.904b0ea08b698e30"
+      },
+      {
+        "name": "Tandem Performance",
+        "level": 14,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.e716639d40a299fd"
+      },
+      {
+        "name": "Flying Companion",
+        "level": 16,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.8bbd65994c9d7445"
+      },
+      {
+        "name": "Running Mount Trick",
+        "level": 16,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.076f13b6da730b00"
+      }
+    ]
+  },
+  "Bounty Hunter": {
+    "dedicationId": "tKaesXO5nlZ2sspx",
+    "feats": [
+      {
+        "name": "Hampering Critical",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.cea059f0358ff670"
+      },
+      {
+        "name": "Net Gun Proficiency",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.55fda7debfa5951d"
+      },
+      {
+        "name": "Sketch Artist",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.b0de8a32b1943e71"
+      },
+      {
+        "name": "Soporific Specialist",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.053cddfd3b6c819e"
+      },
+      {
+        "name": "Lethal Ultimatum",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.fe368fe86bf7699f"
+      },
+      {
+        "name": "Paid Posse",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.1d66d66d7a885f5e"
+      },
+      {
+        "name": "Soporific Expert",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.bc968c15cb71390d"
+      },
+      {
+        "name": "Tactical Posse",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.69dd9f53212386ba"
+      },
+      {
+        "name": "Dog Pile",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.c77166cb3cdd0279"
+      },
+      {
+        "name": "Projected Ultimatum",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.263692170f926229"
+      },
+      {
+        "name": "Hog Tie",
+        "level": 12,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.fb0b88e286a9b55a"
+      },
+      {
+        "name": "Net Gun Specialist",
+        "level": 12,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.172182b28d2223af"
+      },
+      {
+        "name": "Persistent Soporifics",
+        "level": 14,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.0ad3daefc404737d"
+      },
+      {
+        "name": "Spontaneous Posse",
+        "level": 14,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.2dddda86b4605e63"
+      },
+      {
+        "name": "Pressure-Point Strike",
+        "level": 16,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.64ba79ef2cb00aba"
+      },
+      {
+        "name": "Eliminate",
+        "level": 18,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.752ab94ae678a912"
+      },
+      {
+        "name": "Helpful Posse",
+        "level": 20,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.7f353d1ddb0836ee"
+      },
+      {
+        "name": "Implacable Captor",
+        "level": 20,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.2a4b7118b60d11ad"
+      },
+      {
+        "name": "Legendary Bounty Hunter",
+        "level": 20,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.72c7c98021e01e80"
+      }
+    ]
+  },
+  "Folklorist": {
+    "dedicationId": "sG9fPQk4w9y6MmnY",
+    "feats": [
+      {
+        "name": "Exchange Tales",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.4be55075f1cb02db"
+      },
+      {
+        "name": "Recall Tale",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.95369bbe7bac29d9"
+      },
+      {
+        "name": "Confounding Illusions",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.099e3da615cce94d"
+      },
+      {
+        "name": "Establish Foil",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.37d1db51a9640696"
+      },
+      {
+        "name": "Darken Tone",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.570bfc3c1156b72f"
+      },
+      {
+        "name": "Lighten Tone",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.e84fb29366983d03"
+      },
+      {
+        "name": "Theme of Loss",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.f85081442d8f3d3d"
+      },
+      {
+        "name": "Second Act",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.f82592b035845594"
+      },
+      {
+        "name": "Cast of Villains",
+        "level": 12,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.d3cba439c14c0bb6"
+      },
+      {
+        "name": "Third Act",
+        "level": 14,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.42693013eb6808d8"
+      },
+      {
+        "name": "Denouement",
+        "level": 16,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.92b20c11d31ffd8a"
+      },
+      {
+        "name": "Climax",
+        "level": 18,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.dcfe0cbaf115d5e0"
+      }
+    ]
+  },
+  "Game Hunter": {
+    "dedicationId": "CowQy8gXP9POjuxq",
+    "feats": [
+      {
+        "name": "Instant Tracker",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.e705b3b109df4f25"
+      },
+      {
+        "name": "Sense Game",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.04add1d3d082e1a2"
+      },
+      {
+        "name": "Trophy Collector",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.24fcf4a58df0867a"
+      },
+      {
+        "name": "Improved Slowing Strikes",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.3e898f1fbb4f56f2"
+      },
+      {
+        "name": "It's All Game",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.28e5ab0337f7f35b"
+      },
+      {
+        "name": "Lie in Wait",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.9441351073f514af"
+      },
+      {
+        "name": "Hunter's Verve",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.62d0eb741e3cf8e4"
+      },
+      {
+        "name": "Precise Trapper",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.cf61dc097db5b307"
+      },
+      {
+        "name": "Brandish Trophy",
+        "level": 12,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.79032c553c6de331"
+      },
+      {
+        "name": "Hunter's Certainty",
+        "level": 12,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.1965d0bf41a7c04a"
+      },
+      {
+        "name": "Lacerating Strikes",
+        "level": 14,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.51d3641d9fa96e62"
+      },
+      {
+        "name": "Slowing Shots",
+        "level": 14,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.6273c3f9bc0a27db"
+      },
+      {
+        "name": "Preternatural Hunter",
+        "level": 16,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.10e5e9e7ca3f71c1"
+      },
+      {
+        "name": "Unshakeable Hunter",
+        "level": 18,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.44076c28bc76ff5e"
+      }
+    ]
+  },
+  "Herbalist": {
+    "dedicationId": "5CRt5Dy9eLv5LpRF",
+    "feats": [
+      {
+        "name": "Battle Herbs",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.c953dc85a5969f29"
+      },
+      {
+        "name": "Constant Gatherer",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.26c29cca03d7ffff"
+      },
+      {
+        "name": "Evening Brew",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.9525004520b688aa"
+      },
+      {
+        "name": "Energizing Chew",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.f303825f100be752"
+      },
+      {
+        "name": "Quick Poultice",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.1f5b8366be88b409"
+      },
+      {
+        "name": "Dietary Cleanse",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.0581820260826f33"
+      },
+      {
+        "name": "Long-Term Care",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.e898bcce52b6c16b"
+      },
+      {
+        "name": "Vapor Preparation",
+        "level": 12,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.b18edd36b3bd8bfb"
+      },
+      {
+        "name": "Anesthetic Tincture",
+        "level": 14,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.8dd3964d701b642e"
+      },
+      {
+        "name": "Smelling Vapors",
+        "level": 16,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.64bc111b166ff4e7"
+      },
+      {
+        "name": "Merciful Killer",
+        "level": 18,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.36dfd54035d2bc2f"
+      },
+      {
+        "name": "True Panacea",
+        "level": 20,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.ef80232e2cf7420b"
+      }
+    ]
+  },
+  "Horizon Walker": {
+    "dedicationId": "pZMBq7gn66SEEA0n",
+    "feats": [
+      {
+        "name": "Natural Snares",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.9da25dc549b9fd80"
+      },
+      {
+        "name": "Terrain Guidance",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.852486ce33bb6d0a"
+      },
+      {
+        "name": "Versatile Horizons",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.e7b1251421ab1213"
+      },
+      {
+        "name": "Known Predators",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.8685ec08680d98c6"
+      },
+      {
+        "name": "Live off the Land",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.7a375bfc743c31dd"
+      },
+      {
+        "name": "Terrain Specialist",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.2ec4f7c336f3660a"
+      },
+      {
+        "name": "Wide Snares",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.45f5150ed9a49ed2"
+      },
+      {
+        "name": "Extraplanar Walker",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.a85c77c6c059e1a0"
+      },
+      {
+        "name": "Urban Walker",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.99d0126c06120cf0"
+      },
+      {
+        "name": "Brutal Snares",
+        "level": 12,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.ea8764caa3e1eefe"
+      },
+      {
+        "name": "Planar Walker",
+        "level": 12,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.8e2bed2ad3d8f849"
+      },
+      {
+        "name": "Greater Magical Adaptation",
+        "level": 14,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.c34d9e2f5473d2cd"
+      },
+      {
+        "name": "Terrain Dominance",
+        "level": 14,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.5b63d0ae162ef950"
+      },
+      {
+        "name": "Major Magical Adaptation",
+        "level": 18,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.6f097b306038a3f2"
+      }
+    ]
+  },
+  "Scout": {
+    "dedicationId": "qMa2fIP2nqrFzHrq",
+    "feats": [
+      {
+        "name": "Demoralizing Volley",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.2a37f0e442a3c188"
+      },
+      {
+        "name": "Hidden Scout",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.e9773a01d1dcf77a"
+      },
+      {
+        "name": "Spotted!",
+        "level": 4,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.b0abe9ede9309219"
+      },
+      {
+        "name": "Beleaguering Attack",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.08d932bb4485ab81"
+      },
+      {
+        "name": "Detailed Report",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.84ca6b60aff25ebf"
+      },
+      {
+        "name": "Scout Language",
+        "level": 6,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.a18f1902128688c7"
+      },
+      {
+        "name": "Marking Shot",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.1a8c8bdd172bc458"
+      },
+      {
+        "name": "Scout's Ambush",
+        "level": 8,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.4114382642a0f8ba"
+      },
+      {
+        "name": "Exhaustive Report",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.9e77d381afde0c5c"
+      },
+      {
+        "name": "Quick Scout",
+        "level": 10,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.9166d173f3651720"
+      },
+      {
+        "name": "Harrying Charge",
+        "level": 14,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.73684dd6fb96aa47"
+      },
+      {
+        "name": "Shattering Volley",
+        "level": 14,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.4168f0d267e55987"
+      },
+      {
+        "name": "Legendary Scout's Ambush",
+        "level": 16,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.7867fef0b8c1fe84"
+      },
+      {
+        "name": "Scout's Senses",
+        "level": 18,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.84fe6b3f7128c3f0"
+      },
+      {
+        "name": "Must Have Been the Wind",
+        "level": 20,
+        "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.7e35856f60a31476"
+      }
+    ]
+  }
+}

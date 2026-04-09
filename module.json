@@ -67,6 +67,9 @@
       "path": "lang/en.json"
     }
   ],
+  "esmodules": [
+    "scripts/journal-injection.js"
+  ],
   "relationships": {
     "systems": [
       {
