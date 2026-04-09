@@ -51,7 +51,7 @@ jobs:
 
       - name: Create module archive
         run: |
-          zip -r everything-archetypes-wilderness.zip module.json packs/ lang/
+          zip -r everything-archetypes-wilderness.zip module.json packs/ lang/ scripts/journal-injection.js scripts/journal-injection-data.json
           [ -f LICENSE ] && zip everything-archetypes-wilderness.zip LICENSE
           [ -f README.md ] && zip everything-archetypes-wilderness.zip README.md
 
