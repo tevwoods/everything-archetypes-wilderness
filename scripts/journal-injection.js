@@ -67,11 +67,41 @@ function injectArchetypeFeats(root) {
   }
 }
 
-// Hook into JournalSheet rendering (ApplicationV1 — Foundry v12/v13).
-// The hook fires for every subclass in the inheritance chain, so this catches
-// any PF2e-specific JournalSheet subclass as well.
-Hooks.on('renderJournalSheet', (app, html) => {
-  const journal = app.document;
-  if (journal?.pack !== 'pf2e.journals' || journal.name !== 'Archetypes') return;
-  injectArchetypeFeats(html[0] ?? html);
-});
+// Determine if this is the PF2e Archetypes journal by checking the document
+// and its parent (for page-level hooks).
+function isArchetypesJournal(doc) {
+  if (!doc) return false;
+  // Journal-level: doc is the JournalEntry
+  if (doc.pack === 'pf2e.journals' && doc.name === 'Archetypes') return true;
+  // Page-level: doc is a JournalEntryPage, parent is the JournalEntry
+  const parent = doc.parent;
+  if (parent?.pack === 'pf2e.journals' && parent.name === 'Archetypes') return true;
+  return false;
+}
+
+// Hook into journal rendering at multiple levels to catch however Foundry/PF2e
+// renders the content. Each hook in the ApplicationV1 inheritance chain fires.
+for (const hookName of [
+  'renderJournalSheet',
+  'renderJournalTextPageSheet',
+  'renderJournalPageSheet',
+]) {
+  Hooks.on(hookName, (app, html) => {
+    if (!isArchetypesJournal(app.document)) return;
+    console.log(`${MODULE_ID} | ${hookName} fired for Archetypes journal`);
+    const root = html[0] ?? html;
+    injectArchetypeFeats(root);
+  });
+}
+
+// Also support ApplicationV2 (Foundry v13+) which passes HTMLElement directly.
+for (const hookName of [
+  'renderJournalSheetV2',
+  'renderJournalTextPageSheetPF2e',
+]) {
+  Hooks.on(hookName, (app, element) => {
+    if (!isArchetypesJournal(app.document)) return;
+    console.log(`${MODULE_ID} | ${hookName} fired for Archetypes journal`);
+    injectArchetypeFeats(element);
+  });
+}
