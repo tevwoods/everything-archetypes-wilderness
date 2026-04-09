@@ -51,6 +51,13 @@
       "path": "packs/Everything-Archetypes-Wilderness/eaw-effects.db",
       "folder": "Everything-Archetypes-Wilderness",
       "type": "Item"
+    },
+    {
+      "name": "eaw-actions",
+      "label": "Companion Actions",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-actions.db",
+      "folder": "Everything-Archetypes-Wilderness",
+      "type": "Item"
     }
   ],
   "languages": [

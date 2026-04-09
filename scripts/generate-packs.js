@@ -13,6 +13,7 @@ function spellUuid(name) { return `Compendium.everything-archetypes-wilderness.e
 function featUuid(name) { return `Compendium.everything-archetypes-wilderness.eaw-feats.${stableId('eaw-feats:' + name)}`; }
 function macroUuid(name) { return `Compendium.everything-archetypes-wilderness.eaw-macros.${stableId('eaw-macros:' + name)}`; }
 function effectUuid(name) { return `Compendium.everything-archetypes-wilderness.eaw-effects.${stableId('eaw-effects:' + name)}`; }
+function actionUuid(name) { return `Compendium.everything-archetypes-wilderness.eaw-actions.${stableId('eaw-actions:' + name)}`; }
 function sysSpell(id, label) { return `@UUID[Compendium.pf2e.spells-srd.Item.${id}]{${label}}`; }
 const now = Date.now();
 
@@ -121,6 +122,14 @@ const systemConditionMap = {
   'dying': 'yZRUzMqrMmfLu0V1',
   'wounded': 'Yl48xTdMh3aeQYL2',
   'fleeing': 'sDPxOjQ9kx2RZE8D',
+  'fascinated': 'AdPVz7rbaVSRxHFg',
+  'quickened': 'nlCjDvLMf2EkV2dl',
+  'confused': 'yblD8fOR1J8rDwEQ',
+  'controlled': '9qGBRpbX9NEwtAAr',
+  'petrified': 'dTwPJuKgBQCMxixg',
+  'invisible': 'zJxUflt9np0q4yML',
+  'encumbered': 'D5mg6Tc7Jzrj6ro7',
+  'broken': '6dNUvdb1dhToNDj3',
 };
 
 // ---------- read markdown & pre-index headers ----------
@@ -229,11 +238,11 @@ function extractDescription(entryName, labelType) {
       .replace(/<span class="rule targets">\s*/g, '<strong>Targets</strong> ')
       .replace(/<span class="rule effect">\s*/g, '<strong>Effect</strong> ')
       .replace(/<\/span>/g, '')
-      .replace(/\{3A\}/g, '[three-actions]')
-      .replace(/\{2A\}/g, '[two-actions]')
-      .replace(/\{1A\}/g, '[one-action]')
-      .replace(/\{0A\}/g, '[free-action]')
-      .replace(/\{R\}/g, '[reaction]')
+      .replace(/\{3A\}/g, '##GLYPH:3##')
+      .replace(/\{2A\}/g, '##GLYPH:2##')
+      .replace(/\{1A\}/g, '##GLYPH:1##')
+      .replace(/\{0A\}/g, '##GLYPH:F##')
+      .replace(/\{R\}/g, '##GLYPH:R##')
       .replace(/<b>/g, '<strong>').replace(/<\/b>/g, '</strong>')
       .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
       .replace(/<div class="rule heightened\w+">/g, '<p>')
@@ -254,20 +263,23 @@ function extractDescription(entryName, labelType) {
   result = result.replace(/<span class="rule req">/g, '<strong>Requirements</strong> ');
   result = result.replace(/<span class="rule effect">/g, '<strong>Effect</strong> ');
   result = result.replace(/<span class="rule">/g, '');
-  result = result.replace(/<\/span>/g, '');
-  result = result.replace(/\s*class="[^"]*"/g, '');
+  result = result.replace(/<\/span>(?![^<]*<span class="action-glyph")/g, '');
+  result = result.replace(/\s*class="(?!action-glyph")[^"]*"/g, '');
   result = result.replace(/<div\s*>/g, '');
   // Strip page references like (page {slug}) or (page 31)
   result = result.replace(/\s*\(page\s*\{[^}]+\}\)/g, '');
   result = result.replace(/\s*\(page\s*\d+\)/g, '');
+
+  // Convert action glyph placeholders to proper HTML
+  result = result.replace(/##GLYPH:([^#]+)##/g, '<span class="action-glyph">$1</span>');
 
   if (result && !result.startsWith('<p>') && !result.startsWith('<hr')) {
     result = `<p>${result}</p>`;
   }
   result = result.replace(/<p>\s*<\/p>/g, '');
   // Strip Special paragraphs from parsed content (featDoc appends these from the special param)
-  result = result.replace(/\n?<p><strong>Special<\/strong>\s[^<]*<\/p>/g, '');
-  result = result.replace(/<strong>Special<\/strong>\s[^<]*/g, '');
+  result = result.replace(/\n?<p><strong>Special<\/strong>[\s\S]*?<\/p>/g, '');
+  result = result.replace(/<strong>Special<\/strong>[\s\S]*/g, '');
   return result || `<p>${entryName} description.</p>`;
 }
 
@@ -422,19 +434,47 @@ function effectDoc({
   };
 }
 
+function actionDoc({
+  name, description, traits = [], rarity = 'common',
+  actionType = 'action', actionCount = null,
+  requirements = null, trigger = null, rules = [],
+}) {
+  let desc = description.trim();
+  if (!desc.startsWith('<p>')) desc = `<p>${desc}</p>`;
+  if (requirements) desc = `<p><strong>Requirements</strong> ${requirements}</p>\n${desc}`;
+  if (trigger) desc = `<p><strong>Trigger</strong> ${trigger}</p>\n${desc}`;
+  return {
+    _id: stableId('eaw-actions:' + name), name, type: 'action',
+    img: 'systems/pf2e/icons/default-icons/action.webp',
+    effects: [], folder: null, sort: 0, flags: {},
+    system: {
+      description: { value: desc },
+      source: { value: 'Everything Archetypes: Wilderness' },
+      traits: { value: traits.map(t => t.toLowerCase()), rarity, custom: '' },
+      rules,
+      slug: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+      schema: { version: 0.93, lastMigration: { datetime: new Date().toISOString(), version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
+      actionType: { value: actionType },
+      actions: { value: actionCount },
+      category: null,
+      deathNote: false,
+    },
+    ownership: { default: 0 },
+    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: 'generator' },
+    schemaVersion: 13,
+  };
+}
+
 // ============================================================
 // Helper to create a feat with auto-extracted description
 // ============================================================
 const allFeats = [];
 function addFeat(opts) {
   let desc = extractDescription(opts.name, 'FEAT');
-  if (opts.effectLinks) {
-    desc += `\n<hr /><p><strong>Effects</strong> ${opts.effectLinks}</p>`;
-  }
-  if (opts.spellLinks) {
-    desc += `\n<hr /><p><strong>Spells</strong> ${opts.spellLinks}</p>`;
-  }
-  allFeats.push(featDoc({ ...opts, description: desc }));
+  const feat = featDoc({ ...opts, description: desc });
+  // Store link metadata to append after auto-linking (avoids linker collisions with item names)
+  feat._linkMeta = { actionLinks: opts.actionLinks, effectLinks: opts.effectLinks, spellLinks: opts.spellLinks };
+  allFeats.push(feat);
 }
 
 // ===== TREESPEAKER =====
@@ -514,28 +554,28 @@ addFeat({ name: 'Timeless Persuasion', level: 4, traits: ['archetype', 'skill'],
 
 // ===== ANIMAL TRAINER =====
 addFeat({ name: 'Cover Performance', level: 4, traits: ['archetype', 'exploration'], prerequisites: ['Animal Trainer Dedication'] });
-addFeat({ name: 'Distract Trick', level: 4, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'expert in Nature'], actionType: 'action', actionCount: 1, effectLinks: `Drag to enemy: @UUID[${effectUuid('Effect: Distract (Off-Guard)')}]{Effect: Distract (Off-Guard)}` });
-addFeat({ name: 'Fetch Trick', level: 4, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'expert in Nature'], actionType: 'action', actionCount: 2 });
-addFeat({ name: 'Open and Close Trick', level: 4, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher'], actionType: 'action', actionCount: 1 });
-addFeat({ name: 'Play Dead Trick', level: 4, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher'], actionType: 'action', actionCount: 1 });
+addFeat({ name: 'Distract Trick', level: 4, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'expert in Nature'], actionType: 'action', actionCount: 1, actionLinks: `Drag to companion: @UUID[${actionUuid('Distract')}]{Distract}`, effectLinks: `Drag to enemy: @UUID[${effectUuid('Effect: Distract (Off-Guard)')}]{Effect: Distract (Off-Guard)}` });
+addFeat({ name: 'Fetch Trick', level: 4, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'expert in Nature'], actionType: 'action', actionCount: 2, actionLinks: `Drag to companion: @UUID[${actionUuid('Fetch')}]{Fetch}` });
+addFeat({ name: 'Open and Close Trick', level: 4, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher'], actionType: 'action', actionCount: 1, actionLinks: `Drag to companion: @UUID[${actionUuid('Open and Close')}]{Open and Close}` });
+addFeat({ name: 'Play Dead Trick', level: 4, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher'], actionType: 'action', actionCount: 1, actionLinks: `Drag to companion: @UUID[${actionUuid('Play Dead')}]{Play Dead}` });
 addFeat({ name: 'Trick Teacher', level: 4, traits: ['archetype'], prerequisites: ['Animal Trainer Dedication'] });
 addFeat({ name: 'Trickster Companion', level: 6, traits: ['archetype'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher'] });
-addFeat({ name: 'Deliver Consumable Trick', level: 8, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'master in Nature'], actionType: 'action', actionCount: 2 });
-addFeat({ name: 'Keep Away Trick', level: 8, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'master in Nature'], actionType: 'action', actionCount: 2, rules: [
+addFeat({ name: 'Deliver Consumable Trick', level: 8, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'master in Nature'], actionType: 'action', actionCount: 2, actionLinks: `Drag to companion: @UUID[${actionUuid('Deliver Consumable')}]{Deliver Consumable}` });
+addFeat({ name: 'Keep Away Trick', level: 8, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'master in Nature'], actionType: 'action', actionCount: 2, actionLinks: `Drag to companion: @UUID[${actionUuid('Keep Away')}]{Keep Away}`, rules: [
   { key: 'RollOption', domain: 'ac', option: 'keep-away-active', toggleable: true, label: 'Companion using Keep Away' },
   { key: 'FlatModifier', selector: 'ac', type: 'circumstance', value: 2, label: 'Keep Away Trick', predicate: ['keep-away-active'] }
 ] });
-addFeat({ name: 'Rolling Charge Trick', level: 8, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'master in Nature'], actionType: 'action', actionCount: 2 });
+addFeat({ name: 'Rolling Charge Trick', level: 8, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'master in Nature'], actionType: 'action', actionCount: 2, actionLinks: `Drag to companion: @UUID[${actionUuid('Rolling Charge')}]{Rolling Charge}` });
 addFeat({ name: 'Trick Rider', level: 8, traits: ['archetype'], prerequisites: ['Animal Trainer Dedication'] });
 addFeat({ name: 'Flamboyant Dismount', level: 10, traits: ['archetype', 'visual'], prerequisites: ['Animal Trainer Dedication', 'Trick Rider'] });
 addFeat({ name: 'Swimming Companion', level: 10, traits: ['archetype'], prerequisites: ['Animal Trainer Dedication'] });
-addFeat({ name: 'Dazzling Display Trick', level: 12, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'master in Nature'], actionType: 'action', actionCount: 2 });
-addFeat({ name: 'Drag Trick', level: 12, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'master in Nature'], actionType: 'action', actionCount: 1 });
+addFeat({ name: 'Dazzling Display Trick', level: 12, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'master in Nature'], actionType: 'action', actionCount: 2, actionLinks: `Drag to companion: @UUID[${actionUuid('Dazzling Display')}]{Dazzling Display}` });
+addFeat({ name: 'Drag Trick', level: 12, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'master in Nature'], actionType: 'action', actionCount: 1, actionLinks: `Drag to companion: @UUID[${actionUuid('Drag')}]{Drag}` });
 addFeat({ name: 'Tandem Performance', level: 14, traits: ['archetype', 'auditory', 'visual'], prerequisites: ['Animal Trainer Dedication'], rules: [
   { key: 'Note', selector: ['deception', 'diplomacy', 'intimidation', 'performance'], text: '<p class="compact-text"><strong>Tandem Performance</strong> If your animal companion is adjacent, it can Aid you without preparing or spending a reaction.</p>' }
 ] });
 addFeat({ name: 'Flying Companion', level: 16, traits: ['archetype'], prerequisites: ['Animal Trainer Dedication'] });
-addFeat({ name: 'Running Mount Trick', level: 16, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'legendary in Nature'], actionType: 'action', actionCount: 1 });
+addFeat({ name: 'Running Mount Trick', level: 16, traits: ['archetype', 'skill', 'trick'], prerequisites: ['Animal Trainer Dedication', 'Trick Teacher', 'legendary in Nature'], actionType: 'action', actionCount: 1, actionLinks: `Drag to companion: @UUID[${actionUuid('Running Mount')}]{Running Mount}` });
 
 // ===== BOUNTY HUNTER =====
 addFeat({ name: 'Hampering Critical', level: 4, traits: ['archetype'], prerequisites: ['Bounty Hunter Dedication'], effectLinks: `Drag to enemy: @UUID[${effectUuid('Effect: Hampering Critical')}]{Effect: Hampering Critical}`, rules: [
@@ -1246,6 +1286,60 @@ allEffects.push(effectDoc({ name: 'Effect: Distract (Off-Guard)', level: 4,
 }));
 
 // ============================================================
+// Companion Action items (drag onto companion sheet)
+// ============================================================
+const allActions = [];
+
+allActions.push(actionDoc({ name: 'Distract', actionType: 'action', actionCount: 1,
+  description: '<p>Your animal companion creates a distraction by performing stunts to get the target\'s attention. Your animal companion attempts a Performance check against the target\'s Will DC.</p><p><strong>Critical Success</strong> The target is off-guard to your attacks until the end of your next turn.</p><p><strong>Success</strong> The target is off-guard to your next attack.</p>',
+}));
+
+allActions.push(actionDoc({ name: 'Fetch', actionType: 'action', actionCount: 2,
+  traits: ['manipulate', 'move'],
+  description: '<p>Your animal companion Strides toward the target, Interacts to pick it up, and Strides toward you. If it reaches you, it can deliver the object into one of your hands if you have a free hand, otherwise it Releases the object after completing its Stride.</p>',
+}));
+
+allActions.push(actionDoc({ name: 'Open and Close', actionType: 'action', actionCount: 1,
+  traits: ['manipulate', 'move'],
+  description: '<p>Your animal companion Strides up to its Speed and Interacts to open or close a door.</p>',
+}));
+
+allActions.push(actionDoc({ name: 'Play Dead', actionType: 'action', actionCount: 1,
+  description: '<p>Your animal companion acts as though it just died. Your animal companion drops prone and attempts a Performance check against the Perception DC of all enemy observers. Each creature that the animal companion succeeds against believes the creature has died.</p>',
+}));
+
+allActions.push(actionDoc({ name: 'Deliver Consumable', actionType: 'action', actionCount: 2,
+  requirements: 'The animal companion is within melee reach of you, and you are wearing or carrying the consumable to be delivered',
+  description: '<p>Your animal companion Strides up to its Speed to an ally within range of a single Stride, and Interacts to pour a potion into the ally\'s mouth or place a different type of consumable into the ally\'s hand.</p>',
+}));
+
+allActions.push(actionDoc({ name: 'Keep Away', actionType: 'action', actionCount: 2,
+  requirements: 'Your animal companion is adjacent to you',
+  description: '<p>Your animal companion takes a defensive posture next to you, actively deflecting and disrupting incoming attacks. You gain a +2 circumstance bonus to AC for 1 round. You lose this benefit if you are not adjacent to your animal companion at any time during this effect.</p>',
+}));
+
+allActions.push(actionDoc({ name: 'Rolling Charge', actionType: 'action', actionCount: 2,
+  traits: ['move'],
+  requirements: 'No one is riding your animal companion, or you are riding them and you have the Trick Rider feat',
+  description: '<p>Your animal companion rolls into the enemies, either head over heels or on its side, attempting to bowl them over. They Stride up to twice their Speed in a straight line that can include enemies. Each time your animal companion would pass through an enemy\'s square, it attempts an Athletics check against the enemy\'s Reflex DC. If you are riding your animal companion and you have the Trick Rider feat, you may remain mounted and you walk along your animal companion\'s back as they roll.</p><p><strong>Critical Success</strong> The enemy is knocked prone and moved 5 feet out of the path of your animal companion.</p><p><strong>Success</strong> Your animal companion fails to knock the enemy prone, but continues through its square.</p><p><strong>Failure</strong> Your animal companion stumbles to a halt in front of the enemy and does not finish their Stride.</p>',
+}));
+
+allActions.push(actionDoc({ name: 'Dazzling Display', actionType: 'action', actionCount: 2,
+  traits: ['auditory', 'visual'],
+  description: '<p>Your animal companion roars or demonstrates its prowess in a display of power that shakes enemies. Your animal companion attempts a Performance check. Compare the result to the Will DCs of each enemy creature within 20 feet of your animal companion. Regardless of the outcome, each affected creature is immune to your animal companion\'s Dazzling Display for 24 hours.</p><p><strong>Critical Success</strong> The enemy is frightened 2.</p><p><strong>Success</strong> The enemy is frightened 1.</p><p><strong>Failure</strong> The enemy is clumsy 1 until the end of your turn.</p>',
+}));
+
+allActions.push(actionDoc({ name: 'Drag', actionType: 'action', actionCount: 1,
+  traits: ['flourish', 'manipulate', 'move'],
+  description: '<p>Your animal companion pulls an enemy into a more advantageous position, or drags an ally to safety. Your animal companion attempts an Athletics check against the Fortitude DC of the target. If the target is willing or unconscious, treat the result as one degree higher.</p><p><strong>Critical Success</strong> Your animal companion can drag the target a distance up to their Speed.</p><p><strong>Success</strong> Your animal companion can drag the target a distance up to half their Speed.</p><p><strong>Failure</strong> Your animal companion fails to move the target.</p><p><strong>Critical Failure</strong> Your animal companion fails to move the target and falls prone.</p>',
+}));
+
+allActions.push(actionDoc({ name: 'Running Mount', actionType: 'action', actionCount: 1,
+  traits: ['move'],
+  description: '<p>Your mount has mastered a trick of picking you or your allies up without help by sliding its head underneath of the target, or some other feat that is appropriate to the animal companion\'s anatomy. Your companion Strides and must end their movement adjacent to the target. The target may then Mount your animal companion immediately as a free action. Your companion Strides again.</p>',
+}));
+
+// ============================================================
 // Auto-link first mention of module items in feat descriptions
 // ============================================================
 {
@@ -1254,6 +1348,7 @@ allEffects.push(effectDoc({ name: 'Effect: Distract (Off-Guard)', level: 4,
   allSpells.forEach(s => linkMap.push({ name: s.name, pack: 'eaw-spells', uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-spells.${s._id}]{${s.name}}` }));
   allFeats.forEach(f => linkMap.push({ name: f.name, pack: 'eaw-feats', uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-feats.${f._id}]{${f.name}}` }));
   allEquipment.forEach(e => linkMap.push({ name: e.name, pack: 'eaw-equipment', uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-equipment.${e._id}]{${e.name}}` }));
+  allActions.forEach(a => linkMap.push({ name: a.name, pack: 'eaw-actions', uuid: `@UUID[Compendium.everything-archetypes-wilderness.eaw-actions.${a._id}]{${a.name}}` }));
   // Sort longest names first to avoid partial matches
   linkMap.sort((a, b) => b.name.length - a.name.length);
 
@@ -1316,13 +1411,31 @@ allEffects.push(effectDoc({ name: 'Effect: Distract (Off-Guard)', level: 4,
   for (const feat of allFeats) {
     let desc = feat.system.description.value;
     for (const cond of sysConds) {
-      if (desc.includes(`{${cond.label}}`)) continue;
       const escaped = cond.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      // Match condition name (case-insensitive first char) at word boundaries
-      const re = new RegExp(`(?<![\\w@/])${escaped}(?!\\w)(?![^<]*<\\/a>)`, 'i');
-      desc = desc.replace(re, `${cond.uuid}{${cond.label}}`);
+      // Match condition name optionally followed by a value number (e.g. "frightened 1")
+      const re = new RegExp(`(?<![\\w@/{}])${escaped}(?:\\s+(\\d+))?(?![\\w])(?![^<]*<\\/a>)`, 'gi');
+      const linked = new Set();
+      desc = desc.replace(re, (match, num) => {
+        const label = num ? `${cond.label} ${num}` : cond.label;
+        if (linked.has(label)) return match;
+        linked.add(label);
+        return `${cond.uuid}{${label}}`;
+      });
     }
     feat.system.description.value = desc;
+  }
+}
+
+// Append link sections after auto-linking to avoid name collisions
+for (const feat of allFeats) {
+  const m = feat._linkMeta;
+  if (m) {
+    let desc = feat.system.description.value;
+    if (m.actionLinks) desc += `\n<hr /><p><strong>Companion Actions</strong> ${m.actionLinks}</p>`;
+    if (m.effectLinks) desc += `\n<hr /><p><strong>Effects</strong> ${m.effectLinks}</p>`;
+    if (m.spellLinks) desc += `\n<hr /><p><strong>Spells</strong> ${m.spellLinks}</p>`;
+    feat.system.description.value = desc;
+    delete feat._linkMeta;
   }
 }
 
@@ -1344,6 +1457,7 @@ writeCompendium('eaw-spells', allSpells);
 writeCompendium('eaw-equipment', allEquipment);
 writeCompendium('eaw-macros', allMacros);
 writeCompendium('eaw-effects', allEffects);
+writeCompendium('eaw-actions', allActions);
 
 // Report any feats with placeholder descriptions
 const missing = allFeats.filter(f => f.system.description.value.includes('[Description for'));
@@ -1352,4 +1466,4 @@ if (missing.length > 0) {
   missing.forEach(f => console.warn(`  - ${f.name}`));
 }
 
-console.log(`\nDone! Generated ${allFeats.length} feats, ${allSpells.length} spells, ${allEquipment.length} equipment items, ${allMacros.length} macros, ${allEffects.length} effects.`);
+console.log(`\nDone! Generated ${allFeats.length} feats, ${allSpells.length} spells, ${allEquipment.length} equipment items, ${allMacros.length} macros, ${allEffects.length} effects, ${allActions.length} actions.`);
