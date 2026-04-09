@@ -79,8 +79,8 @@ function isArchetypesJournal(doc) {
   return false;
 }
 
-// Hook into journal rendering at multiple levels to catch however Foundry/PF2e
-// renders the content. Each hook in the ApplicationV1 inheritance chain fires.
+// Hook into journal rendering at multiple levels.
+// ApplicationV1 hooks (Foundry v12):
 for (const hookName of [
   'renderJournalSheet',
   'renderJournalSheetPF2e',
@@ -96,25 +96,36 @@ for (const hookName of [
   });
 }
 
-// Also support ApplicationV2 (Foundry v13+) which passes HTMLElement directly.
+// ApplicationV2 hooks (Foundry v13+) — element is HTMLElement, not jQuery.
 for (const hookName of [
   'renderJournalSheetV2',
+  'renderJournalSheetPF2e',
   'renderJournalTextPageSheetPF2e',
+  'renderApplicationV2',
 ]) {
   Hooks.on(hookName, (app, element) => {
     if (!isArchetypesJournal(app.document)) return;
-    console.log(`${MODULE_ID} | ${hookName} fired for Archetypes journal`);
+    console.log(`${MODULE_ID} | ${hookName} (V2) fired for Archetypes journal`);
     injectArchetypeFeats(element);
   });
 }
 
-// Debug: log ALL render hooks to find the correct one.
-// Enable with: game.settings.set('everything-archetypes-wilderness', 'debug', true)
-// Or just check the console after opening the Archetypes journal from the compendium.
-Hooks.on('renderApplication', (app, html) => {
-  const name = app?.constructor?.name;
-  const docName = app?.document?.name;
-  if (docName === 'Archetypes' || name?.includes('Journal')) {
-    console.log(`${MODULE_ID} | DEBUG renderApplication: class=${name} doc=${docName} pack=${app?.document?.pack}`);
+// Broad debug: log ANY render hook that involves "Journal" or "Archetypes"
+// so we can discover the exact hook name Foundry v13 uses.
+{
+  const origCall = Hooks.callAll;
+  const origCall2 = Hooks.call;
+  function intercept(name, ...args) {
+    if (typeof name === 'string' && name.startsWith('render')) {
+      const app = args[0];
+      const clsName = app?.constructor?.name || '';
+      const docName = app?.document?.name || '';
+      const parentName = app?.document?.parent?.name || '';
+      if (clsName.includes('Journal') || docName === 'Archetypes' || parentName === 'Archetypes') {
+        console.log(`${MODULE_ID} | DEBUG hook="${name}" class="${clsName}" doc="${docName}" parent="${parentName}" pack="${app?.document?.pack || app?.document?.parent?.pack || ''}"`);
+      }
+    }
   }
-});
+  Hooks.callAll = function(name, ...args) { intercept(name, ...args); return origCall.call(this, name, ...args); };
+  Hooks.call = function(name, ...args) { intercept(name, ...args); return origCall2.call(this, name, ...args); };
+}
