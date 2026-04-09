@@ -56,6 +56,73 @@ const systemSpellMap = {
   'umbral journey': 'rxvS7EMJ7qmexAyA',
 };
 
+// System action name → ID map (Compendium.pf2e.actionspf2e.Item.{id})
+const systemActionMap = {
+  'Hide': 'XMcnh4cSI32tljXa',
+  'Sneak': 'VMozDqMMuK5kpoX4',
+  'Grapple': 'PMbdMWc2QroouFGD',
+  'Demoralize': '2u915NdUyQan6uKF',
+  'Trip': 'ge56Lu1xXVFYUnLP',
+  'Shove': '7blmbDrQFNfdT731',
+  'Recall Knowledge': '1OagaWtBpVXExToo',
+  'Make an Impression': 'OX4fy22hQgUHDr0q',
+  'Gather Information': 'plBGdZhqq5JBl1D8',
+  'Track': 'EA5vuSgJfiHH7plD',
+  'Request': 'DCb62iCBrJXy0Ik6',
+  'Balance': 'M76ycLAqHoAgbcej',
+  'Swim': 'c8TGiZ48ygoSPofx',
+  'Climb': 'pprgrYQ1QnIDGZiy',
+  'Command an Animal': 'q9nbyIF0PEBqMtYe',
+  'Craft': 'rmwa3OyhTZ2i2AHl',
+  'Treat Wounds': '1kGNdIIhuglAjIp9',
+  'Treat Disease': 'TC7OcDa7JlWbqMaN',
+  'Treat Poison': 'KjoCEEmPGTeFE4hh',
+  'Perform': 'EEDElIyin4z60PXx',
+  'Create a Diversion': 'GkmbTGfg8KcgynOA',
+  'Subsist': '49y9Ec4bDii8pcD3',
+  'Tumble Through': '21WIfSu7Xd7uKqV8',
+  'Force Open': 'SjmKHgI7a5Z9JzBx',
+  'Feint': 'QNAVeNKtHA0EUw4X',
+  'Lie': 'ewwCglB7XOPLUz72',
+  'Coerce': 'tHCqgwjtQtzNqVvd',
+  'Long Jump': 'JUvAvruz7yRQXfz2',
+  'High Jump': '2HJ4yuEFY1Cast4h',
+  'Squeeze': 'kMcV8e5EZUxa6evt',
+  'Earn Income': 'QyzlsLrqM0EEwd7j',
+};
+
+// System condition name → ID map (Compendium.pf2e.conditionitems.Item.{id})
+const systemConditionMap = {
+  'frightened': 'TBSHQspnbcqxsmjL',
+  'sickened': 'fesd1n5eVhpCSS18',
+  'stunned': 'dfCMdR4wnpbYNTix',
+  'slowed': 'xYTAsEpcJE1Ccni3',
+  'dazzled': 'TkIyaNPgTZFBCCuh',
+  'blinded': 'XgEqL1kFApUbl5Z2',
+  'deafened': '9PR9y0bi4JPKnHPR',
+  'clumsy': 'i3OJZU2nk64Df3xm',
+  'enfeebled': 'MIRkyAjyBeXivMa7',
+  'stupefied': 'e1XGnhKNSQIm5IXg',
+  'drained': '4D2KBtexWXa6oUMR',
+  'doomed': '3uh1r86TzbQvosxv',
+  'fatigued': 'HL2l2VRSaQHu9lUw',
+  'off-guard': 'AJh5ex99aV6VTggg',
+  'concealed': 'DmAIPqOBomZ7H95W',
+  'hidden': 'iU0fEDdBp3rXpTMC',
+  'undetected': 'VRSef5y1LmL2Hkjf',
+  'unnoticed': '9evPzg9E6muFcoSk',
+  'observed': '1wQY3JYyhMYeeV2G',
+  'prone': 'j91X7x0XSomq8d60',
+  'grabbed': 'kWc1fhmv9LBiTuei',
+  'restrained': 'VcDeM8A5oI6VqhbM',
+  'immobilized': 'eIcWbB5o3pP6OIMe',
+  'paralyzed': '6uEgoh53GbXuHpTF',
+  'unconscious': 'fBnFDH2MTzgFijKf',
+  'dying': 'yZRUzMqrMmfLu0V1',
+  'wounded': 'Yl48xTdMh3aeQYL2',
+  'fleeing': 'sDPxOjQ9kx2RZE8D',
+};
+
 // ---------- read markdown & pre-index headers ----------
 const markdownPath = path.join(process.cwd(), 'gmbinder-markdown.txt');
 const raw = fs.readFileSync(markdownPath, 'utf8');
@@ -1220,6 +1287,40 @@ allEffects.push(effectDoc({ name: 'Effect: Distract (Off-Guard)', level: 4,
       const escaped = spell.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       const re = new RegExp(`<em>${escaped}<\\/em>`, 'i');
       desc = desc.replace(re, spell.uuid);
+    }
+    feat.system.description.value = desc;
+  }
+
+  // Third pass: link system actions (capitalized exact matches, first occurrence only)
+  const sysActions = Object.entries(systemActionMap)
+    .map(([name, id]) => ({ name, uuid: `@UUID[Compendium.pf2e.actionspf2e.Item.${id}]{${name}}` }))
+    .sort((a, b) => b.name.length - a.name.length);
+
+  for (const feat of allFeats) {
+    let desc = feat.system.description.value;
+    for (const action of sysActions) {
+      if (desc.includes(`{${action.name}}`)) continue;
+      const escaped = action.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      // Match exact capitalized action name at word boundaries, not inside existing links
+      const re = new RegExp(`(?<![\\w@/])${escaped}(?!\\w)(?![^<]*<\\/a>)`, '');
+      desc = desc.replace(re, action.uuid);
+    }
+    feat.system.description.value = desc;
+  }
+
+  // Fourth pass: link system conditions (lowercase, first occurrence only)
+  const sysConds = Object.entries(systemConditionMap)
+    .map(([name, id]) => ({ name, label: name.charAt(0).toUpperCase() + name.slice(1), uuid: `@UUID[Compendium.pf2e.conditionitems.Item.${id}]` }))
+    .sort((a, b) => b.name.length - a.name.length);
+
+  for (const feat of allFeats) {
+    let desc = feat.system.description.value;
+    for (const cond of sysConds) {
+      if (desc.includes(`{${cond.label}}`)) continue;
+      const escaped = cond.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      // Match condition name (case-insensitive first char) at word boundaries
+      const re = new RegExp(`(?<![\\w@/])${escaped}(?!\\w)(?![^<]*<\\/a>)`, 'i');
+      desc = desc.replace(re, `${cond.uuid}{${cond.label}}`);
     }
     feat.system.description.value = desc;
   }
