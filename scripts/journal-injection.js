@@ -83,8 +83,10 @@ function isArchetypesJournal(doc) {
 // renders the content. Each hook in the ApplicationV1 inheritance chain fires.
 for (const hookName of [
   'renderJournalSheet',
+  'renderJournalSheetPF2e',
   'renderJournalTextPageSheet',
   'renderJournalPageSheet',
+  'renderApplication',
 ]) {
   Hooks.on(hookName, (app, html) => {
     if (!isArchetypesJournal(app.document)) return;
@@ -105,3 +107,14 @@ for (const hookName of [
     injectArchetypeFeats(element);
   });
 }
+
+// Debug: log ALL render hooks to find the correct one.
+// Enable with: game.settings.set('everything-archetypes-wilderness', 'debug', true)
+// Or just check the console after opening the Archetypes journal from the compendium.
+Hooks.on('renderApplication', (app, html) => {
+  const name = app?.constructor?.name;
+  const docName = app?.document?.name;
+  if (docName === 'Archetypes' || name?.includes('Journal')) {
+    console.log(`${MODULE_ID} | DEBUG renderApplication: class=${name} doc=${docName} pack=${app?.document?.pack}`);
+  }
+});
