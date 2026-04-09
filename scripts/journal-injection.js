@@ -67,65 +67,60 @@ function injectArchetypeFeats(root) {
   }
 }
 
-// Determine if this is the PF2e Archetypes journal by checking the document
-// and its parent (for page-level hooks).
-function isArchetypesJournal(doc) {
+// Determine if this is a page within the PF2e Archetypes journal.
+function isArchetypesPage(doc) {
   if (!doc) return false;
-  // Journal-level: doc is the JournalEntry
-  if (doc.pack === 'pf2e.journals' && doc.name === 'Archetypes') return true;
-  // Page-level: doc is a JournalEntryPage, parent is the JournalEntry
   const parent = doc.parent;
-  if (parent?.pack === 'pf2e.journals' && parent.name === 'Archetypes') return true;
-  return false;
+  return parent?.pack === 'pf2e.journals' && parent.name === 'Archetypes';
 }
 
-// Hook into journal rendering at multiple levels.
-// ApplicationV1 hooks (Foundry v12):
+// Determine if this is the PF2e Archetypes journal entry itself.
+function isArchetypesJournal(doc) {
+  if (!doc) return false;
+  return doc.pack === 'pf2e.journals' && doc.name === 'Archetypes';
+}
+
+// Foundry v13 (ApplicationV2) — page-level hook.
+// This fires when each archetype page is rendered inside the journal.
+// Class: JournalEntryPageProseMirrorSheet, doc = page name (e.g. "Animal Trainer")
+Hooks.on('renderJournalEntryPageProseMirrorSheet', (app, element) => {
+  if (!isArchetypesPage(app.document)) return;
+  console.log(`${MODULE_ID} | renderJournalEntryPageProseMirrorSheet for page "${app.document.name}"`);
+  injectArchetypeFeats(element);
+});
+
+// Also hook the parent chain for page rendering (v13).
+for (const hookName of [
+  'renderJournalEntryPageTextSheet',
+  'renderJournalEntryPageHandlebarsSheet',
+  'renderJournalEntryPageSheet',
+]) {
+  Hooks.on(hookName, (app, element) => {
+    if (!isArchetypesPage(app.document)) return;
+    console.log(`${MODULE_ID} | ${hookName} for page "${app.document.name}"`);
+    injectArchetypeFeats(element);
+  });
+}
+
+// Foundry v13 — journal-level hook (backup: inject into any visible page content).
+Hooks.on('renderJournalEntrySheet', (app, element) => {
+  if (!isArchetypesJournal(app.document)) return;
+  console.log(`${MODULE_ID} | renderJournalEntrySheet for Archetypes journal`);
+  injectArchetypeFeats(element);
+});
+
+// Foundry v12 (ApplicationV1) — legacy hooks for backward compatibility.
 for (const hookName of [
   'renderJournalSheet',
   'renderJournalSheetPF2e',
   'renderJournalTextPageSheet',
   'renderJournalPageSheet',
-  'renderApplication',
 ]) {
   Hooks.on(hookName, (app, html) => {
-    if (!isArchetypesJournal(app.document)) return;
-    console.log(`${MODULE_ID} | ${hookName} fired for Archetypes journal`);
+    const doc = app.document;
+    if (!isArchetypesJournal(doc) && !isArchetypesPage(doc)) return;
+    console.log(`${MODULE_ID} | ${hookName} fired`);
     const root = html[0] ?? html;
     injectArchetypeFeats(root);
   });
-}
-
-// ApplicationV2 hooks (Foundry v13+) — element is HTMLElement, not jQuery.
-for (const hookName of [
-  'renderJournalSheetV2',
-  'renderJournalSheetPF2e',
-  'renderJournalTextPageSheetPF2e',
-  'renderApplicationV2',
-]) {
-  Hooks.on(hookName, (app, element) => {
-    if (!isArchetypesJournal(app.document)) return;
-    console.log(`${MODULE_ID} | ${hookName} (V2) fired for Archetypes journal`);
-    injectArchetypeFeats(element);
-  });
-}
-
-// Broad debug: log ANY render hook that involves "Journal" or "Archetypes"
-// so we can discover the exact hook name Foundry v13 uses.
-{
-  const origCall = Hooks.callAll;
-  const origCall2 = Hooks.call;
-  function intercept(name, ...args) {
-    if (typeof name === 'string' && name.startsWith('render')) {
-      const app = args[0];
-      const clsName = app?.constructor?.name || '';
-      const docName = app?.document?.name || '';
-      const parentName = app?.document?.parent?.name || '';
-      if (clsName.includes('Journal') || docName === 'Archetypes' || parentName === 'Archetypes') {
-        console.log(`${MODULE_ID} | DEBUG hook="${name}" class="${clsName}" doc="${docName}" parent="${parentName}" pack="${app?.document?.pack || app?.document?.parent?.pack || ''}"`);
-      }
-    }
-  }
-  Hooks.callAll = function(name, ...args) { intercept(name, ...args); return origCall.call(this, name, ...args); };
-  Hooks.call = function(name, ...args) { intercept(name, ...args); return origCall2.call(this, name, ...args); };
 }
