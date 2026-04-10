@@ -22,48 +22,62 @@ function escapeHtml(s) {
   return el.innerHTML;
 }
 
-function ordinal(n) {
-  const s = ['th', 'st', 'nd', 'rd'];
-  const v = n % 100;
-  return n + (s[(v - 20) % 10] || s[v] || s[0]);
-}
-
 function injectArchetypeFeats(root) {
   if (!injectionData) return;
 
   for (const [, archData] of Object.entries(injectionData)) {
-    // Find the dedication feat's enriched link by its system compendium ID.
-    // After TextEditor.enrichHTML, @UUID becomes <a class="content-link" data-uuid="...">.
     const dedLink = root.querySelector(
       `a.content-link[data-uuid*="${archData.dedicationId}"]`
     );
     if (!dedLink) continue;
 
-    // Walk up to the page content container
     const container = dedLink.closest('.journal-page-content')
                    || dedLink.closest('.journal-entry-page')
                    || dedLink.closest('.editor-content')
                    || dedLink.parentElement;
     if (!container || container.querySelector(`.${MARKER_CLASS}`)) continue;
 
-    // Build feat entries in PF2e "Additional Feats" style: "4th Link; 6th Link"
-    const entries = archData.feats.map(f => {
-      const name = escapeHtml(f.name);
-      const uuid = escapeHtml(f.uuid);
-      return `${ordinal(f.level)} <a class="content-link" draggable="true" `
-           + `data-uuid="${uuid}" data-type="Item">`
-           + `<i class="fas fa-suitcase"></i> ${name}</a>`;
-    });
+    // Collect system feat headings with their levels so we can intersperse.
+    const featHeadings = [];
+    for (const h of container.querySelectorAll('h2, h3')) {
+      const m = h.textContent.match(/Feat\s+(\d+)/i);
+      if (m) featHeadings.push({ el: h, level: parseInt(m[1]) });
+    }
 
-    const section = document.createElement('div');
-    section.className = MARKER_CLASS;
-    section.style.marginTop = '0.5em';
-    section.innerHTML =
-      '<hr>' +
-      '<p><strong>Additional Feats (<em>Everything Archetypes: Wilderness</em>):</strong> ' +
-      entries.join('; ') +
-      '</p>';
-    container.appendChild(section);
+    // Sort module feats by level, then alphabetically.
+    const sorted = [...archData.feats].sort((a, b) =>
+      a.level - b.level || a.name.localeCompare(b.name)
+    );
+
+    for (const feat of sorted) {
+      // Insert before the first system heading whose level exceeds this feat's.
+      let target = null;
+      for (const fh of featHeadings) {
+        if (fh.level > feat.level) { target = fh.el; break; }
+      }
+
+      const name = escapeHtml(feat.name);
+      const uuid = escapeHtml(feat.uuid);
+      const entry = document.createElement('div');
+      entry.className = MARKER_CLASS;
+      entry.innerHTML =
+        `<h2 style="display:flex;justify-content:space-between;align-items:baseline;">` +
+        `<span><a class="content-link" draggable="true" data-uuid="${uuid}" ` +
+        `data-type="Item"><i class="fas fa-suitcase"></i> ${name}</a></span>` +
+        `<span>Feat ${feat.level}</span></h2>` +
+        `<p style="margin:0;opacity:0.7;font-size:0.85em;font-style:italic;">` +
+        `Everything Archetypes: Wilderness</p>`;
+
+      if (target) {
+        target.before(entry);
+        entry.after(document.createElement('hr'));
+      } else {
+        if (container.lastElementChild && container.lastElementChild.tagName !== 'HR') {
+          container.appendChild(document.createElement('hr'));
+        }
+        container.appendChild(entry);
+      }
+    }
   }
 }
 
