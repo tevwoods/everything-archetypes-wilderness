@@ -1498,11 +1498,19 @@ for (const feat of allFeats) {
       dedicationId: di,
       feats: members
         .sort((a, b) => a.system.level.value - b.system.level.value || a.name.localeCompare(b.name))
-        .map(f => ({
-          name: f.name,
-          level: f.system.level.value,
-          uuid: `Compendium.everything-archetypes-wilderness.eaw-feats.${f._id}`
-        }))
+        .map(f => {
+          // Strip the dedication link prefix from the description
+          let desc = f.system.description.value;
+          desc = desc.replace(/^<p><em>@UUID\[.*?\]\{.*?\}<\/em><\/p>\n?/, '');
+          return {
+            name: f.name,
+            level: f.system.level.value,
+            uuid: `Compendium.everything-archetypes-wilderness.eaw-feats.${f._id}`,
+            description: desc,
+            traits: f.system.traits.value,
+            rarity: f.system.traits.rarity,
+          };
+        })
     };
   }
   const injPath = path.join(process.cwd(), 'scripts', 'journal-injection-data.json');

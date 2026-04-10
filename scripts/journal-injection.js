@@ -22,7 +22,27 @@ function escapeHtml(s) {
   return el.innerHTML;
 }
 
-function injectArchetypeFeats(root) {
+function rarityColor(rarity) {
+  switch (rarity) {
+    case 'uncommon': return '#98513d';
+    case 'rare': return '#002664';
+    case 'unique': return '#800080';
+    default: return '#5e0000';
+  }
+}
+
+function traitTags(traits, rarity) {
+  const tags = [];
+  if (rarity && rarity !== 'common') {
+    tags.push(`<span style="display:inline-block;padding:0 6px;margin:1px 2px;background:${rarityColor(rarity)};color:white;font-size:0.7em;text-transform:uppercase;font-weight:bold;border-radius:2px;">${escapeHtml(rarity)}</span>`);
+  }
+  for (const t of traits) {
+    tags.push(`<span style="display:inline-block;padding:0 6px;margin:1px 2px;background:#5e0000;color:white;font-size:0.7em;text-transform:uppercase;font-weight:bold;border-radius:2px;">${escapeHtml(t)}</span>`);
+  }
+  return tags.join('');
+}
+
+async function injectArchetypeFeats(root) {
   if (!injectionData) return;
 
   for (const [, archData] of Object.entries(injectionData)) {
@@ -56,17 +76,29 @@ function injectArchetypeFeats(root) {
         if (fh.level > feat.level) { target = fh.el; break; }
       }
 
-      const name = escapeHtml(feat.name);
-      const uuid = escapeHtml(feat.uuid);
+      // Build feat block HTML with @UUID for enrichment
+      let html =
+        `<h2 style="display:flex;justify-content:space-between;align-items:baseline;">` +
+        `<span>@UUID[${feat.uuid}]{${feat.name}}</span>` +
+        `<span>Feat ${feat.level}</span></h2>`;
+
+      // Trait tags
+      if ((feat.rarity && feat.rarity !== 'common') || feat.traits.length > 0) {
+        html += `<div style="margin:2px 0 4px;">${traitTags(feat.traits, feat.rarity)}</div>`;
+      }
+
+      // Description (already contains prerequisites, trigger, body, special, etc.)
+      html += feat.description;
+
+      // Source
+      html += `<p style="text-align:right;font-style:italic;font-size:0.85em;">Source: <em>Everything Archetypes: Wilderness</em></p>`;
+
+      // Enrich HTML to make @UUID links clickable
+      const enriched = await TextEditor.enrichHTML(html, { async: true });
+
       const entry = document.createElement('div');
       entry.className = MARKER_CLASS;
-      entry.innerHTML =
-        `<h2 style="display:flex;justify-content:space-between;align-items:baseline;">` +
-        `<span><a class="content-link" draggable="true" data-uuid="${uuid}" ` +
-        `data-type="Item"><i class="fas fa-suitcase"></i> ${name}</a></span>` +
-        `<span>Feat ${feat.level}</span></h2>` +
-        `<p style="margin:0;opacity:0.7;font-size:0.85em;font-style:italic;">` +
-        `Everything Archetypes: Wilderness</p>`;
+      entry.innerHTML = enriched;
 
       if (target) {
         target.before(entry);
