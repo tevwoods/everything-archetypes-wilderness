@@ -55,7 +55,10 @@ async function injectArchetypeFeats(root) {
                    || dedLink.closest('.journal-entry-page')
                    || dedLink.closest('.editor-content')
                    || dedLink.parentElement;
-    if (!container || container.querySelector(`.${MARKER_CLASS}`)) continue;
+    if (!container || container.querySelector(`.${MARKER_CLASS}`) || container.dataset.eawPending) continue;
+
+    // Mark synchronously to prevent duplicate injection from concurrent async hooks.
+    container.dataset.eawPending = '1';
 
     // Collect system feat headings with their levels so we can intersperse.
     const featHeadings = [];
@@ -126,47 +129,16 @@ function isArchetypesJournal(doc) {
   return doc.pack === 'pf2e.journals' && doc.name === 'Archetypes';
 }
 
-// Foundry v13 (ApplicationV2) — page-level hook.
-// This fires when each archetype page is rendered inside the journal.
-// Class: JournalEntryPageProseMirrorSheet, doc = page name (e.g. "Animal Trainer")
+// Foundry v13 (ApplicationV2) — page-level hook (primary).
 Hooks.on('renderJournalEntryPageProseMirrorSheet', (app, element) => {
   if (!isArchetypesPage(app.document)) return;
-  console.log(`${MODULE_ID} | renderJournalEntryPageProseMirrorSheet for page "${app.document.name}"`);
+  console.log(`${MODULE_ID} | page render for "${app.document.name}"`);
   injectArchetypeFeats(element);
 });
 
-// Also hook the parent chain for page rendering (v13).
-for (const hookName of [
-  'renderJournalEntryPageTextSheet',
-  'renderJournalEntryPageHandlebarsSheet',
-  'renderJournalEntryPageSheet',
-]) {
-  Hooks.on(hookName, (app, element) => {
-    if (!isArchetypesPage(app.document)) return;
-    console.log(`${MODULE_ID} | ${hookName} for page "${app.document.name}"`);
-    injectArchetypeFeats(element);
-  });
-}
-
-// Foundry v13 — journal-level hook (backup: inject into any visible page content).
-Hooks.on('renderJournalEntrySheet', (app, element) => {
-  if (!isArchetypesJournal(app.document)) return;
-  console.log(`${MODULE_ID} | renderJournalEntrySheet for Archetypes journal`);
-  injectArchetypeFeats(element);
+// Foundry v12 (ApplicationV1) — legacy page-level hook.
+Hooks.on('renderJournalTextPageSheet', (app, html) => {
+  if (!isArchetypesPage(app.document)) return;
+  console.log(`${MODULE_ID} | v1 page render for "${app.document.name}"`);
+  injectArchetypeFeats(html[0] ?? html);
 });
-
-// Foundry v12 (ApplicationV1) — legacy hooks for backward compatibility.
-for (const hookName of [
-  'renderJournalSheet',
-  'renderJournalSheetPF2e',
-  'renderJournalTextPageSheet',
-  'renderJournalPageSheet',
-]) {
-  Hooks.on(hookName, (app, html) => {
-    const doc = app.document;
-    if (!isArchetypesJournal(doc) && !isArchetypesPage(doc)) return;
-    console.log(`${MODULE_ID} | ${hookName} fired`);
-    const root = html[0] ?? html;
-    injectArchetypeFeats(root);
-  });
-}
