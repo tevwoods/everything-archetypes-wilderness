@@ -9,6 +9,7 @@ permissions:
   contents: write
   issues: write
   pull-requests: write
+  copilot-requests: write
 
 jobs:
   watch-and-migrate:
@@ -55,31 +56,15 @@ jobs:
             ISSUE="${URL##*/}"
           fi
           echo "number=$ISSUE" >> "$GITHUB_OUTPUT"
-      - name: Check Copilot CLI setup
-        id: copilot
-        if: steps.detect.outputs.triggered == 'true'
-        env:
-          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          if [ -z "$COPILOT_GITHUB_TOKEN" ]; then
-            BODY="Automation is waiting for the \`COPILOT_GITHUB_TOKEN\` repository secret. Create a fine-grained PAT with **Copilot Requests** permission, add it under Settings → Secrets and variables → Actions, then rerun this workflow. No migration or publication was attempted. <!-- copilot-setup-needed:${{ steps.detect.outputs.major }} -->"
-            if ! gh issue view "${{ steps.issue.outputs.number }}" --json comments --jq '.comments[].body' | grep -q "copilot-setup-needed:${{ steps.detect.outputs.major }}"; then
-              gh issue comment "${{ steps.issue.outputs.number }}" --body "$BODY"
-            fi
-            echo "available=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "available=true" >> "$GITHUB_OUTPUT"
-          fi
       - name: Install Copilot CLI
-        if: steps.copilot.outputs.available == 'true'
+        if: steps.detect.outputs.triggered == 'true'
         run: npm install --global @github/copilot
       - name: Attempt migration
         id: agent
-        if: steps.copilot.outputs.available == 'true'
+        if: steps.detect.outputs.triggered == 'true'
         continue-on-error: true
         env:
-          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           copilot -p "$(cat .github/prompts/migrate-foundry-major.md)" \
             --allow-tool=read --allow-tool=write \
@@ -87,7 +72,7 @@ jobs:
             --allow-tool='shell(node:*)' --no-ask-user
       - name: Classify and validate migration
         id: classify
-        if: steps.copilot.outputs.available == 'true'
+        if: steps.detect.outputs.triggered == 'true'
         run: |
           if [ ! -f migration-report.json ] || ! jq -e '.classification == "simple" or .classification == "complex"' migration-report.json >/dev/null; then
             jq -n '{classification:"complex",confidence:0,summary:"The agent did not return a valid migration report.",complexity:["Automated migration output was incomplete or invalid."],validation:[],recommendedNextStep:"Review the workflow log and compatibility issue, then rerun with corrected agent context."}' > migration-report.json
@@ -122,7 +107,7 @@ jobs:
             --title "Prepare Everything Archetypes: Wilderness for Foundry V${MAJOR}" \
             --body-file migration-report.json --assignee "${{ github.repository_owner }}"
       - name: Report complexity or failed validation
-        if: steps.copilot.outputs.available == 'true' && (steps.classify.outputs.classification == 'complex' || steps.classify.outputs.confidence < 0.9 || steps.validate.outcome == 'failure')
+        if: steps.detect.outputs.triggered == 'true' && (steps.classify.outputs.classification == 'complex' || steps.classify.outputs.confidence < 0.9 || steps.validate.outcome == 'failure')
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh issue comment "${{ steps.issue.outputs.number }}" --body-file migration-report.json
