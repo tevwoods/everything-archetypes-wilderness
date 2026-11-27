@@ -193,9 +193,9 @@ That being said, the core reason we wanted to write this expansion is because Pa
 
 ## Foundry VTT
 
-We have crafted a module that works with the Foundry Virtual Tabletop system. To install, navigate to the "Add-on Modules" tab in Foundry, click "Install Module," then paste this link into the Manifest URL field at the bottom and click "Install." After the module is installed, you can activate it within your game world as normal. At this time, the primary url contains a version of the module that is compatible with Foundry's version 10.
+We have crafted a module that works with the Foundry Virtual Tabletop system. To install, navigate to the "Add-on Modules" tab in Foundry, click "Install Module," then paste this link into the Manifest URL field at the bottom and click "Install." After the module is installed, you can activate it within your game world as normal. The latest release has been verified with Foundry VTT version 14.
 
-<strong>https://www.everything4everybody.com/everything-archetypes-wilderness/module.json</strong>
+<strong>https://github.com/tevwoods/everything-archetypes-wilderness/releases/latest/download/module.json</strong>
 
 ## Pathbuilder2e
 
