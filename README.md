@@ -46,7 +46,7 @@ await suite.runWildernessRuleElementSuite();
 
 ## Automated Foundry upgrades
 
-The daily `Watch Foundry major releases` workflow starts when a new Foundry major reaches Testing or Stable. It opens an assigned GitHub issue, which produces normal GitHub email notifications. If `COPILOT_GITHUB_TOKEN` is configured, Copilot CLI may open a draft migration PR only after local tests pass with at least 0.90 confidence. Complex or uncertain migrations stop with a detailed issue comment.
+The daily `Watch Foundry major releases` workflow starts when a new Foundry major reaches Testing or Stable. It opens an assigned GitHub issue, which produces normal GitHub email notifications. Copilot CLI authenticates with the workflow's built-in `GITHUB_TOKEN` and `copilot-requests: write` permission. It may open a draft migration PR only after local tests pass with at least 0.90 confidence. If the account or plan cannot authorize the Copilot request, the workflow posts the failure for review instead.
 
 The agent cannot publish. GitHub releases build native LevelDB assets. The separate `Register Foundry package release` workflow can then validate or publish the corresponding package-listing entry. It uses the `foundry-publish` environment and is dry-run by default.
 
@@ -54,11 +54,8 @@ Older releases are preserved through version-pinned GitHub assets and Foundry pa
 
 Repository setup required before agent use:
 
-1. Create `COPILOT_GITHUB_TOKEN` as an Actions repository secret using a fine-grained PAT with **Copilot Requests** permission.
-2. Create a `foundry-publish` environment, require yourself as its reviewer, and restrict it to `main` or approved release tags.
-3. Add `FOUNDRY_RELEASE_TOKEN` to that environment using this module's private Foundry package token.
-4. Protect `main` with required checks and require review for migration PRs.
-5. Allow Actions to create pull requests and use read/write workflow permissions.
+1. Confirm the account has Copilot access for Actions/Copilot CLI; no PAT is normally required.
+2. Add `FOUNDRY_RELEASE_TOKEN` to the protected `foundry-publish` environment using this module's private Foundry package token.
 
 ## License
 
