@@ -11,6 +11,8 @@ const legacyTerms = [
     /\bnegative energy\b/i,
     /\bendure elements\b/i
 ];
+const customFeatTraits = new Set(["trick"]);
+const journalScript = fs.readFileSync(path.join(root, "scripts", "journal-injection.js"), "utf8");
 
 let failures = 0;
 for (const file of fs.readdirSync(packs).filter(name => name.endsWith(".json")).sort()) {
@@ -54,6 +56,13 @@ for (const file of fs.readdirSync(packs).filter(name => name.endsWith(".json")).
         if (document.system?.rules?.some(rule => rule.predicate && !Array.isArray(rule.predicate))) {
             console.error(`${file}: ${document.name} has a non-array predicate`);
             failures++;
+        }
+        for (const trait of document.system?.traits?.value ?? []) {
+            if (!customFeatTraits.has(trait)) continue;
+            if (!new RegExp(`featTraits[\\s\\S]*?${trait}\\s*:`).test(journalScript)) {
+                console.error(`${file}: ${document.name} uses unregistered custom trait ${trait}`);
+                failures++;
+            }
         }
     }
 }

@@ -10,6 +10,14 @@ let injectionData = null;
 
 // Pre-load injection data during init so the render hook can run synchronously.
 Hooks.once('init', () => {
+  const pf2e = CONFIG.PF2E;
+  Object.assign(pf2e.featTraits, {
+    trick: 'EAW.Trait.Trick'
+  });
+  Object.assign(pf2e.traitsDescriptions, {
+    trick: 'EAW.TraitDescription.Trick'
+  });
+
   fetch(`modules/${MODULE_ID}/scripts/journal-injection-data.json`)
     .then(r => r.json())
     .then(data => { injectionData = data; })

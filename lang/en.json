@@ -1,5 +1,13 @@
 {
   "everything-archetypes-wilderness": {
     "title": "Everything Archetypes: Wilderness"
+  },
+  "EAW": {
+    "Trait": {
+      "Trick": "Trick"
+    },
+    "TraitDescription": {
+      "Trick": "This feat teaches an animal trainer to command a specific behavior from an animal companion."
+    }
   }
 }
