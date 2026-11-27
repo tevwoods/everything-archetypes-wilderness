@@ -65,7 +65,7 @@
         "name": "Trick Teacher",
         "level": 4,
         "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.5e833c1bcee017b6",
-        "description": "<p>You specialize in teaching your animal companion to perform special tricks that they wouldn't normally be capable of. Choose one 4th-rank skill feat from this archetype that has the trick trait. You gain that skill feat, and your animal companion learns the accompanying trick; this feat doesn't count toward the 2 feats required before you can take another dedication feat. Unlike normal Commands that you give to your animal companion, tricks do not always automatically succeed. Each trick describes the checks that need to be made, if any. If a trick requires you to attempt a Nature check, do so when you grant your animal companion actions. If you succeed, you grant the actions as normal and your animal companion can use the trick in question if it has sufficient actions. If you fail, the animal companion still gains actions as normal, but it cannot use the trick this turn.\n</p>",
+        "description": "<p>You specialize in teaching your animal companion to perform special tricks that they wouldn't normally be capable of. Choose one 4th-level skill feat from this archetype that has the trick trait. You gain that skill feat, and your animal companion learns the accompanying trick; this feat doesn't count toward the 2 feats required before you can take another dedication feat. Unlike normal Commands that you give to your animal companion, tricks do not always automatically succeed. Each trick describes the checks that need to be made, if any. If a trick requires you to attempt a Nature check, do so when you grant your animal companion actions. If you succeed, you grant the actions as normal and your animal companion can use the trick in question if it has sufficient actions. If you fail, the animal companion still gains actions as normal, but it cannot use the trick this turn.\n</p>",
         "traits": [
           "archetype"
         ],
@@ -837,7 +837,7 @@
         "name": "True Panacea",
         "level": 20,
         "uuid": "Compendium.everything-archetypes-wilderness.eaw-feats.ef80232e2cf7420b",
-        "description": "<p>You have mastered a combination of herbs that restores someone to perfect health. Each day when you make your daily preparations you create one dose of true panacea, a potion that is effective until you make your next daily preparations. When a creature drinks your True Panacea, their Hit Points are restored to maximum. Attempt a single Nature check to counteract all negative conditions currently affecting the target. Compare the result of the check to each condition's counteract level and DC.\n</p>",
+        "description": "<p>You have mastered a combination of herbs that restores someone to perfect health. Each day when you make your daily preparations you create one dose of true panacea, a potion that is effective until you make your next daily preparations. When a creature drinks your True Panacea, their Hit Points are restored to maximum. Attempt a single Nature check to counteract all negative conditions currently affecting the target. Compare the result of the check to each condition's counteract rank and DC.\n</p>",
         "traits": [
           "archetype"
         ],

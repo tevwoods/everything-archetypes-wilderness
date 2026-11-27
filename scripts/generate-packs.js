@@ -15,7 +15,9 @@ function macroUuid(name) { return `Compendium.everything-archetypes-wilderness.e
 function effectUuid(name) { return `Compendium.everything-archetypes-wilderness.eaw-effects.${stableId('eaw-effects:' + name)}`; }
 function actionUuid(name) { return `Compendium.everything-archetypes-wilderness.eaw-actions.${stableId('eaw-actions:' + name)}`; }
 function sysSpell(id, label) { return `@UUID[Compendium.pf2e.spells-srd.Item.${id}]{${label}}`; }
-const now = Date.now();
+const now = 1774843200000;
+const generatedBy = '0000000000000000';
+const migrationTime = new Date(now).toISOString();
 
 // System spell name → ID map for auto-linking italic spell references
 const systemSpellMap = {
@@ -313,7 +315,7 @@ function featDoc({
       traits: { value: traits.map(t => t.toLowerCase()), rarity, custom: '' },
       rules,
       slug: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
-      schema: { version: 0.93, lastMigration: { datetime: new Date().toISOString(), version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
+      schema: { version: 0.93, lastMigration: { datetime: migrationTime, version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
       level: { value: level },
       featType: { value: featType },
       onlyLevel1: false, maxTakable: 1,
@@ -324,7 +326,7 @@ function featDoc({
       location: null,
     },
     ownership: { default: 0 },
-    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: 'generator' },
+    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: generatedBy },
     schemaVersion: 13,
   };
 }
@@ -348,7 +350,7 @@ function spellDoc({
       traits: { value: traits.map(t => t.toLowerCase()), rarity, custom: '' },
       rules,
       slug: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
-      schema: { version: 0.93, lastMigration: { datetime: new Date().toISOString(), version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
+      schema: { version: 0.93, lastMigration: { datetime: migrationTime, version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
       level: { value: rank },
       traditions: { value: traditions },
       time: { value: String(castActions) },
@@ -363,7 +365,7 @@ function spellDoc({
       category: { value: spellType === 'focus' ? 'focus' : 'spell' },
     },
     ownership: { default: 0 },
-    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: 'generator' },
+    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: generatedBy },
     schemaVersion: 13,
   };
 }
@@ -386,12 +388,12 @@ function equipmentDoc({
       traits: { value: traits.map(t => t.toLowerCase()), rarity, custom: '' },
       rules,
       slug: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
-      schema: { version: 0.93, lastMigration: { datetime: new Date().toISOString(), version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
+      schema: { version: 0.93, lastMigration: { datetime: migrationTime, version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
       level: { value: level },
       price, bulk: { value: bulk },
     },
     ownership: { default: 0 },
-    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: 'generator' },
+    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: generatedBy },
     schemaVersion: 13,
   };
   if (damage) doc.system.damage = damage;
@@ -416,7 +418,7 @@ function effectDoc({
       source: { value: 'Everything Archetypes: Wilderness' },
       rules,
       slug: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
-      schema: { version: 0.93, lastMigration: { datetime: new Date().toISOString(), version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
+      schema: { version: 0.93, lastMigration: { datetime: migrationTime, version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
       level: { value: level },
       traits: { value: traits, rarity: 'common' },
       duration: {
@@ -429,7 +431,7 @@ function effectDoc({
       tokenIcon: { show: true },
     },
     ownership: { default: 0 },
-    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: 'generator' },
+    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: generatedBy },
     schemaVersion: 13,
   };
 }
@@ -453,14 +455,14 @@ function actionDoc({
       traits: { value: traits.map(t => t.toLowerCase()), rarity, custom: '' },
       rules,
       slug: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
-      schema: { version: 0.93, lastMigration: { datetime: new Date().toISOString(), version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
+      schema: { version: 0.93, lastMigration: { datetime: migrationTime, version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
       actionType: { value: actionType },
       actions: { value: actionCount },
       category: null,
       deathNote: false,
     },
     ownership: { default: 0 },
-    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: 'generator' },
+    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: generatedBy },
     schemaVersion: 13,
   };
 }
@@ -996,7 +998,7 @@ function macroDoc({ name, command, img = 'systems/pf2e/icons/default-icons/feats
     sort: 0,
     flags: {},
     ownership: { default: 0 },
-    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: 'generator' },
+    _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: generatedBy },
   };
 }
 

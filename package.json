@@ -1,0 +1,10 @@
+{
+  "name": "everything-archetypes-wilderness",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "node scripts/generate-packs.js",
+    "test": "node scripts/validate-packs.js",
+    "validate": "npm run generate && npm test"
+  }
+}
