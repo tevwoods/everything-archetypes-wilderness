@@ -13,49 +13,49 @@
   "download": "#{DOWNLOAD}#",
   "compatibility": {
     "minimum": "12",
-    "verified": "13",
-    "maximum": "13"
+    "verified": "14.370",
+    "maximum": "14"
   },
   "packs": [
     {
       "name": "eaw-feats",
       "label": "Archetype Feats",
-      "path": "packs/Everything-Archetypes-Wilderness/eaw-feats.db",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-feats",
       "folder": "Everything-Archetypes-Wilderness",
       "type": "Item"
     },
     {
       "name": "eaw-spells",
       "label": "Spells",
-      "path": "packs/Everything-Archetypes-Wilderness/eaw-spells.db",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-spells",
       "folder": "Everything-Archetypes-Wilderness",
       "type": "Item"
     },
     {
       "name": "eaw-equipment",
       "label": "Equipment",
-      "path": "packs/Everything-Archetypes-Wilderness/eaw-equipment.db",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-equipment",
       "folder": "Everything-Archetypes-Wilderness",
       "type": "Item"
     },
     {
       "name": "eaw-macros",
       "label": "Macros",
-      "path": "packs/Everything-Archetypes-Wilderness/eaw-macros.db",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-macros",
       "folder": "Everything-Archetypes-Wilderness",
       "type": "Macro"
     },
     {
       "name": "eaw-effects",
       "label": "Effects",
-      "path": "packs/Everything-Archetypes-Wilderness/eaw-effects.db",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-effects",
       "folder": "Everything-Archetypes-Wilderness",
       "type": "Item"
     },
     {
       "name": "eaw-actions",
       "label": "Companion Actions",
-      "path": "packs/Everything-Archetypes-Wilderness/eaw-actions.db",
+      "path": "packs/Everything-Archetypes-Wilderness/eaw-actions",
       "folder": "Everything-Archetypes-Wilderness",
       "type": "Item"
     }

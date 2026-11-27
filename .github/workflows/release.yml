@@ -35,6 +35,18 @@ jobs:
           fi
           echo "value=${VERSION}" >> "$GITHUB_OUTPUT"
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build native Foundry package
+        run: npm run build
+
       - name: Substitute manifest values
         run: |
           VERSION="${{ steps.version.outputs.value }}"
@@ -42,18 +54,17 @@ jobs:
           MANIFEST="${REPO}/releases/latest/download/module.json"
           DOWNLOAD="${REPO}/releases/download/${{ github.event.release.tag_name }}/everything-archetypes-wilderness.zip"
 
-          sed -i "s|#{VERSION}#|${VERSION}|g" module.json
-          sed -i "s|#{MANIFEST}#|${MANIFEST}|g" module.json
-          sed -i "s|#{DOWNLOAD}#|${DOWNLOAD}|g" module.json
+          sed -i "s|#{VERSION}#|${VERSION}|g" dist/module.json
+          sed -i "s|#{MANIFEST}#|${MANIFEST}|g" dist/module.json
+          sed -i "s|#{DOWNLOAD}#|${DOWNLOAD}|g" dist/module.json
 
           echo "--- module.json after substitution ---"
-          cat module.json
+          cat dist/module.json
 
       - name: Create module archive
         run: |
-          zip -r everything-archetypes-wilderness.zip module.json packs/ lang/ scripts/journal-injection.js scripts/journal-injection-data.json
-          [ -f LICENSE ] && zip everything-archetypes-wilderness.zip LICENSE
-          [ -f README.md ] && zip everything-archetypes-wilderness.zip README.md
+          cd dist
+          zip -r ../everything-archetypes-wilderness.zip .
 
       - name: Upload release assets
         uses: ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd # v1.21.0
@@ -61,5 +72,5 @@ jobs:
           allowUpdates: true
           omitBodyDuringUpdate: true
           omitNameDuringUpdate: true
-          artifacts: "module.json,everything-archetypes-wilderness.zip"
+          artifacts: "dist/module.json,everything-archetypes-wilderness.zip"
           token: ${{ secrets.GITHUB_TOKEN }}

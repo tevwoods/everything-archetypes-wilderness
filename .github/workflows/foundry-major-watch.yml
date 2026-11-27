@@ -1,0 +1,133 @@
+name: Watch Foundry major releases
+
+on:
+  schedule:
+    - cron: "43 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  watch-and-migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Detect a new Foundry major
+        id: detect
+        run: |
+          node scripts/foundry-release-watch.mjs > .foundry-release.json
+          echo "triggered=$(jq -r '.triggered' .foundry-release.json)" >> "$GITHUB_OUTPUT"
+          echo "major=$(jq -r '.candidate.major // ""' .foundry-release.json)" >> "$GITHUB_OUTPUT"
+          echo "version=$(jq -r '.candidate.version // ""' .foundry-release.json)" >> "$GITHUB_OUTPUT"
+      - name: Open or find compatibility issue
+        id: issue
+        if: steps.detect.outputs.triggered == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          MAJOR="${{ steps.detect.outputs.major }}"
+          TITLE="Foundry V${MAJOR} compatibility review"
+          ISSUE="$(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -z "$ISSUE" ]; then
+            {
+              echo "Foundry ${{ steps.detect.outputs.version }} entered Testing/Stable."
+              echo
+              echo '```json'
+              cat .foundry-release.json
+              echo '```'
+              echo
+              echo "This issue is the human approval and discussion point for the automated migration."
+              echo
+              echo "<!-- foundry-major:${MAJOR} -->"
+            } > issue-body.md
+            URL="$(gh issue create --title "$TITLE" --assignee "${{ github.repository_owner }}" --body-file issue-body.md)"
+            ISSUE="${URL##*/}"
+          fi
+          echo "number=$ISSUE" >> "$GITHUB_OUTPUT"
+      - name: Check Copilot CLI setup
+        id: copilot
+        if: steps.detect.outputs.triggered == 'true'
+        env:
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$COPILOT_GITHUB_TOKEN" ]; then
+            BODY="Automation is waiting for the \`COPILOT_GITHUB_TOKEN\` repository secret. Create a fine-grained PAT with **Copilot Requests** permission, add it under Settings → Secrets and variables → Actions, then rerun this workflow. No migration or publication was attempted. <!-- copilot-setup-needed:${{ steps.detect.outputs.major }} -->"
+            if ! gh issue view "${{ steps.issue.outputs.number }}" --json comments --jq '.comments[].body' | grep -q "copilot-setup-needed:${{ steps.detect.outputs.major }}"; then
+              gh issue comment "${{ steps.issue.outputs.number }}" --body "$BODY"
+            fi
+            echo "available=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Install Copilot CLI
+        if: steps.copilot.outputs.available == 'true'
+        run: npm install --global @github/copilot
+      - name: Attempt migration
+        id: agent
+        if: steps.copilot.outputs.available == 'true'
+        continue-on-error: true
+        env:
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+        run: |
+          copilot -p "$(cat .github/prompts/migrate-foundry-major.md)" \
+            --allow-tool=read --allow-tool=write \
+            --allow-tool='shell(git:*)' --allow-tool='shell(npm:*)' \
+            --allow-tool='shell(node:*)' --no-ask-user
+      - name: Classify and validate migration
+        id: classify
+        if: steps.copilot.outputs.available == 'true'
+        run: |
+          if [ ! -f migration-report.json ] || ! jq -e '.classification == "simple" or .classification == "complex"' migration-report.json >/dev/null; then
+            jq -n '{classification:"complex",confidence:0,summary:"The agent did not return a valid migration report.",complexity:["Automated migration output was incomplete or invalid."],validation:[],recommendedNextStep:"Review the workflow log and compatibility issue, then rerun with corrected agent context."}' > migration-report.json
+          fi
+          echo "classification=$(jq -r '.classification' migration-report.json)" >> "$GITHUB_OUTPUT"
+          echo "confidence=$(jq -r '.confidence' migration-report.json)" >> "$GITHUB_OUTPUT"
+      - name: Validate simple migration
+        id: validate
+        if: steps.classify.outputs.classification == 'simple'
+        continue-on-error: true
+        run: |
+          npm test
+          npm run build
+      - name: Create draft migration pull request
+        if: steps.classify.outputs.classification == 'simple' && steps.classify.outputs.confidence >= 0.9 && steps.validate.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          MAJOR="${{ steps.detect.outputs.major }}"
+          BRANCH="copilot/foundry-v${MAJOR}-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add -A
+          if git diff --cached --quiet; then
+            gh issue comment "${{ steps.issue.outputs.number }}" --body "The high-confidence check completed, but no repository changes were required."
+            exit 0
+          fi
+          git commit -m "chore: prepare Foundry V${MAJOR} compatibility"
+          git push --set-upstream origin "$BRANCH"
+          gh pr create --draft --base main --head "$BRANCH" \
+            --title "Prepare Everything Archetypes: Wilderness for Foundry V${MAJOR}" \
+            --body-file migration-report.json --assignee "${{ github.repository_owner }}"
+      - name: Report complexity or failed validation
+        if: steps.copilot.outputs.available == 'true' && (steps.classify.outputs.classification == 'complex' || steps.classify.outputs.confidence < 0.9 || steps.validate.outcome == 'failure')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue comment "${{ steps.issue.outputs.number }}" --body-file migration-report.json
+      - name: Report missing GitHub permissions
+        if: failure() && steps.issue.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue comment "${{ steps.issue.outputs.number }}" --body "The automated run stopped. Review the workflow log before proceeding; no release was published."

@@ -3,8 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
+    "build": "npm run validate && node scripts/build-package.mjs",
+    "build-packs": "node scripts/build-native-packs.mjs",
     "generate": "node scripts/generate-packs.js",
-    "test": "node scripts/validate-packs.js",
+    "test": "node scripts/validate-packs.js && node --test tests/*.test.mjs",
     "validate": "npm run generate && npm test"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.5"
   }
 }
