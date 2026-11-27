@@ -374,7 +374,8 @@ function equipmentDoc({
   name, level = 0, description, traits = [], rarity = 'common',
   price = {}, bulk = '-', itemType = 'weapon', rules = [],
   category = null, group = null, damage = null, range = null,
-  reload = null, hands = null, usage = null,
+  reload = null, hands = null, usage = null, quantity = 1,
+  baseItem = null, ammo = null, uses = null,
 }) {
   let desc = description.trim();
   if (!desc.startsWith('<p>')) desc = `<p>${desc}</p>`;
@@ -391,6 +392,7 @@ function equipmentDoc({
       schema: { version: 0.93, lastMigration: { datetime: migrationTime, version: { schema: 0.93, foundry: '13', system: '6.0.0' } } },
       level: { value: level },
       price, bulk: { value: bulk },
+      quantity,
     },
     ownership: { default: 0 },
     _stats: { systemId: 'pf2e', systemVersion: '6.0.0', coreVersion: '13', createdTime: now, modifiedTime: now, lastModifiedBy: generatedBy },
@@ -402,6 +404,9 @@ function equipmentDoc({
   if (hands) doc.system.usage = { value: hands };
   if (category) doc.system.category = category;
   if (group) doc.system.group = group;
+  if (baseItem) doc.system.baseItem = baseItem;
+  if (ammo) doc.system.ammo = ammo;
+  if (uses) doc.system.uses = uses;
   return doc;
 }
 
@@ -768,7 +773,7 @@ addFeat({ name: 'Extraplanar Walker', level: 10, rarity: 'uncommon', traits: ['a
   ], flag: 'extraplanarWalker', prompt: 'Choose your plane' },
   { key: 'RollOption', domain: 'all', option: 'extraplanar-walker:{item|flags.pf2e.rulesSelections.extraplanarWalker}' },
   // Plane of Earth: imprecise tremorsense 30 feet
-  { key: 'Sense', selector: 'tremorsense', acuity: 'imprecise', value: 30, predicate: ['extraplanar-walker:earth'] },
+  { key: 'Sense', selector: 'tremorsense', acuity: 'imprecise', range: 30, predicate: ['extraplanar-walker:earth'] },
   // Plane of Fire: fire resistance = level
   { key: 'Resistance', type: 'fire', value: '@actor.level', predicate: ['extraplanar-walker:fire'] }
 ] });
@@ -949,6 +954,15 @@ allEquipment.push(equipmentDoc({
   damage: { dice: 1, die: 'd10', damageType: 'bludgeoning' },
   range: 30, reload: 2, hands: 'held-in-two-hands',
   category: 'advanced', group: 'firearm',
+  ammo: { capacity: 1, baseType: 'net-charge', builtIn: false },
+}));
+allEquipment.push(equipmentDoc({
+  name: 'Net Charge', level: 0,
+  description: '<p>Ammunition for a net gun is a pre-packed net charge that costs 1 gp each. However, you may recover any spent charges as a 10-minute activity to repair and repack the nets.</p>',
+  traits: ['consumable'], itemType: 'ammo',
+  price: { value: { gp: 1 }, per: 1 }, bulk: 'L',
+  baseItem: 'net-charge',
+  uses: { value: 1, max: 1, autoDestroy: true },
 }));
 allEquipment.push(equipmentDoc({
   name: 'Bag Rounds', level: 2, rarity: 'uncommon',

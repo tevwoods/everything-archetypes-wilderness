@@ -49,6 +49,7 @@
       "bulk": {
         "value": "L"
       },
+      "quantity": 1,
       "damage": {
         "dice": 1,
         "die": "d4",
@@ -126,6 +127,7 @@
       "bulk": {
         "value": "L"
       },
+      "quantity": 1,
       "damage": {
         "dice": 1,
         "die": "d4",
@@ -202,6 +204,7 @@
       "bulk": {
         "value": "1"
       },
+      "quantity": 1,
       "damage": {
         "dice": 1,
         "die": "d10",
@@ -215,7 +218,81 @@
         "value": "held-in-two-hands"
       },
       "category": "advanced",
-      "group": "firearm"
+      "group": "firearm",
+      "ammo": {
+        "capacity": 1,
+        "baseType": "net-charge",
+        "builtIn": false
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "6.0.0",
+      "coreVersion": "13",
+      "createdTime": 1774843200000,
+      "modifiedTime": 1774843200000,
+      "lastModifiedBy": "0000000000000000"
+    },
+    "schemaVersion": 13
+  },
+  {
+    "_id": "ab15905097cc4447",
+    "name": "Net Charge",
+    "type": "ammo",
+    "img": "systems/pf2e/icons/default-icons/equipment.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 0,
+    "flags": {},
+    "system": {
+      "description": {
+        "value": "<p>Ammunition for a net gun is a pre-packed net charge that costs 1 gp each. However, you may recover any spent charges as a 10-minute activity to repair and repack the nets.</p>"
+      },
+      "source": {
+        "value": "Everything Archetypes: Wilderness"
+      },
+      "traits": {
+        "value": [
+          "consumable"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "net-charge",
+      "schema": {
+        "version": 0.93,
+        "lastMigration": {
+          "datetime": "2026-03-30T04:00:00.000Z",
+          "version": {
+            "schema": 0.93,
+            "foundry": "13",
+            "system": "6.0.0"
+          }
+        }
+      },
+      "level": {
+        "value": 0
+      },
+      "price": {
+        "value": {
+          "gp": 1
+        },
+        "per": 1
+      },
+      "bulk": {
+        "value": "L"
+      },
+      "quantity": 1,
+      "baseItem": "net-charge",
+      "uses": {
+        "value": 1,
+        "max": 1,
+        "autoDestroy": true
+      }
     },
     "ownership": {
       "default": 0
@@ -276,7 +353,8 @@
       },
       "bulk": {
         "value": "-"
-      }
+      },
+      "quantity": 1
     },
     "ownership": {
       "default": 0
@@ -337,7 +415,8 @@
       },
       "bulk": {
         "value": "-"
-      }
+      },
+      "quantity": 1
     },
     "ownership": {
       "default": 0
@@ -398,7 +477,8 @@
       },
       "bulk": {
         "value": "-"
-      }
+      },
+      "quantity": 1
     },
     "ownership": {
       "default": 0
@@ -462,7 +542,8 @@
       },
       "bulk": {
         "value": "L"
-      }
+      },
+      "quantity": 1
     },
     "ownership": {
       "default": 0
@@ -528,7 +609,8 @@
       },
       "bulk": {
         "value": "L"
-      }
+      },
+      "quantity": 1
     },
     "ownership": {
       "default": 0

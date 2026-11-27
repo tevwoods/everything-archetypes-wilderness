@@ -6,8 +6,9 @@ A Foundry VTT module for Pathfinder 2e (Remastered) providing expanded archetype
 
 - **130 Archetype Feats** across 10 wilderness archetypes
 - **6 Custom Spells**
-- **8 Equipment Items**
+- **9 Equipment Items**, including native Net Gun ammunition
 - **28 Automation Effects**
+- **10 Companion Actions**
 - **6 Utility Macros**
 
 ## Installation
@@ -26,6 +27,19 @@ https://github.com/tevwoods/everything-archetypes-wilderness/releases/latest/dow
 
 - Foundry VTT v12+
 - PF2e System 5.0.0+
+
+## Validation
+
+Run `npm run validate` to regenerate the packs and verify document counts, JSON/NEDB parity, PF2e IDs, custom traits/ammunition, Rule Element structure, Remaster terminology, and semantic-source synchronization.
+
+The live PF2e acceptance battery is available at `macros/test-wilderness-rule-elements.js`. In Foundry:
+
+```js
+const suite = await import(
+  "/modules/everything-archetypes-wilderness/macros/test-wilderness-rule-elements.js"
+);
+await suite.runWildernessRuleElementSuite();
+```
 
 ## License
 

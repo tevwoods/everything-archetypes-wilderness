@@ -17,6 +17,15 @@ Hooks.once('init', () => {
   Object.assign(pf2e.traitsDescriptions, {
     trick: 'EAW.TraitDescription.Trick'
   });
+  Object.assign(pf2e.ammoTypes, {
+    'net-charge': {
+      parent: null,
+      label: 'EAW.Ammo.NetCharge',
+      magazine: false,
+      stackGroup: null,
+      weapon: 'net-gun'
+    }
+  });
 
   fetch(`modules/${MODULE_ID}/scripts/journal-injection-data.json`)
     .then(r => r.json())

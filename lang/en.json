@@ -8,6 +8,9 @@
     },
     "TraitDescription": {
       "Trick": "This feat teaches an animal trainer to command a specific behavior from an animal companion."
+    },
+    "Ammo": {
+      "NetCharge": "Net Charge"
     }
   }
 }

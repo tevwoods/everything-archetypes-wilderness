@@ -13,8 +13,18 @@ const legacyTerms = [
 ];
 const customFeatTraits = new Set(["trick"]);
 const journalScript = fs.readFileSync(path.join(root, "scripts", "journal-injection.js"), "utf8");
+const expectedCounts = new Map([
+    ["eaw-actions.json", 10],
+    ["eaw-effects.json", 28],
+    ["eaw-equipment.json", 9],
+    ["eaw-feats.json", 130],
+    ["eaw-macros.json", 6],
+    ["eaw-spells.json", 6]
+]);
 
 let failures = 0;
+let ruleDocuments = 0;
+let ruleElements = 0;
 for (const file of fs.readdirSync(packs).filter(name => name.endsWith(".json")).sort()) {
     const jsonPath = path.join(packs, file);
     const documents = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
@@ -23,6 +33,11 @@ for (const file of fs.readdirSync(packs).filter(name => name.endsWith(".json")).
         .filter(Boolean)
         .map(line => JSON.parse(line));
 
+    if (documents.length !== expectedCounts.get(file)) {
+        console.error(`${file}: expected ${expectedCounts.get(file)} documents, got ${documents.length}`);
+        failures++;
+    }
+
     if (JSON.stringify(documents) !== JSON.stringify(dbDocuments)) {
         console.error(`${file}: JSON/NEDB mismatch`);
         failures++;
@@ -30,6 +45,11 @@ for (const file of fs.readdirSync(packs).filter(name => name.endsWith(".json")).
 
     const ids = new Set();
     for (const document of documents) {
+        const rules = document.system?.rules ?? [];
+        if (rules.length) {
+            ruleDocuments++;
+            ruleElements += rules.length;
+        }
         if (!/^[A-Za-z0-9]{16}$/.test(document._id ?? "")) {
             console.error(`${file}: invalid ID for ${document.name}`);
             failures++;
@@ -57,6 +77,12 @@ for (const file of fs.readdirSync(packs).filter(name => name.endsWith(".json")).
             console.error(`${file}: ${document.name} has a non-array predicate`);
             failures++;
         }
+        if (document.system?.rules?.some(rule =>
+            rule.key === "Sense" && rule.acuity && rule.range === undefined
+        )) {
+            console.error(`${file}: ${document.name} has a ranged Sense rule without range`);
+            failures++;
+        }
         for (const trait of document.system?.traits?.value ?? []) {
             if (!customFeatTraits.has(trait)) continue;
             if (!new RegExp(`featTraits[\\s\\S]*?${trait}\\s*:`).test(journalScript)) {
@@ -64,7 +90,22 @@ for (const file of fs.readdirSync(packs).filter(name => name.endsWith(".json")).
                 failures++;
             }
         }
+        const ammoType = document.system?.baseItem;
+        if (document.type === "ammo" && !journalScript.includes(`'${ammoType}':`)) {
+            console.error(`${file}: ${document.name} uses unregistered ammunition type ${ammoType}`);
+            failures++;
+        }
     }
+}
+
+if (ruleDocuments !== 78 || ruleElements !== 144) {
+    console.error(`Expected 78 rule-bearing documents and 144 Rule Elements, got ${ruleDocuments}/${ruleElements}`);
+    failures++;
+}
+
+if (!fs.existsSync(path.join(root, "macros", "test-wilderness-rule-elements.js"))) {
+    console.error("Live Wilderness Rule Element battery is missing");
+    failures++;
 }
 
 const semanticPath = path.join(root, "..", "pdf", "semantic", "gmbinder-source.txt");

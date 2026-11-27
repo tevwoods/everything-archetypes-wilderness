@@ -9096,7 +9096,7 @@
           "key": "Sense",
           "selector": "tremorsense",
           "acuity": "imprecise",
-          "value": 30,
+          "range": 30,
           "predicate": [
             "extraplanar-walker:earth"
           ]
