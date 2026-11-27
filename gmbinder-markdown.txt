@@ -658,7 +658,7 @@ But there are a great many trees that are very intelligent and possess their own
 <div class="wide">
 
 <p class="wide">
-The abilities that a Treespeaker needs to have, and the amount of influence they inherently wield means that it makes sense for the Treespeaker dedication to be a 6th-rank feat, but we still want players to be able to dive right into their character's journey as a Treespeaker if they so desire. The Called Speaker archetype lets players pick up some of the powers of a Treespeaker, and gives access to feats that add a mechanical flair to their progress becoming a full-fledged Treespeaker. These feats also contribute to the character's mechanical narrative that hints at why the character has not yet answered the Call to become a Treespeaker.
+The abilities that a Treespeaker needs to have, and the amount of influence they inherently wield means that it makes sense for the Treespeaker dedication to be a 6th-level feat, but we still want players to be able to dive right into their character's journey as a Treespeaker if they so desire. The Called Speaker archetype lets players pick up some of the powers of a Treespeaker, and gives access to feats that add a mechanical flair to their progress becoming a full-fledged Treespeaker. These feats also contribute to the character's mechanical narrative that hints at why the character has not yet answered the Call to become a Treespeaker.
 </p>
 
 <div style="margin-top: 35px;"></div>
@@ -889,7 +889,7 @@ Your animal companion gains the following activity, which it can use when you Co
 <div class="rule prereq">Animal Trainer Dedication</div>
 </div>
 <div class="rule">
-You specialize in teaching your animal companion to perform special tricks that they wouldn't normally be capable of. Choose one 4th-rank skill feat from this archetype that has the trick trait. You gain that skill feat, and your animal companion learns the accompanying trick; this feat doesn't count toward the 2 feats required before you can take another dedication feat. Unlike normal Commands that you give to your animal companion, tricks do not always automatically succeed. Each trick describes the checks that need to be made, if any. If a trick requires you to attempt a Nature check, do so when you grant your animal companion actions. If you succeed, you grant the actions as normal and your animal companion can use the trick in question if it has sufficient actions. If you fail, the animal companion still gains actions as normal, but it cannot use the trick this turn.
+You specialize in teaching your animal companion to perform special tricks that they wouldn't normally be capable of. Choose one 4th-level skill feat from this archetype that has the trick trait. You gain that skill feat, and your animal companion learns the accompanying trick; this feat doesn't count toward the 2 feats required before you can take another dedication feat. Unlike normal Commands that you give to your animal companion, tricks do not always automatically succeed. Each trick describes the checks that need to be made, if any. If a trick requires you to attempt a Nature check, do so when you grant your animal companion actions. If you succeed, you grant the actions as normal and your animal companion can use the trick in question if it has sufficient actions. If you fail, the animal companion still gains actions as normal, but it cannot use the trick this turn.
 </div><br>
 
 
@@ -2092,7 +2092,7 @@ It may not be your proudest piece of knowledge, but in your time studying herbal
 <div class="rule prereq">Herbalist Dedication</div>
 </div>
 <div class="rule">
-You have mastered a combination of herbs that restores someone to perfect health. Each day when you make your daily preparations you create one dose of true panacea, a potion that is effective until you make your next daily preparations. When a creature drinks your True Panacea, their Hit Points are restored to maximum. Attempt a single Nature check to counteract all negative conditions currently affecting the target. Compare the result of the check to each condition's counteract level and DC.
+You have mastered a combination of herbs that restores someone to perfect health. Each day when you make your daily preparations you create one dose of true panacea, a potion that is effective until you make your next daily preparations. When a creature drinks your True Panacea, their Hit Points are restored to maximum. Attempt a single Nature check to counteract all negative conditions currently affecting the target. Compare the result of the check to each condition's counteract rank and DC.
 
 </div><br>
 
