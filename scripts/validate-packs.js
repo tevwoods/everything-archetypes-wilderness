@@ -108,14 +108,16 @@ if (!fs.existsSync(path.join(root, "macros", "test-wilderness-rule-elements.js")
     failures++;
 }
 
-const semanticPath = path.join(root, "..", "pdf", "semantic", "gmbinder-source.txt");
-const conversionPath = path.join(root, "..", "pdf", "semantic", "conversion.json");
-const conversion = JSON.parse(fs.readFileSync(conversionPath, "utf8"));
+const localSemanticPath = path.join(root, "gmbinder-markdown.txt");
+const workspaceSemanticPath = path.join(root, "..", "pdf", "semantic", "gmbinder-source.txt");
+const expectedHashPath = path.join(root, "scripts", "semantic-source.sha256");
+const expectedHash = fs.readFileSync(expectedHashPath, "utf8").trim().toLowerCase();
+const sourcePath = fs.existsSync(workspaceSemanticPath) ? workspaceSemanticPath : localSemanticPath;
 const sourceHash = crypto.createHash("sha256")
-    .update(fs.readFileSync(semanticPath))
+    .update(fs.readFileSync(sourcePath, "utf8").replace(/\r\n/g, "\n"))
     .digest("hex");
-if (sourceHash !== conversion.sourceSha256) {
-    console.error(`Semantic source hash mismatch: expected ${conversion.sourceSha256}, got ${sourceHash}`);
+if (sourceHash !== expectedHash) {
+    console.error(`Semantic source hash mismatch: expected ${expectedHash}, got ${sourceHash}`);
     failures++;
 }
 
